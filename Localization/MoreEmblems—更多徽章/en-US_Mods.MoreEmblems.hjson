@@ -1,0 +1,92 @@
+Items: {
+	StarbornEmblem: {
+		Tooltip: 20% reduced mana cost
+		DisplayName: Starborn Emblem
+	}
+
+	MonarchEmblem: {
+		Tooltip: Increases your max number of minions by 2
+		DisplayName: Monarch Emblem
+	}
+
+	GunslingerEmblem: {
+		Tooltip: 20% increased ranged speed
+		DisplayName: Gunslinger Emblem
+	}
+
+	BaronEmblem: {
+		Tooltip: 25% increased melee damage
+		DisplayName: Baron Emblem
+	}
+
+	SovereignEmblem: {
+		Tooltip:
+			'''
+			33% increased melee damage
+			8% increased melee critical strike chance
+			'''
+		DisplayName: Sovereign Emblem
+	}
+
+	MarksmanEmblem: {
+		Tooltip:
+			'''
+			Increases ranged damage by 15% and greatly increases arrow speed
+			20% chance to not consume arrows
+			'''
+		DisplayName: Marksman Emblem
+	}
+
+	CommanderEmblem: {
+		Tooltip:
+			'''
+			15% increased summon damage
+			Increases your max number of minions by 3
+			'''
+		DisplayName: Commander Emblem
+	}
+
+	DeadeyeEmblem: {
+		Tooltip:
+			'''
+			20% increased ranged speed
+			Increases ranged damage by 15% and greatly increases arrow speed
+			20% chance to not consume arrows
+			'''
+		DisplayName: Deadeye Emblem
+	}
+
+	MilitiaEmblem: {
+		Tooltip:
+			'''
+			15% increased summon damage
+			Increases your max number of minions by 1
+			'''
+		DisplayName: Militia Emblem
+	}
+
+	StellarEmblem: {
+		Tooltip:
+			'''
+			20% reduced mana cost
+			15% increased magic damage
+			Increases pickup range for mana stars
+			'''
+		DisplayName: Stellar Emblem
+	}
+
+	GodslayerEmblem: {
+		Tooltip:
+			'''
+			x2 damage
+			x2 item use speed
+			90% reduced mana cost
+			Increases pickup range for mana stars
+			Increases your max number of minions by 12
+			Greatly increases arrow speed
+			20% chance to not consume arrows
+			Cheat Item
+			'''
+		DisplayName: Godslayer Emblem
+	}
+}

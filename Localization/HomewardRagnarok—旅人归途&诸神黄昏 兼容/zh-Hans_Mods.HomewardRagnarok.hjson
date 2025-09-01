@@ -1,0 +1,61 @@
+Items: {
+	Horizon: {
+		DisplayName: Horizon
+		Tooltip: ""
+	}
+
+	CommemorativeCoin: {
+		Tooltip: ""
+		DisplayName: Commemorative Coin
+	}
+
+	ClericEmblem: {
+		Tooltip: ""
+		DisplayName: Cleric Emblem
+	}
+
+	ClericBadge: {
+		Tooltip: ""
+		DisplayName: 圣牧徽章
+	}
+
+	Overwatch: {
+		Tooltip: ""
+		DisplayName: 视极表盘
+	}
+
+	BardBadge: {
+		DisplayName: 颂歌徽章
+		Tooltip: ""
+	}
+
+	HolySymbol: {
+		DisplayName: 神圣标志
+		Tooltip: ""
+	}
+
+	WhaleTooth: {
+		Tooltip: ""
+		DisplayName: 永落鲸牙
+	}
+
+	CorruptedMatter: {
+		DisplayName: 损毁物质
+		Tooltip: ""
+	}
+
+	LifeTree: {
+		DisplayName: Life Tree
+		Tooltip: ""
+	}
+
+	YggdrasilTree: {
+		DisplayName: 世界树
+		Tooltip: ""
+	}
+
+	RogueBadge: {
+		Tooltip: ""
+		DisplayName: 神盗徽章
+	}
+}

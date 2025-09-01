@@ -1,0 +1,92 @@
+Items: {
+	StarbornEmblem: {
+		Tooltip: 减少20%魔力消耗
+		DisplayName: 星生徽章
+	}
+
+	MonarchEmblem: {
+		Tooltip: 增加2个最大仆从栏
+		DisplayName: 帝王徽章
+	}
+
+	GunslingerEmblem: {
+		Tooltip: 提升20%远程攻击速度
+		DisplayName: 枪手徽章
+	}
+
+	BaronEmblem: {
+		Tooltip: 增加25%近战伤害
+		DisplayName: 尊爵徽章
+	}
+
+	SovereignEmblem: {
+		Tooltip:
+			'''
+			增加33%近战伤害
+			增加8%近战暴击率
+			'''
+		DisplayName: 君主徽章
+	}
+
+	MarksmanEmblem: {
+		Tooltip:
+			'''
+			增加15%远程伤害并大幅提升箭矢速度
+			20%概率不消耗箭矢
+			'''
+		DisplayName: 神射手徽章
+	}
+
+	CommanderEmblem: {
+		Tooltip:
+			'''
+			增加15%召唤伤害
+			增加3个最大仆从栏
+			'''
+		DisplayName: 指挥官徽章
+	}
+
+	DeadeyeEmblem: {
+		Tooltip:
+			'''
+			增加20%远程攻击速度
+			增加15%远程伤害并大幅提升箭矢速度
+			20%概率不消耗箭矢
+			'''
+		DisplayName: 死目徽章
+	}
+
+	MilitiaEmblem: {
+		Tooltip:
+			'''
+			增加15%召唤伤害
+			增加1个最大仆从栏
+			'''
+		DisplayName: 民兵徽章
+	}
+
+	StellarEmblem: {
+		Tooltip:
+			'''
+			减少20%魔力消耗
+			增加15%魔法伤害
+			扩大魔力星的拾取范围
+			'''
+		DisplayName: 恒星徽章
+	}
+
+	GodslayerEmblem: {
+		Tooltip:
+			'''
+			造成2倍伤害
+			获得2倍物品使用速度
+			减少90%魔力消耗
+			扩大魔力星的拾取范围
+			增加12个最大仆从栏
+			大幅提升箭矢速度
+			20%概率不消耗箭矢
+			[C/4CD98B:作弊物品]
+			'''
+		DisplayName: 弑神者徽章
+	}
+}

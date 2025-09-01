@@ -1,0 +1,61 @@
+Items: {
+	Horizon: {
+		DisplayName: Horizon
+		Tooltip: ""
+	}
+
+	CommemorativeCoin: {
+		Tooltip: ""
+		DisplayName: Commemorative Coin
+	}
+
+	ClericEmblem: {
+		Tooltip: ""
+		DisplayName: Cleric Emblem
+	}
+
+	ClericBadge: {
+		Tooltip: ""
+		DisplayName: Cleric Badge
+	}
+
+	Overwatch: {
+		Tooltip: ""
+		DisplayName: Overwatch
+	}
+
+	BardBadge: {
+		DisplayName: Bard Badge
+		Tooltip: ""
+	}
+
+	HolySymbol: {
+		DisplayName: Holy Symbol
+		Tooltip: ""
+	}
+
+	WhaleTooth: {
+		Tooltip: ""
+		DisplayName: Whale Tooth
+	}
+
+	CorruptedMatter: {
+		DisplayName: Corrupted Matter
+		Tooltip: ""
+	}
+
+	LifeTree: {
+		DisplayName: Life Tree
+		Tooltip: ""
+	}
+
+	YggdrasilTree: {
+		DisplayName: Yggdrasil Tree
+		Tooltip: ""
+	}
+
+	RogueBadge: {
+		Tooltip: ""
+		DisplayName: Rogue Badge
+	}
+}
