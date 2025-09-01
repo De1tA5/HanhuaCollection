@@ -1,0 +1,19 @@
+Items: {
+	DivingLeech: {
+		DisplayName: Diving Leech
+		Tooltip:
+			'''
+			Used to travel to the Abyss
+			'Gnashes its teeth at you'
+			'''
+	}
+}
+
+Generation: {
+	Carving: Carving the Abyss...
+	Decor: Decorating the Abyss...
+	Growing: Growing the Abyss...
+	Aging: Crumbling the Abyss...
+}
+
+PostDiver: After the Diver is defeated
