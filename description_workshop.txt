@@ -1,1 +1,29 @@
-This description will show up on the steam page, check out https://steamcommunity.com/comment/Guide/formattinghelp.
+此为个人汉化合集&汉化补丁
+使用方法：启用本mod以及以下模组
+
+硬编码部分汉化使用
+TigerForceLocalizationLib
+GitHub地址：https://github.com/TigerChenzzz/TerrariaTigerForceLocalizationLib
+以及TranslatorFromAssembly
+GitHub地址：https://github.com/NanTingPer/TranslatorFromAssembly
+
+开源汉化库
+https://github.com/De1tA5/HanhuaCollection
+[spoiler] 汉化什么完全看个人心情，不保证会不会撞车以及更新 [/spoiler]
+
+
+相关模组
+[h3] 旅人归途 [/h3]
+[code]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3554145193] Homeward Subworld—旅人归途：深渊子世界 [/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3557455275] Homeward Ragnarok—旅人归途&诸神黄昏：炼狱蚀光 兼容 [/url]
+[/list]
+[/code]
+
+[h3] 其他 [/h3]
+[code]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3532338870] More Emblems—更多徽章 [/url]
+[/list]
+[/code]

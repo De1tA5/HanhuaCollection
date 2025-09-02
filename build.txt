@@ -4,4 +4,4 @@ version = 0.1
 side = Client
 translationMod = true
 dllReferences = TigerForceLocalizationLib
-sortAfter = MoreEmblems,HomewardRagnarok
+sortAfter = MoreEmblems,HomewardRagnarok,HomewardSubworld

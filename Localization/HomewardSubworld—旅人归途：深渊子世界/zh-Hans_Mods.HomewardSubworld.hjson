@@ -1,19 +1,19 @@
 Items: {
 	DivingLeech: {
-		DisplayName: Diving Leech
+		DisplayName: 深渊水蛭
 		Tooltip:
 			'''
-			Used to travel to the Abyss
-			'Gnashes its teeth at you'
+			使用以进入深渊
+			“它咬了你一口”
 			'''
 	}
 }
 
 Generation: {
-	Carving: Carving the Abyss...
-	Decor: Decorating the Abyss...
-	Growing: Growing the Abyss...
-	Aging: Crumbling the Abyss...
+	Carving: 正在挖凿深渊……
+	Decor: 正在装饰深渊……
+	Growing: 正在扩展深渊……
+	Aging: 正在粉碎深渊……
 }
 
-PostDiver: After the Diver is defeated
+PostDiver: 在击败深潜者后
