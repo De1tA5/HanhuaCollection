@@ -1,0 +1,295 @@
+Items: {
+	CritMonocle: {
+		Tooltip: While this item is favorited, choose the crit condition of crafted items... if you're lucky
+		DisplayName: Gambler's Monocle
+	}
+
+	IronWhetstone: {
+		DisplayName: Iron Whetstone
+		Tooltip: "'The most basic whetstone'"
+		CanBeApplied: Can be applied to any weapon
+	}
+
+	EnchantedWhetstone: {
+		CanBeApplied: Can be applied to any weapon that can crit and consumes mana
+		DisplayName: Enchanted Whetstone
+		Tooltip: ""
+	}
+
+	LeadWhetstone: {
+		CanBeApplied: Can be applied to any weapon that can crit
+		DisplayName: Lead Whetstone
+		Tooltip: ""
+	}
+
+	GreedyWhetstone: {
+		CanBeApplied: Can be applied to any weapon that can crit
+		DisplayName: Greedy Whetstone
+		Tooltip: ""
+	}
+
+	VolatileWhetstone: {
+		CanBeApplied: Can be applied to any weapon that can crit
+		DisplayName: Volatile Whetstone
+		Tooltip: "'Instructions: Apply weapon to whetstone gently. Distributor not responsible for any lost limbs or property.'"
+	}
+
+	WebCoveredWhetstone: {
+		CanBeApplied: Can be applied to any weapon that can crit
+		DisplayName: Web Covered Whetstone
+		Tooltip: ""
+	}
+
+	AdaptiveWhetstone: {
+		CanBeApplied: Can be applied to any weapon that can crit
+		DisplayName: Adaptive Whetstone
+		Tooltip: ""
+	}
+
+	FrozenWhetstone: {
+		CanBeApplied: Can be applied to any weapon that can crit
+		DisplayName: Frozen Whetstone
+		Tooltip: ""
+	}
+
+	NecromanticWhetstone: {
+		CanBeApplied: Can be applied to any weapon that can crit
+		DisplayName: Necromantic Whetstone
+		Tooltip: ""
+	}
+
+	StarterWhetstone: {
+		CanBeApplied: Can be applied to any weapon that can crit
+		DisplayName: Starter Whetstone
+		Tooltip: "'Perfect for beginners!'"
+	}
+
+	AncientWhetstone: {
+		CanBeApplied: Can be applied to any weapon that can crit
+		DisplayName: Ancient Whetstone
+		Tooltip: ""
+	}
+
+	SoaringWhetstone: {
+		CanBeApplied: Can be applied to any weapon that can crit
+		DisplayName: Soaring Whetstone
+		Tooltip: ""
+	}
+
+	AmmoWhetstone: {
+		CanBeApplied: Can be applied to any weapon that can crit and consumes ammo
+		DisplayName: Reserving Whetstone
+		Tooltip: ""
+	}
+
+	PreparedWhetstone: {
+		CanBeApplied: Can be applied to any weapon that can crit
+		DisplayName: Prepared Whetstone
+		Tooltip: ""
+	}
+
+	HolyWhetstone: {
+		CanBeApplied: Can be applied to any weapon that can crit
+		DisplayName: Holy Whetstone
+		Tooltip: ""
+	}
+
+	MugShot: {
+		DisplayName: Mug Shot
+		Tooltip:
+			'''
+			10% increased crit chance
+			Grants a chance to steal money when critically striking
+			25% reduced damage when paired with greedy whetstone
+			'''
+	}
+
+	WiseCracker: {
+		DisplayName: Wise Cracker
+		Tooltip:
+			'''
+			Can be given a crit condition
+			While equipped, all minions will inherit this crit condition
+			'''
+	}
+}
+
+Whetstone: {
+	Tooltip1: Can be used to grant the following crit condition to a weapon:
+	Tooltip2:
+		'''
+		To apply, hold an eligible weapon with your mouse cursor and right click on this item
+		The effect will be erased upon reforging
+		'''
+	critDamageMult: crit damage mult
+}
+
+Prefixes: {
+	Accurate.DisplayName: Accurate
+	Methodical.DisplayName: Methodical
+	Quality.DisplayName: Quality
+	Blunt.DisplayName: Blunt
+	Necromantic.DisplayName: Necromantic
+}
+
+NecromanticTooltip: +2 lifesteal when inflicting critical damage upon enemies
+
+Configs: {
+	ClientConfig: {
+		DisplayName: Client Config
+		Headers.AestheticHeader: Aesthetic
+
+		overrideCritColor: {
+			Label: Should override crit color
+			Tooltip: Set to true to change the color of critical strike text (see below)
+		}
+
+		critColor: {
+			Label: Crit color
+			Tooltip: Change the color of critical strike text if the above is set to true
+		}
+
+		critSoundEffect: {
+			Label: Critical strike sound effects
+			Tooltip: Enable/disable the sound effect that plays when critically striking enemies
+		}
+	}
+
+	ServerConfig: {
+		DisplayName: Server Config
+
+		Headers: {
+			BalanceHeader: Balance
+			ContentHeader: Content
+		}
+
+		critPower: {
+			Label: Crit power
+			Tooltip:
+				'''
+				Allows you to modify how powerful critical strikes are.
+				At 0, all crits will do the same damage as normal hits.
+				At 2, the bonus damage from all crits is doubled.
+				'''
+		}
+
+		pirateHijack: {
+			Label: Pirate hijack
+			Tooltip: When set to true, the pirate has a new feature which allows him to reroll the crit condition of a held item without reforging it.
+		}
+
+		randomHijackChance: {
+			Label: Reforge hijack chance
+			Tooltip: The chance for a weapon to be "hijacked"" when reforged by the goblin tinkerer, changing its crit condition.
+		}
+
+		randomHijackSound: {
+			Label: Reforge hijack sound
+			Tooltip: Whether or not a sound plays when a reforge hijacks your weapon (see above)
+		}
+
+		pirateArmorRework: {
+			Label: Pirate set rework
+			Tooltip: Whether or not the pirate vanity set, sold by the Pirate NPC, will be turned into an actual armor set or not
+		}
+	}
+}
+
+CritTypes: {
+	AboveFoe.Description: Critically strikes while you are above the target
+	BelowFoe.Description: Critically strikes while you are below the target
+	BunchedUpFoes.Description: Critically strikes when there are many enemies in close proximity to each other
+	CloseToFoe.Description: Critically strikes while you are closer than 6 tiles away from the target
+	ElfMelter.Description: Critically strikes while the target is covered in slime
+	Falling.Description: Critically strikes while you are falling
+	FarFromFoe.Description: Critically strikes while you are further than 40 tiles away from the target
+	Flamethrower.Description: Critically strikes while the target is covered in slime
+	FoeAtHighHP.Description: Critically strikes while the target has more than 85% of its health left
+	FoeAtLowHP.Description: Critically strikes while the target has less than 25% of its health left
+	FoeConfused.Description: Critically strikes while the target is confused
+	FoeHasFourDebuffs.Description: Critically strikes while the target is inflicted with four or more debuffs
+	FoeHasThreeDebuffs.Description: Critically strikes while the target is inflicted with three or more debuffs
+	FoeHasTwoDebuffs.Description: Critically strikes while the target is inflicted with two or more debuffs
+	FoeIsWet.Description: Critically strikes while the target is wet or underwater
+	FoeOnFire.Description: Critically strikes while the target is on fire
+	FoePoisoned.Description: Critically strikes while the target is poisoned
+	HighChance.Description: Critically strikes 25% of the time
+	LowChance.Description: Critically strikes 1% of the time
+	MediumChance.Description: Critically strikes 10% of the time
+	MovingFast.Description: Critically strikes while you are moving faster than 60 miles per hour
+	PlayerNohit.Description: Critically strikes if you haven't taken damage in more than 15 seconds
+	StandingStill.Description: Critically strikes while you are moving less than 10 miles per hour
+	TipOfTheWeapon.Description: Critically strikes when hitting enemies at the tip of the weapon
+	CrystalVileShard.Description: Critically strikes at the tip of the crystals
+	FreshItem.Description: Critically strikes for 1 second after selecting this weapon
+	Harpoon.Description: Critically strikes while the target is at least 26 tiles away
+	JustHitByEnemy.Description: Critically strikes for 2.5 seconds after getting hit
+	ProjectileTravel.Description: Critically strikes if the projectile has been travelling for more than 1 second
+	ShadowbeamStaff.Description: Critically strikes after bouncing off a wall
+	ShadowflameKnife.Description: Critically strikes after ricocheting off at least one target
+	Shuriken.Description: Critically strikes after hitting at least one target
+	Sniper.Description: Critically strikes while the target is at least 75 tiles away
+	SpikyBall.Description: Critically strikes after being present for more than 5 seconds
+	ThrowingKnife.Description: Critically strikes when falling
+	Vilethorn.Description: Critically strikes at the tip of the thorns
+	Adaptive.Description: Critically strikes for 3 seconds after healing for at least 20 hp (healing while at max doesn't count)
+	Ammo.Description: Critically strikes when not consuming ammo
+	Ancient.Description: Critically strikes for 60 seconds after you respawn
+	Enchanted.Description: Critically strikes if you have less than 30% of your maximum mana
+	Frozen.Description: Critically strikes on targets moving less than 10 miles per hour
+	Greedy.Description: Critically strikes for 3 seconds after you pick up money
+	Necromantic.Description: Critically strikes while another player is dead
+	Soaring.Description: Critically strikes when falling or gliding for at least 4 seconds
+	Starter.Description: Critically strikes if you have less than 200 max life
+	WebCovered.Description: Critically strikes for 1 second after grappling yourself to a block, or while grappled
+	Boomerangs.Description: Critically strikes while returning to you
+	Prepared.Description: Critically strikes after the attack has been active for at least 5 seconds
+	Holy.Description: Critically strikes while you have invincibility (such as after taking damage)
+	CritWithAnother.Description: Critically strikes for 3 seconds after critically striking with another weapon
+}
+
+UnknownTooltip: Unknown critical strike condition
+UnableTooltip: Unable to critically strike
+ExampleCritDescription: Mods.CritRework.ExampleCritDescription
+PirateHijack: Hijack
+PirateNoCanDo1: And just what precisely do ye think I'll do with this?
+PirateNoCanDo2: Can't hijack that, I'm afraid.
+PirateNoCanDo3: Bring me a proper critical weapon, will ye?
+PirateBroke1: Won't hijack nothin' for free, y'know.
+PirateBroke2: Bring some booty, will ye?
+PirateBroke3: You tryin' to pirate ME? Ya scallywag!
+PirateSuccessful1: There ye go, matey! Good as new.
+PirateSuccessful2: No refunds!
+PirateSuccessful3: Aye aye, matey.
+PirateHat:
+	'''
+	10% increased ranged and summon critical strike chance
+	25% chance to save ammo
+	5% increased ranged damage
+	'''
+PirateShirt:
+	'''
+	10% increased ranged and summon critical strike chance
+	Increases maximum number of minion slots
+	5% increased summon damage
+	'''
+PiratePants:
+	'''
+	10% increased ranged and summon critical strike chance
+	Increases maximum number of minion slots
+	15% increased movement speed
+	'''
+PirateSetBonus:
+	'''
+	While riding a mount, critically striking grants the 'Scallywag' buff for 5 seconds
+	Scallywag increases crit chance by 30%, attack speed by 10%, and defense by 10
+	You will lose the bonus instantly if you stop riding your mount
+	'''
+ScallywagText: Scallywag!
+
+Buffs: {
+	Scallywag: {
+		DisplayName: Scallywag
+		Description: Yo ho, yo ho, a pirate's life for me!
+	}
+}

@@ -1,0 +1,309 @@
+Items: {
+	CritMonocle: {
+		Tooltip: 
+			'''
+			当此物品被收藏时，能选择制作物品的暴击情况……
+			当然如果你幸运的话
+			'''
+		DisplayName: 赌徒的单片眼镜
+	}
+
+	IronWhetstone: {
+		DisplayName: 铁砥石
+		Tooltip: "“最基础的砥石”"
+		CanBeApplied: 可以被任意武器使用
+	}
+
+	EnchantedWhetstone: {
+		CanBeApplied: 可以被任意能[C/FFD800:暴击]且消耗[C/0063FF:魔力]的武器使用
+		DisplayName: 附魔砥石
+		Tooltip: ""
+	}
+
+	LeadWhetstone: {
+		CanBeApplied: 可以被任意能[C/FFD800:暴击]的武器使用
+		DisplayName: 铅砥石
+		Tooltip: ""
+	}
+
+	GreedyWhetstone: {
+		CanBeApplied: 可以被任意能[C/FFD800:暴击]的武器使用
+		DisplayName: 贪婪砥石
+		Tooltip: ""
+	}
+
+	VolatileWhetstone: {
+		CanBeApplied: 可以被任意能[C/FFD800:暴击]的武器使用
+		DisplayName: 易爆砥石
+		Tooltip: 
+			'''
+			使用说明：请将武器小心置于砥石上进行打磨
+			[C/FF3525:注意：分销商不对因不当操作导致的任何身体伤害或财产损失负责。]
+			'''
+	}
+
+	WebCoveredWhetstone: {
+		CanBeApplied: 可以被任意能[C/FFD800:暴击]的武器使用
+		DisplayName: 网覆砥石
+		Tooltip: ""
+	}
+
+	AdaptiveWhetstone: {
+		CanBeApplied: 可以被任意能[C/FFD800:暴击]的武器使用
+		DisplayName: 自适应砥石
+		Tooltip: ""
+	}
+
+	FrozenWhetstone: {
+		CanBeApplied: 可以被任意能[C/FFD800:暴击]的武器使用
+		DisplayName: 寒霜砥石
+		Tooltip: ""
+	}
+
+	NecromanticWhetstone: {
+		CanBeApplied: 可以被任意能[C/FFD800:暴击]的武器使用
+		DisplayName: 亡灵砥石
+		Tooltip: ""
+	}
+
+	StarterWhetstone: {
+		CanBeApplied: 可以被任意能[C/FFD800:暴击]的武器使用
+		DisplayName: 新手砥石
+		Tooltip: "“非常适合初学者！”"
+	}
+
+	AncientWhetstone: {
+		CanBeApplied: 可以被任意能[C/FFD800:暴击]的武器使用
+		DisplayName: 远古砥石
+		Tooltip: ""
+	}
+
+	SoaringWhetstone: {
+		CanBeApplied: 可以被任意能[C/FFD800:暴击]的武器使用
+		DisplayName: 升空砥石
+		Tooltip: ""
+	}
+
+	AmmoWhetstone: {
+		CanBeApplied: 可以被任意能[C/FFD800:暴击]且消耗[C/FF9500:弹药]的武器使用 
+		DisplayName: 储备砥石
+		Tooltip: ""
+	}
+
+	PreparedWhetstone: {
+		CanBeApplied: 可以被任意能[C/FFD800:暴击]的武器使用
+		DisplayName: 预备砥石
+		Tooltip: ""
+	}
+
+	HolyWhetstone: {
+		CanBeApplied: 可以被任意能[C/FFD800:暴击]的武器使用
+		DisplayName: 神圣砥石
+		Tooltip: ""
+	}
+
+	MugShot: {
+		DisplayName: 马克手枪
+		Tooltip:
+			'''
+			增加10%暴击伤害
+			暴击时有概率窃取钱币
+			但配戴贪婪砥石将降低25%伤害
+			'''
+	}
+
+	WiseCracker: {
+		DisplayName: 智慧饼干
+		Tooltip:
+			'''
+			可以提供不同的暴击情况
+			装备时，所有仆从将继承暴击情况
+			'''
+	}
+}
+
+Whetstone: {
+	Tooltip1: 可以使武器获得如下的暴击情况：
+	Tooltip2:
+		'''
+		若要使用，用光标持有符合条件的武器并右键对应的砥石
+		在重铸时有概率消除当前效果
+		'''
+	critDamageMult: 暴击倍率
+}
+
+Prefixes: {
+	Accurate.DisplayName: 精准
+	Methodical.DisplayName: 秩序
+	Quality.DisplayName: 优质
+	Blunt.DisplayName: 钝重
+	Necromantic.DisplayName: 亡灵
+}
+
+NecromanticTooltip: 暴击时窃取 2 点生命值
+
+Configs: {
+	ClientConfig: {
+		DisplayName: 客户端设置
+		Headers.AestheticHeader: 美术相关
+
+		overrideCritColor: {
+			Label: 覆盖原版暴击颜色
+			Tooltip: 启用后，能改变暴击文本的颜色（见下）
+		}
+
+		critColor: {
+			Label: 暴击颜色
+			Tooltip: 如果上述设置启用，则更改暴击文本的颜色
+		}
+
+		critSoundEffect: {
+			Label: 暴击听觉效果
+			Tooltip: 启用/禁用击中敌怪时的暴击音效
+		}
+	}
+
+	ServerConfig: {
+		DisplayName: 服务器设置
+
+		Headers: {
+			BalanceHeader: 平衡
+			ContentHeader: 内容
+		}
+
+		critPower: {
+			Label: 暴击强度
+			Tooltip:
+				'''
+				允许你调整暴击伤害强度
+				设置为 0 ，则所有暴击伤害和普通伤害相同
+				设置为 2 ，则所有暴击伤害翻倍
+				'''
+		}
+
+		pirateHijack: {
+			Label: 海盗劫持
+			Tooltip: 
+				'''
+				启用后，海盗有新特性
+				允许你在不重铸的情况下改变武器的暴击情况
+				'''
+		}
+
+		randomHijackChance: {
+			Label: 重铸劫持几率
+			Tooltip: 在哥布林工匠重铸时武器有概率被“劫持”，将会改变武器暴击情况
+		}
+
+		randomHijackSound: {
+			Label: 重铸劫持音效
+			Tooltip: 启用后，在武器被劫持时发生特殊音效（见上）
+		}
+
+		pirateArmorRework: {
+			Label: "[i:876]海盗套装重做"
+			Tooltip: 启用后，由海盗出售的[i:876]海盗时装 具有实际盔甲效果
+		}
+	}
+}
+
+CritTypes: {
+	AboveFoe.Description: 处于目标上方时造成暴击
+	BelowFoe.Description: 处于目标下方时造成暴击
+	BunchedUpFoes.Description: 当有许多敌人相互靠近时造成暴击
+	CloseToFoe.Description: 当你距离目标不到6格时造成暴击
+	ElfMelter.Description: 目标具有史莱姆减益时造成暴击
+	//没找到对应词缀
+	Falling.Description: 当你坠落时造成暴击
+	FarFromFoe.Description: 当你距离目标超过40多格时造成暴击
+	Flamethrower.Description: 目标具有史莱姆减益时造成暴击
+	FoeAtHighHP.Description: 目标血量超过85%时造成暴击
+	FoeAtLowHP.Description: 目标血量低于25%时造成暴击
+	FoeConfused.Description: 目标具有困惑减益时造成暴击
+	FoeHasFourDebuffs.Description: 目标具有4个以上的减益时造成暴击
+	FoeHasThreeDebuffs.Description: 目标具有3个以上的减益时造成暴击
+	FoeHasTwoDebuffs.Description: 目标具有2个以上的减益时造成暴击
+	FoeIsWet.Description: 目标具有潮湿减益或者处于水下时造成暴击
+	FoeOnFire.Description: 目标具有火系减益时造成暴击
+	FoePoisoned.Description: 目标具有毒系减益时造成暴击
+	HighChance.Description: 25%概率造成暴击
+	LowChance.Description: 1%概率造成暴击
+	MediumChance.Description: 10%概率造成暴击
+	MovingFast.Description: 当你移动速度超过60 mph时造成暴击
+	PlayerNohit.Description: 如果你超过15秒未受到伤害则造成暴击
+	StandingStill.Description: 当你移动速度低于10 mph时造成暴击
+	TipOfTheWeapon.Description: 使用武器尖端部分攻击敌怪造成暴击
+	CrystalVileShard.Description: 使用魔晶碎块的尖端攻击敌人时造成暴击
+	FreshItem.Description: 在切换该武器后1秒内造成暴击
+	Harpoon.Description: 当你距离目标至少26格远时造成暴击
+	JustHitByEnemy.Description: 受伤后2.5秒内造成暴击
+	ProjectileTravel.Description: 若弹幕飞行超过1秒则造成暴击
+	ShadowbeamStaff.Description: 暗影射线在墙上反弹时造成暴击
+	ShadowflameKnife.Description: 暗影焰刀反弹至少一个目标后造成暴击
+	Shuriken.Description: 手里剑至少击中一个目标后造成暴击
+	Sniper.Description: 当你距离目标至少75格远时造成暴击
+	SpikyBall.Description: 存在超过5秒后造成暴击
+	ThrowingKnife.Description: 投刀坠落时造成暴击
+	Vilethorn.Description: 使用荆棘尖端攻击敌人造成暴击
+	Adaptive.Description: 治疗至少20点生命值后3秒能造成暴击（满血治疗不算入内）
+	Ammo.Description: 此次攻击不消耗弹药时则造成暴击
+	Ancient.Description: 在你重生后60秒内造成暴击
+	Enchanted.Description: 你的魔力值低于30%则造成暴击
+	Frozen.Description: 目标移动速度低于10 mph时造成暴击
+	Greedy.Description: 拾取钱币后3秒内造成暴击
+	Necromantic.Description: 另一位玩家处于死亡状态则造成暴击
+	Soaring.Description: 当你坠落或滑翔至少4秒后造成暴击
+	Starter.Description: 如果你最大生命值低于200则造成暴击
+	WebCovered.Description: 使用钩爪抓住物块过程中超过1秒，或抓住物块则造成暴击
+	Boomerangs.Description: 回旋镖回归时造成暴击
+	//目前不明
+	Prepared.Description: 在攻击激活5秒后造成暴击
+	Holy.Description: 当你处于无敌帧状态时造成暴击（如受到伤害）
+	CritWithAnother.Description: 其他武器暴击后3秒内该武器造成暴击
+}
+
+UnknownTooltip: 未知暴击情况
+UnableTooltip: 无法造成暴击
+ExampleCritDescription: Mods.CritRework.ExampleCritDescription
+PirateHijack: 劫持
+PirateNoCanDo1: 你倒是说说，你觉得我能拿这个干嘛？
+PirateNoCanDo2: 我担心，恐怕无法劫持这个。
+PirateNoCanDo3: 给我带来合适的暴击武器，懂吗？
+PirateBroke1: 这不是免费的，你知道的
+PirateBroke2: 给我整点宝贝来，如何？
+PirateBroke3: 你是不是想来劫持我？你这混蛋！
+PirateSuccessful1: 好了，伙计！跟新的一样！
+PirateSuccessful2: 不支持退款！
+PirateSuccessful3: 是的，伙计。
+PirateHat:
+	'''
+	增加10%远程和召唤暴击率
+	增加5%远程伤害
+	25%概率不消耗弹药
+	'''
+PirateShirt:
+	'''
+	增加10%远程和召唤暴击率
+	增加5%召唤伤害
+	增加1个最大仆从栏
+	'''
+PiratePants:
+	'''
+	增加10%远程和召唤暴击率
+	增加1个最大仆从栏
+	提升15%移动速度
+	'''
+PirateSetBonus:
+	'''
+	骑乘坐骑时，造成暴击能够获得5秒的“混蛋”增益
+	增加30%暴击率、10%攻击速度和10点防御力
+	如果取消坐骑则会立刻失去增益
+	'''
+ScallywagText: 混蛋!
+
+Buffs: {
+	Scallywag: {
+		DisplayName: 混蛋
+		Description: 哟吼，哟吼，海盗的生活真快活！
+	}
+}
