@@ -15,9 +15,12 @@ namespace HanhuaCollection
         //HomewardRagnarok°™¬√»ÀπÈÕæ&÷Ó…Òª∆ªËºÊ»›
         public override void PostSetupContent()
         {
-
-            TigerForceLocalizationHelper.LocalizeAll(nameof(HanhuaCollection), "HomewardRagnarok", false);
-            base.PostSetupContent();
+            if (ModLoader.HasMod("HomewardRagnarok"))
+            {
+                TigerForceLocalizationHelper.LocalizeAll(nameof(HanhuaCollection), "HomewardRagnarok", false);
+                base.PostSetupContent();
+            }
+            
         }
     }
 }
