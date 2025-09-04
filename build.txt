@@ -1,6 +1,6 @@
 displayName = [C/dbdbdb:汉][C/b5b5b5:化][C/636363:合][C/8f8f8f:集]
 author = 三杯伍迪
-version = 0.1.1
+version = 0.1.2
 side = Client
 translationMod = true
 dllReferences = TigerForceLocalizationLib

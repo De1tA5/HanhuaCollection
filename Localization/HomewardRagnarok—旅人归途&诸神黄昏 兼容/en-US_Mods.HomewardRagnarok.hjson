@@ -58,4 +58,51 @@ Items: {
 		Tooltip: ""
 		DisplayName: Rogue Badge
 	}
+
+	BrokenChest: {
+		DisplayName: Broken Chest
+		Tooltip: ""
+	}
+
+	EternalClock: {
+		DisplayName: Eternal Clock
+		Tooltip: ""
+	}
+
+	ScarabIdol: {
+		DisplayName: Scarab Idol
+		Tooltip: ""
+	}
+
+	AuricFrame: {
+		DisplayName: Auric Frame
+		Tooltip: ""
+	}
+
+	HerbalistPouch: {
+		DisplayName: Herbalist Pouch
+		Tooltip: ""
+	}
+
+	EvilFlask: {
+		DisplayName: Evil Flask
+		Tooltip: ""
+	}
+
+	TimelessFountainItem: {
+		DisplayName: Timeless Fountain Item
+		Tooltip: ""
+	}
+
+	TimelessFountain: {
+		DisplayName: Timeless Fountain
+		Tooltip: ""
+	}
+
+	CryonicClaw: {
+		DisplayName: Cryonic Claw
+		Tooltip: ""
+	}
 }
+
+Tiles.TimelessFountainTile.MapEntry: Timeless Fountain Tile

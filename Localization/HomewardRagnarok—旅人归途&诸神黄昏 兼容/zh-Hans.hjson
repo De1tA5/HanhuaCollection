@@ -2200,6 +2200,11 @@ Mods: {
 							// OldString: HealerBadge
 							// NewString: HealerBadge
 						}
+
+						3: {
+							// OldString: BardBadge
+							// NewString: BardBadge
+						}
 					}
 				}
 
@@ -4072,7 +4077,7 @@ Mods: {
 									/* OldString:
 										'''
 										Summons The Materealizer
-										可以在任意环境下使用
+										Can be used in any biome
 										''' */
 									NewString:
 										'''
@@ -4140,13 +4145,13 @@ Mods: {
 									/* OldString:
 										'''
 										Summons Scarab Belief
-										可以在任意环境下使用
+										Can be used in any biome
 										''' */
 									NewString:
 										'''
 										召唤圣甲虫信仰
 										可以在任意环境下使用
-										''' 
+										'''
 								}
 							}
 
@@ -4198,7 +4203,7 @@ Mods: {
 									/* OldString:
 										'''
 										Summons The Overwatcher
-										可以在任意环境下使用
+										Can be used in any biome
 										''' */
 									NewString:
 										'''
@@ -4256,7 +4261,7 @@ Mods: {
 									/* OldString:
 										'''
 										Summons Worlds End Everlasting Falling Whale
-										可以在任意环境下使用
+										Can be used in any biome
 										''' */
 									NewString:
 										'''
@@ -4344,7 +4349,7 @@ Mods: {
 									/* OldString:
 										'''
 										Summons The Lifebringer
-										可以在任意环境下使用
+										Can be used in any biome
 										''' */
 									NewString:
 										'''
@@ -4397,6 +4402,190 @@ Mods: {
 								4: {
 									// OldString: CosmiliteBar
 									// NewString: CosmiliteBar
+								}
+							}
+						}
+
+						BrokenChest: {
+							ModifyTooltips: {
+								1: {
+									// OldString: BrokenChestTooltip
+									// NewString: BrokenChestTooltip
+								}
+
+								2: {
+									/* OldString:
+										'''
+										Summons The Materealizer
+										Can be used in any biome
+										''' */
+									NewString:
+										'''
+										召唤化物天匠
+										可以在任意环境下使用
+										'''
+								}
+							}
+
+							CanUseItem: {
+								1: {
+									// OldString: ContinentOfJourney
+									// NewString: ContinentOfJourney
+								}
+
+								2: {
+									// OldString: TheMaterealizer
+									// NewString: TheMaterealizer
+								}
+							}
+
+							UseItem: {
+								1: {
+									// OldString: ContinentOfJourney
+									// NewString: ContinentOfJourney
+								}
+
+								2: {
+									// OldString: TheMaterealizer
+									// NewString: TheMaterealizer
+								}
+							}
+
+							AddRecipes: {
+								1: {
+									// OldString: ContinentOfJourney
+									// NewString: ContinentOfJourney
+								}
+
+								2: {
+									// OldString: CalamityMod
+									// NewString: CalamityMod
+								}
+
+								3: {
+									// OldString: EssenceofDeath
+									// NewString: EssenceofDeath
+								}
+
+								4: {
+									// OldString: YharonSoulFragment
+									// NewString: YharonSoulFragment
+								}
+							}
+						}
+
+						EternalClock: {
+							ModifyTooltips: {
+								1: {
+									// OldString: EternalClockTooltip
+									// NewString: EternalClockTooltip
+								}
+
+								2: {
+									/* OldString:
+										'''
+										Summons The Overwatcher
+										Can be used in any biome
+										''' */
+									NewString:
+										'''
+										召唤极视终表
+										可以在任意环境下使用
+										'''
+								}
+							}
+
+							CanUseItem: {
+								1: {
+									// OldString: ContinentOfJourney
+									// NewString: ContinentOfJourney
+								}
+
+								2: {
+									// OldString: TheOverwatcher
+									// NewString: TheOverwatcher
+								}
+							}
+
+							UseItem: {
+								1: {
+									// OldString: ContinentOfJourney
+									// NewString: ContinentOfJourney
+								}
+
+								2: {
+									// OldString: TheOverwatcher
+									// NewString: TheOverwatcher
+								}
+							}
+
+							AddRecipes: {
+								1: {
+									// OldString: ContinentOfJourney
+									// NewString: ContinentOfJourney
+								}
+
+								2: {
+									// OldString: SolarFlareScoria
+									// NewString: SolarFlareScoria
+								}
+							}
+						}
+
+						ScarabIdol: {
+							ModifyTooltips: {
+								1: {
+									// OldString: ScarabIdolTooltip
+									// NewString: ScarabIdolTooltip
+								}
+
+								2: {
+									/* OldString:
+										'''
+										Summons Scarab Belief
+										Can be used in any biome
+										''' */
+									NewString:
+										'''
+										召唤圣甲虫信仰
+										可以在任意环境下使用
+										'''
+								}
+							}
+
+							CanUseItem: {
+								1: {
+									// OldString: ContinentOfJourney
+									// NewString: ContinentOfJourney
+								}
+
+								2: {
+									// OldString: ScarabBelief
+									// NewString: ScarabBelief
+								}
+							}
+
+							UseItem: {
+								1: {
+									// OldString: ContinentOfJourney
+									// NewString: ContinentOfJourney
+								}
+
+								2: {
+									// OldString: ScarabBelief
+									// NewString: ScarabBelief
+								}
+							}
+
+							AddRecipes: {
+								1: {
+									// OldString: ContinentOfJourney
+									// NewString: ContinentOfJourney
+								}
+
+								2: {
+									// OldString: TankOfThePastHallow
+									// NewString: TankOfThePastHallow
 								}
 							}
 						}
@@ -4633,6 +4822,268 @@ Mods: {
 								1: {
 									// OldString: RogueBadge_
 									// NewString: RogueBadge_
+								}
+							}
+						}
+
+						EvilFlask: {
+							AddRecipes: {
+								1: {
+									// OldString: CalamityMod
+									// NewString: CalamityMod
+								}
+
+								2: {
+									// OldString: RottenMatter
+									// NewString: RottenMatter
+								}
+							}
+
+							ModifyTooltips: {
+								1: {
+									// OldString: EvilFlask1
+									// NewString: EvilFlask1
+								}
+
+								2: {
+									// OldString: 20% chance to not consume ammo when using a flamethrower
+									NewString: 使用喷火器时有20%概率不消耗弹药
+								}
+
+								3: {
+									// OldString: EvilFlask2
+									// NewString: EvilFlask2
+								}
+
+								4: {
+									// OldString: Allows you to customize the projectile of your flamethrower
+									NewString: 允许你自定义喷火器的射弹
+								}
+
+								5: {
+									// OldString: EvilFlask3
+									// NewString: EvilFlask3
+								}
+
+								6: {
+									// OldString: Your flamethrower inflicts Brain Rot debuff
+									NewString: 喷火器能施加[C/A4A84E:大脑溃烂]减益
+								}
+
+								7: {
+									// OldString: EvilFlask4
+									// NewString: EvilFlask4
+								}
+
+								8: {
+									// OldString: When equipped, show items that can be inserted
+									NewString: 装备时显示可以放入的材料
+								}
+
+								9: {
+									// OldString: EvilFlask5
+									// NewString: EvilFlask5
+								}
+
+								10: {
+									// OldString: You can insert 2 ingredients at most
+									NewString: 可放入至多2个材料
+								}
+							}
+						}
+
+						EvilFlaskGlobalProjectile: {
+							OnHitNPC: {
+								1: {
+									// OldString: CalamityMod
+									// NewString: CalamityMod
+								}
+
+								2: {
+									// OldString: BrainRot
+									// NewString: BrainRot
+								}
+							}
+						}
+
+						HerbalistPouch: {
+							ModifyTooltips: {
+								1: {
+									// OldString: HerbalistPouch_1
+									// NewString: HerbalistPouch_1
+								}
+
+								2: {
+									/* OldString:
+										'''
+										While equipped, your yoyo damage inflicts frostburn and venom and has a chance to freeze enemies
+										Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
+										This effect must recharge for 15 seconds after protecting you
+										''' */
+									NewString:
+										'''
+										装备时，悠悠球攻击施加[C/1CC6F4:霜冻]和[C/7B4783:酸性毒液]并有概率冻结敌怪
+										用悠悠球攻击敌怪使你获得10%伤害减免，直到受到伤害为止
+										此效果在保护你后必须花15秒重新充能
+										'''
+								}
+
+								3: {
+									// OldString: HerbalistPouch_2
+									// NewString: HerbalistPouch_2
+								}
+
+								4: {
+									/* OldString:
+										'''
+										Hitting enemies with yoyos charge a leaf shield
+										The shield is fully charged in 10 hits
+										The shield decreases up to 21% of the next damage you take
+										The shield is launched when retrieving the yoyo
+										''' */
+									NewString:
+										'''
+										悠悠球击中敌人为叶子护盾充能
+										击中10次时护盾完全充能
+										护盾为下一次承受的伤害提供至多21%伤害减免
+										收回悠悠球时发射护盾
+										'''
+								}
+							}
+
+							UpdateAccessory: {
+								1: {
+									// OldString: ThoriumMod
+									// NewString: ThoriumMod
+								}
+
+								2: {
+									// OldString: BlizzardPouch
+									// NewString: BlizzardPouch
+								}
+
+								3: {
+									// OldString: ContinentOfJourney
+									// NewString: ContinentOfJourney
+								}
+
+								4: {
+									// OldString: LeafOil
+									// NewString: LeafOil
+								}
+							}
+
+							AddRecipes: {
+								1: {
+									// OldString: ThoriumMod
+									// NewString: ThoriumMod
+								}
+
+								2: {
+									// OldString: BlizzardPouch
+									// NewString: BlizzardPouch
+								}
+
+								3: {
+									// OldString: ContinentOfJourney
+									// NewString: ContinentOfJourney
+								}
+
+								4: {
+									// OldString: LeafOil
+									// NewString: LeafOil
+								}
+
+								5: {
+									// OldString: CalamityMod
+									// NewString: CalamityMod
+								}
+
+								6: {
+									// OldString: LivingShard
+									// NewString: LivingShard
+								}
+							}
+						}
+					}
+
+					Tiles: {
+						TimelessFountain: {
+							ModifyTooltips: {
+								1: {
+									// OldString: TimelessFountainInfo
+									// NewString: TimelessFountainInfo
+								}
+
+								2: {
+									// OldString: Counts as a Fountain of Life, Fountain of Matter, Fountain of Time
+									NewString: 同时充当[C/9FD140:生命喷泉]、[C/4460E6:物质喷泉]和[C/FFBA35:时光喷泉]
+								}
+							}
+
+							AddRecipes: {
+								1: {
+									// OldString: CalamityMod
+									// NewString: CalamityMod
+								}
+
+								2: {
+									// OldString: ContinentOfJourney
+									// NewString: ContinentOfJourney
+								}
+
+								3: {
+									// OldString: FountainofLife
+									// NewString: FountainofLife
+								}
+
+								4: {
+									// OldString: FountainofMatter
+									// NewString: FountainofMatter
+								}
+
+								5: {
+									// OldString: FountainofTime
+									// NewString: FountainofTime
+								}
+
+								6: {
+									// OldString: CosmiliteBar
+									// NewString: CosmiliteBar
+								}
+
+								7: {
+									// OldString: ProfanedCrucible
+									// NewString: ProfanedCrucible
+								}
+
+								8: {
+									// OldString: Profaned_Crucible
+									// NewString: Profaned_Crucible
+								}
+							}
+						}
+
+						TimelessFountainTile: {
+							SetStaticDefaults: {
+								1: {
+									// OldString: ContinentOfJourney
+									// NewString: ContinentOfJourney
+								}
+
+								2: {
+									// OldString: FountainofLife
+									// NewString: FountainofLife
+								}
+
+								3: {
+									// OldString: FountainofMatter
+									// NewString: FountainofMatter
+								}
+
+								4: {
+									// OldString: FountainofTime
+									// NewString: FountainofTime
 								}
 							}
 						}
@@ -4959,6 +5410,209 @@ Mods: {
 						3: {
 							// OldString: 5% decreased magic damage
 							// NewString: 5% decreased magic damage
+						}
+					}
+				}
+
+				BlightRecipeCloner: {
+					PostAddRecipes: {
+						1: {
+							// OldString: Consolaria
+							// NewString: Consolaria
+						}
+
+						2: {
+							// OldString: ContinentOfJourney
+							// NewString: ContinentOfJourney
+						}
+
+						3: {
+							// OldString: SoulofBlight
+							// NewString: SoulofBlight
+						}
+					}
+				}
+
+				BossRebalance: {
+					OnSpawn: {
+						1: {
+							// OldString: CalamityMod
+							// NewString: CalamityMod
+						}
+
+						2: {
+							// OldString: InfernumMode
+							// NewString: InfernumMode
+						}
+
+						3: {
+							// OldString: FargowiltasSouls
+							// NewString: FargowiltasSouls
+						}
+
+						4: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
+
+						5: {
+							// OldString: SacredTools
+							// NewString: SacredTools
+						}
+
+						6: {
+							// OldString: ContinentOfJourney
+							// NewString: ContinentOfJourney
+						}
+
+						7: {
+							// OldString: TheSon
+							// NewString: TheSon
+						}
+
+						8: {
+							// OldString: TheSon_Minion
+							// NewString: TheSon_Minion
+						}
+					}
+				}
+
+				HerbalistSoulGlobal: {
+					UpdateAccessory: {
+						1: {
+							// OldString: FargowiltasSouls
+							// NewString: FargowiltasSouls
+						}
+
+						2: {
+							// OldString: BerserkerSoul
+							// NewString: BerserkerSoul
+						}
+
+						3: {
+							// OldString: UniverseSoul
+							// NewString: UniverseSoul
+						}
+
+						4: {
+							// OldString: EternitySoul
+							// NewString: EternitySoul
+						}
+					}
+				}
+
+				HerbalistBerserkersSoulWorldPatch: {
+					OnWorldLoad: {
+						1: {
+							// OldString: FargowiltasSouls
+							// NewString: FargowiltasSouls
+						}
+
+						2: {
+							// OldString: BerserkerSoul
+							// NewString: BerserkerSoul
+						}
+					}
+				}
+
+				ArchWizardSoulPatch: {
+					OnWorldLoad: {
+						1: {
+							// OldString: ssm
+							// NewString: ssm
+						}
+
+						2: {
+							// OldString: FargowiltasSouls
+							// NewString: FargowiltasSouls
+						}
+
+						3: {
+							// OldString: ContinentOfJourney
+							// NewString: ContinentOfJourney
+						}
+
+						4: {
+							// OldString: ArchWizardsSoul
+							// NewString: ArchWizardsSoul
+						}
+
+						5: {
+							// OldString: Starflower
+							// NewString: Starflower
+						}
+					}
+				}
+
+				BerserkersSoulWorldPatch: {
+					OnWorldLoad: {
+						1: {
+							// OldString: ssm
+							// NewString: ssm
+						}
+
+						2: {
+							// OldString: FargowiltasSouls
+							// NewString: FargowiltasSouls
+						}
+
+						3: {
+							// OldString: BerserkerSoul
+							// NewString: BerserkerSoul
+						}
+
+						4: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
+
+						5: {
+							// OldString: BlizzardPouch
+							// NewString: BlizzardPouch
+						}
+
+						6: {
+							// OldString: ContinentOfJourney
+							// NewString: ContinentOfJourney
+						}
+
+						7: {
+							// OldString: PhilosophersStone
+							// NewString: PhilosophersStone
+						}
+					}
+				}
+
+				SniperSoulPatch: {
+					OnWorldLoad: {
+						1: {
+							// OldString: ssm
+							// NewString: ssm
+						}
+
+						2: {
+							// OldString: FargowiltasSouls
+							// NewString: FargowiltasSouls
+						}
+
+						3: {
+							// OldString: ContinentOfJourney
+							// NewString: ContinentOfJourney
+						}
+
+						4: {
+							// OldString: SnipersSoul
+							// NewString: SnipersSoul
+						}
+
+						5: {
+							// OldString: CrossbowScope
+							// NewString: CrossbowScope
+						}
+
+						6: {
+							// OldString: TheBatter
+							// NewString: TheBatter
 						}
 					}
 				}

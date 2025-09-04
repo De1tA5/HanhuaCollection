@@ -1,6 +1,6 @@
 Items: {
 	CritMonocle: {
-		Tooltip: 
+		Tooltip:
 			'''
 			当此物品被收藏时，能选择制作物品的暴击情况……
 			当然如果你幸运的话
@@ -10,7 +10,7 @@ Items: {
 
 	IronWhetstone: {
 		DisplayName: 铁砥石
-		Tooltip: "“最基础的砥石”"
+		Tooltip: “最基础的砥石”
 		CanBeApplied: 可以被任意武器使用
 	}
 
@@ -35,7 +35,7 @@ Items: {
 	VolatileWhetstone: {
 		CanBeApplied: 可以被任意能[C/FFD800:暴击]的武器使用
 		DisplayName: 易爆砥石
-		Tooltip: 
+		Tooltip:
 			'''
 			使用说明：请将武器小心置于砥石上进行打磨
 			[C/FF3525:注意：分销商不对因不当操作导致的任何身体伤害或财产损失负责。]
@@ -69,7 +69,7 @@ Items: {
 	StarterWhetstone: {
 		CanBeApplied: 可以被任意能[C/FFD800:暴击]的武器使用
 		DisplayName: 新手砥石
-		Tooltip: "“非常适合初学者！”"
+		Tooltip: “非常适合初学者！”
 	}
 
 	AncientWhetstone: {
@@ -85,7 +85,7 @@ Items: {
 	}
 
 	AmmoWhetstone: {
-		CanBeApplied: 可以被任意能[C/FFD800:暴击]且消耗[C/FF9500:弹药]的武器使用 
+		CanBeApplied: 可以被任意能[C/FFD800:暴击]且消耗[C/FF9500:弹药]的武器使用
 		DisplayName: 储备砥石
 		Tooltip: ""
 	}
@@ -119,6 +119,25 @@ Items: {
 			可以提供不同的暴击情况
 			装备时，所有仆从将继承暴击情况
 			'''
+	}
+
+	BronzeAlloy: {
+		DisplayName: Bronze Alloy
+		Tooltip: ""
+	}
+
+	BronzeArrow: {
+		DisplayName: Bronze Arrow
+		Tooltip:
+			'''
+			1.3x critical strike damage multiplier
+			Only deals damage on critical strikes
+			'''
+	}
+
+	BronzeBow: {
+		DisplayName: Bronze Bow
+		Tooltip: Converts wooden arrows into bronze arrows
 	}
 }
 
@@ -183,7 +202,7 @@ Configs: {
 
 		pirateHijack: {
 			Label: 海盗劫持
-			Tooltip: 
+			Tooltip:
 				'''
 				启用后，海盗有新特性
 				允许你在不重铸的情况下改变武器的暴击情况
@@ -260,6 +279,7 @@ CritTypes: {
 	Prepared.Description: 在攻击激活5秒后造成暴击
 	Holy.Description: 当你处于无敌帧状态时造成暴击（如受到伤害）
 	CritWithAnother.Description: 其他武器暴击后3秒内该武器造成暴击
+	BronzeBowCrit.Description: Critically strikes if the target is between 15 and 20 tiles away
 }
 
 UnknownTooltip: 未知暴击情况
@@ -307,3 +327,10 @@ Buffs: {
 		Description: 哟吼，哟吼，海盗的生活真快活！
 	}
 }
+
+RecipeGroups: {
+	AnyCopper: 任意 铜锭
+	AnySilver: 任意 银锭
+}
+
+Projectiles.BronzeArrowProjectile.DisplayName: Bronze Arrow
