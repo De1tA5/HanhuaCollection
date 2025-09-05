@@ -1,0 +1,88 @@
+Configs: {
+	MarkConfig: {
+		DisplayName: Mark Display Config
+
+		EnableMarks: {
+			Label: Display marks
+			Tooltip:
+				'''
+				Toggles whether mod icons are displayed.
+				Disabling this removes the core functionality of the mod.
+				Even with this disabled, the mod will take time to load and potentially increase stress on your computer while playing.
+				[c/707070:Default: TRUE]
+				'''
+		}
+
+		SearchByResult: {
+			Label: Assign marks by recipe result
+			Tooltip:
+				'''
+				TRUE: Materials will have a mark if they are part of a recipe resulting in a modded item.
+				FALSE: Materials will have a mark if they are part of a recipe added by a mod.
+				[c/707070:Default: TRUE]
+				'''
+		}
+
+		MarkScale: {
+			Label: Mark scale
+			Tooltip:
+				'''
+				A multiplier to the scale of marks shown.
+				Multiples of 0.5 are recommended. (0.5, 1, 1.5, 2)
+				Values over 1 may cause marks to overlap text or display outside the tooltip box.
+				[c/707070:Default: 0.5]
+				'''
+		}
+
+		MarkSpacing: {
+			Label: Mark spacing
+			Tooltip:
+				'''
+				The space between each mark shown if a material is part of multiple mod's recipes.
+				Negative values will cause marks to overlap.
+				[c/707070:Default: 0]
+				'''
+		}
+
+		MarkDist: {
+			Label: Mark distance
+			Tooltip:
+				'''
+				The space between marks shown and the 'Material' text.
+				[c/707070:Default: 2]
+				'''
+		}
+
+		MarkYOffset: {
+			Label: Vertical mark offset
+			Tooltip:
+				'''
+				Adds an offset to the vertical position of marks shown.
+				Positive is downwards, negative is upwards.
+				[c/707070:Default: 0]
+				'''
+		}
+
+		CycleMarks: {
+			Label: Cycle marks
+			Tooltip:
+				'''
+				Instead of displaying marks in a row, they will be cycled through over time.
+				[c/707070:Default: FALSE]
+				'''
+		}
+
+		CycleTime: {
+			Label: Cycle time
+			Tooltip:
+				'''
+				How many frames each mark will show for while cycling through them.
+				Values of 15 or above are recommended.
+				[c/707070:Default: 20]
+				'''
+		}
+	}
+}
+
+MissingIconCommandStart: Mods with missing material icons:
+MissingIconCommandNone: None!

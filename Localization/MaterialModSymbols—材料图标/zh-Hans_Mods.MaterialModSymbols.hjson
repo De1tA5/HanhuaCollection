@@ -1,0 +1,88 @@
+Configs: {
+	MarkConfig: {
+		DisplayName: 图标显示设置
+
+		EnableMarks: {
+			Label: 显示图标
+			Tooltip:
+				'''
+				切换是否显示模组图标
+				禁用此选项将移除mod的[C/FD3C3C:核心功能]
+				即使禁用该选项，加载mod仍需要时间这可能会增加你在游玩时对电脑的压力
+				[c/707070:默认：启用]
+				'''
+		}
+
+		SearchByResult: {
+			Label: 按配方结果分配标记
+			Tooltip:
+				'''
+				启用：如果是模组物品的合成材料，将会被标记图标
+				禁用：如果是模组提供新配方的合成材料，将会被标记图标
+				[c/707070:默认：启用]
+				'''
+		}
+
+		MarkScale: {
+			Label: 图标缩放尺寸
+			Tooltip:
+				'''
+				用于显示图标尺寸的缩放
+				推荐0.5倍的缩放比例（0.5， 1， 1.5， 2）
+				倍率超过 1 可能导致图标与文本重叠或显示在提示栏外
+				[c/707070:默认： 0.5]
+				'''
+		}
+
+		MarkSpacing: {
+			Label: 图标间距
+			Tooltip:
+				'''
+				如果该材料是多个模组配方的一部分，则每个图标间存在间距
+				数值小于0可能导致图标相互重叠
+				[c/707070:默认： 0]
+				'''
+		}
+
+		MarkDist: {
+			Label: 图标距离
+			Tooltip:
+				'''
+				图标距离 “材料” 这一文本之间的距离
+				[c/707070:默认： 2]
+				'''
+		}
+
+		MarkYOffset: {
+			Label: 图标垂直偏移
+			Tooltip:
+				'''
+				为显示图标增加垂直位置的偏移
+				大于0向下移动，小于0向上移动
+				[c/707070:默认： 0]
+				'''
+		}
+
+		CycleMarks: {
+			Label: 图标循环显示
+			Tooltip:
+				'''
+				使图标依次循环显示而非一排显示
+				[c/707070:默认：关闭]
+				'''
+		}
+
+		CycleTime: {
+			Label: 循环显示时间
+			Tooltip:
+				'''
+				设置每个图标在循环切换时显示的帧数
+				推荐15 及以上
+				[c/707070:默认： 20]
+				'''
+		}
+	}
+}
+
+MissingIconCommandStart: Mods with missing material icons:
+MissingIconCommandNone: None!

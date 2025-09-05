@@ -1091,6 +1091,34 @@ Mods: {
 					}
 				}
 
+				Compat: {
+					HorizonCompat: {
+						AppliesToEntity: {
+							1: {
+								OldString: ContinentOfJourney
+								NewString: ContinentOfJourney
+							}
+
+							2: {
+								OldString: Horizon
+								NewString: Horizon
+							}
+						}
+
+						UpdateAccessory: {
+							1: {
+								OldString: SOTS
+								NewString: SOTS
+							}
+
+							2: {
+								OldString: SubspaceBoosters
+								NewString: SubspaceBoosters
+							}
+						}
+					}
+				}
+
 				DivineTouchBuffs: {
 					ModifyTooltips: {
 						1: {
@@ -4907,50 +4935,6 @@ Mods: {
 						}
 
 						HerbalistPouch: {
-							ModifyTooltips: {
-								1: {
-									OldString: HerbalistPouch_1
-									NewString: HerbalistPouch_1
-								}
-
-								2: {
-									OldString:
-										'''
-										While equipped, your yoyo damage inflicts frostburn and venom and has a chance to freeze enemies
-										Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
-										This effect must recharge for 15 seconds after protecting you
-										'''
-									NewString:
-										'''
-										While equipped, your yoyo damage inflicts frostburn and venom and has a chance to freeze enemies
-										Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
-										This effect must recharge for 15 seconds after protecting you
-										'''
-								}
-
-								3: {
-									OldString: HerbalistPouch_2
-									NewString: HerbalistPouch_2
-								}
-
-								4: {
-									OldString:
-										'''
-										Hitting enemies with yoyos charge a leaf shield
-										The shield is fully charged in 10 hits
-										The shield decreases up to 21% of the next damage you take
-										The shield is launched when retrieving the yoyo
-										'''
-									NewString:
-										'''
-										Hitting enemies with yoyos charge a leaf shield
-										The shield is fully charged in 10 hits
-										The shield decreases up to 21% of the next damage you take
-										The shield is launched when retrieving the yoyo
-										'''
-								}
-							}
-
 							UpdateAccessory: {
 								1: {
 									OldString: ThoriumMod
@@ -5002,6 +4986,50 @@ Mods: {
 								6: {
 									OldString: LivingShard
 									NewString: LivingShard
+								}
+							}
+
+							ModifyTooltips: {
+								4: {
+									NewString:
+										'''
+										Hitting enemies with yoyos charge a leaf shield
+										The shield is fully charged in 10 hits
+										The shield decreases up to 21% of the next damage you take
+										The shield is launched when retrieving the yoyo
+										'''
+									OldString:
+										'''
+										Hitting enemies with yoyos charge a leaf shield
+										The shield is fully charged in 10 hits
+										The shield decreases up to 21% of the next damage you take
+										The shield is launched when retrieving the yoyo
+										'''
+								}
+
+								3: {
+									NewString: HerbalistPouch2
+									OldString: HerbalistPouch2
+								}
+
+								2: {
+									NewString:
+										'''
+										While equipped, your yoyo damage inflicts frostburn and venom and has a chance to freeze enemies
+										Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
+										This effect must recharge for 15 seconds after protecting you
+										'''
+									OldString:
+										'''
+										While equipped, your yoyo damage inflicts frostburn and venom and has a chance to freeze enemies
+										Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
+										This effect must recharge for 15 seconds after protecting you
+										'''
+								}
+
+								1: {
+									NewString: HerbalistPouch1
+									OldString: HerbalistPouch1
 								}
 							}
 						}
@@ -5474,6 +5502,11 @@ Mods: {
 							OldString: TheSon_Minion
 							NewString: TheSon_Minion
 						}
+
+						9: {
+							NewString: SOTS
+							OldString: SOTS
+						}
 					}
 				}
 
@@ -5613,6 +5646,227 @@ Mods: {
 						6: {
 							OldString: TheBatter
 							NewString: TheBatter
+						}
+					}
+				}
+
+				RecipePatches: {
+					PostAddRecipes: {
+						4: {
+							NewString: TransactionCertificate
+							OldString: TransactionCertificate
+						}
+
+						3: {
+							NewString: AsgardianAegis
+							OldString: AsgardianAegis
+						}
+
+						2: {
+							NewString: ContinentOfJourney
+							OldString: ContinentOfJourney
+						}
+
+						1: {
+							NewString: CalamityMod
+							OldString: CalamityMod
+						}
+					}
+				}
+
+				AsgardsValorPatch: {
+					PostAddRecipes: {
+						1: {
+							OldString: CalamityMod
+							NewString: CalamityMod
+						}
+
+						2: {
+							OldString: ContinentOfJourney
+							NewString: ContinentOfJourney
+						}
+
+						3: {
+							OldString: AsgardsValor
+							NewString: AsgardsValor
+						}
+
+						4: {
+							OldString: CircuitChip
+							NewString: CircuitChip
+						}
+
+						5: {
+							OldString: VanguardBreastpiece
+							NewString: VanguardBreastpiece
+						}
+					}
+				}
+
+				ElementalQuiverPatch: {
+					PostAddRecipes: {
+						1: {
+							OldString: CalamityMod
+							NewString: CalamityMod
+						}
+
+						2: {
+							OldString: ContinentOfJourney
+							NewString: ContinentOfJourney
+						}
+
+						3: {
+							OldString: ElementalQuiver
+							NewString: ElementalQuiver
+						}
+
+						4: {
+							OldString: CrossbowScope
+							NewString: CrossbowScope
+						}
+					}
+				}
+
+				NucleogenesisPatch: {
+					PostAddRecipes: {
+						1: {
+							OldString: CalamityMod
+							NewString: CalamityMod
+						}
+
+						2: {
+							OldString: ContinentOfJourney
+							NewString: ContinentOfJourney
+						}
+
+						3: {
+							OldString: Nucleogenesis
+							NewString: Nucleogenesis
+						}
+
+						4: {
+							OldString: ArmillarySphere
+							NewString: ArmillarySphere
+						}
+					}
+				}
+
+				OrnateShieldPatch: {
+					PostAddRecipes: {
+						1: {
+							OldString: CalamityMod
+							NewString: CalamityMod
+						}
+
+						2: {
+							OldString: ContinentOfJourney
+							NewString: ContinentOfJourney
+						}
+
+						3: {
+							OldString: OrnateShield
+							NewString: OrnateShield
+						}
+
+						4: {
+							OldString: SolarPanel
+							NewString: SolarPanel
+						}
+					}
+				}
+
+				RampartOfDeitiesPatch: {
+					PostAddRecipes: {
+						1: {
+							OldString: CalamityMod
+							NewString: CalamityMod
+						}
+
+						2: {
+							OldString: ContinentOfJourney
+							NewString: ContinentOfJourney
+						}
+
+						3: {
+							OldString: RampartofDeities
+							NewString: RampartofDeities
+						}
+
+						4: {
+							OldString: GrandSpectral
+							NewString: GrandSpectral
+						}
+					}
+				}
+
+				StarTaintedGeneratorPatch: {
+					PostAddRecipes: {
+						1: {
+							OldString: CalamityMod
+							NewString: CalamityMod
+						}
+
+						2: {
+							OldString: ContinentOfJourney
+							NewString: ContinentOfJourney
+						}
+
+						3: {
+							OldString: StarTaintedGenerator
+							NewString: StarTaintedGenerator
+						}
+
+						4: {
+							OldString: CounsellorsFan
+							NewString: CounsellorsFan
+						}
+					}
+				}
+
+				StatisCursePatch: {
+					PostAddRecipes: {
+						1: {
+							OldString: CalamityMod
+							NewString: CalamityMod
+						}
+
+						2: {
+							OldString: ContinentOfJourney
+							NewString: ContinentOfJourney
+						}
+
+						3: {
+							OldString: StatisCurse
+							NewString: StatisCurse
+						}
+
+						4: {
+							OldString: ConstructionPDA
+							NewString: ConstructionPDA
+						}
+
+						5: {
+							OldString: LampreyScarf
+							NewString: LampreyScarf
+						}
+					}
+				}
+
+				StarImagePatch: {
+					PostAddRecipes: {
+						1: {
+							OldString: ContinentOfJourney
+							NewString: ContinentOfJourney
+						}
+
+						2: {
+							OldString: StarImage
+							NewString: StarImage
+						}
+
+						3: {
+							OldString: EssenceofMatter
+							NewString: EssenceofMatter
 						}
 					}
 				}
