@@ -1,0 +1,26 @@
+Configs: {
+	Config: {
+		DisplayName: System Configuration
+
+		blacklist: {
+			Label: Blacklisted Buffs
+			Tooltip:
+				'''
+				Forces the buff to not undergo stacking and use intended behavior for the buff.
+				Only use this if Buff Time Threshold is not enough to prevent collective buff stacking.
+				'''
+		}
+
+		buffTimeThreshold: {
+			Label: Buff Time Threshold
+			Tooltip:
+				'''
+				Uses this value to determine if the buff is an infinite time buff.
+				If there exists a modded buff that does not play well with this mod,
+				then increment this value in increments of 10 until the buff behaves as intended.
+				If some infinite buffs start to show timers, lower the value in decrements of 1 until everything is working.
+				If all else fails, just use the Blacklist Buffs configuration to force the buff to intended behavior.
+				'''
+		}
+	}
+}

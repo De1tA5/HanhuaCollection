@@ -1,0 +1,27 @@
+Configs: {
+	Config: {
+		DisplayName: 系统设置
+
+		blacklist: {
+			Label: Buff黑名单
+			Tooltip:
+				'''
+				强制Buff不发生叠加，并使用该Buff的预期效果
+				只有在Buff时间阈值不足来防止Buff叠加时才使用此机制
+				（例如雪原环境下泡水会获得无限[C/71B8CF:冷冻]减益,此时出水会显示计时器并叠加减益时长）
+				'''
+		}
+
+		buffTimeThreshold: {
+			Label: Buff持续时间阈值
+			Tooltip:
+				'''
+				使用该数值来判断该Buff是否为无限时长
+				1、如果存在一个模组Buff的叠加持续时间无法生效
+				那么每次为该参数增加 10 ，直到Buff如预期能叠加
+				2、如果有些无限Buff一开始出现计时器，每次将该参数减少 1 ，直到一切工作正常
+				3、如果以上方法均失败，使用Buff黑名单强制Buff按预期生效
+				'''
+		}
+	}
+}

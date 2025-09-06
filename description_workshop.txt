@@ -21,6 +21,14 @@ https://github.com/De1tA5/HanhuaCollection
 [/list]
 [/code]
 
+[h3] 药水 [/h3]
+[code]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3285663477] Stackable Buff Duration Reborn—Buff持续时间可叠加 Reborn [/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3225157275] Potion Mastery—药水精通 [/url]
+[/list]
+[/code]
+
 [h3] 其他 [/h3]
 [code]
 [list]
@@ -29,3 +37,4 @@ https://github.com/De1tA5/HanhuaCollection
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3137978242] Mod Marks For Materials—材料图标 [/url]
 [/list]
 [/code]
+

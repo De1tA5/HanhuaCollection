@@ -1,0 +1,68 @@
+Mods: {
+	PotionMastery: {
+		Configs: {
+			PotionMasteryConfig: {
+				DisplayName: 药水精通设置
+
+				Headers: {
+					Mastery: 精通
+					Duration: 持续时间
+					Death: 死亡
+					BuffSlots: Buff栏位
+				}
+
+				HoursToMaxMastery: {
+					Label: 100%精通时长
+					Tooltip: 该药水达到100%精通所需总时长（工具提示栏会显示需要使用的次数）
+				}
+
+				MasteryMult: {
+					Label: 精通持续时间倍率
+					Tooltip:
+						'''
+						药水持续时间的倍率，从 1 开始并随着你的精通等级提升而增加
+						这个倍率不会影响你的精通提升
+						'''
+				}
+
+				DoBuffStacking: {
+					Label: 增益时间可叠加
+					Tooltip: 药水增益的持续时间可叠加
+				}
+
+				DoDebuffStacking: {
+					Label: 减益时间可叠加
+					Tooltip:
+						'''
+						药水减益的持续时间可叠加
+						[C/FD0021:注意：无法通过右键点击移除]
+						'''
+				}
+
+				KeepBuffsOnDeath: {
+					Label: 死亡保留增益
+					Tooltip:
+						'''
+						玩家死亡后保留药水增益
+						仅影响未精通的药水
+						'''
+				}
+
+				KeepDebuffsOnDeath: {
+					Label: 死亡保留减益
+					Tooltip: 玩家死亡后保留药水减益
+				}
+
+				DeathPenalty: {
+					Label: 死亡持续时间减少
+					Tooltip: 如果开启死亡保留增益，你死亡后会减少对应几分钟的持续时间
+				}
+
+				DesiredBuffSlots: {
+					Label: Buff栏位
+					Tooltip: 如果你使用的模组增加药水，你可能要增加该数值
+				}
+			}
+		}
+	}
+}

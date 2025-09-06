@@ -1,0 +1,56 @@
+Mods: {
+	PotionMastery: {
+		Configs: {
+			PotionMasteryConfig: {
+				DisplayName: Potion Mastery Config
+
+				Headers: {
+					Mastery: Mastery
+					Duration: Duration
+					Death: Death
+					BuffSlots: Buff Slots
+				}
+
+				HoursToMaxMastery: {
+					Label: Hours To Max Mastery
+					Tooltip: The total duration in hours of drinking a certain buff potion before you reach 100% mastery.
+				}
+
+				MasteryMult: {
+					Label: Mastery Duration Multiplier
+					Tooltip: A multiplier to the duration of potions, starting from 1 and scaling up with your mastery. Does not affect mastery gain.
+				}
+
+				DoBuffStacking: {
+					Label: Buff Duration Stacking
+					Tooltip: Buffs from potions will stack their duration.
+				}
+
+				DoDebuffStacking: {
+					Label: Debuff Duration Stacking
+					Tooltip: Debuffs from potions will stack their duration. Beware: they will not be removable with right clicking!
+				}
+
+				KeepBuffsOnDeath: {
+					Label: Keep Buffs On Death
+					Tooltip: Players keep potion buffs when they die. Only affects unmastered potions.
+				}
+
+				KeepDebuffsOnDeath: {
+					Label: Keep Debuffs On Death
+					Tooltip: Players keep potion debuffs when they die.
+				}
+
+				DeathPenalty: {
+					Label: Death Duration Loss
+					Tooltip: If keep buffs on death is enabled, You will lose this many minutes of duration when you die.
+				}
+
+				DesiredBuffSlots: {
+					Label: Desired Buff Slots
+					Tooltip: If you are using mods that add potions, you will want to increase this number.
+				}
+			}
+		}
+	}
+}
