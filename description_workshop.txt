@@ -26,6 +26,7 @@ https://github.com/De1tA5/HanhuaCollection
 [list]
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3285663477] Stackable Buff Duration Reborn—Buff持续时间可叠加 Reborn [/url]
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3225157275] Potion Mastery—药水精通 [/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2818230611] Auto Potion—自动药水 [/url]
 [/list]
 [/code]
 

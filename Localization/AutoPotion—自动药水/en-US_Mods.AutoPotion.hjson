@@ -1,0 +1,93 @@
+Keybinds: {
+	ToggleAutoPotion.DisplayName: Toggle auto potion
+	UsePotion.DisplayName: Single use potion
+}
+
+Configs: {
+	AutoPotionConfig: {
+		DisplayName: Auto Potion Config
+
+		AutoPotionInventory: {
+			Label: Auto Potion Inventory
+			Tooltip: The inventory where for potions will be searched for
+		}
+
+		InfinitePotions: {
+			Label: Infinite Potions
+			Tooltip: If enabled no potions will be used but the buff will be applied
+		}
+
+		BuyPotions: {
+			Label: Buy Potions
+			Tooltip: If enabled potions will be bought with a 'PotionBuyMultiplier', also 'InfinitePotions' cannot be enabled
+		}
+
+		UseLastPotion: {
+			Label: Use Last Potion
+			Tooltip: If the potion count is 1 and it is enabled the last potion will not be used
+		}
+
+		RemovePotionSickness: {
+			Label: Remove Potion Sickness
+			Tooltip: Removes the Potion Sickness effect
+		}
+
+		DisableOnDeath: {
+			Label: Disable On Death
+			Tooltip: If the player dies or leaves the server auto potion will be disabled
+		}
+
+		WhitelistMode: {
+			Label: Whitelist Mode
+			Tooltip: Only potions which are manually used or are active will be comsumed if they run out
+		}
+
+		PrintEmptyPotions: {
+			Label: Print Empty Potions
+			Tooltip: If no more potions are left of a type it will post it into the local chat
+		}
+
+		PrintColor: {
+			Label: Print Color
+			Tooltip: Text color in chat
+		}
+	}
+
+	AutoPotionInventory: {
+		Tooltip: ""
+		PlayerInventory.Label: Player Inventory
+		PiggyBank.Label: Piggy Bank
+		Safe.Label: Safe
+		DefendersForge.Label: Defenders Forge
+		VoidVault.Label: Void Vault
+	}
+
+	AutoPotionConfigServer: {
+		DisplayName: Auto Potion Config Server
+
+		ExtraPlayerBuffSlots: {
+			Label: Extra Player Buff Slots
+			Tooltip: Increases the maximum number of buff slots available
+		}
+
+		InfinitePotionsAllowed: {
+			Label: Infinite Potions Allowed
+			Tooltip: Allows a user to toggle 'InfinitePotions'
+		}
+
+		BuyPotionsAllowed: {
+			Label: Buy Potions Allowed
+			Tooltip: Allows a user to toggle 'BuyPotions'
+		}
+
+		PotionBuyMultiplier: {
+			Label: Potion Buy Multiplier
+			Tooltip: Multiplier for 'BuyPotions'
+		}
+
+		RemovePotionSicknessAllowed: {
+			Label: Remove Potion Sickness Allowed
+			Tooltip: Allows a user to toggle 'RemovePotionSickness'
+		}
+	}
+}

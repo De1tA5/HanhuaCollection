@@ -1,0 +1,219 @@
+AutoPotionMod: {
+	Load: {
+		1: {
+			// OldString: ToggleAutoPotion
+			// NewString: ToggleAutoPotion
+		}
+
+		2: {
+			// OldString: UsePotion
+			// NewString: UsePotion
+		}
+	}
+
+	PostSetupContent: {
+		1: {
+			// OldString: AlchemistNPCLite
+			// NewString: AlchemistNPCLite
+		}
+
+		2: {
+			// OldString: CalamityMod
+			// NewString: CalamityMod
+		}
+
+		3: {
+			// OldString: HotE
+			// NewString: HotE
+		}
+
+		4: {
+			// OldString: ProfanedSoulGuardians
+			// NewString: ProfanedSoulGuardians
+		}
+
+		5: {
+			// OldString: ProfanedBabs
+			// NewString: ProfanedBabs
+		}
+
+		6: {
+			// OldString: FlaskOfCrumbling
+			// NewString: FlaskOfCrumbling
+		}
+
+		7: {
+			// OldString: CrumblingPotion
+			// NewString: CrumblingPotion
+		}
+
+		8: {
+			// OldString: FlaskOfBrimstone
+			// NewString: FlaskOfBrimstone
+		}
+
+		9: {
+			// OldString: FlaskOfHolyFlames
+			// NewString: FlaskOfHolyFlames
+		}
+
+		10: {
+			// OldString: HolyWrathPotion
+			// NewString: HolyWrathPotion
+		}
+
+		11: {
+			// OldString: ShatteringPotion
+			// NewString: ShatteringPotion
+		}
+
+		12: {
+			// OldString: ProfanedRagePotion
+			// NewString: ProfanedRagePotion
+		}
+
+		13: {
+			// OldString: CadancePotion
+			// NewString: CadancePotion
+		}
+	}
+
+	OnDelBuff: {
+		1: {
+			// OldString: "Potion with buff: "
+			// NewString: "Potion with buff: "
+		}
+
+		2: {
+			// OldString: " was not in activatedPotion list."
+			// NewString: " was not in activatedPotion list."
+		}
+	}
+
+	ToggleAutoPotion: {
+		1: {
+			// OldString: BottomlessPotions
+			// NewString: BottomlessPotions
+		}
+
+		2: {
+			// OldString: "Automatic potion drinking "
+			NewString: "自动使用药水 "
+		}
+
+		3: {
+			// OldString: Not Enabled
+			NewString: 未启用  （请确保对应库存中有药水）
+		}
+	}
+
+	GetAutomaticToggleText: {
+		1: {
+			// OldString: "Automatic potion drinking "
+			NewString: "自动使用药水 "
+		}
+
+		2: {
+			// OldString: Disabled
+			NewString: 已禁用
+		}
+
+		3: {
+			// OldString: Enabled
+			NewString: 已启用
+		}
+	}
+
+	ConsumePotions: {
+		1: {
+			// OldString: BottomlessPotions
+			// NewString: BottomlessPotions
+		}
+
+		2: {
+			// OldString: "Potion with buff: "
+			// NewString: "Potion with buff: "
+		}
+
+		3: {
+			// OldString: " not added as it would cause an infinite loop."
+			// NewString: " not added as it would cause an infinite loop."
+		}
+
+		4: {
+			// OldString: No remaining buff slots available.
+			// NewString: No remaining buff slots available.
+		}
+	}
+
+	PrintEmptyPotions: {
+		1: {
+			// OldString: ""
+			// NewString: ""
+		}
+
+		2: {
+			// OldString: ", "
+			// NewString: ", "
+		}
+
+		3: {
+			// OldString: "No potions left of: "
+			// NewString: "No potions left of: "
+		}
+	}
+
+	SendMultiChat: {
+		1: {
+			// OldString: ""
+			// NewString: ""
+		}
+
+		2: {
+			// OldString: "[c/"
+			// NewString: "[c/"
+		}
+
+		3: {
+			// OldString: ": "
+			// NewString: ": "
+		}
+
+		4: {
+			// OldString: "]"
+			// NewString: "]"
+		}
+	}
+
+	<AlchemistNPCLiteCharmActivated>g__CheckItems|41_0: {
+		1: {
+			// OldString: AlchemistCharmTier1
+			// NewString: AlchemistCharmTier1
+		}
+
+		2: {
+			// OldString: AlchemistCharmTier2
+			// NewString: AlchemistCharmTier2
+		}
+
+		3: {
+			// OldString: AlchemistCharmTier3
+			// NewString: AlchemistCharmTier3
+		}
+
+		4: {
+			// OldString: AlchemistCharmTier4
+			// NewString: AlchemistCharmTier4
+		}
+
+		5: {
+			// OldString: Downed
+			// NewString: Downed
+		}
+
+		6: {
+			// OldString: supreme calamitas
+			// NewString: supreme calamitas
+		}
+	}
+}

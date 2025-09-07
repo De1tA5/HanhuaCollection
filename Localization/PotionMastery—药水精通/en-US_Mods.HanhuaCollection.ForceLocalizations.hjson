@@ -1,0 +1,84 @@
+PotionMastery: {
+	PotionMasteryGlobalBuff: {
+		ModifyBuffText: {
+			1: {
+				OldString: "\n"
+				NewString: "\n"
+			}
+
+			2: {
+				OldString: % mastery
+				NewString: % mastery
+			}
+		}
+	}
+
+	PotionMasteryGlobalItem: {
+		ModifyTooltips: {
+			1: {
+				OldString: % mastery
+				NewString: % mastery
+			}
+
+			2: {
+				OldString: " - "
+				NewString: " - "
+			}
+
+			3: {
+				OldString: " until max"
+				NewString: " until max"
+			}
+
+			4: {
+				OldString: Infinite duration
+				NewString: Infinite duration
+			}
+
+			5: {
+				OldString: PotionMastery
+				NewString: PotionMastery
+			}
+		}
+	}
+
+	PotionMasteryPlayer: {
+		LoadData: {
+			1: {
+				OldString: masteryBuffs
+				NewString: masteryBuffs
+			}
+
+			2: {
+				OldString: masteryValues
+				NewString: masteryValues
+			}
+		}
+
+		SaveData: {
+			1: {
+				OldString: masteryBuffs
+				NewString: masteryBuffs
+			}
+
+			2: {
+				OldString: masteryValues
+				NewString: masteryValues
+			}
+		}
+	}
+
+	PotionMasteryGlobalItem+<>c: {
+		<ModifyTooltips>b__2_0: {
+			1: {
+				OldString: Terraria
+				NewString: Terraria
+			}
+
+			2: {
+				OldString: BuffTime
+				NewString: BuffTime
+			}
+		}
+	}
+}

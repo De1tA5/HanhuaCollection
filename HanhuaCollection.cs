@@ -9,18 +9,45 @@ using TigerForceLocalizationLib;
 
 namespace HanhuaCollection
 {
-
-	public class HanhuaCollection : ModSystem
+    //HomewardRagnarok—旅人归途&诸神黄昏兼容
+    public class HomewardRagnarok : ModSystem
 	{
-        //HomewardRagnarok—旅人归途&诸神黄昏兼容
+       
         public override void PostSetupContent()
         {
             if (ModLoader.HasMod("HomewardRagnarok"))
             {
-                TigerForceLocalizationHelper.LocalizeAll(nameof(HanhuaCollection), "HomewardRagnarok", false);
+                TigerForceLocalizationHelper.LocalizeAll("HanhuaCollection", "HomewardRagnarok", false);
                 base.PostSetupContent();
             }
             
+        }
+
+    }
+    //PotionMastery—药水精通
+    public class PotionMastery : ModSystem
+    {
+        public override void PostSetupContent()
+        {
+            if (ModLoader.HasMod("PotionMastery"))
+            {
+                TigerForceLocalizationHelper.LocalizeAll("HanhuaCollection", "PotionMastery", false);
+                base.PostSetupContent();
+            }
+
+        }
+    }
+    //AutoPotion—自动药水
+    public class AutoPotion : ModSystem
+    {
+        public override void PostSetupContent()
+        {
+            if (ModLoader.HasMod("AutoPotion"))
+            {
+                TigerForceLocalizationHelper.LocalizeAll("HanhuaCollection", "AutoPotion", false);
+                base.PostSetupContent();
+            }
+
         }
     }
 }

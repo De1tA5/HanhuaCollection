@@ -1,0 +1,93 @@
+Keybinds: {
+	ToggleAutoPotion.DisplayName: 切换自动药水
+	UsePotion.DisplayName: 单独使用药水
+}
+
+Configs: {
+	AutoPotionConfig: {
+		DisplayName: 自动药水客户端设置
+
+		AutoPotionInventory: {
+			Label: 自动使用库存中药水
+			Tooltip: 将搜索对应库存中的药水
+		}
+
+		InfinitePotions: {
+			Label: 无限药水
+			Tooltip: 启用后，不消耗药水即可获得对应增益
+		}
+
+		BuyPotions: {
+			Label: 购买药水
+			Tooltip: 启用后，药水将按照“购买倍率”进行购买，同时“无限药水”无法被启用
+		}
+
+		UseLastPotion: {
+			Label: 使用最后一瓶药水
+			Tooltip: 启用后，如果只有1瓶药水则不会使用该药水
+		}
+
+		RemovePotionSickness: {
+			Label: 移除耐药性
+			Tooltip: 移除[C/F2345D:耐药性]
+		}
+
+		DisableOnDeath: {
+			Label: 死亡后禁用
+			Tooltip: 如果玩家死亡或离开服务器，将会禁用自动药水
+		}
+
+		WhitelistMode: {
+			Label: 白名单模式
+			Tooltip: 只有手动使用或者已激活的的药水使用完后才会被消耗
+		}
+
+		PrintEmptyPotions: {
+			Label: 打印用完的药水
+			Tooltip: 如果某种药水用完，会发送提醒到本地聊天栏
+		}
+
+		PrintColor: {
+			Label: 打印颜色
+			Tooltip: 聊天栏的文本颜色
+		}
+	}
+
+	AutoPotionInventory: {
+		Tooltip: ""
+		PlayerInventory.Label: 玩家物品栏
+		PiggyBank.Label: 猪猪存钱罐
+		Safe.Label: 保险箱
+		DefendersForge.Label: 护卫熔炉
+		VoidVault.Label: 虚空保险库
+	}
+
+	AutoPotionConfigServer: {
+		DisplayName: 自动药水服务器设置
+
+		ExtraPlayerBuffSlots: {
+			Label: 玩家额外Buff栏
+			Tooltip: 增加玩家最大Buff栏数量
+		}
+
+		InfinitePotionsAllowed: {
+			Label: 允许使用无限药水
+			Tooltip: 允许玩家切换 [C/FFE36A:无限药水]
+		}
+
+		BuyPotionsAllowed: {
+			Label: 允许使用购买药水
+			Tooltip: 允许玩家切换 [C/FFE36A:购买药水]
+		}
+
+		PotionBuyMultiplier: {
+			Label: 药水购买倍率
+			Tooltip: 用于[C/FFE36A:购买药水]的倍率调整
+		}
+
+		RemovePotionSicknessAllowed: {
+			Label: 允许移除耐药性
+			Tooltip: 允许玩家切换 [C/FFE36A:移除耐药性]
+		}
+	}
+}
