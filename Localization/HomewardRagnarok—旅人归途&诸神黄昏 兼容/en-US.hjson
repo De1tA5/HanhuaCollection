@@ -839,6 +839,16 @@ Mods: {
 							OldString: Shoreline
 							NewString: Shoreline
 						}
+
+						26: {
+							OldString: ChlorophyteKnife
+							NewString: ChlorophyteKnife
+						}
+
+						27: {
+							OldString: LeadKnife
+							NewString: LeadKnife
+						}
 					}
 
 					SetDefaults: {
@@ -864,6 +874,70 @@ Mods: {
 						2: {
 							OldString: LaserSniperRifle
 							NewString: LaserSniperRifle
+						}
+
+						3: {
+							OldString: ToothOfCthulhu
+							NewString: ToothOfCthulhu
+						}
+
+						4: {
+							OldString: ItemCactusBall
+							NewString: ItemCactusBall
+						}
+
+						5: {
+							OldString: Vein
+							NewString: Vein
+						}
+
+						6: {
+							OldString: Backstabber
+							NewString: Backstabber
+						}
+
+						7: {
+							OldString: Bloodthirst
+							NewString: Bloodthirst
+						}
+
+						8: {
+							OldString: ConniversKunai
+							NewString: ConniversKunai
+						}
+					}
+
+					SetDefaults: {
+						1: {
+							OldString: ContinentOfJourney
+							NewString: ContinentOfJourney
+						}
+
+						2: {
+							OldString: Backstabber
+							NewString: Backstabber
+						}
+
+						3: {
+							OldString: Bloodthirst
+							NewString: Bloodthirst
+						}
+
+						4: {
+							OldString: ConniversKunai
+							NewString: ConniversKunai
+						}
+					}
+
+					ModifyTooltips: {
+						1: {
+							OldString: PoisonEffect
+							NewString: PoisonEffect
+						}
+
+						2: {
+							OldString: Inflicts Poison
+							NewString: Inflicts Poison
 						}
 					}
 				}
@@ -1114,6 +1188,223 @@ Mods: {
 							2: {
 								OldString: SubspaceBoosters
 								NewString: SubspaceBoosters
+							}
+						}
+					}
+
+					TrinityCompatPlayer: {
+						PostUpdate: {
+							1: {
+								OldString: ContinentOfJourney
+								NewString: ContinentOfJourney
+							}
+						}
+					}
+
+					TrinityCompatGlobalProjectile: {
+						AI: {
+							1: {
+								OldString: ContinentOfJourney
+								NewString: ContinentOfJourney
+							}
+						}
+
+						IsRogueOrThrower: {
+							1: {
+								OldString: CalamityMod
+								NewString: CalamityMod
+							}
+
+							2: {
+								OldString: ThrowingDamageClass
+								NewString: ThrowingDamageClass
+							}
+
+							3: {
+								OldString: ThrowerUnification
+								NewString: ThrowerUnification
+							}
+
+							4: {
+								OldString: UnitedModdedThrower
+								NewString: UnitedModdedThrower
+							}
+						}
+					}
+
+					TrinityTooltipFix: {
+						ModifyTooltips: {
+							1: {
+								OldString: ContinentOfJourney
+								NewString: ContinentOfJourney
+							}
+
+							2: {
+								OldString: Epsilon
+								NewString: Epsilon
+							}
+
+							3: {
+								OldString: 70%
+								NewString: 70%
+							}
+
+							4: {
+								OldString: 30%
+								NewString: 30%
+							}
+
+							5: {
+								OldString: Consumable ranged
+								NewString: Consumable ranged
+							}
+
+							6: {
+								OldString: Thrower
+								NewString: Thrower
+							}
+
+							7: {
+								OldString: Alpha
+								NewString: Alpha
+							}
+
+							8: {
+								OldString: Omega
+								NewString: Omega
+							}
+
+							9: {
+								OldString: 20%
+								NewString: 20%
+							}
+
+							10: {
+								OldString: TheHolyTrinity
+								NewString: TheHolyTrinity
+							}
+
+							11: {
+								OldString: FatherAndSon
+								NewString: FatherAndSon
+							}
+						}
+					}
+
+					PotionBuffs: {
+						ModifyTooltips: {
+							1: {
+								OldString: UltraHealingPotionBuff
+								NewString: UltraHealingPotionBuff
+							}
+
+							2: {
+								OldString: Restores 350 life
+								NewString: Restores 350 life
+							}
+
+							3: {
+								OldString: UltraManaPotionBuff
+								NewString: UltraManaPotionBuff
+							}
+
+							4: {
+								OldString: Restores 450 mana
+								NewString: Restores 450 mana
+							}
+						}
+					}
+
+					AltitudePatch: {
+						UpdateAccessory: {
+							1: {
+								OldString: CalamityMod
+								NewString: CalamityMod
+							}
+
+							2: {
+								OldString: WingsofRebirth
+								NewString: WingsofRebirth
+							}
+						}
+
+						AddRecipes: {
+							1: {
+								OldString: CalamityMod
+								NewString: CalamityMod
+							}
+
+							2: {
+								OldString: WingsofRebirth
+								NewString: WingsofRebirth
+							}
+						}
+					}
+
+					CommandersGauntletPatch: {
+						AppliesToEntity: {
+							1: {
+								OldString: ContinentOfJourney
+								NewString: ContinentOfJourney
+							}
+
+							2: {
+								OldString: CommandersGaunlet
+								NewString: CommandersGaunlet
+							}
+						}
+
+						ModifyTooltips: {
+							1: {
+								OldString: melee speed
+								NewString: melee speed
+							}
+
+							2: {
+								OldString: whip speed
+								NewString: whip speed
+							}
+						}
+					}
+
+					GrayRookPatch: {
+						ModifyTooltips: {
+							1: {
+								OldString: melee speed
+								NewString: melee speed
+							}
+
+							2: {
+								OldString: Increase your melee speed by 2% and
+								NewString: Increase your melee speed by 2% and
+							}
+
+							3: {
+								OldString: Increase your
+								NewString: Increase your
+							}
+						}
+					}
+
+					PotionBuffs+<>c: {
+						<ModifyTooltips>b__2_0: {
+							1: {
+								OldString: Restores 300 life
+								NewString: Restores 300 life
+							}
+						}
+
+						<ModifyTooltips>b__2_1: {
+							1: {
+								OldString: Restores 320 mana
+								NewString: Restores 320 mana
+							}
+						}
+
+						<ModifyTooltips>b__2_2: {
+							1: {
+								OldString: Restores 450
+								NewString: Restores 450
 							}
 						}
 					}
@@ -2194,6 +2485,26 @@ Mods: {
 						32: {
 							OldString: TungstenEnchant
 							NewString: TungstenEnchant
+						}
+
+						33: {
+							OldString: ChlorophyteKnife
+							NewString: ChlorophyteKnife
+						}
+
+						34: {
+							OldString: ChlorophyteEnchant
+							NewString: ChlorophyteEnchant
+						}
+
+						35: {
+							OldString: LeadKnife
+							NewString: LeadKnife
+						}
+
+						36: {
+							OldString: LeadEnchant
+							NewString: LeadEnchant
 						}
 					}
 				}
@@ -4934,7 +5245,182 @@ Mods: {
 							}
 						}
 
+						BabyOil: {
+							ModifyTooltips: {
+								1: {
+									OldString: BabyOil1
+									NewString: BabyOil1
+								}
+
+								2: {
+									OldString: When damaged cause 3-5 droplets of oil to drop out from you
+									NewString: When damaged cause 3-5 droplets of oil to drop out from you
+								}
+
+								3: {
+									OldString: BabyOil2
+									NewString: BabyOil2
+								}
+
+								4: {
+									OldString: Droplets do damage to enemies
+									NewString: Droplets do damage to enemies
+								}
+
+								5: {
+									OldString: BabyOilFancy
+									NewString: BabyOilFancy
+								}
+
+								6: {
+									OldString: - Contributor Item -
+									NewString: - Contributor Item -
+								}
+							}
+
+							PreDrawTooltipLine: {
+								1: {
+									OldString: BabyOilFancy
+									NewString: BabyOilFancy
+								}
+							}
+						}
+
+						NegablastShield: {
+							get_Texture: {
+								1: {
+									OldString: HomewardRagnarok/Items/Accessories/NegablastShield
+									NewString: HomewardRagnarok/Items/Accessories/NegablastShield
+								}
+							}
+
+							ModifyTooltips: {
+								1: {
+									OldString: NegablastShield
+									NewString: NegablastShield
+								}
+
+								2: {
+									OldString:
+										'''
+										50 base damage
+										Slightly increases length of invincibility after taking damage
+										Increases the knockback you receive
+										Release an explosions when damaged
+										Immune to enemy knockback & enemies are more likely to target you
+										Damage taken reduced by 10%
+										Every 3 seconds, taking damage will unleash a volatile explosion all around you
+										Explosion damage scales with your defense
+										'''
+									NewString:
+										'''
+										50 base damage
+										Slightly increases length of invincibility after taking damage
+										Increases the knockback you receive
+										Release an explosions when damaged
+										Immune to enemy knockback & enemies are more likely to target you
+										Damage taken reduced by 10%
+										Every 3 seconds, taking damage will unleash a volatile explosion all around you
+										Explosion damage scales with your defense
+										'''
+								}
+							}
+
+							UpdateAccessory: {
+								1: {
+									OldString: ThoriumMod
+									NewString: ThoriumMod
+								}
+
+								2: {
+									OldString: BlastShield
+									NewString: BlastShield
+								}
+
+								3: {
+									OldString: ContinentOfJourney
+									NewString: ContinentOfJourney
+								}
+
+								4: {
+									OldString: Negashield
+									NewString: Negashield
+								}
+							}
+
+							AddRecipes: {
+								1: {
+									OldString: ContinentOfJourney
+									NewString: ContinentOfJourney
+								}
+
+								2: {
+									OldString: ThoriumMod
+									NewString: ThoriumMod
+								}
+
+								3: {
+									OldString: Negashield
+									NewString: Negashield
+								}
+
+								4: {
+									OldString: DeepBar
+									NewString: DeepBar
+								}
+
+								5: {
+									OldString: BlastShield
+									NewString: BlastShield
+								}
+							}
+						}
+
 						HerbalistPouch: {
+							ModifyTooltips: {
+								1: {
+									OldString: HerbalistPouch1
+									NewString: HerbalistPouch1
+								}
+
+								2: {
+									OldString:
+										'''
+										While equipped, your yoyo damage inflicts frostburn and venom and has a chance to freeze enemies
+										Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
+										This effect must recharge for 15 seconds after protecting you
+										'''
+									NewString:
+										'''
+										While equipped, your yoyo damage inflicts frostburn and venom and has a chance to freeze enemies
+										Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
+										This effect must recharge for 15 seconds after protecting you
+										'''
+								}
+
+								3: {
+									OldString: HerbalistPouch2
+									NewString: HerbalistPouch2
+								}
+
+								4: {
+									OldString:
+										'''
+										Hitting enemies with yoyos charge a leaf shield
+										The shield is fully charged in 10 hits
+										The shield decreases up to 21% of the next damage you take
+										The shield is launched when retrieving the yoyo
+										'''
+									NewString:
+										'''
+										Hitting enemies with yoyos charge a leaf shield
+										The shield is fully charged in 10 hits
+										The shield decreases up to 21% of the next damage you take
+										The shield is launched when retrieving the yoyo
+										'''
+								}
+							}
+
 							UpdateAccessory: {
 								1: {
 									OldString: ThoriumMod
@@ -4986,50 +5472,6 @@ Mods: {
 								6: {
 									OldString: LivingShard
 									NewString: LivingShard
-								}
-							}
-
-							ModifyTooltips: {
-								4: {
-									NewString:
-										'''
-										Hitting enemies with yoyos charge a leaf shield
-										The shield is fully charged in 10 hits
-										The shield decreases up to 21% of the next damage you take
-										The shield is launched when retrieving the yoyo
-										'''
-									OldString:
-										'''
-										Hitting enemies with yoyos charge a leaf shield
-										The shield is fully charged in 10 hits
-										The shield decreases up to 21% of the next damage you take
-										The shield is launched when retrieving the yoyo
-										'''
-								}
-
-								3: {
-									NewString: HerbalistPouch2
-									OldString: HerbalistPouch2
-								}
-
-								2: {
-									NewString:
-										'''
-										While equipped, your yoyo damage inflicts frostburn and venom and has a chance to freeze enemies
-										Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
-										This effect must recharge for 15 seconds after protecting you
-										'''
-									OldString:
-										'''
-										While equipped, your yoyo damage inflicts frostburn and venom and has a chance to freeze enemies
-										Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
-										This effect must recharge for 15 seconds after protecting you
-										'''
-								}
-
-								1: {
-									NewString: HerbalistPouch1
-									OldString: HerbalistPouch1
 								}
 							}
 						}
@@ -5867,6 +6309,447 @@ Mods: {
 						3: {
 							OldString: EssenceofMatter
 							NewString: EssenceofMatter
+						}
+					}
+				}
+
+				VampiricTalismanTrinityPatch: {
+					AppliesToEntity: {
+						1: {
+							OldString: CalamityMod
+							NewString: CalamityMod
+						}
+
+						2: {
+							OldString: VampiricTalisman
+							NewString: VampiricTalisman
+						}
+					}
+
+					AddTrinityTooltip: {
+						1: {
+							OldString: "[i:"
+							NewString: "[i:"
+						}
+
+						2: {
+							OldString: "] "
+							NewString: "] "
+						}
+
+						3: {
+							OldString: HomewardRagnarokTrinity
+							NewString: HomewardRagnarokTrinity
+						}
+
+						4: {
+							OldString:
+								'''
+								A ring will rotate around you
+
+								'''
+							NewString:
+								'''
+								A ring will rotate around you
+
+								'''
+						}
+
+						5: {
+							OldString:
+								'''
+								A ring will stay at a distance from you
+
+								'''
+							NewString:
+								'''
+								A ring will stay at a distance from you
+
+								'''
+						}
+
+						6: {
+							OldString:
+								'''
+								A ring will stay between you and the enemy with the lowest health
+
+								'''
+							NewString:
+								'''
+								A ring will stay between you and the enemy with the lowest health
+
+								'''
+						}
+
+						7: {
+							OldString: Consumable ranged weapons passing through the ring gain 30% more damage
+							NewString: Consumable ranged weapons passing through the ring gain 30% more damage
+						}
+					}
+				}
+
+				DraculasCharmTrinityPatch: {
+					AppliesToEntity: {
+						1: {
+							OldString: Clamity
+							NewString: Clamity
+						}
+
+						2: {
+							OldString: DraculasCharm
+							NewString: DraculasCharm
+						}
+					}
+
+					ModifyTooltips: {
+						1: {
+							OldString: "[i:"
+							NewString: "[i:"
+						}
+
+						2: {
+							OldString: "] "
+							NewString: "] "
+						}
+
+						3: {
+							OldString: HomewardRagnarokTrinity
+							NewString: HomewardRagnarokTrinity
+						}
+
+						4: {
+							OldString:
+								'''
+								A ring will rotate around you
+
+								'''
+							NewString:
+								'''
+								A ring will rotate around you
+
+								'''
+						}
+
+						5: {
+							OldString:
+								'''
+								A ring will stay at a distance from you
+
+								'''
+							NewString:
+								'''
+								A ring will stay at a distance from you
+
+								'''
+						}
+
+						6: {
+							OldString:
+								'''
+								A ring will stay between you and the enemy with the lowest health
+
+								'''
+							NewString:
+								'''
+								A ring will stay between you and the enemy with the lowest health
+
+								'''
+						}
+
+						7: {
+							OldString: Consumable ranged weapons passing through the ring gain 30% more damage
+							NewString: Consumable ranged weapons passing through the ring gain 30% more damage
+						}
+					}
+				}
+
+				VagabondSoulTrinityPatch: {
+					AppliesToEntity: {
+						1: {
+							OldString: FargowiltasCrossmod
+							NewString: FargowiltasCrossmod
+						}
+
+						2: {
+							OldString: VagabondsSoul
+							NewString: VagabondsSoul
+						}
+					}
+
+					ModifyTooltips: {
+						1: {
+							OldString: "[i:"
+							NewString: "[i:"
+						}
+
+						2: {
+							OldString: "] "
+							NewString: "] "
+						}
+
+						3: {
+							OldString: HomewardRagnarokTrinity
+							NewString: HomewardRagnarokTrinity
+						}
+
+						4: {
+							OldString:
+								'''
+								A ring will rotate around you
+
+								'''
+							NewString:
+								'''
+								A ring will rotate around you
+
+								'''
+						}
+
+						5: {
+							OldString:
+								'''
+								A ring will stay at a distance from you
+
+								'''
+							NewString:
+								'''
+								A ring will stay at a distance from you
+
+								'''
+						}
+
+						6: {
+							OldString:
+								'''
+								A ring will stay between you and the enemy with the lowest health
+
+								'''
+							NewString:
+								'''
+								A ring will stay between you and the enemy with the lowest health
+
+								'''
+						}
+
+						7: {
+							OldString: Consumable ranged weapons passing through the ring gain 30% more damage
+							NewString: Consumable ranged weapons passing through the ring gain 30% more damage
+						}
+					}
+				}
+
+				FargoSoulsTrinityPatch: {
+					AppliesToEntity: {
+						1: {
+							OldString: FargowiltasSouls
+							NewString: FargowiltasSouls
+						}
+
+						2: {
+							OldString: UniverseSoul
+							NewString: UniverseSoul
+						}
+
+						3: {
+							OldString: EternitySoul
+							NewString: EternitySoul
+						}
+					}
+				}
+
+				VampiricTalismanRecipePatch: {
+					PostAddRecipes: {
+						1: {
+							OldString: CalamityMod
+							NewString: CalamityMod
+						}
+
+						2: {
+							OldString: VampiricTalisman
+							NewString: VampiricTalisman
+						}
+					}
+				}
+
+				ColossusSoulRecipePatch: {
+					PostAddRecipes: {
+						1: {
+							OldString: FargowiltasSouls
+							NewString: FargowiltasSouls
+						}
+
+						2: {
+							OldString: ContinentOfJourney
+							NewString: ContinentOfJourney
+						}
+
+						3: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
+
+						4: {
+							OldString: ColossusSoul
+							NewString: ColossusSoul
+						}
+
+						5: {
+							OldString: AncientBlessing
+							NewString: AncientBlessing
+						}
+
+						6: {
+							OldString: BlastShield
+							NewString: BlastShield
+						}
+					}
+				}
+
+				ArmorRecipePatch: {
+					PostAddRecipes: {
+						1: {
+							OldString: ContinentOfJourney
+							NewString: ContinentOfJourney
+						}
+
+						2: {
+							OldString: CalamityMod
+							NewString: CalamityMod
+						}
+
+						3: {
+							OldString: BiologicalHelmet
+							NewString: BiologicalHelmet
+						}
+
+						4: {
+							OldString: BiologicalBreastplate
+							NewString: BiologicalBreastplate
+						}
+
+						5: {
+							OldString: BiologicalLeggings
+							NewString: BiologicalLeggings
+						}
+
+						6: {
+							OldString: GodSlayerHeadMelee
+							NewString: GodSlayerHeadMelee
+						}
+
+						7: {
+							OldString: GodSlayerChestplate
+							NewString: GodSlayerChestplate
+						}
+
+						8: {
+							OldString: GodSlayerLeggings
+							NewString: GodSlayerLeggings
+						}
+					}
+				}
+
+				BalanceTweaksProj: {
+					AppliesToEntity: {
+						1: {
+							OldString: ContinentOfJourney
+							NewString: ContinentOfJourney
+						}
+
+						2: {
+							OldString: ProjCactusBall_1
+							NewString: ProjCactusBall_1
+						}
+
+						3: {
+							OldString: ProjCactusBall_2
+							NewString: ProjCactusBall_2
+						}
+					}
+				}
+
+				CoJCalamityRecipePatches: {
+					PostAddRecipes: {
+						1: {
+							OldString: ContinentOfJourney
+							NewString: ContinentOfJourney
+						}
+
+						2: {
+							OldString: CalamityMod
+							NewString: CalamityMod
+						}
+
+						3: {
+							OldString: Clamity
+							NewString: Clamity
+						}
+
+						4: {
+							OldString: ClottedStaff
+							NewString: ClottedStaff
+						}
+
+						5: {
+							OldString: OrganicStaff
+							NewString: OrganicStaff
+						}
+
+						6: {
+							OldString: Vein
+							NewString: Vein
+						}
+
+						7: {
+							OldString: PlantationStaff
+							NewString: PlantationStaff
+						}
+
+						8: {
+							OldString: ElementalAxe
+							NewString: ElementalAxe
+						}
+
+						9: {
+							OldString: VeinBurster
+							NewString: VeinBurster
+						}
+
+						10: {
+							OldString: PerfectDark
+							NewString: PerfectDark
+						}
+
+						11: {
+							OldString: PlanterrorStaff
+							NewString: PlanterrorStaff
+						}
+					}
+				}
+
+				VampiricTalismanTrinityPatch+<>c: {
+					<AddTrinityTooltip>b__3_0: {
+						1: {
+							OldString: HomewardRagnarokTrinity
+							NewString: HomewardRagnarokTrinity
+						}
+					}
+				}
+
+				DraculasCharmTrinityPatch+<>c: {
+					<ModifyTooltips>b__2_0: {
+						1: {
+							OldString: HomewardRagnarokTrinity
+							NewString: HomewardRagnarokTrinity
+						}
+					}
+				}
+
+				VagabondSoulTrinityPatch+<>c: {
+					<ModifyTooltips>b__2_0: {
+						1: {
+							OldString: HomewardRagnarokTrinity
+							NewString: HomewardRagnarokTrinity
 						}
 					}
 				}

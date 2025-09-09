@@ -839,6 +839,16 @@ Mods: {
 							// OldString: Shoreline
 							// NewString: Shoreline
 						}
+
+						26: {
+							// OldString: ChlorophyteKnife
+							// NewString: ChlorophyteKnife
+						}
+
+						27: {
+							// OldString: LeadKnife
+							// NewString: LeadKnife
+						}
 					}
 
 					SetDefaults: {
@@ -864,6 +874,70 @@ Mods: {
 						2: {
 							// OldString: LaserSniperRifle
 							// NewString: LaserSniperRifle
+						}
+
+						3: {
+							// OldString: ToothOfCthulhu
+							// NewString: ToothOfCthulhu
+						}
+
+						4: {
+							// OldString: ItemCactusBall
+							// NewString: ItemCactusBall
+						}
+
+						5: {
+							// OldString: Vein
+							// NewString: Vein
+						}
+
+						6: {
+							// OldString: Backstabber
+							// NewString: Backstabber
+						}
+
+						7: {
+							// OldString: Bloodthirst
+							// NewString: Bloodthirst
+						}
+
+						8: {
+							// OldString: ConniversKunai
+							// NewString: ConniversKunai
+						}
+					}
+
+					SetDefaults: {
+						1: {
+							// OldString: ContinentOfJourney
+							// NewString: ContinentOfJourney
+						}
+
+						2: {
+							// OldString: Backstabber
+							// NewString: Backstabber
+						}
+
+						3: {
+							// OldString: Bloodthirst
+							// NewString: Bloodthirst
+						}
+
+						4: {
+							// OldString: ConniversKunai
+							// NewString: ConniversKunai
+						}
+					}
+
+					ModifyTooltips: {
+						1: {
+							// OldString: PoisonEffect
+							// NewString: PoisonEffect
+						}
+
+						2: {
+							// OldString: Inflicts Poison
+							// NewString: Inflicts Poison
 						}
 					}
 				}
@@ -1114,6 +1188,223 @@ Mods: {
 							2: {
 								// OldString: SubspaceBoosters
 								// NewString: SubspaceBoosters
+							}
+						}
+					}
+
+					TrinityCompatPlayer: {
+						PostUpdate: {
+							1: {
+								// OldString: ContinentOfJourney
+								// NewString: ContinentOfJourney
+							}
+						}
+					}
+
+					TrinityCompatGlobalProjectile: {
+						AI: {
+							1: {
+								// OldString: ContinentOfJourney
+								// NewString: ContinentOfJourney
+							}
+						}
+
+						IsRogueOrThrower: {
+							1: {
+								// OldString: CalamityMod
+								// NewString: CalamityMod
+							}
+
+							2: {
+								// OldString: ThrowingDamageClass
+								// NewString: ThrowingDamageClass
+							}
+
+							3: {
+								// OldString: ThrowerUnification
+								// NewString: ThrowerUnification
+							}
+
+							4: {
+								// OldString: UnitedModdedThrower
+								// NewString: UnitedModdedThrower
+							}
+						}
+					}
+
+					TrinityTooltipFix: {
+						ModifyTooltips: {
+							1: {
+								// OldString: ContinentOfJourney
+								// NewString: ContinentOfJourney
+							}
+
+							2: {
+								// OldString: Epsilon
+								// NewString: Epsilon
+							}
+
+							3: {
+								// OldString: 70%
+								NewString: 70%
+							}
+
+							4: {
+								// OldString: 30%
+								NewString: 30%
+							}
+
+							5: {
+								// OldString: Consumable ranged
+								NewString: 投掷
+							}
+
+							6: {
+								// OldString: Thrower
+								NewString: 投掷
+							}
+
+							7: {
+								// OldString: Alpha
+								// NewString: Alpha
+							}
+
+							8: {
+								// OldString: Omega
+								// NewString: Omega
+							}
+
+							9: {
+								// OldString: 20%
+								NewString: 20%
+							}
+
+							10: {
+								// OldString: TheHolyTrinity
+								// NewString: TheHolyTrinity
+							}
+
+							11: {
+								// OldString: FatherAndSon
+								// NewString: FatherAndSon
+							}
+						}
+					}
+
+					PotionBuffs: {
+						ModifyTooltips: {
+							1: {
+								// OldString: UltraHealingPotionBuff
+								// NewString: UltraHealingPotionBuff
+							}
+
+							2: {
+								// OldString: Restores 350 life
+								NewString: 恢复350生命值
+							}
+
+							3: {
+								// OldString: UltraManaPotionBuff
+								// NewString: UltraManaPotionBuff
+							}
+
+							4: {
+								// OldString: Restores 450 mana
+								NewString: 恢复450魔力
+							}
+						}
+					}
+
+					AltitudePatch: {
+						UpdateAccessory: {
+							1: {
+								// OldString: CalamityMod
+								// NewString: CalamityMod
+							}
+
+							2: {
+								// OldString: WingsofRebirth
+								// NewString: WingsofRebirth
+							}
+						}
+
+						AddRecipes: {
+							1: {
+								// OldString: CalamityMod
+								// NewString: CalamityMod
+							}
+
+							2: {
+								// OldString: WingsofRebirth
+								// NewString: WingsofRebirth
+							}
+						}
+					}
+
+					CommandersGauntletPatch: {
+						AppliesToEntity: {
+							1: {
+								// OldString: ContinentOfJourney
+								// NewString: ContinentOfJourney
+							}
+
+							2: {
+								// OldString: CommandersGaunlet
+								// NewString: CommandersGaunlet
+							}
+						}
+
+						ModifyTooltips: {
+							1: {
+								// OldString: melee speed
+								NewString: 近战攻击速度
+							}
+
+							2: {
+								// OldString: whip speed
+								NewString: 鞭子挥舞速度
+							}
+						}
+					}
+
+					GrayRookPatch: {
+						ModifyTooltips: {
+							1: {
+								// OldString: melee speed
+								NewString: 近战攻速
+							}
+
+							2: {
+								// OldString: Increase your melee speed by 2% and
+								NewString: 提高2%近战攻速与
+							}
+
+							3: {
+								// OldString: Increase your
+								NewString: 提高
+							}
+						}
+					}
+
+					PotionBuffs+<>c: {
+						<ModifyTooltips>b__2_0: {
+							1: {
+								// OldString: Restores 300 life
+								NewString: 恢复300生命值
+							}
+						}
+
+						<ModifyTooltips>b__2_1: {
+							1: {
+								// OldString: Restores 320 mana
+								NewString: 恢复320魔力
+							}
+						}
+
+						<ModifyTooltips>b__2_2: {
+							1: {
+								// OldString: Restores 450
+								NewString: 恢复450魔力
 							}
 						}
 					}
@@ -2195,6 +2486,26 @@ Mods: {
 							// OldString: TungstenEnchant
 							// NewString: TungstenEnchant
 						}
+
+						33: {
+							// OldString: ChlorophyteKnife
+							// NewString: ChlorophyteKnife
+						}
+
+						34: {
+							// OldString: ChlorophyteEnchant
+							// NewString: ChlorophyteEnchant
+						}
+
+						35: {
+							// OldString: LeadKnife
+							// NewString: LeadKnife
+						}
+
+						36: {
+							// OldString: LeadEnchant
+							// NewString: LeadEnchant
+						}
 					}
 				}
 
@@ -2898,7 +3209,7 @@ Mods: {
 
 						8: {
 							// OldString: Immunity to Divine Fire
-							NewString: 免疫圣火
+							NewString: 免疫[C/FFF25B:圣火]减益
 						}
 					}
 
@@ -4934,7 +5245,171 @@ Mods: {
 							}
 						}
 
+						BabyOil: {
+							ModifyTooltips: {
+								1: {
+									// OldString: BabyOil1
+									// NewString: BabyOil1
+								}
+
+								2: {
+									// OldString: When damaged cause 3-5 droplets of oil to drop out from you
+									NewString: 受伤时，会从你身上滴落3-5滴油滴
+								}
+
+								3: {
+									// OldString: BabyOil2
+									// NewString: BabyOil2
+								}
+
+								4: {
+									// OldString: Droplets do damage to enemies
+									NewString: 液滴会对敌人造成伤害
+								}
+
+								5: {
+									// OldString: BabyOilFancy
+									// NewString: BabyOilFancy
+								}
+
+								6: {
+									// OldString: - Contributor Item -
+									NewString: - 捐赠者物品 -
+								}
+							}
+
+							PreDrawTooltipLine: {
+								1: {
+									// OldString: BabyOilFancy
+									// NewString: BabyOilFancy
+								}
+							}
+						}
+
+						NegablastShield: {
+							get_Texture: {
+								1: {
+									// OldString: HomewardRagnarok/Items/Accessories/NegablastShield
+									// NewString: HomewardRagnarok/Items/Accessories/NegablastShield
+								}
+							}
+
+							ModifyTooltips: {
+								1: {
+									// OldString: NegablastShield
+									// NewString: NegablastShield
+								}
+
+								2: {
+									/* OldString:
+										'''
+										50 base damage
+										Slightly increases length of invincibility after taking damage
+										Increases the knockback you receive
+										Release an explosions when damaged
+										Immune to enemy knockback & enemies are more likely to target you
+										Damage taken reduced by 10%
+										Every 3 seconds, taking damage will unleash a volatile explosion all around you
+										Explosion damage scales with your defense
+										''' */
+									NewString:
+										'''
+										50基础伤害
+										[i:ContinentOfJourney/Negashield] 轻微延长受伤后的无敌状态时间
+										增加你受到的击退
+										受伤时释放爆炸
+										[i:ThoriumMod/BlastShield] 免疫敌怪击退且敌怪更有可能攻击你
+										所受伤害降低10%
+										每3秒，受到伤害会在你周围释放一场不稳定的爆炸
+										爆炸伤害受你的防御影响
+										'''
+								}
+							}
+
+							UpdateAccessory: {
+								1: {
+									// OldString: ThoriumMod
+									// NewString: ThoriumMod
+								}
+
+								2: {
+									// OldString: BlastShield
+									// NewString: BlastShield
+								}
+
+								3: {
+									// OldString: ContinentOfJourney
+									// NewString: ContinentOfJourney
+								}
+
+								4: {
+									// OldString: Negashield
+									// NewString: Negashield
+								}
+							}
+
+							AddRecipes: {
+								1: {
+									// OldString: ContinentOfJourney
+									// NewString: ContinentOfJourney
+								}
+
+								2: {
+									// OldString: ThoriumMod
+									// NewString: ThoriumMod
+								}
+
+								3: {
+									// OldString: Negashield
+									// NewString: Negashield
+								}
+
+								4: {
+									// OldString: DeepBar
+									// NewString: DeepBar
+								}
+
+								5: {
+									// OldString: BlastShield
+									// NewString: BlastShield
+								}
+							}
+						}
+
 						HerbalistPouch: {
+							ModifyTooltips: {
+								1: {
+									// OldString: HerbalistPouch1
+									// NewString: HerbalistPouch1
+								}
+
+								2: {
+									/* OldString:
+										'''
+										While equipped, your yoyo damage inflicts frostburn and venom and has a chance to freeze enemies
+										Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
+										This effect must recharge for 15 seconds after protecting you
+										''' */
+									NewString: ""
+								}
+
+								3: {
+									// OldString: HerbalistPouch2
+									// NewString: HerbalistPouch2
+								}
+
+								4: {
+									/* OldString:
+										'''
+										Hitting enemies with yoyos charge a leaf shield
+										The shield is fully charged in 10 hits
+										The shield decreases up to 21% of the next damage you take
+										The shield is launched when retrieving the yoyo
+										''' */
+									NewString: ""
+								}
+							}
+
 							UpdateAccessory: {
 								1: {
 									// OldString: ThoriumMod
@@ -4986,50 +5461,6 @@ Mods: {
 								6: {
 									// OldString: LivingShard
 									// NewString: LivingShard
-								}
-							}
-
-							ModifyTooltips: {
-								4: {
-									NewString:
-										'''
-										悠悠球击中敌人为叶子护盾充能
-										击中10次时护盾完全充能
-										护盾为下一次承受的伤害提供至多21%伤害减免
-										收回悠悠球时发射护盾
-										'''
-									/* OldString:
-										'''
-										Hitting enemies with yoyos charge a leaf shield
-										The shield is fully charged in 10 hits
-										The shield decreases up to 21% of the next damage you take
-										The shield is launched when retrieving the yoyo
-										''' */
-								}
-
-								3: {
-									// NewString: HerbalistPouch2
-									// OldString: HerbalistPouch2
-								}
-
-								2: {
-									NewString:
-										'''
-										装备时，悠悠球攻击施加[C/1CC6F4:霜冻]和[C/7B4783:酸性毒液]并有概率冻结敌怪
-										用悠悠球攻击敌怪使你获得10%伤害减免，直到受到伤害为止
-										此效果在保护你后必须花15秒重新充能
-										'''
-									/* OldString:
-										'''
-										While equipped, your yoyo damage inflicts frostburn and venom and has a chance to freeze enemies
-										Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
-										This effect must recharge for 15 seconds after protecting you
-										''' */
-								}
-
-								1: {
-									// NewString: HerbalistPouch1
-									// OldString: HerbalistPouch1
 								}
 							}
 						}
@@ -5251,17 +5682,17 @@ Mods: {
 					<ModifyTooltips>b__1_0: {
 						1: {
 							// OldString: Heals the most damaged teammate
-							// NewString: Heals the most damaged teammate
+							NewString: 生命值最少的队友
 						}
 
 						2: {
 							// OldString: upon every 7 magic attacks
-							// NewString: upon every 7 magic attacks
+							NewString: 点生命值
 						}
 
 						3: {
 							// OldString: 22% decreased magic damage
-							// NewString: 22% decreased magic damage
+							NewString: 魔法伤害减少
 						}
 					}
 				}
@@ -5270,17 +5701,17 @@ Mods: {
 					<ModifyTooltips>b__1_0: {
 						1: {
 							// OldString: Heals the most damaged teammate
-							// NewString: Heals the most damaged teammate
+							NewString: 生命值最少的队友
 						}
 
 						2: {
 							// OldString: upon every 4 magic attacks
-							// NewString: upon every 4 magic attacks
+							NewString: 点生命值
 						}
 
 						3: {
 							// OldString: 20% decreased magic damage
-							// NewString: 20% decreased magic damage
+							NewString: 魔法伤害减少
 						}
 					}
 				}
@@ -5289,17 +5720,17 @@ Mods: {
 					<ModifyTooltips>b__1_0: {
 						1: {
 							// OldString: 10% decreased magic damage
-							// NewString: 10% decreased magic damage
+							NewString: 魔法伤害减少
 						}
 
 						2: {
 							// OldString: Heals the most damaged teammate
-							// NewString: Heals the most damaged teammate
+							NewString: 生命值最少的队友
 						}
 
 						3: {
 							// OldString: upon every 10 magic attacks
-							// NewString: upon every 10 magic attacks
+							NewString: 点生命值
 						}
 					}
 				}
@@ -5308,17 +5739,17 @@ Mods: {
 					<ModifyTooltips>b__1_0: {
 						1: {
 							// OldString: Heals the most damaged teammate
-							// NewString: Heals the most damaged teammate
+							NewString: 生命值最少的队友
 						}
 
 						2: {
 							// OldString: upon every 7 magic attacks
-							// NewString: upon every 7 magic attacks
+							NewString: 点生命值
 						}
 
 						3: {
 							// OldString: 15% decreased magic damage
-							// NewString: 15% decreased magic damage
+							NewString: 魔法伤害减少
 						}
 					}
 				}
@@ -5327,17 +5758,17 @@ Mods: {
 					<ModifyTooltips>b__1_0: {
 						1: {
 							// OldString: Heals the most damaged teammate
-							// NewString: Heals the most damaged teammate
+							NewString: 生命值最少的队友
 						}
 
 						2: {
 							// OldString: upon every 7 magic attacks
-							// NewString: upon every 7 magic attacks
+							NewString: 点生命值
 						}
 
 						3: {
 							// OldString: 14% decreased magic damage
-							// NewString: 14% decreased magic damage
+							NewString: 魔法伤害减少
 						}
 					}
 				}
@@ -5346,17 +5777,17 @@ Mods: {
 					<ModifyTooltips>b__1_0: {
 						1: {
 							// OldString: 20% decreased magic damage
-							// NewString: 20% decreased magic damage
+							NewString: 魔法伤害减少
 						}
 
 						2: {
 							// OldString: Grants regeneration
-							// NewString: Grants regeneration
+							NewString: 生命值最少
 						}
 
 						3: {
 							// OldString: upon every 5 magic attacks
-							// NewString: upon every 5 magic attacks
+							NewString: 提供生命回复
 						}
 					}
 				}
@@ -5365,17 +5796,17 @@ Mods: {
 					<ModifyTooltips>b__1_0: {
 						1: {
 							// OldString: Heals the most damaged teammate
-							// NewString: Heals the most damaged teammate
+							NewString: 生命值最少的队友
 						}
 
 						2: {
 							// OldString: upon every 8 magic attacks
-							// NewString: upon every 8 magic attacks
+							NewString: 点生命值
 						}
 
 						3: {
 							// OldString: 8% decreased magic damage
-							// NewString: 8% decreased magic damage
+							NewString: 魔法伤害减少
 						}
 					}
 				}
@@ -5384,17 +5815,17 @@ Mods: {
 					<ModifyTooltips>b__1_0: {
 						1: {
 							// OldString: Heals the most damaged teammate
-							// NewString: Heals the most damaged teammate
+							NewString: 生命值最少的队友
 						}
 
 						2: {
 							// OldString: upon every 6 magic attacks
-							// NewString: upon every 6 magic attacks
+							NewString: 点生命值
 						}
 
 						3: {
 							// OldString: 7% decreased magic damage
-							// NewString: 7% decreased magic damage
+							NewString: 魔法伤害减少
 						}
 					}
 				}
@@ -5403,22 +5834,22 @@ Mods: {
 					<ModifyTooltips>b__1_0: {
 						1: {
 							// OldString: Heals the most damaged teammate
-							// NewString: Heals the most damaged teammate
+							NewString: 生命值最少的队友
 						}
 
 						2: {
 							// OldString: upon every 5 magic attacks
-							// NewString: upon every 5 magic attacks
+							NewString: 点生命值
 						}
 
 						3: {
 							// OldString: Immunity to Divine Fire
-							// NewString: Immunity to Divine Fire
+							NewString: 对圣火免疫
 						}
 
 						4: {
 							// OldString: 30% decreased magic damage
-							// NewString: 30% decreased magic damage
+							NewString: 魔法伤害减少
 						}
 					}
 				}
@@ -5427,17 +5858,17 @@ Mods: {
 					<ModifyTooltips>b__1_0: {
 						1: {
 							// OldString: Heals the most damaged teammate
-							// NewString: Heals the most damaged teammate
+							NewString: 生命值最少的队友
 						}
 
 						2: {
 							// OldString: upon every 8 magic attacks
-							// NewString: upon every 8 magic attacks
+							NewString: 点生命值
 						}
 
 						3: {
 							// OldString: 5% decreased magic damage
-							// NewString: 5% decreased magic damage
+							NewString: 魔法伤害减少
 						}
 					}
 				}
@@ -5867,6 +6298,447 @@ Mods: {
 						3: {
 							// OldString: EssenceofMatter
 							// NewString: EssenceofMatter
+						}
+					}
+				}
+
+				VampiricTalismanTrinityPatch: {
+					AppliesToEntity: {
+						1: {
+							// OldString: CalamityMod
+							// NewString: CalamityMod
+						}
+
+						2: {
+							// OldString: VampiricTalisman
+							// NewString: VampiricTalisman
+						}
+					}
+
+					AddTrinityTooltip: {
+						1: {
+							// OldString: "[i:"
+							// NewString: "[i:"
+						}
+
+						2: {
+							// OldString: "] "
+							// NewString: "] "
+						}
+
+						3: {
+							// OldString: HomewardRagnarokTrinity
+							// NewString: HomewardRagnarokTrinity
+						}
+
+						4: {
+							/* OldString:
+								'''
+								A ring will rotate around you
+
+								''' */
+							NewString:
+								'''
+								一枚圆环会围绕你旋转
+
+								'''
+						}
+
+						5: {
+							/* OldString:
+								'''
+								A ring will stay at a distance from you
+
+								''' */
+							NewString:
+								'''
+								一枚圆环会与你保持一定位置
+
+								'''
+						}
+
+						6: {
+							/* OldString:
+								'''
+								A ring will stay between you and the enemy with the lowest health
+
+								''' */
+							NewString:
+								'''
+								一枚圆环会保持在你与附近生命值最低的敌人之间
+
+								'''
+						}
+
+						7: {
+							// OldString: Consumable ranged weapons passing through the ring gain 30% more damage
+							NewString: 途径圆环的投掷武器获得30%额外伤害
+						}
+					}
+				}
+
+				DraculasCharmTrinityPatch: {
+					AppliesToEntity: {
+						1: {
+							// OldString: Clamity
+							// NewString: Clamity
+						}
+
+						2: {
+							// OldString: DraculasCharm
+							// NewString: DraculasCharm
+						}
+					}
+
+					ModifyTooltips: {
+						1: {
+							// OldString: "[i:"
+							// NewString: "[i:"
+						}
+
+						2: {
+							// OldString: "] "
+							// NewString: "] "
+						}
+
+						3: {
+							// OldString: HomewardRagnarokTrinity
+							// NewString: HomewardRagnarokTrinity
+						}
+
+						4: {
+							/* OldString:
+								'''
+								A ring will rotate around you
+
+								''' */
+							NewString:
+								'''
+								一枚圆环会围绕你旋转
+
+								'''
+						}
+
+						5: {
+							/* OldString:
+								'''
+								A ring will stay at a distance from you
+
+								''' */
+							NewString:
+								'''
+								一枚圆环会与你保持一定位置
+
+								'''
+						}
+
+						6: {
+							/* OldString:
+								'''
+								A ring will stay between you and the enemy with the lowest health
+
+								''' */
+							NewString:
+								'''
+								一枚圆环会保持在你与附近生命值最低的敌人之间
+
+								'''
+						}
+
+						7: {
+							// OldString: Consumable ranged weapons passing through the ring gain 30% more damage
+							NewString: 途径圆环的投掷武器获得30%额外伤害
+						}
+					}
+				}
+
+				VagabondSoulTrinityPatch: {
+					AppliesToEntity: {
+						1: {
+							// OldString: FargowiltasCrossmod
+							// NewString: FargowiltasCrossmod
+						}
+
+						2: {
+							// OldString: VagabondsSoul
+							// NewString: VagabondsSoul
+						}
+					}
+
+					ModifyTooltips: {
+						1: {
+							// OldString: "[i:"
+							// NewString: "[i:"
+						}
+
+						2: {
+							// OldString: "] "
+							// NewString: "] "
+						}
+
+						3: {
+							// OldString: HomewardRagnarokTrinity
+							// NewString: HomewardRagnarokTrinity
+						}
+
+						4: {
+							/* OldString:
+								'''
+								A ring will rotate around you
+
+								''' */
+							NewString:
+								'''
+								一枚圆环会围绕你旋转
+
+								'''
+						}
+
+						5: {
+							/* OldString:
+								'''
+								A ring will stay at a distance from you
+
+								''' */
+							NewString:
+								'''
+								一枚圆环会与你保持一定位置
+
+								'''
+						}
+
+						6: {
+							/* OldString:
+								'''
+								A ring will stay between you and the enemy with the lowest health
+
+								''' */
+							NewString:
+								'''
+								一枚圆环会保持在你与附近生命值最低的敌人之间
+
+								'''
+						}
+
+						7: {
+							// OldString: Consumable ranged weapons passing through the ring gain 30% more damage
+							NewString: 途径圆环的投掷武器获得30%额外伤害
+						}
+					}
+				}
+
+				FargoSoulsTrinityPatch: {
+					AppliesToEntity: {
+						1: {
+							// OldString: FargowiltasSouls
+							// NewString: FargowiltasSouls
+						}
+
+						2: {
+							// OldString: UniverseSoul
+							// NewString: UniverseSoul
+						}
+
+						3: {
+							// OldString: EternitySoul
+							// NewString: EternitySoul
+						}
+					}
+				}
+
+				VampiricTalismanRecipePatch: {
+					PostAddRecipes: {
+						1: {
+							// OldString: CalamityMod
+							// NewString: CalamityMod
+						}
+
+						2: {
+							// OldString: VampiricTalisman
+							// NewString: VampiricTalisman
+						}
+					}
+				}
+
+				ColossusSoulRecipePatch: {
+					PostAddRecipes: {
+						1: {
+							// OldString: FargowiltasSouls
+							// NewString: FargowiltasSouls
+						}
+
+						2: {
+							// OldString: ContinentOfJourney
+							// NewString: ContinentOfJourney
+						}
+
+						3: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
+
+						4: {
+							// OldString: ColossusSoul
+							// NewString: ColossusSoul
+						}
+
+						5: {
+							// OldString: AncientBlessing
+							// NewString: AncientBlessing
+						}
+
+						6: {
+							// OldString: BlastShield
+							// NewString: BlastShield
+						}
+					}
+				}
+
+				ArmorRecipePatch: {
+					PostAddRecipes: {
+						1: {
+							// OldString: ContinentOfJourney
+							// NewString: ContinentOfJourney
+						}
+
+						2: {
+							// OldString: CalamityMod
+							// NewString: CalamityMod
+						}
+
+						3: {
+							// OldString: BiologicalHelmet
+							// NewString: BiologicalHelmet
+						}
+
+						4: {
+							// OldString: BiologicalBreastplate
+							// NewString: BiologicalBreastplate
+						}
+
+						5: {
+							// OldString: BiologicalLeggings
+							// NewString: BiologicalLeggings
+						}
+
+						6: {
+							// OldString: GodSlayerHeadMelee
+							// NewString: GodSlayerHeadMelee
+						}
+
+						7: {
+							// OldString: GodSlayerChestplate
+							// NewString: GodSlayerChestplate
+						}
+
+						8: {
+							// OldString: GodSlayerLeggings
+							// NewString: GodSlayerLeggings
+						}
+					}
+				}
+
+				BalanceTweaksProj: {
+					AppliesToEntity: {
+						1: {
+							// OldString: ContinentOfJourney
+							// NewString: ContinentOfJourney
+						}
+
+						2: {
+							// OldString: ProjCactusBall_1
+							// NewString: ProjCactusBall_1
+						}
+
+						3: {
+							// OldString: ProjCactusBall_2
+							// NewString: ProjCactusBall_2
+						}
+					}
+				}
+
+				CoJCalamityRecipePatches: {
+					PostAddRecipes: {
+						1: {
+							// OldString: ContinentOfJourney
+							// NewString: ContinentOfJourney
+						}
+
+						2: {
+							// OldString: CalamityMod
+							// NewString: CalamityMod
+						}
+
+						3: {
+							// OldString: Clamity
+							// NewString: Clamity
+						}
+
+						4: {
+							// OldString: ClottedStaff
+							// NewString: ClottedStaff
+						}
+
+						5: {
+							// OldString: OrganicStaff
+							// NewString: OrganicStaff
+						}
+
+						6: {
+							// OldString: Vein
+							// NewString: Vein
+						}
+
+						7: {
+							// OldString: PlantationStaff
+							// NewString: PlantationStaff
+						}
+
+						8: {
+							// OldString: ElementalAxe
+							// NewString: ElementalAxe
+						}
+
+						9: {
+							// OldString: VeinBurster
+							// NewString: VeinBurster
+						}
+
+						10: {
+							// OldString: PerfectDark
+							// NewString: PerfectDark
+						}
+
+						11: {
+							// OldString: PlanterrorStaff
+							// NewString: PlanterrorStaff
+						}
+					}
+				}
+
+				VampiricTalismanTrinityPatch+<>c: {
+					<AddTrinityTooltip>b__3_0: {
+						1: {
+							// OldString: HomewardRagnarokTrinity
+							// NewString: HomewardRagnarokTrinity
+						}
+					}
+				}
+
+				DraculasCharmTrinityPatch+<>c: {
+					<ModifyTooltips>b__2_0: {
+						1: {
+							// OldString: HomewardRagnarokTrinity
+							// NewString: HomewardRagnarokTrinity
+						}
+					}
+				}
+
+				VagabondSoulTrinityPatch+<>c: {
+					<ModifyTooltips>b__2_0: {
+						1: {
+							// OldString: HomewardRagnarokTrinity
+							// NewString: HomewardRagnarokTrinity
 						}
 					}
 				}

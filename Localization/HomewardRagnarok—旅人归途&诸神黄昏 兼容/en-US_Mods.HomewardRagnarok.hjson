@@ -103,6 +103,17 @@ Items: {
 		DisplayName: Cryonic Claw
 		Tooltip: ""
 	}
+
+	NegablastShield: {
+		DisplayName: Negablast Shield
+		Tooltip: ""
+	}
+
+	BabyOil: {
+		DisplayName: Baby Oil
+		Tooltip: ""
+	}
 }
 
 Tiles.TimelessFountainTile.MapEntry: Timeless Fountain Tile
+Projectiles.BabyOilDroplet.DisplayName: Baby Oil Droplet
