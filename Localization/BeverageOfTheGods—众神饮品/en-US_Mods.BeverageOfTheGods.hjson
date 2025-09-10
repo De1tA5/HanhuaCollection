@@ -1,0 +1,182 @@
+Items: {
+	Strawberry: {
+		DisplayName: Strawberry
+		Tooltip:
+			'''
+			Minor improvements to all stats
+			'Despite the name, strawberries are neither a straw, nor a berry.'
+			'''
+	}
+
+	Gasoline: {
+		DisplayName: Gasoline
+		Tooltip: "'Who is Jerry, and why is he a can?'"
+	}
+
+	Spices: {
+		DisplayName: Spices
+		Tooltip: "'I wanna really, really, really wanna zigazig ahhhh.'"
+	}
+
+	StrawberryJam: {
+		DisplayName: Strawberry Jam
+		Tooltip:
+			'''
+			Minor improvements to all stats
+			'Or jelly, rather, if you prefer.'
+			'''
+	}
+
+	Pilk: {
+		DisplayName: Pilk
+		Tooltip:
+			'''
+			Medium improvements to all stats
+			Allows you to see nearby danger sources
+			'y'all want a glass of pilk'
+			'''
+	}
+
+	Ramen: {
+		DisplayName: Ramen
+		Tooltip:
+			'''
+			Medium improvements to all stats
+			'The lifeblood of many a college student.'
+			'''
+	}
+
+	Gamen: {
+		DisplayName: Gamen
+		Tooltip:
+			'''
+			Medium improvements to all stats
+			Provides immunity to Chilled and Frozen
+			'You really shouldn't eat this. You probably will anyways.'
+			'''
+	}
+
+	CoughSyrup: {
+		DisplayName: Cough Syrup
+		Tooltip:
+			'''
+			Provides immunity to Poisoned and Acid Venom
+			'A versatile cooking ingredient, used in dishes such as Lean and NyQuil Chicken.'
+			'''
+	}
+
+	Lean: {
+		DisplayName: Lean
+		Tooltip:
+			'''
+			Minor improvements to all stats
+			Provides immunity to Poisoned, Acid Venom, and On Fire!
+			'I LOVE LEANNNNNN!!!!!!'
+			'''
+	}
+
+	Leagamen: {
+		DisplayName: Leagamen
+		Tooltip:
+			'''
+			Major improvements to all stats
+			Ignites nearby enemies
+			Provides immunity to Poisoned, Acid Venom, Chilled, Frozen, and On Fire!
+			'A hellish mixture of drugs, carbs, fuel, soda, and pure hatred for the world and everything in it.'
+			'''
+	}
+
+	Vinegar: {
+		DisplayName: Vinegar
+		Tooltip: "'Stinks almost as much as you do. Have a shower, please.'"
+	}
+
+	TomatoPaste: {
+		DisplayName: Tomato Paste
+		Tooltip:
+			'''
+			Minor improvements to all stats
+			'Contains under 10% glue!'
+			'''
+	}
+
+	BarbequeSauce: {
+		DisplayName: Barbeque Sauce
+		Tooltip:
+			'''
+			Minor improvements to all stats
+			'Go ahead, drink it straight from the bottle. Nobody is here to judge you.'
+			'''
+	}
+
+	Strabeque: {
+		DisplayName: Strabeque
+		Tooltip:
+			'''
+			Medium improvements to all stats
+			Increases pickup range for life hearts
+			'The stench of rotting meat and the consistency of tar. What's not to love?'
+			'''
+	}
+
+	Strabequpilk: {
+		DisplayName: Strabequpilk
+		Tooltip:
+			'''
+			Major improvements to all stats
+			Increases pickup range for life hearts
+			Allows you to see nearby danger sources
+			'This concoction is legally classified as inedible.'
+			'''
+	}
+
+	TheBeverageOfTheGods: {
+		DisplayName: The Beverage Of The Gods
+		Tooltip:
+			'''
+			Major improvements to all stats
+			Increases pickup range for life hearts
+			Allows you to see nearby danger sources
+			Ignites nearby enemies
+			Reduces damage taken by 10%
+			Increase defense by 8
+			Increases damage by 10%
+			Provides immunity to Acid Venom, Bleeding, Broken Armor,
+			Chilled, Cursed, Cursed Inferno, Distorted, Electrified,
+			Frozen, Ichor, Poisoned, Slow, Withered Armor, and On Fire!
+			'This drink is powerful enough to kill a god. Luckily, you are more than a mere god.'
+			'''
+	}
+}
+
+Buffs: {
+	GamenBuff: {
+		DisplayName: Gamen
+		Description: Provides immunity to Chilled and Frozen
+	}
+
+	CoughSyrupBuff: {
+		DisplayName: Cough Syrup
+		Description: Provides immunity to Poisoned and Acid Venom
+	}
+
+	LeanBuff: {
+		DisplayName: Lean
+		Description: Provides immunity to Poisoned, Acid Venom, and On Fire!
+	}
+
+	LeagamenBuff: {
+		DisplayName: Leagamen
+		Description: Provides immunity to Poisoned, Acid Venom, Chilled, Frozen, and On Fire!
+	}
+
+	TheBeverageOfTheGodsBuff: {
+		DisplayName: The Beverage Of The Gods
+		Description:
+			'''
+			Provides immunity to Acid Venom, Bleeding, Broken Armor,
+			Chilled, Cursed, Cursed Inferno, Distorted, Electrified,
+			Frozen, Ichor, Poisoned, Slow, Withered Armor, and On Fire!
+			'''
+	}
+}

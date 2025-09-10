@@ -1,0 +1,194 @@
+Items: {
+	Strawberry: {
+		DisplayName: 草莓
+		Tooltip:
+			'''
+			所有属性小幅提升
+			“尽管名字叫草莓，但既不是稻草也不是浆果”
+			[C/959595:Strawberry = straw + berry]
+			'''
+	}
+
+	Gasoline: {
+		DisplayName: 汽油
+		Tooltip:
+			'''
+			“谁是杰瑞，还有为什么他是个存储罐？”
+			[C/959595:指Jerry Can一种用于运输燃料的金属容器]
+			'''
+	}
+
+	Spices: {
+		DisplayName: 香料
+		Tooltip:
+			'''
+			“我真的想要的是zigazig。”
+			[C/959595:（出自Spice Girls - Wannabe）]
+			'''
+	}
+
+	StrawberryJam: {
+		DisplayName: 草莓酱
+		Tooltip:
+			'''
+			所有属性小幅提升
+			“或者用果冻，如果你更喜欢的话。”
+			'''
+	}
+
+	Pilk: {
+		DisplayName: 脏可乐
+		Tooltip:
+			'''
+			所有属性中幅提升
+			你可以看到附近的危险
+			“你们想来一杯脏可乐吗？”
+			[C/959595:一种将可乐与牛奶混合的饮品]
+			'''
+	}
+
+	Ramen: {
+		DisplayName: 拉面
+		Tooltip:
+			'''
+			所有属性中幅提升
+			“这是许多大学生的命根。”
+			'''
+	}
+
+	Gamen: {
+		DisplayName: 汽油拉面
+		Tooltip:
+			'''
+			所有属性中幅提升
+			使你免疫[C/99D9EA:冷冻]和[C/00A2E8:冰冻]减益
+			“你真的不应该吃这个，当然你可能还是会吃它。”
+			'''
+	}
+
+	CoughSyrup: {
+		DisplayName: 止咳糖浆
+		Tooltip:
+			'''
+			使你免疫[C/65D780:中毒]和[C/7B4783:酸性毒液]减益
+			“一种用途广泛的烹饪原料，用于制作像紫水和瞌睡鸡这样的菜品”
+			'''
+	}
+
+	Lean: {
+		DisplayName: 紫水
+		Tooltip:
+			'''
+			所有属性小幅提升
+			使你免疫[C/65D780:中毒]、[C/7B4783:酸性毒液]和[C/F48801:着火了！]减益
+			“我超爱紫水！！！！！”
+			[C/959595:一种由处方级止咳糖浆与软饮料混合而成的饮品]
+			'''
+	}
+
+	Leagamen: {
+		DisplayName: 紫水汽油拉面
+		Tooltip:
+			'''
+			所有属性大幅提升
+			点燃附近的敌人
+			使你免疫[C/99D9EA:冷冻]、[C/00A2E8:冰冻]、[C/65D780:中毒]、[C/7B4783:酸性毒液]和[C/F48801:着火了！]减益
+			“一种地狱般的混合物，包含药物、碳水化合物、燃料、苏打以及对世界和其中一切事物的纯粹憎恶”
+			[C/959595:不会获得][C/F6224F:耐药性] 
+			'''
+	}
+
+	Vinegar: {
+		DisplayName: 醋
+		Tooltip: “闻起来几乎和你一样臭，请你洗个澡先。”
+	}
+
+	TomatoPaste: {
+		DisplayName: 番茄酱
+		Tooltip:
+			'''
+			所有属性小幅提升
+			“胶水含量低于10%！”
+			'''
+	}
+
+	BarbequeSauce: {
+		DisplayName: 烧烤酱
+		Tooltip:
+			'''
+			所有属性小幅提升
+			“去吧，直接从瓶子里喝。这里没人来评判你。”
+			'''
+	}
+
+	Strabeque: {
+		DisplayName: 草莓烧烤酱
+		Tooltip:
+			'''
+			所有属性中幅提升
+			扩大心的拾取范围
+			“腐肉的恶臭和焦油般的黏稠质地，谁不会爱上这种东西？”
+			'''
+	}
+
+	Strabequpilk: {
+		DisplayName: 草莓烧烤酱脏可乐
+		Tooltip:
+			'''
+			所有属性大幅提升
+			扩大心的拾取范围
+			你可以看到附近的危险
+			“这种混合物在法律上被归类为不可食用。”
+			'''
+	}
+
+	TheBeverageOfTheGods: {
+		DisplayName: 众神饮品
+		Tooltip:
+			'''
+			所有属性大幅提升
+			扩大心的拾取范围
+			你可以看到附近的危险
+			点燃附近的敌人
+			增加10%伤害减免
+			增加8点防御
+			增加10%伤害
+			使你免疫[C/7B4783:酸性毒液]、[C/FF1B05:流血]、[C/737390:破损盔甲]
+			[C/99D9EA:冷冻]、[C/762C01:诅咒]、[C/60F802:诅咒焰]、[C/8238C7:扭曲]、[C/71FBFF:带电]
+			[C/00A2E8:冰冻]、[C/FECA50:灵液]、[C/65D780:中毒]、[C/898989:缓慢]、[C/CC08F8:枯萎盔甲]和[C/F48801:着火了！]
+			“这种饮料足以杀死一个神。幸运的是，你比神明更强。”
+			'''
+	}
+}
+
+Buffs: {
+	GamenBuff: {
+		DisplayName: 汽油拉面
+		Description: 免疫[C/99D9EA:冷冻]和[C/00A2E8:冰冻]减益
+	}
+
+	CoughSyrupBuff: {
+		DisplayName: 止咳糖浆
+		Description: 免疫[C/65D780:中毒]和[C/7B4783:酸性毒液]减益
+	}
+
+	LeanBuff: {
+		DisplayName: 紫水
+		Description: 免疫[C/65D780:中毒]、[C/7B4783:酸性毒液]和[C/F48801:着火了！]减益
+	}
+
+	LeagamenBuff: {
+		DisplayName: 紫水汽油拉面
+		Description: 免疫[C/99D9EA:冷冻]、[C/00A2E8:冰冻]、[C/65D780:中毒]、[C/7B4783:酸性毒液]和[C/F48801:着火了！]减益
+	}
+
+	TheBeverageOfTheGodsBuff: {
+		DisplayName: 众神饮品
+		Description:
+			'''
+			免疫[C/7B4783:酸性毒液]、[C/FF1B05:流血]、[C/737390:破损盔甲]
+			[C/99D9EA:冷冻]、[C/762C01:诅咒]、[C/60F802:诅咒焰]、[C/8238C7:扭曲]、[C/71FBFF:带电]
+			[C/00A2E8:冰冻]、[C/FECA50:灵液]、[C/65D780:中毒]、[C/898989:缓慢]、[C/CC08F8:枯萎盔甲]和[C/F48801:着火了！]
+			'''
+	}
+}
