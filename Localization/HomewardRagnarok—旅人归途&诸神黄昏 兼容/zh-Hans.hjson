@@ -2635,6 +2635,23 @@ Mods: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
 						}
+
+						2: {
+							// NewString: HealerDamage
+							// OldString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						2: {
+							// NewString: HealerDamage
+							// OldString: HealerDamage
+						}
+
+						1: {
+							// NewString: ThoriumMod
+							// OldString: ThoriumMod
+						}
 					}
 				}
 
@@ -2643,6 +2660,11 @@ Mods: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// NewString: HealerDamage
+							// OldString: HealerDamage
 						}
 					}
 				}
@@ -2704,12 +2726,49 @@ Mods: {
 							// OldString: upon every 10 radiant attacks
 							NewString: 每10次光辉攻击触发一次
 						}
+
+						7: {
+							// NewString: ThoriumMod
+							// OldString: ThoriumMod
+						}
+
+						8: {
+							// OldString: +8% increased radiant damage
+							// NewString: +8% increased radiant damage
+						}
+
+						9: {
+							// OldString: BiomatterCrossPatchNoThorium
+							// NewString: BiomatterCrossPatchNoThorium
+						}
+
+						10: {
+							// OldString: (Radiant effects require Thorium)
+							// NewString: (Radiant effects require Thorium)
+						}
 					}
 
 					ModifyHitNPC: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						1: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -2719,6 +2778,11 @@ Mods: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -2780,12 +2844,34 @@ Mods: {
 							// OldString: upon every 10 radiant attacks
 							NewString: 每10次光辉攻击触发一次
 						}
+
+						7: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
 					}
 
 					ModifyHitNPC: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						1: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -2795,6 +2881,11 @@ Mods: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -2856,12 +2947,49 @@ Mods: {
 							// OldString: upon every 6 radiant attacks
 							NewString: 每6次光辉攻击触发一次
 						}
+
+						7: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
+
+						8: {
+							// OldString: upon every 9 radiant attacks
+							// NewString: upon every 9 radiant attacks
+						}
+
+						9: {
+							// OldString: MythrilCrossNoThorium
+							// NewString: MythrilCrossNoThorium
+						}
+
+						10: {
+							// OldString: (Radiant effects require Thorium)
+							// NewString: (Radiant effects require Thorium)
+						}
 					}
 
 					ModifyHitNPC: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						1: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -2871,6 +2999,11 @@ Mods: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -2932,12 +3065,39 @@ Mods: {
 							// OldString: upon every 6 radiant attacks
 							NewString: 每6次光辉攻击触发一次
 						}
+
+						7: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
+
+						8: {
+							// OldString: upon every 9 radiant attacks
+							// NewString: upon every 9 radiant attacks
+						}
 					}
 
 					ModifyHitNPC: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						1: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -2947,6 +3107,11 @@ Mods: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -2982,12 +3147,34 @@ Mods: {
 							// OldString: upon every 10 radiant attacks
 							NewString: 每10次光辉攻击触发一次
 						}
+
+						7: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
 					}
 
 					UpdateAccessory: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
+						}
+					}
+
+					ModifyHitNPC: {
+						1: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -3049,12 +3236,34 @@ Mods: {
 							// OldString: upon every 7 radiant attacks
 							NewString: 每7次光辉攻击触发一次
 						}
+
+						7: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
 					}
 
 					ModifyHitNPC: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						1: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -3064,6 +3273,11 @@ Mods: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -3125,12 +3339,34 @@ Mods: {
 							// OldString: upon every 7 radiant attacks
 							NewString: 每7次光辉攻击触发一次
 						}
+
+						7: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
 					}
 
 					ModifyHitNPC: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						1: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -3140,6 +3376,11 @@ Mods: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -3211,12 +3452,34 @@ Mods: {
 							// OldString: Immunity to Divine Fire
 							NewString: 免疫[C/FFF25B:圣火]减益
 						}
+
+						9: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
 					}
 
 					ModifyHitNPC: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						1: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -3226,6 +3489,11 @@ Mods: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -3287,12 +3555,34 @@ Mods: {
 							// OldString: upon every 8 radiant attacks
 							NewString: 每8次光辉攻击触发一次
 						}
+
+						7: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
 					}
 
 					ModifyHitNPC: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						1: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -3302,6 +3592,11 @@ Mods: {
 						1: {
 							// OldString: ThoriumMod
 							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}
@@ -5390,7 +5685,12 @@ Mods: {
 										Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
 										This effect must recharge for 15 seconds after protecting you
 										''' */
-									NewString: ""
+									NewString:
+										'''
+										[i:ThoriumMod/BlizzardPouch] 装备时，悠悠球攻击施加[C/1CC6F4:霜冻]和[C/7B4783:酸性毒液]并有概率冻结敌怪
+										用悠悠球攻击敌怪使你获得10%伤害减免，直到受到伤害为止
+										此效果在保护你后必须花15秒重新充能
+										'''
 								}
 
 								3: {
@@ -5406,7 +5706,13 @@ Mods: {
 										The shield decreases up to 21% of the next damage you take
 										The shield is launched when retrieving the yoyo
 										''' */
-									NewString: ""
+									NewString:
+										'''
+										[i:ContinentOfJourney/LeafOil] 悠悠球击中敌人为叶子护盾充能
+										击中10次时护盾完全充能
+										护盾为下一次承受的伤害提供至多21%伤害减免
+										收回悠悠球时发射护盾
+										'''
 								}
 							}
 
@@ -6371,7 +6677,7 @@ Mods: {
 						}
 
 						7: {
-							// OldString: Consumable ranged weapons passing through the ring gain 30% more damage
+							// OldString: Thrower weapons passing through the ring gain 30% more damage
 							NewString: 途径圆环的投掷武器获得30%额外伤害
 						}
 					}
@@ -6446,7 +6752,7 @@ Mods: {
 						}
 
 						7: {
-							// OldString: Consumable ranged weapons passing through the ring gain 30% more damage
+							// OldString: Thrower weapons passing through the ring gain 30% more damage
 							NewString: 途径圆环的投掷武器获得30%额外伤害
 						}
 					}
@@ -6521,7 +6827,7 @@ Mods: {
 						}
 
 						7: {
-							// OldString: Consumable ranged weapons passing through the ring gain 30% more damage
+							// OldString: Thrower weapons passing through the ring gain 30% more damage
 							NewString: 途径圆环的投掷武器获得30%额外伤害
 						}
 					}
@@ -6739,6 +7045,20 @@ Mods: {
 						1: {
 							// OldString: HomewardRagnarokTrinity
 							// NewString: HomewardRagnarokTrinity
+						}
+					}
+				}
+
+				RejuvenatedCrossProjCounter: {
+					OnHitNPC: {
+						1: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
+
+						2: {
+							// OldString: HealerDamage
+							// NewString: HealerDamage
 						}
 					}
 				}

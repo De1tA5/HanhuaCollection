@@ -2635,6 +2635,23 @@ Mods: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
 						}
+
+						2: {
+							NewString: HealerDamage
+							OldString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						2: {
+							NewString: HealerDamage
+							OldString: HealerDamage
+						}
+
+						1: {
+							NewString: ThoriumMod
+							OldString: ThoriumMod
+						}
 					}
 				}
 
@@ -2643,6 +2660,11 @@ Mods: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							NewString: HealerDamage
+							OldString: HealerDamage
 						}
 					}
 				}
@@ -2704,12 +2726,49 @@ Mods: {
 							OldString: upon every 10 radiant attacks
 							NewString: upon every 10 radiant attacks
 						}
+
+						7: {
+							NewString: ThoriumMod
+							OldString: ThoriumMod
+						}
+
+						8: {
+							OldString: +8% increased radiant damage
+							NewString: +8% increased radiant damage
+						}
+
+						9: {
+							OldString: BiomatterCrossPatchNoThorium
+							NewString: BiomatterCrossPatchNoThorium
+						}
+
+						10: {
+							OldString: (Radiant effects require Thorium)
+							NewString: (Radiant effects require Thorium)
+						}
 					}
 
 					ModifyHitNPC: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						1: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -2719,6 +2778,11 @@ Mods: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -2780,12 +2844,34 @@ Mods: {
 							OldString: upon every 10 radiant attacks
 							NewString: upon every 10 radiant attacks
 						}
+
+						7: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
 					}
 
 					ModifyHitNPC: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						1: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -2795,6 +2881,11 @@ Mods: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -2856,12 +2947,49 @@ Mods: {
 							OldString: upon every 6 radiant attacks
 							NewString: upon every 6 radiant attacks
 						}
+
+						7: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
+
+						8: {
+							OldString: upon every 9 radiant attacks
+							NewString: upon every 9 radiant attacks
+						}
+
+						9: {
+							OldString: MythrilCrossNoThorium
+							NewString: MythrilCrossNoThorium
+						}
+
+						10: {
+							OldString: (Radiant effects require Thorium)
+							NewString: (Radiant effects require Thorium)
+						}
 					}
 
 					ModifyHitNPC: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						1: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -2871,6 +2999,11 @@ Mods: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -2932,12 +3065,39 @@ Mods: {
 							OldString: upon every 6 radiant attacks
 							NewString: upon every 6 radiant attacks
 						}
+
+						7: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
+
+						8: {
+							OldString: upon every 9 radiant attacks
+							NewString: upon every 9 radiant attacks
+						}
 					}
 
 					ModifyHitNPC: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						1: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -2947,6 +3107,11 @@ Mods: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -2982,12 +3147,34 @@ Mods: {
 							OldString: upon every 10 radiant attacks
 							NewString: upon every 10 radiant attacks
 						}
+
+						7: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
 					}
 
 					UpdateAccessory: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
+						}
+					}
+
+					ModifyHitNPC: {
+						1: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -3049,12 +3236,34 @@ Mods: {
 							OldString: upon every 7 radiant attacks
 							NewString: upon every 7 radiant attacks
 						}
+
+						7: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
 					}
 
 					ModifyHitNPC: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						1: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -3064,6 +3273,11 @@ Mods: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -3125,12 +3339,34 @@ Mods: {
 							OldString: upon every 7 radiant attacks
 							NewString: upon every 7 radiant attacks
 						}
+
+						7: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
 					}
 
 					ModifyHitNPC: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						1: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -3140,6 +3376,11 @@ Mods: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -3211,12 +3452,34 @@ Mods: {
 							OldString: Immunity to Divine Fire
 							NewString: Immunity to Divine Fire
 						}
+
+						9: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
 					}
 
 					ModifyHitNPC: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						1: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -3226,6 +3489,11 @@ Mods: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -3287,12 +3555,34 @@ Mods: {
 							OldString: upon every 8 radiant attacks
 							NewString: upon every 8 radiant attacks
 						}
+
+						7: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
 					}
 
 					ModifyHitNPC: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
+						}
+					}
+
+					UpdateAccessory: {
+						1: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -3302,6 +3592,11 @@ Mods: {
 						1: {
 							OldString: ThoriumMod
 							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -6382,8 +6677,8 @@ Mods: {
 						}
 
 						7: {
-							OldString: Consumable ranged weapons passing through the ring gain 30% more damage
-							NewString: Consumable ranged weapons passing through the ring gain 30% more damage
+							OldString: Thrower weapons passing through the ring gain 30% more damage
+							NewString: Thrower weapons passing through the ring gain 30% more damage
 						}
 					}
 				}
@@ -6457,8 +6752,8 @@ Mods: {
 						}
 
 						7: {
-							OldString: Consumable ranged weapons passing through the ring gain 30% more damage
-							NewString: Consumable ranged weapons passing through the ring gain 30% more damage
+							OldString: Thrower weapons passing through the ring gain 30% more damage
+							NewString: Thrower weapons passing through the ring gain 30% more damage
 						}
 					}
 				}
@@ -6532,8 +6827,8 @@ Mods: {
 						}
 
 						7: {
-							OldString: Consumable ranged weapons passing through the ring gain 30% more damage
-							NewString: Consumable ranged weapons passing through the ring gain 30% more damage
+							OldString: Thrower weapons passing through the ring gain 30% more damage
+							NewString: Thrower weapons passing through the ring gain 30% more damage
 						}
 					}
 				}
@@ -6750,6 +7045,20 @@ Mods: {
 						1: {
 							OldString: HomewardRagnarokTrinity
 							NewString: HomewardRagnarokTrinity
+						}
+					}
+				}
+
+				RejuvenatedCrossProjCounter: {
+					OnHitNPC: {
+						1: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
+
+						2: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}

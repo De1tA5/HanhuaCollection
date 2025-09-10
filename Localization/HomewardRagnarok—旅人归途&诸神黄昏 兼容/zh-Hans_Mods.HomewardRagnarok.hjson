@@ -81,17 +81,7 @@ Items: {
 
 	HerbalistPouch: {
 		DisplayName: 药草袋
-		Tooltip:
-			'''
-			[i:ThoriumMod/BlizzardPouch] 装备时，悠悠球攻击施加[C/1CC6F4:霜冻]和[C/7B4783:酸性毒液]并有概率冻结敌怪
-			用悠悠球攻击敌怪使你获得10%伤害减免，直到受到伤害为止
-			此效果在保护你后必须花15秒重新充能
-			[i:ContinentOfJourney/LeafOil] 悠悠球击中敌人为叶子护盾充能
-			击中10次时护盾完全充能
-			护盾为下一次承受的伤害提供至多21%伤害减免
-			收回悠悠球时发射护盾
-			（特殊原因只能这样汉化）
-			'''
+		Tooltip: ""
 	}
 
 	EvilFlask: {
