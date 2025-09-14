@@ -122,22 +122,52 @@ Items: {
 	}
 
 	BronzeAlloy: {
-		DisplayName: Bronze Alloy
+		DisplayName: 青铜合金
 		Tooltip: ""
 	}
 
 	BronzeArrow: {
-		DisplayName: Bronze Arrow
+		DisplayName: 青铜箭
 		Tooltip:
 			'''
-			1.3x critical strike damage multiplier
-			Only deals damage on critical strikes
+			1.3倍暴击伤害
+			只在暴击时产生伤害
 			'''
 	}
 
 	BronzeBow: {
-		DisplayName: Bronze Bow
-		Tooltip: Converts wooden arrows into bronze arrows
+		DisplayName: 青铜弓
+		Tooltip: 将[i:40]木箭 转换为[i:CritRework/BronzeArrow]青铜箭
+	}
+
+	BronzeQuarterstaff: {
+		DisplayName: 青铜长杖
+		Tooltip: 重复暴击时提升攻击速度
+	}
+
+	BronzeBreastplate: {
+		DisplayName: 青铜胸甲
+		Tooltip: 增加7%近战和魔法暴击率
+	}
+
+	BronzeGreaves: {
+		DisplayName: 青铜护胫
+		Tooltip: 增加5%近战和魔法暴击率
+	}
+
+	BronzeHelm: {
+		DisplayName: 青铜头盔
+		Tooltip: 增加5%近战和魔法暴击率
+	}
+
+	BronzeHamaxe: {
+		DisplayName: 青铜锤斧
+		Tooltip: ""
+	}
+
+	BronzePickaxe: {
+		DisplayName: 青铜镐
+		Tooltip: ""
 	}
 }
 
@@ -273,13 +303,15 @@ CritTypes: {
 	Necromantic.Description: 另一位玩家处于死亡状态则造成暴击
 	Soaring.Description: 当你坠落或滑翔至少4秒后造成暴击
 	Starter.Description: 如果你最大生命值低于200则造成暴击
-	WebCovered.Description: 使用钩爪抓住物块过程中超过1秒，或抓住物块则造成暴击
+	WebCovered.Description: 使用钩爪抓住物块过程中超过1秒，或已抓住物块则造成暴击
 	Boomerangs.Description: 回旋镖回归时造成暴击
 	//目前不明
 	Prepared.Description: 在攻击激活5秒后造成暴击
 	Holy.Description: 当你处于无敌帧状态时造成暴击（如受到伤害）
 	CritWithAnother.Description: 其他武器暴击后3秒内该武器造成暴击
-	BronzeBowCrit.Description: Critically strikes if the target is between 15 and 20 tiles away
+	BronzeBowCrit.Description: 当目标距离你15-20个物块之间则造成暴击
+	TenSecondCooldown.Description: 如果你最后一次暴击至少是在10秒前则造成暴击
+	ThreeSecondCooldown.Description: 如果你最后一次暴击至少是在3秒前则造成暴击
 }
 
 UnknownTooltip: 未知暴击情况
@@ -333,4 +365,13 @@ RecipeGroups: {
 	AnySilver: 任意 银锭
 }
 
-Projectiles.BronzeArrowProjectile.DisplayName: Bronze Arrow
+Projectiles: {
+	BronzeArrowProjectile.DisplayName: 青铜箭
+	BronzeQuarterstaffProjectile.DisplayName: 青铜长杖
+}
+
+BronzeHelm.SetBonus:
+	'''
+	近战暴击将汲取魔力
+	恢复魔力时，增加35%近战伤害和近战暴击率
+	'''
