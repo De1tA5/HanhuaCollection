@@ -113,7 +113,38 @@ Items: {
 		DisplayName: Baby Oil
 		Tooltip: ""
 	}
+
+	OtherworldlyScythe: {
+		Tooltip: ""
+		DisplayName: Otherworldly Scythe
+	}
+
+	ScytheOfLife: {
+		Tooltip: ""
+		DisplayName: Scythe Of Life
+	}
+
+	FlowerScythe: {
+		DisplayName: Flower Scythe
+		Tooltip: ""
+	}
 }
 
 Tiles.TimelessFountainTile.MapEntry: Timeless Fountain Tile
-Projectiles.BabyOilDroplet.DisplayName: Baby Oil Droplet
+
+Projectiles: {
+	BabyOilDroplet.DisplayName: Baby Oil Droplet
+	OtherworldlyBubble.DisplayName: Otherworldly Bubble
+	OtherworldlyScythePro.DisplayName: Otherworldly Scythe Pro
+	ScytheOfLifeSpirit.DisplayName: Scythe Of Life Spirit
+	ScytheOfLifeProj.DisplayName: Scythe Of Life Proj
+	FlowerOnGround.DisplayName: Flower On Ground
+	FlowerScytheProj.DisplayName: Flower Scythe Proj
+}
+
+Buffs: {
+	BubbleShield: {
+		DisplayName: Bubble Shield
+		Description: Reduces next damage by 10%
+	}
+}

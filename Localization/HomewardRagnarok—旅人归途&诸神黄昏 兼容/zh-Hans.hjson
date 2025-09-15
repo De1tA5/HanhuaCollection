@@ -1004,6 +1004,58 @@ Mods: {
 							// NewString: TracersCelestial
 						}
 					}
+
+					OnWorldLoad: {
+						1: {
+							// OldString: SOTS
+							// NewString: SOTS
+						}
+
+						2: {
+							// OldString: CalamityMod
+							// NewString: CalamityMod
+						}
+
+						3: {
+							// OldString: ContinentOfJourney
+							// NewString: ContinentOfJourney
+						}
+
+						4: {
+							// OldString: ThoriumMod
+							// NewString: ThoriumMod
+						}
+
+						5: {
+							// OldString: ssm
+							// NewString: ssm
+						}
+
+						6: {
+							// OldString: FargowiltasSouls
+							// NewString: FargowiltasSouls
+						}
+
+						7: {
+							// OldString: Horizon
+							// NewString: Horizon
+						}
+
+						8: {
+							// OldString: TracersCelestial
+							// NewString: TracersCelestial
+						}
+
+						9: {
+							// OldString: SubspaceBoosters
+							// NewString: SubspaceBoosters
+						}
+
+						10: {
+							// OldString: TerrariumParticleSprinters
+							// NewString: TerrariumParticleSprinters
+						}
+					}
 				}
 
 				CompatRecipes: {
@@ -2321,6 +2373,16 @@ Mods: {
 						11: {
 							// OldString: "[BootsFix] Removed TerrariumParticleSprinters from TracersCelestial recipe."
 							// NewString: "[BootsFix] Removed TerrariumParticleSprinters from TracersCelestial recipe."
+						}
+
+						12: {
+							// OldString: SacredTools
+							// NewString: SacredTools
+						}
+
+						13: {
+							// OldString: VoidSpurs
+							// NewString: VoidSpurs
 						}
 					}
 				}
@@ -5853,6 +5915,17 @@ Mods: {
 							}
 						}
 					}
+
+					Projectiles: {
+						OtherworldlyScythePro: {
+							PreDraw: {
+								1: {
+									// OldString: InfernalEclipseWeaponsDLC/Assets/Textures/Slash_3
+									// NewString: InfernalEclipseWeaponsDLC/Assets/Textures/Slash_3
+								}
+							}
+						}
+					}
 				}
 
 				AsgardsValorTooltip+<>c: {
@@ -5924,7 +5997,7 @@ Mods: {
 					<ModifyTooltips>b__2_0: {
 						1: {
 							// OldString: Keep your hp at 1 upon receiving a fatal hit
-							// NewString: Keep your hp at 1 upon receiving a fatal hit
+							NewString: 受到致命伤害时，将hp定为1点（10分钟冷却时间）
 						}
 					}
 				}

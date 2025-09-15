@@ -113,7 +113,42 @@ Items: {
 		DisplayName: 宝宝油
 		Tooltip: ""
 	}
+
+	OtherworldlyScythe: {
+		Tooltip:
+			'''
+			目前没做完
+			而且要炼狱蚀光武器DLC
+			'''
+		DisplayName: 超世之镰
+	}
+
+	ScytheOfLife: {
+		Tooltip: ""
+		DisplayName: Scythe Of Life
+	}
+
+	FlowerScythe: {
+		DisplayName: Flower Scythe
+		Tooltip: ""
+	}
 }
 
 Tiles.TimelessFountainTile.MapEntry: 永恒喷泉
-Projectiles.BabyOilDroplet.DisplayName: 宝宝油液滴
+
+Projectiles: {
+	BabyOilDroplet.DisplayName: 宝宝油液滴
+	OtherworldlyBubble.DisplayName: 超世泡泡
+	OtherworldlyScythePro.DisplayName: 超世之镰弹幕
+	ScytheOfLifeSpirit.DisplayName: Scythe Of Life Spirit
+	ScytheOfLifeProj.DisplayName: Scythe Of Life Proj
+	FlowerOnGround.DisplayName: Flower On Ground
+	FlowerScytheProj.DisplayName: Flower Scythe Proj
+}
+
+Buffs: {
+	BubbleShield: {
+		DisplayName: 泡泡护盾
+		Description: 下次受到的伤害减少10%
+	}
+}
