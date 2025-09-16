@@ -16,27 +16,27 @@ https://github.com/De1tA5/HanhuaCollection
 [h3] 旅人归途 [/h3]
 [code]
 [list]
-    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3554145193] Homeward Subworld—旅人归途：深渊子世界 [/url]
-    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3557455275] Homeward Ragnarok—旅人归途&诸神黄昏：炼狱蚀光 兼容 [/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3554145193] Homeward Subworld [/url] 旅人归途：深渊子世界
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3557455275] Homeward Ragnarok [/url] 旅人归途&诸神黄昏：炼狱蚀光 兼容
 [/list]
 [/code]
 
 [h3] 药水 [/h3]
 [code]
 [list]
-    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3285663477] Stackable Buff Duration Reborn—Buff持续时间可叠加 重生 [/url]
-    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3225157275] Potion Mastery—药水精通 [/url]
-    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2818230611] Auto Potion—自动药水 [/url]
-    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3320382619] Beverage Of The Gods—众神饮品 [/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3285663477] Stackable Buff Duration Reborn [/url] Buff持续时间可叠加 重生
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3225157275] Potion Mastery [/url] 药水精通
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2818230611] Auto Potion [/url] 自动药水
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3320382619] Beverage Of The Gods [/url] 众神饮品
 [/list]
 [/code]
 
 [h3] 其他 [/h3]
 [code]
 [list]
-    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3532338870] More Emblems—更多徽章 [/url]
-    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3541613073] Critical Strikes Overhaul—暴击大修 [/url]
-    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3137978242] Mod Marks For Materials—材料图标 [/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3532338870] More Emblems [/url] 更多徽章
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3541613073] Critical Strikes Overhaul [/url] 暴击大修
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3137978242] Mod Marks For Materials [/url] 材料图标
 [/list]
 [/code]
 
