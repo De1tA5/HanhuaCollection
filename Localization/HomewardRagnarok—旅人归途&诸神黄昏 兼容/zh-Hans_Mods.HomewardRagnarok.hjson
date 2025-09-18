@@ -117,8 +117,8 @@ Items: {
 	OtherworldlyScythe: {
 		Tooltip:
 			'''
-			目前没做完
-			而且要炼狱蚀光武器DLC
+			[C/959595:需要炼狱蚀光武器DLC]
+			[i:ContinentOfJourney/DiverMask] [C/959595:由深潜者掉落]
 			'''
 		DisplayName: 超世之镰
 	}
