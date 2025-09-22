@@ -21,7 +21,7 @@ Items: {
 
 	Overwatch: {
 		Tooltip: ""
-		DisplayName: 视极表盘
+		DisplayName: 极视表盘
 	}
 
 	BardBadge: {
@@ -132,6 +132,36 @@ Items: {
 		DisplayName: Flower Scythe
 		Tooltip: ""
 	}
+
+	TheBibleOfTheThrowerVol4: {
+		Tooltip: ""
+		DisplayName: 投手圣书：卷四
+	}
+
+	CubismKunai: {
+		DisplayName: Cubism Kunai
+		Tooltip: ""
+	}
+
+	LifeStealer: {
+		Tooltip: ""
+		DisplayName: Life Stealer
+	}
+
+	ClawManufactory: {
+		DisplayName: Claw Manufactory
+		Tooltip: A station for crafting claws
+	}
+
+	DeluxeDewCollector: {
+		DisplayName: 奢华露水收集器
+		Tooltip: ""
+	}
+
+	RodScythe: {
+		Tooltip: ""
+		DisplayName: Rod Scythe
+	}
 }
 
 Tiles.TimelessFountainTile.MapEntry: 永恒喷泉
@@ -144,6 +174,11 @@ Projectiles: {
 	ScytheOfLifeProj.DisplayName: Scythe Of Life Proj
 	FlowerOnGround.DisplayName: Flower On Ground
 	FlowerScytheProj.DisplayName: Flower Scythe Proj
+	CubismKunaiProj.DisplayName: Cubism Kunai Proj
+	LifeStealerProjectile.DisplayName: Life Stealer Projectile
+	FissionThrow_2.DisplayName: Fission Throw_2
+	RodScythePro.DisplayName: Rod Scythe Pro
+	RodScytheBeam.DisplayName: Rod Scythe Beam
 }
 
 Buffs: {
@@ -152,3 +187,72 @@ Buffs: {
 		Description: 下次受到的伤害减少10%
 	}
 }
+
+Mods: {
+	HomewardRagnarok: {
+		CoJIntro: {
+			MarquisMoonsquid:
+				'''
+				深渊暴君
+				月光鱿侯
+				'''
+			PriestessRod:
+				'''
+				祝福之兆
+				天竿鱼祭司
+				'''
+			Diver:
+				'''
+				深海护卫
+				深潜者
+				'''
+			TheMotherbrain:
+				'''
+				诡计之主
+				母脑
+				'''
+			WallofShadow:
+				'''
+				黑暗造物
+				暗影墙
+				'''
+			SlimeGod:
+				'''
+				原初史莱姆
+				史莱姆之神
+				'''
+			TheOverwatcher:
+				'''
+				现实守望
+				极视钟表
+				'''
+			TheLifebringerHead:
+				'''
+				神圣绽辉
+				万籁携生
+				'''
+			TheMaterealizer:
+				'''
+				万象缔造
+				化物天匠
+				'''
+			ScarabBelief:
+				'''
+				亘古虔诚
+				圣甲虫信仰
+				'''
+			WorldsEndEverlastingFallingWhale:
+				'''
+				沉沦渊海
+				世末 · 永落鲸
+				'''
+			TheSon:
+				'''
+				圣洁基督
+				圣子
+				'''
+		}
+	}
+}
+
+FlamethrowerEx.HomewardRagnarok.SulphuricScaleEffect: Flames inflict Irradiated for 6 seconds

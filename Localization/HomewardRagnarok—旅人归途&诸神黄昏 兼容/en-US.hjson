@@ -849,6 +849,26 @@ Mods: {
 							OldString: LeadKnife
 							NewString: LeadKnife
 						}
+
+						28: {
+							OldString: ToothOfCthulhu
+							NewString: ToothOfCthulhu
+						}
+
+						29: {
+							OldString: ItemCactusBall
+							NewString: ItemCactusBall
+						}
+
+						30: {
+							OldString: ItemSolidTornado
+							NewString: ItemSolidTornado
+						}
+
+						31: {
+							OldString: DaCapo
+							NewString: DaCapo
+						}
 					}
 
 					SetDefaults: {
@@ -860,6 +880,16 @@ Mods: {
 						2: {
 							OldString: RogueDamageClass
 							NewString: RogueDamageClass
+						}
+
+						3: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
+
+						4: {
+							OldString: HealerDamage
+							NewString: HealerDamage
 						}
 					}
 				}
@@ -905,6 +935,21 @@ Mods: {
 							OldString: ConniversKunai
 							NewString: ConniversKunai
 						}
+
+						9: {
+							OldString: FT2Wildfire
+							NewString: FT2Wildfire
+						}
+
+						10: {
+							OldString: FT1Sparkthrower
+							NewString: FT1Sparkthrower
+						}
+
+						11: {
+							OldString: StaffCursedFlower
+							NewString: StaffCursedFlower
+						}
 					}
 
 					SetDefaults: {
@@ -926,6 +971,21 @@ Mods: {
 						4: {
 							OldString: ConniversKunai
 							NewString: ConniversKunai
+						}
+
+						5: {
+							OldString: FT2Wildfire
+							NewString: FT2Wildfire
+						}
+
+						6: {
+							OldString: FT1Sparkthrower
+							NewString: FT1Sparkthrower
+						}
+
+						7: {
+							OldString: StaffCursedFlower
+							NewString: StaffCursedFlower
 						}
 					}
 
@@ -1457,6 +1517,127 @@ Mods: {
 							1: {
 								OldString: Restores 450
 								NewString: Restores 450
+							}
+						}
+					}
+
+					CoJBossCardsSystem: {
+						Load: {
+							1: {
+								OldString: ContinentOfJourney
+								NewString: ContinentOfJourney
+							}
+
+							2: {
+								OldString: InfernumMode
+								NewString: InfernumMode
+							}
+						}
+
+						AddCoJBossIntros: {
+							1: {
+								OldString: MarquisMoonsquid
+								NewString: MarquisMoonsquid
+							}
+
+							2: {
+								OldString: PriestessRod
+								NewString: PriestessRod
+							}
+
+							3: {
+								OldString: Diver
+								NewString: Diver
+							}
+
+							4: {
+								OldString: TheMotherbrain
+								NewString: TheMotherbrain
+							}
+
+							5: {
+								OldString: WallofShadow
+								NewString: WallofShadow
+							}
+
+							6: {
+								OldString: SlimeGod
+								NewString: SlimeGod
+							}
+
+							7: {
+								OldString: TheOverwatcher
+								NewString: TheOverwatcher
+							}
+
+							8: {
+								OldString: TheLifebringerHead
+								NewString: TheLifebringerHead
+							}
+
+							9: {
+								OldString: TheMaterealizer
+								NewString: TheMaterealizer
+							}
+
+							10: {
+								OldString: ScarabBelief
+								NewString: ScarabBelief
+							}
+
+							11: {
+								OldString: WorldsEndEverlastingFallingWhale
+								NewString: WorldsEndEverlastingFallingWhale
+							}
+
+							12: {
+								OldString: TheSon
+								NewString: TheSon
+							}
+
+							13: {
+								OldString: Mods.HomewardRagnarok.CoJIntro.
+								NewString: Mods.HomewardRagnarok.CoJIntro.
+							}
+
+							14: {
+								OldString: InitializeIntroScreen
+								NewString: InitializeIntroScreen
+							}
+
+							15: {
+								OldString: SetupLetterAdditionSound
+								NewString: SetupLetterAdditionSound
+							}
+
+							16: {
+								OldString: IntroScreenSetupLetterAdditionSound
+								NewString: IntroScreenSetupLetterAdditionSound
+							}
+
+							17: {
+								OldString: IntroScreenSetupMainSound
+								NewString: IntroScreenSetupMainSound
+							}
+
+							18: {
+								OldString: IntroScreenSetupLetterDisplayCompletionRatio
+								NewString: IntroScreenSetupLetterDisplayCompletionRatio
+							}
+
+							19: {
+								OldString: IntroScreenSetupCompletionEffects
+								NewString: IntroScreenSetupCompletionEffects
+							}
+
+							20: {
+								OldString: IntroScreenSetupTextScale
+								NewString: IntroScreenSetupTextScale
+							}
+
+							21: {
+								OldString: RegisterIntroScreen
+								NewString: RegisterIntroScreen
 							}
 						}
 					}
@@ -5832,6 +6013,133 @@ Mods: {
 								}
 							}
 						}
+
+						DeluxeDewCollector: {
+							ModifyTooltips: {
+								1: {
+									OldString: Dew1
+									NewString: Dew1
+								}
+
+								2: {
+									OldString: Healing an ally grants them 2 life recovery and generates dew
+									NewString: Healing an ally grants them 2 life recovery and generates dew
+								}
+
+								3: {
+									OldString: Dew2
+									NewString: Dew2
+								}
+
+								4: {
+									OldString: Picking up dew increases your own life recovery by 4
+									NewString: Picking up dew increases your own life recovery by 4
+								}
+
+								5: {
+									OldString: Dew3
+									NewString: Dew3
+								}
+
+								6: {
+									OldString: Healing spells will heal an additional 6 life
+									NewString: Healing spells will heal an additional 6 life
+								}
+							}
+						}
+
+						TheBibleOfTheThrowerVol4: {
+							ModifyTooltips: {
+								1: {
+									OldString: BibleDamage
+									NewString: BibleDamage
+								}
+
+								2: {
+									OldString: 20% increased thrower damage
+									NewString: 20% increased thrower damage
+								}
+
+								3: {
+									OldString: BibleVelocity
+									NewString: BibleVelocity
+								}
+
+								4: {
+									OldString: 50% increased consumable thrower weapon velocity
+									NewString: 50% increased consumable thrower weapon velocity
+								}
+
+								5: {
+									OldString: BibleUseTime
+									NewString: BibleUseTime
+								}
+
+								6: {
+									OldString: Decrease use time of consumable thrower weapons by 20%
+									NewString: Decrease use time of consumable thrower weapons by 20%
+								}
+
+								7: {
+									OldString: BibleAcceleration
+									NewString: BibleAcceleration
+								}
+
+								8: {
+									OldString: When holding a thrower weapon, increase acceleration by 75%
+									NewString: When holding a thrower weapon, increase acceleration by 75%
+								}
+
+								9: {
+									OldString: Bible17
+									NewString: Bible17
+								}
+
+								10: {
+									OldString: 17.5% of your thrower damage is duplicated
+									NewString: 17.5% of your thrower damage is duplicated
+								}
+
+								11: {
+									OldString: BibleExhaustion
+									NewString: BibleExhaustion
+								}
+
+								12: {
+									OldString: Removes all Exhaustion when equipped
+									NewString: Removes all Exhaustion when equipped
+								}
+							}
+
+							UpdateAccessory: {
+								1: {
+									OldString: ThoriumMod
+									NewString: ThoriumMod
+								}
+
+								2: {
+									OldString: ContinentOfJourney
+									NewString: ContinentOfJourney
+								}
+							}
+
+							AddRecipes: {
+								1: {
+									OldString: ThoriumMod
+									NewString: ThoriumMod
+								}
+
+								2: {
+									OldString: ContinentOfJourney
+									NewString: ContinentOfJourney
+								}
+
+								3: {
+									OldString: CalamityMod
+									NewString: CalamityMod
+								}
+							}
+						}
 					}
 
 					Tiles: {
@@ -7092,6 +7400,21 @@ Mods: {
 							OldString: PlanterrorStaff
 							NewString: PlanterrorStaff
 						}
+
+						12: {
+							OldString: FT2Wildfire
+							NewString: FT2Wildfire
+						}
+
+						13: {
+							OldString: FT1Sparkthrower
+							NewString: FT1Sparkthrower
+						}
+
+						14: {
+							OldString: WildfireBloom
+							NewString: WildfireBloom
+						}
 					}
 				}
 
@@ -7132,6 +7455,135 @@ Mods: {
 						2: {
 							OldString: HealerDamage
 							NewString: HealerDamage
+						}
+					}
+				}
+
+				BatterTooltipPatch: {
+					ModifyTooltips: {
+						5: {
+							NewString: 50%
+							OldString: 50%
+						}
+
+						6: {
+							OldString: Increase penetration of consumable ranged weapons by 1
+							NewString: Increase penetration of consumable ranged weapons by 1
+						}
+
+						1: {
+							OldString: Increase penetration of consumable ranged weapons by 2
+							NewString: Increase penetration of consumable ranged weapons by 2
+						}
+
+						2: {
+							OldString: ranged
+							NewString: ranged
+						}
+
+						3: {
+							OldString: thrower
+							NewString: thrower
+						}
+
+						4: {
+							OldString: 70%
+							NewString: 70%
+						}
+					}
+				}
+
+				VagabondSoulBiblePatch: {
+					PostAddRecipes: {
+						1: {
+							OldString: FargowiltasCrossmod
+							NewString: FargowiltasCrossmod
+						}
+
+						2: {
+							OldString: VagabondsSoul
+							NewString: VagabondsSoul
+						}
+
+						3: {
+							OldString: ThoriumMod
+							NewString: ThoriumMod
+						}
+
+						4: {
+							OldString: ThrowingGuideVolume3
+							NewString: ThrowingGuideVolume3
+						}
+
+						5: {
+							OldString: ssm
+							NewString: ssm
+						}
+					}
+				}
+
+				Recipes: {
+					CoJRecipes: {
+						AddRecipes: {
+							1: {
+								OldString: ContinentOfJourney
+								NewString: ContinentOfJourney
+							}
+
+							2: {
+								OldString: Alpha
+								NewString: Alpha
+							}
+
+							3: {
+								OldString: Omega
+								NewString: Omega
+							}
+
+							4: {
+								OldString: Epsilon
+								NewString: Epsilon
+							}
+
+							5: {
+								OldString: ThoriumMod
+								NewString: ThoriumMod
+							}
+
+							6: {
+								OldString: SoulForge
+								NewString: SoulForge
+							}
+
+							7: {
+								OldString: DreadSoul
+								NewString: DreadSoul
+							}
+						}
+
+						PostAddRecipes: {
+							1: {
+								OldString: ContinentOfJourney
+								NewString: ContinentOfJourney
+							}
+
+							2: {
+								OldString: TheHolyTrinity
+								NewString: TheHolyTrinity
+							}
+						}
+					}
+				}
+
+				Mods: {
+					ContinentOfJourneyRebalance: {
+						WrapDetection: {
+							AI: {
+								1: {
+									OldString: BubbleList
+									NewString: BubbleList
+								}
+							}
 						}
 					}
 				}

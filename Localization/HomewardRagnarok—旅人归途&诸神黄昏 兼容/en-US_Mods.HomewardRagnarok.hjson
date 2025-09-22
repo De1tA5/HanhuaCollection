@@ -128,6 +128,36 @@ Items: {
 		DisplayName: Flower Scythe
 		Tooltip: ""
 	}
+
+	TheBibleOfTheThrowerVol4: {
+		Tooltip: ""
+		DisplayName: The Bible of the Thrower: Volume IV
+	}
+
+	CubismKunai: {
+		DisplayName: Cubism Kunai
+		Tooltip: ""
+	}
+
+	LifeStealer: {
+		Tooltip: ""
+		DisplayName: Life Stealer
+	}
+
+	ClawManufactory: {
+		DisplayName: Claw Manufactory
+		Tooltip: A station for crafting claws
+	}
+
+	DeluxeDewCollector: {
+		DisplayName: Deluxe Dew Collector
+		Tooltip: ""
+	}
+
+	RodScythe: {
+		Tooltip: ""
+		DisplayName: Rod Scythe
+	}
 }
 
 Tiles.TimelessFountainTile.MapEntry: Timeless Fountain Tile
@@ -140,6 +170,11 @@ Projectiles: {
 	ScytheOfLifeProj.DisplayName: Scythe Of Life Proj
 	FlowerOnGround.DisplayName: Flower On Ground
 	FlowerScytheProj.DisplayName: Flower Scythe Proj
+	CubismKunaiProj.DisplayName: Cubism Kunai Proj
+	LifeStealerProjectile.DisplayName: Life Stealer Projectile
+	FissionThrow_2.DisplayName: Fission Throw_2
+	RodScythePro.DisplayName: Rod Scythe Pro
+	RodScytheBeam.DisplayName: Rod Scythe Beam
 }
 
 Buffs: {
@@ -148,3 +183,72 @@ Buffs: {
 		Description: Reduces next damage by 10%
 	}
 }
+
+Mods: {
+	HomewardRagnarok: {
+		CoJIntro: {
+			MarquisMoonsquid:
+				'''
+				The abyssal tyrant
+				Marquis Moonsquid
+				'''
+			PriestessRod:
+				'''
+				The blessed harbinger
+				Priestess Rod
+				'''
+			Diver:
+				'''
+				Warden of the deep
+				Diver
+				'''
+			TheMotherbrain:
+				'''
+				Master of machinations
+				The Motherbrain
+				'''
+			WallofShadow:
+				'''
+				Creation of darkness
+				Wall of Shadow
+				'''
+			SlimeGod:
+				'''
+				Primordial Slime
+				Slime God
+				'''
+			TheOverwatcher:
+				'''
+				Watcher of Reality
+				The Overwatcher
+				'''
+			TheLifebringerHead:
+				'''
+				Bloom of divinity
+				The Lifebringer
+				'''
+			TheMaterealizer:
+				'''
+				Architect of realities
+				The Materealizer
+				'''
+			ScarabBelief:
+				'''
+				Ancient devotion
+				Scarab Belief
+				'''
+			WorldsEndEverlastingFallingWhale:
+				'''
+				The crushing abyss
+				World's End Everlasting Falling Whale
+				'''
+			TheSon:
+				'''
+				Holy Christ
+				The Son
+				'''
+		}
+	}
+}
+
+FlamethrowerEx.HomewardRagnarok.SulphuricScaleEffect: Flames inflict Irradiated for 6 seconds
