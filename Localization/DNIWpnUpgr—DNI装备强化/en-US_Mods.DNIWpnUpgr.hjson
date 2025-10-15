@@ -1,0 +1,572 @@
+NPC.Infused: Infused {0}
+
+UpgradeInfo: {
+	ItemNameDisplayOne: " {0}"
+	ItemNameDisplayTwo: " {0} {1}"
+	ItemNamePlus: +{0}
+	ItemNameEx: EX
+	ItemNameRank: "[{0}]"
+	DefensePlus: "+{0} "
+	EquipmentTier: Equipment Tier: {0}
+	MagnificiteTier: Magnificite Tier: {0}
+	Energized: Energized
+	LimitBreak: Limit Break: {0}
+	LimitLevel: "{0}/{1}"
+	LimitMax: MAX
+
+	RankNames: {
+		1: C
+		2: B
+		3: A
+	}
+
+	RankBonus: "[Rank Bonus]"
+
+	RankWeaponBonus: {
+		FinalDamage: "{0}% final damage"
+		CritDamage: "{0}% increased critical damage"
+	}
+
+	RankArmorBonus: {
+		Endurance: "{0}% damage reduction"
+		RankCritChance: "{0}% increased critical chance"
+	}
+}
+
+ExtensionInfo: {
+	Header: "[Extensions]"
+	SampleValue: ???
+
+	WeaponExtensions: {
+		None: None
+		VanillaFlatDmg: "{0} damage"
+		VanillaPrctDmg: "{0}% damage"
+		VanillaCritChance: "{0}% increased critical chance"
+		VanillaKnockback: "{0}% knockback"
+		VanillaSpeed: "{0}% speed"
+		VanillaAmmoConsume: "{0}% chance not to consume ammo"
+		VanillaVelocity: "{0}% velocity"
+		VanillaManaCost: "{0}% reduced mana cost"
+		VanillaKillHeal: Gain {0} life on enemy kill
+		VanillaDoubleLoot: "{0}% to drop twice the loot on enemy kill"
+	}
+
+	ArmorExtensions: {
+		None: None
+		VanillaMaxLife: "{0} max life"
+		VanillaMaxMana: "{0} max mana"
+		VanillaIframe: +{0} sec immunity time when hit
+		VanillaLifeRegen: "{0} life regen"
+		VanillaDodge: "{0}% dodge chance"
+		VanillaMeleeCrit: "{0}% melee crit chance"
+		VanillaMeleeDamage: "{0}% melee damage"
+		VanillaRangedCrit: "{0}% ranged crit chance"
+		VanillaRangedDamage: "{0}% ranged damage"
+		VanillaMagicCrit: "{0}% magic crit chance"
+		VanillaMagicDamage: "{0}% magic damage"
+		VanillaThrowingCrit: "{0}% throwing crit chance"
+		VanillaThrowingDamage: "{0}% throwing damage"
+		VanillaFlightTime: "{0} flight time"
+		VanillaGuts: "{0}% to survive hits"
+		VanillaEndurance: "{0}% damage reduction"
+		VanillaMinionDamage: "{0}% summon damage"
+		VanillaMinionSlots: "{0} minion slot"
+		VanillaSentrySlots: "{0} sentry slot"
+		ThoriumSymphonyDamage: "{0}% symphonic damage"
+		ThoriumSymphonyCrit: "{0}% symphonic crit chance"
+		ThoriumEmpowermentDuration: "{0} bonus empowerment duration"
+		ThoriumInspirationMax: "{0} max inspiration"
+		ThoriumRadiantDamage: "{0}% radiant damage"
+		ThoriumRadiantCrit: "{0}% radiant crit chance"
+		ThoriumHealingBonus: Healing spells heal an additional {0} life
+	}
+
+	ExtensionConditions: {
+		Any: "{0} (Any condition)"
+		None: "{0}"
+		DuringDay: "{0} during the day"
+		DuringNight: "{0} during the night"
+		WhenStanding: "{0} when stationary"
+		WhenMoving: "{0} when moving"
+		BasedOnMissingLife: Up to {0} based on missing life
+		BasedOnRemainingLife: Up to {0} based on remaining life
+	}
+}
+
+UI: {
+	UpgradeUI: {
+		Title: Upgrade
+		Button: Upgrade
+		LabelUpgradeTo: Upgrade to
+
+		Inherit: {
+			LineOne: Inherit from {0}
+			LineTwoNoDiff: Level becomes +{0}
+			LineTwoTierDiff: Level up to +{0} ({1}% chance per level)
+			LineThree: Rank up to {0} ({1}% chance per level)
+			LineFour: "{0} will be destroyed!"
+			ErrorEx: Cannot inherit from EX equipment
+		}
+
+		Rank: {
+			ErrorMax: At max Rank
+			ErrorEx: Needs EX
+			Ok: Upgrade to Rank {0}
+		}
+
+		Energize: {
+			ErrorLevel: Needs to be +{0} to energize
+			ErrorDone: Already energized
+			Ok: Energize item
+		}
+
+		Ex: {
+			ErrorMaxLimit: Needs max Limit Break
+			ErrorLevel: Needs max level
+			ErrorEnergize: Needs to be Energized
+			ErrorDone: Already upgraded to EX
+			Ok: Upgrade to EX
+		}
+
+		LimitBreak: {
+			ErrorDone: Already at max Limit Break
+			Ok: Limit Break to +{0}
+		}
+
+		Upgrade: {
+			Empty: Insert equipment
+			ErrorStack: Not enough Magnificite
+			ErrorMinimum: Needs at least tier {0} Magnificite
+			ErrorSampleJewel: At least {0}
+			ErrorMaxLevel: Item at max level
+			SuccessRate: Success Rate: {0}%
+			FailureWarning: Failure will downgrade item
+			FailureProtect: Downgrade prevented
+			Ok: Upgrade to +{0}
+			OkWithAmount: Upgrade to +{0}, needs {1}
+
+			Catalysts: {
+				LightFright: Chance not to consume Magnificite
+				NightFlight: Will not use Magnificite
+				NightMight: Chance to upgrade twice
+			}
+		}
+
+		Common.AmountNeeded: "{1} needed: {0}"
+	}
+
+	ExtensionUI: {
+		Title: Extension
+		Button: Apply
+		Empty: Insert equipment and Extensite
+		ErrorLimitBreak: Needs at least 1 Limit Break
+		LockLabel: Lock: {0}
+		Ok: Apply Extensions
+		OkWithAmount: Apply Extensions (consumes {0} {1})
+
+		EffectLocks: {
+			None: None
+			Effect: Effect
+			EffectCondition: Effect and Condition
+			All: All
+		}
+
+		AutoRollLabel: Apply until effect:
+		RollEffectButton: Change Effect
+		RollConditionButton: Change Condition
+	}
+}
+
+Items: {
+	CatalystLightFlight: {
+		DisplayName: Ease Catalyst
+		Tooltip: Decreases the equipment's tier to allow lower tier Magnificite to be used
+	}
+
+	CatalystLightFright: {
+		DisplayName: Refuse Catalyst
+		Tooltip: Gives a chance to prevent jewel consumption
+	}
+
+	CatalystLightMight: {
+		DisplayName: Rise Catalyst
+		Tooltip: Increases success rate by 10%
+	}
+
+	CatalystLightSight: {
+		DisplayName: Buffer Catalyst
+		Tooltip: Prevents downgrades upon upgrade failure
+	}
+
+	CatalystNightFlight: {
+		DisplayName: Phantom Catalyst
+		Tooltip: Decreases success rate by 15% but process does not consume jewels
+	}
+
+	CatalystNightFright: {
+		DisplayName: Chance Catalyst
+		Tooltip: Randomizes success rate
+	}
+
+	CatalystNightMight: {
+		DisplayName: Force Catalyst
+		Tooltip: Gives a chance to upgrade twice instead of once
+	}
+
+	CatalystNightSight: {
+		DisplayName: Precision Catalyst
+		Tooltip: Increases success rate by 15% but lowers max success rate
+	}
+
+	EnergyRune: {
+		DisplayName: Energy Rune
+		Tooltip: Catalyst that energizes equipment
+	}
+
+	ExStone: {
+		DisplayName: Gem of Radiance
+		Tooltip: Upgrades equipment to EX
+	}
+
+	LimitBreaker: {
+		DisplayName: Resplendite
+		Tooltip: Applies Limit Break to equipment
+	}
+
+	OptionJewel: {
+		DisplayName: Extensite
+		Tooltip: Applies Extensions to equipment
+	}
+
+	RankUpStone: {
+		DisplayName: Stellar Stone
+		Tooltip: Upgrades equipment Rank
+	}
+
+	ExStoneDull: {
+		DisplayName: Dull Gem
+		Tooltip: You sense a faint aura of radiance from this gem
+	}
+
+	Jewel: {
+		DisplayName: Shard of Magnificence
+		Tooltip: Processed into Magnificite
+	}
+
+	RefiningStone: {
+		DisplayName: Frozen Starlight
+		Tooltip: A warm sense of resplendence radiates from it
+	}
+
+	UpgradeBox: {
+		DisplayName: Ethereal Shrine
+		Tooltip: Allows access to the Upgrade interface
+		ExtTooltip: Hold {0} while accessing this to open the Extension interface
+	}
+
+	Upgrade00: {
+		DisplayName: Wooden Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade01: {
+		DisplayName: Low-Metal Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade02: {
+		DisplayName: High-Metal Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade03: {
+		DisplayName: Evil Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade04: {
+		DisplayName: Hellstone Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade05: {
+		DisplayName: Hallowed Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade06: {
+		DisplayName: Soul Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade07: {
+		DisplayName: Chlorophyte Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade08: {
+		DisplayName: Spectreshroom Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade09: {
+		DisplayName: Lunar Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade10: {
+		DisplayName: Luminite Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade11Calamity: {
+		DisplayName: Exodium Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade12Calamity: {
+		DisplayName: Uelibloom Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade13Calamity: {
+		DisplayName: Cosmilite Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade14Calamity: {
+		DisplayName: Energy Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade15Calamity: {
+		DisplayName: Auric Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade16Calamity: {
+		DisplayName: Shadowspec Magnificite
+		Tooltip: ""
+	}
+
+	Upgrade12Thorium: {
+		DisplayName: Primordial Magnificite
+		Tooltip: ""
+	}
+}
+
+Configs: {
+	Keybinds.Toggle: Toggle (for tooltips and Extension screen access)
+
+	ConfigClientTextDisplay: {
+		DisplayName: Text Display
+
+		DisplayEquipmentTier: {
+			Label: Always display Equipment Tier on item tooltip
+			Tooltip: If set to false, the Toggle button needs to be held down to show this information
+		}
+
+		DisplayUpgradeInfo: {
+			Label: Always display Upgrade/Extension Information on item tooltip
+			Tooltip: If set to false, the Toggle button needs to be held down to show these information
+		}
+
+		ItemSuffixDisplay: {
+			Label: Upgrade Suffix Display
+			Tooltip:
+				'''
+				Item Name: Displayed in item name itself (visible when dropped in the world, also visible in tooltip)
+				Item Tooltip: Displayed in item tooltip only
+				'''
+		}
+	}
+
+	ConfigClientTextColors: {
+		DisplayName: Text Colors
+		Tooltip: ""
+
+		InterfaceTitle: {
+			Label: Interface Title
+			Tooltip: ""
+		}
+
+		InterfaceNormal: {
+			Label: Interface Normal
+			Tooltip: ""
+		}
+
+		InterfaceEffectPositive: {
+			Label: Positive Effect
+			Tooltip: ""
+		}
+
+		InterfaceEffectNegative: {
+			Label: Negative Effect
+			Tooltip: ""
+		}
+
+		UpgradeTooltip: {
+			Label: Upgrade Tooltips
+			Tooltip: ""
+		}
+
+		ExtPositiveTooltip: {
+			Label: Positive Extension Tooltips
+			Tooltip: ""
+		}
+
+		ExtNegativeTooltip: {
+			Label: Negative Extension Tooltips
+			Tooltip: ""
+		}
+
+		RankTooltip: {
+			Label: Rank Tooltip
+			Tooltip: ""
+		}
+	}
+
+	ConfigServer: {
+		DisplayName: Server Config
+
+		Headers: {
+			UpgradeMechanics: Upgrade mechanics
+			Catalysts: Catalysts
+			Energizing: Energizing
+			InfusedMobs: Infused mobs
+			DropRates: Drop rates (Denominators)
+			Inheritance: Inheritance
+			UpgradeEffects: Base upgrade effects
+		}
+
+		JewelAmountScaling: {
+			Label: Jewel Amount Scaling
+			Tooltip: ""
+		}
+
+		BonusRatePerTier: {
+			Label: Bonus Rate Per Tier
+			Tooltip: ""
+		}
+
+		FailureLevelStart: {
+			Label: Success rate reduced starting at level
+			Tooltip: ""
+		}
+
+		FailureRatePerLevel: {
+			Label: Reduced success rate per level
+			Tooltip: ""
+		}
+
+		CatalystConsumeRate: {
+			Label: Chance to consume catalysts upon upgrade failure
+			Tooltip: ""
+		}
+
+		CatalystDoubleUpRate: {
+			Label: Force Catalyst - Chance to upgrade twice
+			Tooltip: ""
+		}
+
+		CatalystFreeRate: {
+			Label: Refuse Catalyst - Chance to not consume jewels
+			Tooltip: ""
+		}
+
+		EnergyRuneStack: {
+			Label: Energy Rune max stack size
+			Tooltip: If max stack mods are included, consumes only this amount of Energy Runes
+		}
+
+		InheritRankTierDiff: {
+			Tooltip: ""
+			Label: Chance to fail inheriting ranks per tier
+		}
+
+		InheritUpgradeTierDiff: {
+			Tooltip: ""
+			Label: Chance to fail inhertiing upgrade levels per tier
+		}
+
+		InfusedMobChanceDenominator: {
+			Label: Infused Mob Chance Denominator
+			Tooltip: Lower values make infused mobs spawn more often
+		}
+
+		JewelDropDenominator: {
+			Label: Shard of Magnificence
+			Tooltip: ""
+		}
+
+		EnergyRuneDropDenominator: {
+			Label: Energy Rune
+			Tooltip: ""
+		}
+
+		RefiningStoneDropDenominator: {
+			Label: Refining Stone
+			Tooltip: ""
+		}
+
+		DullExStoneDropDenominator: {
+			Label: Dull Ex Stone
+			Tooltip: ""
+		}
+
+		RankUpStoneDropDenominator: {
+			Label: Stellar Stone
+			Tooltip: ""
+		}
+
+		NpcExpertDropDivider: {
+			Label: Expert Mode Drop Divider
+			Tooltip: Lower values yield higher drop rates
+		}
+
+		WeaponFlatDamage: {
+			Label: Enable flat damage for weapons
+			Tooltip: ""
+		}
+
+		WeaponPercentDamage: {
+			Label: Enable percent damage for weapons
+			Tooltip: ""
+		}
+
+		WeaponSpeed: {
+			Label: Enable speed for weapons
+			Tooltip: ""
+		}
+
+		ArmorFlatDefense: {
+			Label: Enable flat defense for armor
+			Tooltip: ""
+		}
+
+		ArmorPercentDefense: {
+			Label: Enable percent defense for armor
+			Tooltip: ""
+		}
+
+		UpgradeValueScaling: {
+			Label: Upgrade value scaling
+			Tooltip: Visit the homepage/wiki to learn more
+		}
+	}
+
+	SuffixDisplay: {
+		ItemName.Label: Item Name
+		ItemTooltip.Label: Item Tooltip
+		Tooltip: ""
+	}
+
+	UpgradeValueScaling: {
+		Tooltip: ""
+		WorldDynamic.Label: World Dynamic
+		UseNormal.Label: Use Normal
+		UseExpert.Label: Use Expert
+	}
+}
+
+Keybinds.KeybindToggle.DisplayName: Toggle

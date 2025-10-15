@@ -1,0 +1,581 @@
+NPC.Infused: 注魔 {0}
+
+UpgradeInfo: {
+	ItemNameDisplayOne: " {0}"
+	ItemNameDisplayTwo: " {0} {1}"
+	ItemNamePlus: +{0}
+	ItemNameEx: EX
+	ItemNameRank: "[{0}]"
+	DefensePlus: "+{0} "
+	EquipmentTier: 装备等级： {0}
+	MagnificiteTier: 强晶等级： {0}
+	Energized: 已激发潜能
+	LimitBreak: 突破强化上限： {0}
+	LimitLevel: "{0}/{1}"
+	LimitMax: MAX
+
+	RankNames: {
+		1: C
+		2: B
+		3: A
+	}
+
+	RankBonus: "[品阶增幅]"
+
+	RankWeaponBonus: {
+		FinalDamage: "{0}% 最终伤害"
+		CritDamage: "{0}% 暴击伤害"
+	}
+
+	RankArmorBonus: {
+		Endurance: "{0}% 伤害减免"
+		RankCritChance: "{0}% 暴击率"
+	}
+}
+
+ExtensionInfo: {
+	Header: "[扩容]"
+	SampleValue: ？？？
+
+	WeaponExtensions: {
+		None: 无
+		VanillaFlatDmg: "{0} 点伤害"
+		VanillaPrctDmg: "{0}% 伤害"
+		VanillaCritChance: "{0}% 暴击率"
+		VanillaKnockback: "{0}% 击退"
+		VanillaSpeed: "{0}% 使用速度"
+		VanillaAmmoConsume: "{0}% 概率不消耗弹药"
+		VanillaVelocity: "{0}% 弹幕速度"
+		VanillaManaCost: 减少 {0}% 魔力消耗
+		VanillaKillHeal: 击杀敌怪获得 {0} 生命
+		VanillaDoubleLoot: "{0}% 概率在击杀敌怪时掉落双倍战利品"
+	}
+
+	ArmorExtensions: {
+		None: 无
+		VanillaMaxLife: "{0} 最大生命"
+		VanillaMaxMana: "{0} 最大魔力"
+		VanillaIframe: +{0} 秒无敌时间
+		VanillaLifeRegen: "{0} 生命回复"
+		VanillaDodge: "{0}% 闪避几率"
+		VanillaMeleeCrit: "{0}% 近战暴击率"
+		VanillaMeleeDamage: "{0}% 近战伤害"
+		VanillaRangedCrit: "{0}% 远程暴击率"
+		VanillaRangedDamage: "{0}% 远程伤害"
+		VanillaMagicCrit: "{0}% 魔法暴击率"
+		VanillaMagicDamage: "{0}% 魔法伤害"
+		VanillaThrowingCrit: "{0}% 投掷暴击率"
+		VanillaThrowingDamage: "{0}% 投掷伤害"
+		VanillaFlightTime: "{0} 飞行时间"
+		VanillaGuts: "{0}% 复活几率"
+		VanillaEndurance: "{0}% 伤害减免"
+		VanillaMinionDamage: "{0}% 召唤伤害"
+		VanillaMinionSlots: "{0} 仆从位"
+		VanillaSentrySlots: "{0} 哨兵位"
+		ThoriumSymphonyDamage: "{0}% 音波伤害"
+		ThoriumSymphonyCrit: "{0}% 音波暴击率"
+		ThoriumEmpowermentDuration: "{0} 额外咒音增幅持续时间"
+		ThoriumInspirationMax: "{0} 最大灵感值"
+		ThoriumRadiantDamage: "{0}% 光辉伤害"
+		ThoriumRadiantCrit: "{0}% 光辉暴击率"
+		ThoriumHealingBonus: 治疗法术额外治疗 {0} 点生命值
+	}
+
+	ExtensionConditions: {
+		Any: "{0} (任意条件)"
+		None: "{0}"
+		DuringDay: 处于白天时，获得 {0}
+		DuringNight: 处于夜晚时，获得 {0}
+		WhenStanding: 静止时，获得 {0}
+		WhenMoving: 移动时，获得 {0}
+		BasedOnMissingLife: 根据损失的生命值，最高获得 {0}
+		BasedOnRemainingLife: 根据剩余的生命值，最高获得 {0}
+	}
+}
+
+UI: {
+	UpgradeUI: {
+		Title: 升级
+		Button: 强化
+		LabelUpgradeTo: 强化至
+
+		Inherit: {
+			LineOne: 继承自 {0}
+			LineTwoNoDiff: 等级将变为 +{0}
+			LineTwoTierDiff: 等级将变为 +{0} ({1}% 概率每级)
+			LineThree: 升至 {0} 阶 ({1}% 概率每级)
+			LineFour: "{0} 将会被销毁"
+			ErrorEx: 无法继承EX装备
+		}
+
+		Rank: {
+			ErrorMax: 已升至最高阶
+			ErrorEx: 需要 EX
+			Ok: 提升至 {0} 阶
+		}
+
+		Energize: {
+			ErrorLevel: 需要强化为 +{0} 才能激发潜能
+			ErrorDone: 已激发成功
+			Ok: 激发物品潜能
+		}
+
+		Ex: {
+			ErrorMaxLimit: 需要达到最高强化上限
+			ErrorLevel: 需要升至满级
+			ErrorEnergize: 需要激发潜能
+			ErrorDone: 已强化为 EX
+			Ok: 强化为 EX
+		}
+
+		LimitBreak: {
+			ErrorDone: 已达到最高强化上限
+			Ok: 强化上限提升至 +{0}
+		}
+
+		Upgrade: {
+			Empty: 放入装备
+			ErrorStack: 强晶不足
+			ErrorMinimum: 至少需要 {0} 级强晶
+			ErrorSampleJewel: 至少需要{0}或以上的强晶
+			ErrorMaxLevel: 物品已升至满级
+			SuccessRate: 成功率： {0}%
+			FailureWarning: 失败将导致物品降级
+			FailureProtect: 不会再降级
+			Ok: 强化为 +{0}
+			OkWithAmount: 强化为 +{0} ，需要 {1} 个
+
+			Catalysts: {
+				LightFright: 有概率不消耗强晶
+				NightFlight: 将不会使用强晶
+				NightMight: 有概率强化2次
+			}
+		}
+
+		Common.AmountNeeded: "{1} needed: {0}"
+	}
+
+	ExtensionUI: {
+		Title: 扩容
+		Button: 扩容
+		Empty: 放入装备和扩容石
+		ErrorLimitBreak: 至少需要突破 1 次强化上限
+		LockLabel: 锁定： {0}
+		Ok: 已采用以下扩容
+		OkWithAmount: 采用扩容 (消耗 {0} {1})
+
+		EffectLocks: {
+			None: 无
+			Effect: 增幅
+			EffectCondition: 增幅和条件
+			All: 完全锁定
+		}
+
+		AutoRollLabel: 直到增幅为：
+		RollEffectButton: 改变增幅
+		RollConditionButton: 改变条件
+	}
+}
+
+Items: {
+	CatalystLightFlight: {
+		DisplayName: 缓适催晶
+		Tooltip: 降低装备等级允许使用更低等级的强晶
+	}
+
+	CatalystLightFright: {
+		DisplayName: 拒斥催晶
+		Tooltip: 有概率不消耗强晶
+	}
+
+	CatalystLightMight: {
+		DisplayName: 增强催晶
+		Tooltip: 提升10%强化成功率
+	}
+
+	CatalystLightSight: {
+		DisplayName: 缓冲催晶
+		Tooltip: 防止升级失败时降级
+	}
+
+	CatalystNightFlight: {
+		DisplayName: 幻影催晶
+		Tooltip: 降低15%强化成功率，但强化过程不消耗强晶
+	}
+
+	CatalystNightFright: {
+		DisplayName: 机遇催晶
+		Tooltip: 强化成功率变得随机
+	}
+
+	CatalystNightMight: {
+		DisplayName: 强效催晶
+		Tooltip: 有概率强化2次
+	}
+
+	CatalystNightSight: {
+		DisplayName: 精准催晶
+		Tooltip: 提升15%强化成功率，但降低最大成功率
+	}
+
+	EnergyRune: {
+		DisplayName: 能量符文
+		Tooltip: 催化激发装备的潜能
+	}
+
+	ExStone: {
+		DisplayName: 辐辉宝石
+		Tooltip: 将装备等级提升至EX
+	}
+
+	LimitBreaker: {
+		DisplayName: 辉光石
+		Tooltip: 使装备的强化上限提升
+	}
+
+	OptionJewel: {
+		DisplayName: 扩容石
+		Tooltip: 用于装备扩容强化
+	}
+
+	RankUpStone: {
+		DisplayName: 星辉石
+		Tooltip: 用于装备升阶强化
+	}
+
+	ExStoneDull: {
+		DisplayName: 尘封宝石
+		Tooltip: 你感受到这颗宝石散发出微弱的光辉
+	}
+
+	Jewel: {
+		DisplayName: 强晶碎片
+		Tooltip: 能够处理成强晶
+	}
+
+	RefiningStone: {
+		DisplayName: 寒冻星光
+		Tooltip: 温暖的辐光从它发散出来
+	}
+
+	UpgradeBox: {
+		DisplayName: 空灵神龛
+		Tooltip: 允许进入升级界面
+		ExtTooltip: 按住 {0} 再打开能进入[i:DNIWpnUpgr/OptionJewel]扩容界面
+	}
+
+	Upgrade00: {
+		DisplayName: 木质强晶
+		Tooltip: ""
+	}
+
+	Upgrade01: {
+		DisplayName: 贱金属强晶
+		Tooltip: ""
+	}
+
+	Upgrade02: {
+		DisplayName: 贵金属强晶
+		Tooltip: ""
+	}
+
+	Upgrade03: {
+		DisplayName: 邪恶强晶
+		Tooltip: ""
+	}
+
+	Upgrade04: {
+		DisplayName: 狱石强晶
+		Tooltip: ""
+	}
+
+	Upgrade05: {
+		DisplayName: 神圣强晶
+		Tooltip: ""
+	}
+
+	Upgrade06: {
+		DisplayName: 灵魂强晶
+		Tooltip: 主播你什么之魂啊？
+	}
+
+	Upgrade07: {
+		DisplayName: 叶绿强晶
+		Tooltip: ""
+	}
+
+	Upgrade08: {
+		DisplayName: 幽菇强晶
+		Tooltip: ""
+	}
+
+	Upgrade09: {
+		DisplayName: 月华强晶
+		Tooltip: ""
+	}
+
+	Upgrade10: {
+		DisplayName: 夜明强晶
+		Tooltip: ""
+	}
+
+	Upgrade11Calamity: {
+		DisplayName: 起源强晶
+		Tooltip: ""
+	}
+
+	Upgrade12Calamity: {
+		DisplayName: 龙蒿强晶
+		Tooltip: ""
+	}
+
+	Upgrade13Calamity: {
+		DisplayName: 宇宙强晶
+		Tooltip: ""
+	}
+
+	Upgrade14Calamity: {
+		DisplayName: 聚能强晶
+		Tooltip: ""
+	}
+
+	Upgrade15Calamity: {
+		DisplayName: 圣金源强晶
+		Tooltip: ""
+	}
+
+	Upgrade16Calamity: {
+		DisplayName: 魔影强晶
+		Tooltip: ""
+	}
+
+	Upgrade12Thorium: {
+		DisplayName: 始源强晶
+		Tooltip: ""
+	}
+}
+
+Configs: {
+	Keybinds.Toggle: 切换 （用于物品提示栏和扩容界面）
+
+	ConfigClientTextDisplay: {
+		DisplayName: 文本显示
+
+		DisplayEquipmentTier: {
+			Label: 总是显示装备等级
+			Tooltip: 如果禁用，则需要按住 [切换] 键才能显示这些信息
+		}
+
+		DisplayUpgradeInfo: {
+			Label: 总是显示升级&扩容信息
+			Tooltip: 如果禁用，则需要按住 [切换] 键才能显示这些信息
+		}
+
+		ItemSuffixDisplay: {
+			Label: 强化后缀显示
+			Tooltip:
+				'''
+				物品名称： 显示物品名称 (除了在提示栏中显示，以掉落物的形式在世界中也可见)
+				物品提示栏： 仅在物品提示栏显示
+				'''
+		}
+	}
+
+	ConfigClientTextColors: {
+		DisplayName: 文本颜色
+		Tooltip: ""
+
+		InterfaceTitle: {
+			Label: 界面标题
+			Tooltip: ""
+		}
+
+		InterfaceNormal: {
+			Label: 界面文字
+			Tooltip: "如：放入装备、至少需要XX强晶及以上的强晶等文本"
+		}
+
+		InterfaceEffectPositive: {
+			Label: 正面效果
+			Tooltip: ""
+		}
+
+		InterfaceEffectNegative: {
+			Label: 负面效果
+			Tooltip: ""
+		}
+
+		UpgradeTooltip: {
+			Label: 强化物品提示
+			Tooltip: "强化后物品显示效果文本的颜色，如：装备等级、突破强化上限、强晶等级等"
+		}
+
+		ExtPositiveTooltip: {
+			Label: 正面效果扩容提示
+			Tooltip: ""
+		}
+
+		ExtNegativeTooltip: {
+			Label: 负面效果扩容提示
+			Tooltip: ""
+		}
+
+		RankTooltip: {
+			Label: 品阶物品提示
+			Tooltip: "品阶强化物品显示效果文本的颜色，如：[品阶增幅]等"
+		}
+	}
+
+	ConfigServer: {
+		DisplayName: 服务端设置
+
+		Headers: {
+			UpgradeMechanics: 强化机制
+			Catalysts: 催晶
+			Energizing: 激发
+			InfusedMobs: 注魔敌怪
+			DropRates: 掉落率 （以下数值为分母）
+			Inheritance: 继承
+			UpgradeEffects: 基础强化效果
+		}
+
+		JewelAmountScaling: {
+			Label: 强晶消耗数量
+			Tooltip: "每级消耗量 = 上一级消耗强晶数量 + 该数值 （向下取整） "
+		}
+
+		BonusRatePerTier: {
+			Label: 每级额外奖励率
+			Tooltip: "与强化成功率有关，若数值过低导致每级都会降低成功率"
+		}
+
+		FailureLevelStart: {
+			Label: 强化成功率开始降低的等级
+			Tooltip: ""
+		}
+
+		FailureRatePerLevel: {
+			Label: 每级降低的成功率
+			Tooltip: ""
+		}
+
+		CatalystConsumeRate: {
+			Label: 强化失败时消耗催晶的概率
+			Tooltip: ""
+		}
+
+		CatalystDoubleUpRate: {
+			Label: 强效催晶 - 强化两次的概率
+			Tooltip: ""
+		}
+
+		CatalystFreeRate: {
+			Label: 拒斥催晶 - 不消耗强晶的概率
+			Tooltip: ""
+		}
+
+		EnergyRuneStack: {
+			Label: 能量符文消耗数量
+			Tooltip: 如果有调整最大堆叠mod，则仅消耗此数量的能量符文
+		}
+
+		InheritRankTierDiff: {
+			Tooltip: ""
+			Label: 每级继承品阶失败的概率
+		}
+
+		InheritUpgradeTierDiff: {
+			Tooltip: ""
+			Label: 每级继承强化等级失败的概率
+		}
+
+		InfusedMobChanceDenominator: {
+			Label: 	注魔敌怪生成率 （数值为分母）
+			Tooltip: 数值越低，注魔敌怪生成率越高
+		}
+
+		JewelDropDenominator: {
+			Label: 强晶碎片
+			Tooltip: ""
+		}
+
+		EnergyRuneDropDenominator: {
+			Label: 能量符文
+			Tooltip: ""
+		}
+
+		RefiningStoneDropDenominator: {
+			Label: 寒冻星光
+			Tooltip: ""
+		}
+
+		DullExStoneDropDenominator: {
+			Label: 尘封宝石
+			Tooltip: ""
+		}
+
+		RankUpStoneDropDenominator: {
+			Label: 星辉石
+			Tooltip: ""
+		}
+
+		NpcExpertDropDivider: {
+			Label: 专家模式掉落调整
+			Tooltip: 数值越低，掉落率越高
+		}
+
+		WeaponFlatDamage: {
+			Label: 武器固定伤害加成
+			Tooltip: ""
+		}
+
+		WeaponPercentDamage: {
+			Label: 武器百分比伤害加成
+			Tooltip: ""
+		}
+
+		WeaponSpeed: {
+			Label: 武器攻击速度加成
+			Tooltip: ""
+		}
+
+		ArmorFlatDefense: {
+			Label: 盔甲固定防御加成
+			Tooltip: ""
+		}
+
+		ArmorPercentDefense: {
+			Label: 盔甲百分比防御加成
+			Tooltip: ""
+		}
+
+		UpgradeValueScaling: {
+			Label: 强化数值缩放
+			Tooltip: 
+				'''
+				增益效果           普通模式      专家模式
+				武器伤害（固定）     2.5%               3%
+				武器伤害（百分比）   0.5                  1
+				武器速度（上限+10）  1.5%               2%
+				盔甲防御（固定）      0.5                0.7
+				盔甲防御（百分比）     1%               2%
+				访问主页/wiki以了解更多信息
+				'''
+		}
+	}
+
+	SuffixDisplay: {
+		ItemName.Label: 物品名称
+		ItemTooltip.Label: 物品提示栏
+		Tooltip: ""
+	}
+
+	UpgradeValueScaling: {
+		Tooltip: ""
+		WorldDynamic.Label: 世界动态调整
+		UseNormal.Label: 普通
+		UseExpert.Label: 专家
+	}
+}
+
+Keybinds.KeybindToggle.DisplayName: 切换
