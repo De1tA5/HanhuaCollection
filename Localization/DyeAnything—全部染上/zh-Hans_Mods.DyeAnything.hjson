@@ -1,0 +1,163 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	DyeSprayer: {
+		DisplayName: 染料喷雾器
+		Tooltip: ""
+	}
+
+	MagicDyer: {
+		DisplayName: 魔法染料
+		Tooltip: ""
+	}
+
+	RandomDye: {
+		DisplayName: 随机染料
+		Tooltip: "'哦！如此闪耀'"
+	}
+
+	SuperIntenseRandomDye: {
+		Tooltip: “可能导致自闭症”
+		DisplayName: 超级鲜艳随机染料
+	}
+
+	IntenseRandomDye: {
+		Tooltip: "'比以前还要严重'"
+		DisplayName: 鲜艳随机染料
+	}
+
+	EpilepsyDye: {
+		DisplayName: 癫痫染料
+		Tooltip: 确实古怪
+	}
+}
+
+Projectiles: {
+	DyeSprayerProj.DisplayName: 染料喷雾器射弹
+	SolarSword.DisplayName: 日耀剑
+}
+
+Configs: {
+	DyeServerConfig: {
+		DisplayName: 服务器端配置
+
+		SprayerCanDyeProjectile: {
+			Label: 喷雾器给弹幕染色
+			Tooltip:
+				'''
+				允许喷洒器喷洒附近的弹幕
+				如果您有性能问题，请禁用（可能将fps提高0.01%）
+				'''
+		}
+
+		WaterRemoveItemDye: {
+			Label: 水能移除物品上的染料
+			Tooltip:
+				'''
+				将染色后的物品丢入水中能洗掉染料
+				“布拉德，你的染料很廉价”
+				'''
+		}
+
+		WaterRemoveNPCDye: {
+			Label: 水能移除NPC上的染料
+			Tooltip:
+				'''
+				在现实生活中，你的红衬衫洗后不会变白
+				你觉得不应该这样吗？
+				'''
+		}
+
+		DyeReforges: {
+			Label: 特殊染料效果
+			Tooltip:
+				'''
+				染色的物品具有独特效果
+				这可能会也可能不会对玩家有利，因此默认情况下它被禁用
+				'''
+		}
+
+		ProjectileFollowParentDye: {
+			Label: 弹幕跟随原始染料
+			Tooltip: 弹幕跟随其NPC、物品或其他弹幕的原始染料
+		}
+
+		EnemyFunStuff: {
+			Label: 有趣怪物内容
+			Tooltip:
+				'''
+				老实说，我很无聊
+				如果你感到无聊，请启用此功能
+				'''
+		}
+
+		FailSaveLoad: {
+			Label: 保存失败方案
+			Tooltip:
+				'''
+				用于未加载的染料
+				如果你想以某种方式稍微增加加载时间，请禁用此功能
+				'''
+		}
+
+		DyeAnyItem: {
+			Label: 所有物品染色
+			Tooltip:
+				'''
+				允许玩家为所有物品染色
+				之前只允许给武器染色
+				'''
+		}
+	}
+
+	DyeClientConfig: {
+		DyeItemPrefix: {
+			Tooltip: 看起来很棒，我的女士
+			Label: 染料前缀
+		}
+
+		DyeItemDyeDye: {
+			Tooltip: 染料实际上会显示出它具体的染色样貌
+			Label: 染料样貌显示
+		}
+
+		DisplayName: 客户端配置
+
+		Debug: {
+			Label: Debug
+			Tooltip: 用于Debug
+		}
+
+		ItemPlayerShader: {
+			Label: 物品玩家着色器
+			Tooltip:
+				'''
+				物品着色器使用玩家作为实体参数
+				也许可以解决你的问题，不是吗？？
+				'''
+		}
+
+		OverlapItemLayer: {
+			Label: 重叠物品图层
+			Tooltip:
+				'''
+				重叠物品图层而不是替换它
+				也许有些模组在物品图层做了一些有趣的事情
+				'''
+		}
+
+		ProjectileDustPatch: {
+			Label: 粒子补丁
+			Tooltip:
+				'''
+				粒子将跟随弹幕染料
+				如果拖尾颜色不匹配，则可以禁用
+				'''
+		}
+
+		DyeItemName: {
+			Label: 物品名称染色
+			Tooltip: 显示你的物品名字有多酷
+		}
+	}
+}

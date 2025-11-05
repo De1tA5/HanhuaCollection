@@ -17,7 +17,6 @@ https://github.com/De1tA5/HanhuaCollection
 [code]
 [list]
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3554145193] Homeward Subworld [/url] 旅人归途：深渊子世界
-    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3557455275] Homeward Ragnarok [/url] 旅人归途&诸神黄昏：炼狱蚀光 兼容
 [/list]
 [/code]
 
@@ -39,6 +38,7 @@ https://github.com/De1tA5/HanhuaCollection
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3541613073] Critical Strikes Overhaul [/url] 暴击大修
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3137978242] Mod Marks For Materials [/url] 材料图标
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2844205990] DNI Equipment Upgrade [/url] DNI装备强化
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3377599914] Dyeable Anything [/url] 染上一切
 [/list]
 [/code]
 

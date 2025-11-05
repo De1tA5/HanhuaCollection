@@ -1,0 +1,512 @@
+DyeServerConfig: {
+	SaveConfig: {
+		1: {
+			OldString: Save
+			NewString: Save
+		}
+	}
+}
+
+DyeClientConfig: {
+	SaveConfig: {
+		1: {
+			OldString: Save
+			NewString: Save
+		}
+	}
+}
+
+DyedNPC: {
+	SaveData: {
+		1: {
+			OldString: dye
+			NewString: dye
+		}
+
+		2: {
+			OldString: Missing dye mod , refusing to save
+			NewString: Missing dye mod , refusing to save
+		}
+	}
+
+	LoadData: {
+		1: {
+			OldString: dye
+			NewString: dye
+		}
+
+		2: {
+			OldString: Missing dye mod , altering dye
+			NewString: Missing dye mod , altering dye
+		}
+	}
+}
+
+DyedItem: {
+	SaveData: {
+		1: {
+			OldString: dye
+			NewString: dye
+		}
+
+		2: {
+			OldString: Missing dye mod , refusing to save
+			NewString: Missing dye mod , refusing to save
+		}
+	}
+
+	LoadData: {
+		1: {
+			OldString: dye
+			NewString: dye
+		}
+
+		2: {
+			OldString: Missing dye mod , altering dye
+			NewString: Missing dye mod , altering dye
+		}
+	}
+
+	PostDrawInInventory: {
+		1: {
+			OldString: ":"
+			NewString: ":"
+		}
+	}
+
+	PreDrawTooltipLine: {
+		1: {
+			OldString: Terraria
+			NewString: Terraria
+		}
+
+		2: {
+			OldString: ItemName
+			NewString: ItemName
+		}
+	}
+}
+
+ApplyDye: {
+	ModifyTooltips: {
+		1: {
+			OldString: applydye
+			NewString: applydye
+		}
+
+		2: {
+			OldString: Hold weapon and right click this to dye it
+			NewString: Hold weapon and right click this to dye it
+		}
+
+		3: {
+			OldString: Dyed item can be washed using water
+			NewString: Dyed item can be washed using water
+		}
+
+		4: {
+			OldString: ""
+			NewString: ""
+		}
+
+		5: {
+			OldString: dyeReforge
+			NewString: dyeReforge
+		}
+
+		6: {
+			OldString: " + "
+			NewString: " + "
+		}
+
+		7: {
+			OldString: dyeCommonPrefix
+			NewString: dyeCommonPrefix
+		}
+	}
+
+	PostDrawInInventory: {
+		1: {
+			OldString: " / "
+			NewString: " / "
+		}
+	}
+}
+
+DyeReforge: {
+	PreSetup: {
+		1: {
+			OldString: Loading dye common reforges modules
+			NewString: Loading dye common reforges modules
+		}
+
+		2: {
+			OldString: The seed is fuck you
+			NewString: The seed is fuck you
+		}
+
+		3: {
+			OldString: Setupping loop
+			NewString: Setupping loop
+		}
+	}
+
+	LoadItem: {
+		1: {
+			OldString: "Adding Good Prefixes for "
+			NewString: "Adding Good Prefixes for "
+		}
+
+		2: {
+			OldString: "Adding Bad Prefixes for "
+			NewString: "Adding Bad Prefixes for "
+		}
+
+		3: {
+			OldString: "Adding Stat "
+			NewString: "Adding Stat "
+		}
+
+		4: {
+			OldString: " // "
+			NewString: " // "
+		}
+	}
+
+	GetRegularPrefix: {
+		1: {
+			OldString: ""
+			NewString: ""
+		}
+	}
+
+	GetPrefixString: {
+		1: {
+			OldString: Slimed in a non lewd way
+			NewString: Slimed in a non lewd way
+		}
+
+		2: {
+			OldString: Immersed in gold
+			NewString: Immersed in gold
+		}
+
+		3: {
+			OldString: Lets gamble.
+			NewString: Lets gamble.
+		}
+
+		4: {
+			OldString: Gayass
+			NewString: Gayass
+		}
+
+		5: {
+			OldString: Burn within the twilight
+			NewString: Burn within the twilight
+		}
+
+		6: {
+			OldString: Sparkled with fairy minds
+			NewString: Sparkled with fairy minds
+		}
+
+		7: {
+			OldString: Immersed with illusion
+			NewString: Immersed with illusion
+		}
+
+		8: {
+			OldString: Pure rage.
+			NewString: Pure rage.
+		}
+
+		9: {
+			OldString: Impower range
+			NewString: Impower range
+		}
+
+		10: {
+			OldString: Melting Swords
+			NewString: Melting Swords
+		}
+
+		11: {
+			OldString: Magic duplicator
+			NewString: Magic duplicator
+		}
+
+		12: {
+			OldString: Star attractor
+			NewString: Star attractor
+		}
+
+		13: {
+			OldString: Non Special Dye
+			NewString: Non Special Dye
+		}
+	}
+
+	OnHitNPC: {
+		1: {
+			OldString: spawns
+			NewString: spawns
+		}
+	}
+
+	ModifyTooltips: {
+		1: {
+			OldString: ""
+			NewString: ""
+		}
+
+		2: {
+			OldString: dyeReforge
+			NewString: dyeReforge
+		}
+
+		3: {
+			OldString: dyeCommonPrefix
+			NewString: dyeCommonPrefix
+		}
+	}
+
+	PreDrawTooltipLine: {
+		1: {
+			OldString: dyeReforge
+			NewString: dyeReforge
+		}
+	}
+}
+
+EnemyFunStuff: {
+	ModifyTypeName: {
+		1: {
+			OldString: " Fired Up"
+			NewString: " Fired Up"
+		}
+
+		2: {
+			OldString: " Dried Up"
+			NewString: " Dried Up"
+		}
+
+		3: {
+			OldString: " Humangous"
+			NewString: " Humangous"
+		}
+	}
+}
+
+Projectiles: {
+	SolarSword: {
+		get_Texture: {
+			1: {
+				OldString: Terraria/Images/Item_
+				NewString: Terraria/Images/Item_
+			}
+		}
+	}
+}
+
+Items: {
+	EpilepsyDye: {
+		get_Texture: {
+			1: {
+				OldString: Terraria/Images/Item_
+				NewString: Terraria/Images/Item_
+			}
+		}
+	}
+
+	SuperIntenseRandomDye: {
+		get_Texture: {
+			1: {
+				OldString: Terraria/Images/Item_
+				NewString: Terraria/Images/Item_
+			}
+		}
+	}
+
+	IntenseRandomDye: {
+		get_Texture: {
+			1: {
+				OldString: Terraria/Images/Item_
+				NewString: Terraria/Images/Item_
+			}
+		}
+	}
+
+	DyeSprayer: {
+		ModifyTooltips: {
+			1: {
+				OldString: "[i:"
+				NewString: "[i:"
+			}
+
+			2: {
+				OldString: "]"
+				NewString: "]"
+			}
+
+			3: {
+				OldString: "[c/F62B2B:None]"
+				NewString: "[c/F62B2B:None]"
+			}
+
+			4: {
+				OldString: amogus
+				NewString: amogus
+			}
+
+			5: {
+				OldString: "Current dye : "
+				NewString: "Current dye : "
+			}
+
+			6: {
+				OldString: boom
+				NewString: boom
+			}
+
+			7: {
+				OldString: "'boom boom colorfull'"
+				NewString: "'boom boom colorfull'"
+			}
+		}
+
+		PostDrawInInventory: {
+			1: {
+				OldString: _dye
+				NewString: _dye
+			}
+		}
+
+		PostDrawInWorld: {
+			1: {
+				OldString: _dye
+				NewString: _dye
+			}
+		}
+	}
+
+	DyeSprayerProj: {
+		get_Texture: {
+			1: {
+				OldString: Terraria/Images/Projectile_
+				NewString: Terraria/Images/Projectile_
+			}
+		}
+	}
+}
+
+DyeReforge+DyeStatIncrease: {
+	FormatPercent: {
+		1: {
+			OldString: " %"
+			NewString: " %"
+		}
+	}
+
+	GetStatText: {
+		1: {
+			OldString: ""
+			NewString: ""
+		}
+
+		2: {
+			OldString: "Decreased Life By "
+			NewString: "Decreased Life By "
+		}
+
+		3: {
+			OldString: "\n"
+			NewString: "\n"
+		}
+
+		4: {
+			OldString: "Increased Life By "
+			NewString: "Increased Life By "
+		}
+
+		5: {
+			OldString: "Decreased Movement Speed By "
+			NewString: "Decreased Movement Speed By "
+		}
+
+		6: {
+			OldString: "Increased Movement Speed By "
+			NewString: "Increased Movement Speed By "
+		}
+
+		7: {
+			OldString: "Decreased Regen By "
+			NewString: "Decreased Regen By "
+		}
+
+		8: {
+			OldString: "Increased Regen By "
+			NewString: "Increased Regen By "
+		}
+
+		9: {
+			OldString: "Decreased Defense By "
+			NewString: "Decreased Defense By "
+		}
+
+		10: {
+			OldString: "Increased Defense By "
+			NewString: "Increased Defense By "
+		}
+
+		11: {
+			OldString: "Decreased Damage By "
+			NewString: "Decreased Damage By "
+		}
+
+		12: {
+			OldString: "Increased Damage By "
+			NewString: "Increased Damage By "
+		}
+
+		13: {
+			OldString: "Decreased Coin Luck By "
+			NewString: "Decreased Coin Luck By "
+		}
+
+		14: {
+			OldString: "Increased Coin Luck By "
+			NewString: "Increased Coin Luck By "
+		}
+
+		15: {
+			OldString: "Can life leach by "
+			NewString: "Can life leach by "
+		}
+
+		16: {
+			OldString: "Decreased Attack Speed By "
+			NewString: "Decreased Attack Speed By "
+		}
+
+		17: {
+			OldString: "Increased Attack Speed By "
+			NewString: "Increased Attack Speed By "
+		}
+
+		18: {
+			OldString: "Decreased Mana Cost By "
+			NewString: "Decreased Mana Cost By "
+		}
+
+		19: {
+			OldString: "Increased Mana Cost By "
+			NewString: "Increased Mana Cost By "
+		}
+
+		20: {
+			OldString: No Extra Quality Found
+			NewString: No Extra Quality Found
+		}
+	}
+}

@@ -9,21 +9,7 @@ using TigerForceLocalizationLib;
 
 namespace HanhuaCollection
 {
-    //HomewardRagnarok—旅人归途&诸神黄昏兼容
-    public class HomewardRagnarok : ModSystem
-	{
-       
-        public override void PostSetupContent()
-        {
-            if (ModLoader.HasMod("HomewardRagnarok"))
-            {
-                TigerForceLocalizationHelper.LocalizeAll("HanhuaCollection", "HomewardRagnarok", false);
-                base.PostSetupContent();
-            }
-            
-        }
 
-    }
     //PotionMastery—药水精通
     public class PotionMastery : ModSystem
     {
@@ -48,6 +34,19 @@ namespace HanhuaCollection
                 base.PostSetupContent();
             }
 
+        }
+    }
+
+    //DyeAnything—染上一切
+    public class DyeAnything : ModSystem 
+    {
+        public override void PostSetupContent()
+        {
+            if (ModLoader.HasMod("DyeAnything"))
+            {
+                TigerForceLocalizationHelper.LocalizeAll("HanhuaCollection", "DyeAnything", false);
+                base.PostSetupContent();
+            }
         }
     }
 }

@@ -1,7 +1,7 @@
 displayName = [C/dbdbdb:汉][C/b5b5b5:化][C/636363:合][C/8f8f8f:集]
 author = 三杯伍迪
-version = 0.1.8
+version = 0.1.9.1
 side = Client
 translationMod = true
 dllReferences = TigerForceLocalizationLib
-sortAfter = MoreEmblems,HomewardRagnarok,HomewardSubworld,CritRework,MaterialModSymbols,StackableBuffDuration2,PotionMastery,AutoPotion,BeverageOfTheGods,PrismaAlchemy,DNIWpnUpgr,UltraStyle
+sortAfter = MoreEmblems,HomewardSubworld,CritRework,MaterialModSymbols,StackableBuffDuration2,PotionMastery,AutoPotion,BeverageOfTheGods,PrismaAlchemy,DNIWpnUpgr,UltraStyle,DyeAnything

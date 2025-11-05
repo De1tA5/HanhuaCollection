@@ -1,0 +1,159 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	DyeSprayer: {
+		DisplayName: Dye Sprayer
+		Tooltip: ""
+	}
+
+	MagicDyer: {
+		DisplayName: Magic Dyer
+		Tooltip: ""
+	}
+
+	RandomDye: {
+		DisplayName: Random Dye
+		Tooltip: "'ooh shiny'"
+	}
+
+	SuperIntenseRandomDye: {
+		Tooltip: "'might cause autism'"
+		DisplayName: Super Intense Random Dye
+	}
+
+	IntenseRandomDye: {
+		Tooltip: "'significantly more worse than before'"
+		DisplayName: Intense Random Dye
+	}
+
+	EpilepsyDye: {
+		DisplayName: Epilepsy Dye
+		Tooltip: absolute wack
+	}
+}
+
+Projectiles: {
+	DyeSprayerProj.DisplayName: Dye Sprayer Proj
+	SolarSword.DisplayName: Solar Sword
+}
+
+Configs: {
+	DyeServerConfig: {
+		DisplayName: Dye Server Config
+
+		SprayerCanDyeProjectile: {
+			Label: Sprayer Can Dye Projectile
+			Tooltip:
+				'''
+				Allow Sprayer to spray nearby Projectiles
+				Disable if you having performance issue ( maybe increase fps by 0.01 % )
+				'''
+		}
+
+		WaterRemoveItemDye: {
+			Label: Water Remove Item Dye
+			Tooltip: "'Blud , Your dye are cheap'"
+		}
+
+		WaterRemoveNPCDye: {
+			Label: Water Remove NPC Dye
+			Tooltip:
+				'''
+				In real life , your red shirt will not turn white when washed 
+				 do you think it shouldnt be like that ?
+				'''
+		}
+
+		DyeReforges: {
+			Label: Dye Custom Effect
+			Tooltip:
+				'''
+				Dyed item will have unique custom effects
+				This may or may not benefits player so by default its disabled
+				'''
+		}
+
+		ProjectileFollowParentDye: {
+			Label: Projectile Follow Parent Dye
+			Tooltip: Projectile follow its NPC , Item or other Projectile Original Dye
+		}
+
+		EnemyFunStuff: {
+			Label: Enemy Fun Stuff
+			Tooltip:
+				'''
+				Honestly im bored
+				Enable this if ur bored
+				'''
+		}
+
+		FailSaveLoad: {
+			Label: Fail save plan
+			Tooltip:
+				'''
+				A technical support for unloaded dye
+				Disable this if you want a slight increase in load time somehow
+				'''
+		}
+
+		DyeAnyItem: {
+			Label: Dye Any Item
+			Tooltip:
+				'''
+				Allow user to dye any item 
+				Previously it can only dye weapons
+				'''
+		}
+	}
+
+	DyeClientConfig: {
+		DyeItemPrefix: {
+			Tooltip: looking good my lady
+			Label: Dye Item Prefix
+		}
+
+		DyeItemDyeDye: {
+			Tooltip: dye item actually display what would it look like
+			Label: Dye Item Dye Dye
+		}
+
+		DisplayName: Dye Client Config
+
+		Debug: {
+			Label: Debug
+			Tooltip: For debugging purposes
+		}
+
+		ItemPlayerShader: {
+			Label: Item Player Shader
+			Tooltip:
+				'''
+				Item Shader uses Player as entity parameter
+				Perhaps fix your problem no ??
+				'''
+		}
+
+		OverlapItemLayer: {
+			Label: Overlap Item Layer
+			Tooltip:
+				'''
+				Overlap item layer instead of Replacing It
+				Maybe some mods are doing funny stuff in item layer idk.
+				'''
+		}
+
+		ProjectileDustPatch: {
+			Label: Projectile Dust Patch
+			Tooltip:
+				'''
+				Dust follow its projectile dye
+				Can be disabled if you having unmatched dust color
+				'''
+		}
+
+		DyeItemName: {
+			Label: Dye Item Name
+			Tooltip: Shows how cool ur item name is
+		}
+	}
+}

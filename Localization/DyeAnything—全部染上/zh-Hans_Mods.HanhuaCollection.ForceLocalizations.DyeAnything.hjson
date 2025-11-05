@@ -1,0 +1,512 @@
+DyeServerConfig: {
+	SaveConfig: {
+		1: {
+			// OldString: Save
+			// NewString: Save
+		}
+	}
+}
+
+DyeClientConfig: {
+	SaveConfig: {
+		1: {
+			// OldString: Save
+			// NewString: Save
+		}
+	}
+}
+
+DyedNPC: {
+	SaveData: {
+		1: {
+			// OldString: dye
+			// NewString: dye
+		}
+
+		2: {
+			// OldString: Missing dye mod , refusing to save
+			NewString: 缺失染料模组，拒绝保存
+		}
+	}
+
+	LoadData: {
+		1: {
+			// OldString: dye
+			// NewString: dye
+		}
+
+		2: {
+			// OldString: Missing dye mod , altering dye
+			NewString: 缺失染料模组，正在更改染料
+		}
+	}
+}
+
+DyedItem: {
+	SaveData: {
+		1: {
+			// OldString: dye
+			// NewString: dye
+		}
+
+		2: {
+			// OldString: Missing dye mod , refusing to save
+			NewString: 缺失染料模组，拒绝保存
+		}
+	}
+
+	LoadData: {
+		1: {
+			// OldString: dye
+			// NewString: dye
+		}
+
+		2: {
+			// OldString: Missing dye mod , altering dye
+			NewString: 缺失染料模组，正在更改染料
+		}
+	}
+
+	PostDrawInInventory: {
+		1: {
+			// OldString: ":"
+			// NewString: ":"
+		}
+	}
+
+	PreDrawTooltipLine: {
+		1: {
+			// OldString: Terraria
+			// NewString: Terraria
+		}
+
+		2: {
+			// OldString: ItemName
+			// NewString: ItemName
+		}
+	}
+}
+
+ApplyDye: {
+	ModifyTooltips: {
+		1: {
+			// OldString: applydye
+			// NewString: applydye
+		}
+
+		2: {
+			// OldString: Hold weapon and right click this to dye it
+			NewString: 光标持有武器并右键单击染料以染色
+		}
+
+		3: {
+			// OldString: Dyed item can be washed using water
+			NewString: 被染色的物品可以用水清洗
+		}
+
+		4: {
+			// OldString: ""
+			// NewString: ""
+		}
+
+		5: {
+			// OldString: dyeReforge
+			// NewString: dyeReforge
+		}
+
+		6: {
+			// OldString: " + "
+			// NewString: " + "
+		}
+
+		7: {
+			// OldString: dyeCommonPrefix
+			// NewString: dyeCommonPrefix
+		}
+	}
+
+	PostDrawInInventory: {
+		1: {
+			// OldString: " / "
+			// NewString: " / "
+		}
+	}
+}
+
+DyeReforge: {
+	PreSetup: {
+		1: {
+			// OldString: Loading dye common reforges modules
+			NewString: 加载染料常用重铸模块
+		}
+
+		2: {
+			// OldString: The seed is fuck you
+			// NewString: The seed is fuck you
+		}
+
+		3: {
+			// OldString: Setupping loop
+			NewString: 设置循环
+		}
+	}
+
+	LoadItem: {
+		1: {
+			// OldString: "Adding Good Prefixes for "
+			NewString: "提供正面前缀给 "
+		}
+
+		2: {
+			// OldString: "Adding Bad Prefixes for "
+			NewString: "提供负面前缀给 "
+		}
+
+		3: {
+			// OldString: "Adding Stat "
+			NewString: "增加属性 "
+		}
+
+		4: {
+			// OldString: " // "
+			// NewString: " // "
+		}
+	}
+
+	GetRegularPrefix: {
+		1: {
+			// OldString: ""
+			// NewString: ""
+		}
+	}
+
+	GetPrefixString: {
+		1: {
+			// OldString: Slimed in a non lewd way
+			NewString: 非渎黏附
+		}
+
+		2: {
+			// OldString: Immersed in gold
+			NewString: 浸金
+		}
+
+		3: {
+			// OldString: Lets gamble.
+			NewString: 让我们赌博
+		}
+
+		4: {
+			// OldString: Gayass
+			NewString: 同性恋
+		}
+
+		5: {
+			// OldString: Burn within the twilight
+			NewString: 暮色燃烧
+		}
+
+		6: {
+			// OldString: Sparkled with fairy minds
+			NewString: 精灵心之耀
+		}
+
+		7: {
+			// OldString: Immersed with illusion
+			NewString: 渗幻
+		}
+
+		8: {
+			// OldString: Pure rage.
+			NewString: 纯怒
+		}
+
+		9: {
+			// OldString: Impower range
+			NewString: 远程强化
+		}
+
+		10: {
+			// OldString: Melting Swords
+			NewString: 熔融剑
+		}
+
+		11: {
+			// OldString: Magic duplicator
+			NewString: 魔法复制
+		}
+
+		12: {
+			// OldString: Star attractor
+			NewString: 引星
+		}
+
+		13: {
+			// OldString: Non Special Dye
+			NewString: 非特殊染料
+		}
+	}
+
+	OnHitNPC: {
+		1: {
+			// OldString: spawns
+			// NewString: spawns
+		}
+	}
+
+	ModifyTooltips: {
+		1: {
+			// OldString: ""
+			// NewString: ""
+		}
+
+		2: {
+			// OldString: dyeReforge
+			// NewString: dyeReforge
+		}
+
+		3: {
+			// OldString: dyeCommonPrefix
+			// NewString: dyeCommonPrefix
+		}
+	}
+
+	PreDrawTooltipLine: {
+		1: {
+			// OldString: dyeReforge
+			// NewString: dyeReforge
+		}
+	}
+}
+
+EnemyFunStuff: {
+	ModifyTypeName: {
+		1: {
+			// OldString: " Fired Up"
+			// NewString: " Fired Up"
+		}
+
+		2: {
+			// OldString: " Dried Up"
+			// NewString: " Dried Up"
+		}
+
+		3: {
+			// OldString: " Humangous"
+			// NewString: " Humangous"
+		}
+	}
+}
+
+Projectiles: {
+	SolarSword: {
+		get_Texture: {
+			1: {
+				// OldString: Terraria/Images/Item_
+				// NewString: Terraria/Images/Item_
+			}
+		}
+	}
+}
+
+Items: {
+	EpilepsyDye: {
+		get_Texture: {
+			1: {
+				// OldString: Terraria/Images/Item_
+				// NewString: Terraria/Images/Item_
+			}
+		}
+	}
+
+	SuperIntenseRandomDye: {
+		get_Texture: {
+			1: {
+				// OldString: Terraria/Images/Item_
+				// NewString: Terraria/Images/Item_
+			}
+		}
+	}
+
+	IntenseRandomDye: {
+		get_Texture: {
+			1: {
+				// OldString: Terraria/Images/Item_
+				// NewString: Terraria/Images/Item_
+			}
+		}
+	}
+
+	DyeSprayer: {
+		ModifyTooltips: {
+			1: {
+				// OldString: "[i:"
+				// NewString: "[i:"
+			}
+
+			2: {
+				// OldString: "]"
+				// NewString: "]"
+			}
+
+			3: {
+				// OldString: "[c/F62B2B:None]"
+				NewString: "[c/F62B2B:无]"
+			}
+
+			4: {
+				// OldString: amogus
+				// NewString: amogus
+			}
+
+			5: {
+				// OldString: "Current dye : "
+				NewString: "当前染料 : "
+			}
+
+			6: {
+				// OldString: boom
+				// NewString: boom
+			}
+
+			7: {
+				// OldString: "'boom boom colorfull'"
+				NewString: “轰轰烈烈 鲜艳多彩”
+			}
+		}
+
+		PostDrawInInventory: {
+			1: {
+				// OldString: _dye
+				// NewString: _dye
+			}
+		}
+
+		PostDrawInWorld: {
+			1: {
+				// OldString: _dye
+				// NewString: _dye
+			}
+		}
+	}
+
+	DyeSprayerProj: {
+		get_Texture: {
+			1: {
+				// OldString: Terraria/Images/Projectile_
+				// NewString: Terraria/Images/Projectile_
+			}
+		}
+	}
+}
+
+DyeReforge+DyeStatIncrease: {
+	FormatPercent: {
+		1: {
+			// OldString: " %"
+			NewString: %
+		}
+	}
+
+	GetStatText: {
+		1: {
+			// OldString: ""
+			// NewString: ""
+		}
+
+		2: {
+			// OldString: "Decreased Life By "
+			NewString: "最大生命值减少 "
+		}
+
+		3: {
+			/* OldString: "\n" */
+			/* NewString: "\n" */
+		}
+
+		4: {
+			// OldString: "Increased Life By "
+			NewString: "最大生命值增加 "
+		}
+
+		5: {
+			// OldString: "Decreased Movement Speed By "
+			NewString: "移动速度减少 "
+		}
+
+		6: {
+			// OldString: "Increased Movement Speed By "
+			NewString: "移动速度提升 "
+		}
+
+		7: {
+			// OldString: "Decreased Regen By "
+			NewString: "生命回复速度减少 "
+		}
+
+		8: {
+			// OldString: "Increased Regen By "
+			NewString: "生命回复速度增加 "
+		}
+
+		9: {
+			// OldString: "Decreased Defense By "
+			NewString: "防御减少 "
+		}
+
+		10: {
+			// OldString: "Increased Defense By "
+			NewString: "防御增加 "
+		}
+
+		11: {
+			// OldString: "Decreased Damage By "
+			NewString: "伤害减少 "
+		}
+
+		12: {
+			// OldString: "Increased Damage By "
+			NewString: "伤害增加 "
+		}
+
+		13: {
+			// OldString: "Decreased Coin Luck By "
+			NewString: "钱币幸运减少 "
+		}
+
+		14: {
+			// OldString: "Increased Coin Luck By "
+			NewString: "钱币幸运增加 "
+		}
+
+		15: {
+			// OldString: "Can life leach by "
+			NewString: "生命窃取 "
+		}
+
+		16: {
+			// OldString: "Decreased Attack Speed By "
+			NewString: "攻击速度减少 "
+		}
+
+		17: {
+			// OldString: "Increased Attack Speed By "
+			NewString: "攻击速度增加 "
+		}
+
+		18: {
+			// OldString: "Decreased Mana Cost By "
+			NewString: "魔力消耗减少 "
+		}
+
+		19: {
+			// OldString: "Increased Mana Cost By "
+			NewString: "魔力消耗增加 "
+		}
+
+		20: {
+			// OldString: No Extra Quality Found
+			NewString: 没有额外的品质增加
+		}
+	}
+}
