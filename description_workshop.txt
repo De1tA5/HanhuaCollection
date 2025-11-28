@@ -34,6 +34,7 @@ https://github.com/De1tA5/HanhuaCollection
 [h3] 其他 [/h3]
 [code]
 [list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3608321850] UI Editor [/url] UI 编辑器
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3532338870] More Emblems [/url] 更多徽章
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3541613073] Critical Strikes Overhaul [/url] 暴击大修
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3137978242] Mod Marks For Materials [/url] 材料图标

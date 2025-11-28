@@ -1,0 +1,2810 @@
+UIEditor: {
+	PostSetupContent: {
+		1: {
+			OldString: "[ModSize] No files found in mod."
+			NewString: "[ModSize] No files found in mod."
+		}
+
+		2: {
+			OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\UIEditor.cs
+			NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\UIEditor.cs
+		}
+
+		3: {
+			OldString: "[ModSize] Total files: "
+			NewString: "[ModSize] Total files: "
+		}
+
+		4: {
+			OldString: "[ModSize] Total size : "
+			NewString: "[ModSize] Total size : "
+		}
+
+		5: {
+			OldString: "0.00"
+			NewString: "0.00"
+		}
+
+		6: {
+			OldString: " MB"
+			NewString: " MB"
+		}
+
+		7: {
+			OldString: "[ModSize] Avg size   : "
+			NewString: "[ModSize] Avg size   : "
+		}
+
+		8: {
+			OldString: "0.0"
+			NewString: "0.0"
+		}
+
+		9: {
+			OldString: " KB   Median: "
+			NewString: " KB   Median: "
+		}
+
+		10: {
+			OldString: " KB"
+			NewString: " KB"
+		}
+
+		11: {
+			OldString: "[ModSize] Unique extensions: "
+			NewString: "[ModSize] Unique extensions: "
+		}
+
+		12: {
+			OldString: "[ModSize] Largest file: "
+			NewString: "[ModSize] Largest file: "
+		}
+
+		13: {
+			OldString: " ("
+			NewString: " ("
+		}
+
+		14: {
+			OldString: " MB)"
+			NewString: " MB)"
+		}
+
+		15: {
+			OldString: "[ModSize] Top 10 biggest files inside mod:"
+			NewString: "[ModSize] Top 10 biggest files inside mod:"
+		}
+
+		16: {
+			OldString: "[ModSize] "
+			NewString: "[ModSize] "
+		}
+
+		17: {
+			OldString: " MB  "
+			NewString: " MB  "
+		}
+
+		18: {
+			OldString: "[ModSize] Totals by extension:"
+			NewString: "[ModSize] Totals by extension:"
+		}
+
+		19: {
+			OldString: " "
+			NewString: " "
+		}
+	}
+}
+
+Core: {
+	MainMenuEditor: {
+		UI: {
+			ConfigButton: {
+				Draw: {
+					1: {
+						OldString: Config
+						NewString: Config
+					}
+				}
+			}
+
+			DrawBackToMainMenuSystem: {
+				DrawBackToMainMenu: {
+					1: {
+						OldString: Back to Main Menu
+						NewString: Back to Main Menu
+					}
+				}
+			}
+
+			EyeButton: {
+				Draw: {
+					1: {
+						OldString: Show
+						NewString: Show
+					}
+
+					2: {
+						OldString: Hide
+						NewString: Hide
+					}
+				}
+			}
+
+			OnOffTextButton: {
+				UpdateLabelText: {
+					1: {
+						OldString: Off
+						NewString: Off
+					}
+
+					2: {
+						OldString: On
+						NewString: On
+					}
+				}
+
+				Draw: {
+					1: {
+						OldString: No file chosen
+						NewString: No file chosen
+					}
+				}
+			}
+
+			PlayPause: {
+				Draw: {
+					1: {
+						OldString: Pause
+						NewString: Pause
+					}
+
+					2: {
+						OldString: Play
+						NewString: Play
+					}
+				}
+			}
+
+			ResetButton: {
+				Draw: {
+					1: {
+						OldString: Reset
+						NewString: Reset
+					}
+				}
+			}
+
+			Sections: {
+				BackgroundSection: {
+					MakeBtn: {
+						1: {
+							OldString: Images/UI/CharCreation/
+							NewString: Images/UI/CharCreation/
+						}
+					}
+
+					SelectTab: {
+						1: {
+							OldString: "Background Scale: "
+							NewString: "Background Scale: "
+						}
+
+						2: {
+							OldString: F2
+							NewString: F2
+						}
+
+						3: {
+							OldString: "Background Rotation: "
+							NewString: "Background Rotation: "
+						}
+
+						4: {
+							OldString: Background Position
+							NewString: Background Position
+						}
+
+						5: {
+							OldString: BG Color
+							NewString: BG Color
+						}
+					}
+
+					Update: {
+						1: {
+							OldString: "Background Scale: "
+							NewString: "Background Scale: "
+						}
+
+						2: {
+							OldString: F2
+							NewString: F2
+						}
+
+						3: {
+							OldString: "Background Rotation: "
+							NewString: "Background Rotation: "
+						}
+
+						4: {
+							OldString: "Background Position: "
+							NewString: "Background Position: "
+						}
+
+						5: {
+							OldString: ", "
+							NewString: ", "
+						}
+					}
+
+					<: {
+						ctor>b__25_1: {
+							1: {
+								OldString: No file chosen
+								NewString: No file chosen
+							}
+						}
+
+						ctor>b__25_9: {
+							1: {
+								OldString: "stored: "
+								NewString: "stored: "
+							}
+
+							2: {
+								OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\MainMenuEditor\UI\Sections\BackgroundSection.cs
+								NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\MainMenuEditor\UI\Sections\BackgroundSection.cs
+							}
+						}
+					}
+				}
+
+				DrawSection: {
+					BuildEverything: {
+						1: {
+							OldString: "Background: "
+							NewString: "Background: "
+						}
+
+						2: {
+							OldString: "Clouds: "
+							NewString: "Clouds: "
+						}
+
+						3: {
+							OldString: "Logo: "
+							NewString: "Logo: "
+						}
+
+						4: {
+							OldString: "Sky: "
+							NewString: "Sky: "
+						}
+
+						5: {
+							OldString: "Sun: "
+							NewString: "Sun: "
+						}
+
+						6: {
+							OldString: "Stars: "
+							NewString: "Stars: "
+						}
+
+						7: {
+							OldString: "Text: "
+							NewString: "Text: "
+						}
+
+						8: {
+							OldString: "Version: "
+							NewString: "Version: "
+						}
+					}
+				}
+
+				LogoSection: {
+					MakeBtn: {
+						1: {
+							OldString: Images/UI/CharCreation/
+							NewString: Images/UI/CharCreation/
+						}
+					}
+
+					SelectTab: {
+						1: {
+							OldString: "Logo Scale: "
+							NewString: "Logo Scale: "
+						}
+
+						2: {
+							OldString: F2
+							NewString: F2
+						}
+
+						3: {
+							OldString: "Logo Rotation: "
+							NewString: "Logo Rotation: "
+						}
+
+						4: {
+							OldString: Logo Position
+							NewString: Logo Position
+						}
+
+						5: {
+							OldString: Logo Color
+							NewString: Logo Color
+						}
+					}
+
+					Update: {
+						1: {
+							OldString: "Logo Scale: "
+							NewString: "Logo Scale: "
+						}
+
+						2: {
+							OldString: F2
+							NewString: F2
+						}
+
+						3: {
+							OldString: "Logo Rotation: "
+							NewString: "Logo Rotation: "
+						}
+
+						4: {
+							OldString: "Logo Position: "
+							NewString: "Logo Position: "
+						}
+
+						5: {
+							OldString: ", "
+							NewString: ", "
+						}
+					}
+
+					<: {
+						ctor>b__25_9: {
+							1: {
+								OldString: No file chosen
+								NewString: No file chosen
+							}
+						}
+					}
+				}
+
+				TextColorSection: {
+					MakeTab: {
+						1: {
+							OldString: " Text Color"
+							NewString: " Text Color"
+						}
+					}
+
+					MakeBtn: {
+						1: {
+							OldString: Images/UI/CharCreation/
+							NewString: Images/UI/CharCreation/
+						}
+					}
+
+					Update: {
+						1: {
+							OldString: "Text Scale: "
+							NewString: "Text Scale: "
+						}
+
+						2: {
+							OldString: F2
+							NewString: F2
+						}
+
+						3: {
+							OldString: "Text Position: "
+							NewString: "Text Position: "
+						}
+
+						4: {
+							OldString: ", "
+							NewString: ", "
+						}
+					}
+
+					<: {
+						ctor>b__19_0: {
+							1: {
+								OldString: "#"
+								NewString: "#"
+							}
+
+							2: {
+								OldString: X2
+								NewString: X2
+							}
+
+							3: {
+								OldString: "color set to Hover: "
+								NewString: "color set to Hover: "
+							}
+
+							4: {
+								OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\MainMenuEditor\UI\Sections\TextColorSection.cs
+								NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\MainMenuEditor\UI\Sections\TextColorSection.cs
+							}
+						}
+					}
+				}
+
+				TimeSection: {
+					SelectTab: {
+						1: {
+							OldString: "Time: "
+							NewString: "Time: "
+						}
+
+						2: {
+							OldString: "Speed: "
+							NewString: "Speed: "
+						}
+
+						3: {
+							OldString: F2
+							NewString: F2
+						}
+
+						4: {
+							OldString: "Parallax: "
+							NewString: "Parallax: "
+						}
+					}
+
+					Update: {
+						1: {
+							OldString: "Time: "
+							NewString: "Time: "
+						}
+
+						2: {
+							OldString: "Speed: "
+							NewString: "Speed: "
+						}
+
+						3: {
+							OldString: F2
+							NewString: F2
+						}
+
+						4: {
+							OldString: "Parallax: "
+							NewString: "Parallax: "
+						}
+					}
+				}
+			}
+		}
+
+		Hooks: {
+			BackgroundHook: {
+				Load: {
+					1: {
+						OldString: load bg
+						NewString: load bg
+					}
+
+					2: {
+						OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\MainMenuEditor\Hooks\BackgroundHook.cs
+						NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\MainMenuEditor\Hooks\BackgroundHook.cs
+					}
+
+					3: {
+						OldString: DrawBG
+						NewString: DrawBG
+					}
+				}
+
+				ApplyConfig: {
+					1: {
+						OldString: "Loading custom background from path: "
+						NewString: "Loading custom background from path: "
+					}
+
+					2: {
+						OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\MainMenuEditor\Hooks\BackgroundHook.cs
+						NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\MainMenuEditor\Hooks\BackgroundHook.cs
+					}
+				}
+			}
+
+			LogoHook: {
+				Load: {
+					1: {
+						OldString: UpdateAndDrawModMenuInner
+						NewString: UpdateAndDrawModMenuInner
+					}
+
+					2: {
+						OldString: Failed to find UpdateAndDrawModMenuInner method for LogoHook.
+						NewString: Failed to find UpdateAndDrawModMenuInner method for LogoHook.
+					}
+				}
+
+				ApplyConfig: {
+					1: {
+						OldString: "LogoHook: Loading custom logo from path: "
+						NewString: "LogoHook: Loading custom logo from path: "
+					}
+
+					2: {
+						OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\MainMenuEditor\Hooks\LogoHook.cs
+						NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\MainMenuEditor\Hooks\LogoHook.cs
+					}
+				}
+			}
+
+			MainMenuTextColorHook: {
+				Load: {
+					1: {
+						OldString: "found fill: "
+						NewString: "found fill: "
+					}
+
+					2: {
+						OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\MainMenuEditor\Hooks\MainMenuTextColorHook.cs
+						NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\MainMenuEditor\Hooks\MainMenuTextColorHook.cs
+					}
+				}
+			}
+
+			SkipCloudsHook: {
+				Load: {
+					1: {
+						OldString: <DrawSurfaceBG>g__DrawCloud|1826_0
+						NewString: <DrawSurfaceBG>g__DrawCloud|1826_0
+					}
+
+					2: {
+						OldString: DrawSurfaceBG → DrawCloud lambda not found – cloud hook skipped
+						NewString: DrawSurfaceBG → DrawCloud lambda not found – cloud hook skipped
+					}
+				}
+			}
+
+			LogoHook+<>c: {
+				<ModifyLogoPos>b__12_0: {
+					1: {
+						OldString: LogoHook: could not locate Vector2 ctor for logo position.
+						NewString: LogoHook: could not locate Vector2 ctor for logo position.
+					}
+				}
+			}
+
+			MainMenuTextColorHook+<>c: {
+				<ModifyColors>b__11_1: {
+					1: {
+						OldString: mouseX
+						NewString: mouseX
+					}
+				}
+
+				<ModifyColors>b__11_23: {
+					1: {
+						OldString: spriteBatch
+						NewString: spriteBatch
+					}
+				}
+
+				<ModifyColors>b__11_4: {
+					1: {
+						OldString: DrawString
+						NewString: DrawString
+					}
+				}
+
+				<ModifyColors>b__11_26: {
+					1: {
+						OldString: DrawString
+						NewString: DrawString
+					}
+				}
+
+				<ModifyColors>b__11_30: {
+					1: {
+						OldString: DrawString
+						NewString: DrawString
+					}
+				}
+
+				<ModifyColors>b__11_5: {
+					1: {
+						OldString: DrawString
+						NewString: DrawString
+					}
+				}
+
+				<ModifyColors>b__11_40: {
+					1: {
+						OldString: .ctor
+						NewString: .ctor
+					}
+				}
+			}
+
+			MainMenuTextColorHook+<>c__DisplayClass11_0: {
+				<ModifyColors>b__0: {
+					1: {
+						OldString: OffsetY
+						NewString: OffsetY
+					}
+
+					2: {
+						OldString: OffsetX
+						NewString: OffsetX
+					}
+
+					3: {
+						OldString: IsDrawing
+						NewString: IsDrawing
+					}
+
+					4: {
+						OldString: OutlineColor
+						NewString: OutlineColor
+					}
+				}
+			}
+
+			ParallaxSpeedHook+<>c: {
+				<ModifyParallaxSpeed>b__3_1: {
+					1: {
+						OldString: MenuXMovement
+						NewString: MenuXMovement
+					}
+				}
+			}
+
+			SkipSkyDrawHook+<>c: {
+				<SkipDraw>b__3_1: {
+					1: {
+						OldString: spriteBatch
+						NewString: spriteBatch
+					}
+				}
+
+				<SkipDraw>b__3_5: {
+					1: {
+						OldString: ColorOfTheSkies
+						NewString: ColorOfTheSkies
+					}
+				}
+			}
+
+			SkipSkyDrawHook+<>c__DisplayClass3_0: {
+				<SkipDraw>b__0: {
+					1: {
+						OldString: IsDrawing
+						NewString: IsDrawing
+					}
+				}
+			}
+
+			TimeSpeedHook+<>c: {
+				<ModifyMenuTime>b__3_0: {
+					1: {
+						OldString: get_rand
+						NewString: get_rand
+					}
+				}
+
+				<ModifyMenuTime>b__3_2: {
+					1: {
+						OldString: moonType
+						NewString: moonType
+					}
+				}
+			}
+		}
+
+		Helpers: {
+			FileUploadHelper: {
+				ReadAndCreateTextureFromPath: {
+					1: {
+						OldString: "Successfully loaded image – "
+						NewString: "Successfully loaded image – "
+					}
+
+					2: {
+						OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\MainMenuEditor\Helpers\FileUploadHelper.cs
+						NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\MainMenuEditor\Helpers\FileUploadHelper.cs
+					}
+
+					3: {
+						OldString: "Failed to load image – "
+						NewString: "Failed to load image – "
+					}
+				}
+
+				OpenFileDialog: {
+					1: {
+						OldString: Images
+						NewString: Images
+					}
+
+					2: {
+						OldString: png
+						NewString: png
+					}
+
+					3: {
+						OldString: jpg
+						NewString: jpg
+					}
+
+					4: {
+						OldString: jpeg
+						NewString: jpeg
+					}
+				}
+			}
+
+			WorldTimeHelper: {
+				GetFormattedTime: {
+					1: {
+						OldString: AM
+						NewString: AM
+					}
+
+					2: {
+						OldString: PM
+						NewString: PM
+					}
+
+					3: {
+						OldString: ":"
+						NewString: ":"
+					}
+
+					4: {
+						OldString: D2
+						NewString: D2
+					}
+
+					5: {
+						OldString: " "
+						NewString: " "
+					}
+				}
+			}
+		}
+	}
+
+	IngameEditor: {
+		UI: {
+			CollapseIcon: {
+				Draw: {
+					1: {
+						OldString: Expand
+						NewString: Expand
+					}
+
+					2: {
+						OldString: Collapse
+						NewString: Collapse
+					}
+				}
+			}
+
+			DragSystem: {
+				PostUpdateInput: {
+					1: {
+						OldString: Classic
+						NewString: Classic
+					}
+
+					2: {
+						OldString: Fancy
+						NewString: Fancy
+					}
+
+					3: {
+						OldString: Fancy 2
+						NewString: Fancy 2
+					}
+
+					4: {
+						OldString: Bars
+						NewString: Bars
+					}
+
+					5: {
+						OldString: Bars 2
+						NewString: Bars 2
+					}
+
+					6: {
+						OldString: Bars 3
+						NewString: Bars 3
+					}
+				}
+
+				HandleDrag: {
+					1: {
+						OldString: Please enter edit mode to drag the element.
+						NewString: Please enter edit mode to drag the element.
+					}
+
+					2: {
+						OldString: Active
+						NewString: Active
+					}
+				}
+
+				InfoAccsBounds: {
+					1: {
+						OldString: "Error counting info displays: "
+						NewString: "Error counting info displays: "
+					}
+				}
+			}
+
+			EditPanel: {
+				DrawHitboxes: {
+					1: {
+						OldString: Classic
+						NewString: Classic
+					}
+
+					2: {
+						OldString: Fancy
+						NewString: Fancy
+					}
+
+					3: {
+						OldString: Fancy 2
+						NewString: Fancy 2
+					}
+
+					4: {
+						OldString: Bars
+						NewString: Bars
+					}
+
+					5: {
+						OldString: Bars 2
+						NewString: Bars 2
+					}
+
+					6: {
+						OldString: Bars 3
+						NewString: Bars 3
+					}
+				}
+			}
+
+			EditTab: {
+				Populate: {
+					1: {
+						OldString: Move UI
+						NewString: Move UI
+					}
+
+					2: {
+						OldString: Set Theme
+						NewString: Set Theme
+					}
+				}
+
+				PopulateButtons: {
+					1: {
+						OldString: Save
+						NewString: Save
+					}
+
+					2: {
+						OldString: Reset
+						NewString: Reset
+					}
+				}
+
+				PopulateOptions: {
+					1: {
+						OldString: Settings
+						NewString: Settings
+					}
+
+					2: {
+						OldString: Edit Mode
+						NewString: Edit Mode
+					}
+
+					3: {
+						OldString: Show Hitboxes
+						NewString: Show Hitboxes
+					}
+
+					4: {
+						OldString: Show Element Names
+						NewString: Show Element Names
+					}
+
+					5: {
+						OldString: Fit Hitbox Bounds
+						NewString: Fit Hitbox Bounds
+					}
+
+					6: {
+						OldString: Snap To Edges
+						NewString: Snap To Edges
+					}
+
+					7: {
+						OldString: Show Layer Toggle
+						NewString: Show Layer Toggle
+					}
+				}
+
+				PopulateSliders: {
+					1: {
+						OldString: Sliders
+						NewString: Sliders
+					}
+
+					2: {
+						OldString: UI Scale
+						NewString: UI Scale
+					}
+
+					3: {
+						OldString: Changes the main scale of all UI
+						NewString: Changes the main scale of all UI
+					}
+				}
+
+				BuildThemeEditor: {
+					1: {
+						OldString: ""
+						NewString: ""
+					}
+				}
+
+				<Populate>b__4_0: {
+					1: {
+						OldString: Move UI
+						NewString: Move UI
+					}
+				}
+
+				<Populate>b__4_2: {
+					1: {
+						OldString: Set Theme
+						NewString: Set Theme
+					}
+				}
+
+				<BuildThemeEditor>g__GetMapBtnText|10_0: {
+					1: {
+						OldString: "[c/FFFFFF:Map:] [c/FFFF00:"
+						NewString: "[c/FFFFFF:Map:] [c/FFFF00:"
+					}
+
+					2: {
+						OldString: "]"
+						NewString: "]"
+					}
+				}
+
+				<BuildThemeEditor>g__GetLifeBtn|10_1: {
+					1: {
+						OldString: "[c/FFFFFF:Resource Bars:] [c/FFFF00:"
+						NewString: "[c/FFFFFF:Resource Bars:] [c/FFFF00:"
+					}
+
+					2: {
+						OldString: "]"
+						NewString: "]"
+					}
+				}
+			}
+
+			LayoutsTab: {
+				Populate: {
+					1: {
+						OldString: Active Layout
+						NewString: Active Layout
+					}
+
+					2: {
+						OldString: Layout Presets
+						NewString: Layout Presets
+					}
+
+					3: {
+						OldString: Layout Options
+						NewString: Layout Options
+					}
+				}
+
+				BuildCurr: {
+					1: {
+						OldString: Active
+						NewString: Active
+					}
+				}
+
+				BuildOptionsContent: {
+					1: {
+						OldString: Open layout folder
+						NewString: Open layout folder
+					}
+
+					2: {
+						OldString: Open the layouts folder
+						NewString: Open the layouts folder
+					}
+
+					3: {
+						OldString: Save this layout
+						NewString: Save this layout
+					}
+
+					4: {
+						OldString: Create a new layout file
+						NewString: Create a new layout file
+					}
+
+					5: {
+						OldString: Remove all layouts
+						NewString: Remove all layouts
+					}
+
+					6: {
+						OldString: Delete all layouts
+						NewString: Delete all layouts
+					}
+				}
+
+				<BuildCurr>b__5_1: {
+					1: {
+						OldString: Active
+						NewString: Active
+					}
+				}
+
+				<BuildOptionsContent>b__7_1: {
+					1: {
+						OldString: MyCustomLayout
+						NewString: MyCustomLayout
+					}
+				}
+			}
+
+			OnOffText: {
+				UpdateText: {
+					1: {
+						OldString: ": "
+						NewString: ": "
+					}
+
+					2: {
+						OldString: Off
+						NewString: Off
+					}
+
+					3: {
+						OldString: On
+						NewString: On
+					}
+				}
+			}
+
+			PositionsTab: {
+				Populate: {
+					1: {
+						OldString: Positions
+						NewString: Positions
+					}
+				}
+
+				BuildPositionsContent: {
+					1: {
+						OldString: ":"
+						NewString: ":"
+					}
+
+					2: {
+						OldString: (
+						NewString: (
+					}
+
+					3: {
+						OldString: ", "
+						NewString: ", "
+					}
+
+					4: {
+						OldString: )
+						NewString: )
+					}
+
+					5: {
+						OldString: Reset
+						NewString: Reset
+					}
+				}
+
+				UpdatePositionAndWidthTexts: {
+					1: {
+						OldString: (
+						NewString: (
+					}
+
+					2: {
+						OldString: ", "
+						NewString: ", "
+					}
+
+					3: {
+						OldString: )
+						NewString: )
+					}
+				}
+			}
+
+			SliderElement: {
+				UpdateLabelText: {
+					1: {
+						OldString: UI Scale
+						NewString: UI Scale
+					}
+
+					2: {
+						OldString: %
+						NewString: %
+					}
+
+					3: {
+						OldString: F2
+						NewString: F2
+					}
+
+					4: {
+						OldString: ": "
+						NewString: ": "
+					}
+
+					5: {
+						OldString: " "
+						NewString: " "
+					}
+				}
+			}
+
+			EditTab+<>c: {
+				<PopulateButtons>b__6_0: {
+					1: {
+						OldString: UI Layout saved!
+						NewString: UI Layout saved!
+					}
+				}
+
+				<PopulateButtons>b__6_1: {
+					1: {
+						OldString: Save and exit
+						NewString: Save and exit
+					}
+				}
+
+				<PopulateButtons>b__6_2: {
+					1: {
+						OldString: Reset all offsets
+						NewString: Reset all offsets
+					}
+				}
+
+				<BuildThemeEditor>b__10_2: {
+					1: {
+						OldString: ""
+						NewString: ""
+					}
+				}
+
+				<BuildThemeEditor>b__10_7: {
+					1: {
+						OldString: ""
+						NewString: ""
+					}
+				}
+			}
+
+			LayoutsTab+<>c: {
+				<BuildCurr>b__5_0: {
+					1: {
+						OldString: Active
+						NewString: Active
+					}
+				}
+
+				<BuildCurr>b__5_2: {
+					1: {
+						OldString: Current layout
+						NewString: Current layout
+					}
+				}
+
+				<BuildLayoutsContent>b__6_0: {
+					1: {
+						OldString: Active
+						NewString: Active
+					}
+				}
+			}
+
+			LayoutsTab+<>c__DisplayClass6_1: {
+				<BuildLayoutsContent>b__3: {
+					1: {
+						OldString: ""
+						NewString: ""
+					}
+
+					2: {
+						OldString: Current layout
+						NewString: Current layout
+					}
+				}
+			}
+
+			PositionsTab+<>c: {
+				<Populate>b__3_2: {
+					1: {
+						OldString: Reset All
+						NewString: Reset All
+					}
+				}
+
+				<Populate>b__3_4: {
+					1: {
+						OldString: Reset all positions
+						NewString: Reset all positions
+					}
+				}
+			}
+		}
+
+		Systems: {
+			EditSystem: {
+				ToggleActive: {
+					1: {
+						OldString: "State: "
+						NewString: "State: "
+					}
+
+					2: {
+						OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\IngameEditor\Systems\EditSystem.cs
+						NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\IngameEditor\Systems\EditSystem.cs
+					}
+				}
+
+				ModifyInterfaceLayers: {
+					1: {
+						OldString: UIEditor: EditSystem
+						NewString: UIEditor: EditSystem
+					}
+				}
+			}
+
+			EditSystem+<>c: {
+				<ModifyInterfaceLayers>b__11_0: {
+					1: {
+						OldString: Vanilla: Mouse Text
+						NewString: Vanilla: Mouse Text
+					}
+				}
+			}
+		}
+
+		Hooks: {
+			AccessoriesHook: {
+				Load: {
+					1: {
+						OldString: SetDrawLocation
+						NewString: SetDrawLocation
+					}
+				}
+
+				InjectEquipSlotsOffset: {
+					1: {
+						OldString: OffsetY
+						NewString: OffsetY
+					}
+
+					2: {
+						OldString: OffsetX
+						NewString: OffsetX
+					}
+				}
+
+				InjectPageIconsOffset: {
+					1: {
+						OldString: OffsetX
+						NewString: OffsetX
+					}
+
+					2: {
+						OldString: OffsetY
+						NewString: OffsetY
+					}
+				}
+
+				InjectNPCHousesOffset: {
+					1: {
+						OldString: OffsetX
+						NewString: OffsetX
+					}
+
+					2: {
+						OldString: OffsetY
+						NewString: OffsetY
+					}
+				}
+
+				InjectLoadoutsOffset: {
+					1: {
+						OldString: OffsetX
+						NewString: OffsetX
+					}
+
+					2: {
+						OldString: OffsetY
+						NewString: OffsetY
+					}
+				}
+
+				InjectArmor3Slots: {
+					1: {
+						OldString: OffsetX
+						NewString: OffsetX
+					}
+
+					2: {
+						OldString: OffsetY
+						NewString: OffsetY
+					}
+
+					3: {
+						OldString: Could not find mini achievement Y calculation
+						NewString: Could not find mini achievement Y calculation
+					}
+				}
+
+				InjectOffsetAtStloc: {
+					1: {
+						OldString: Could not find stloc.
+						NewString: Could not find stloc.
+					}
+
+					2: {
+						OldString: " for "
+						NewString: " for "
+					}
+				}
+			}
+
+			ClassicLifeHook: {
+				InjectOffset: {
+					1: {
+						OldString: OffsetX
+						NewString: OffsetX
+					}
+
+					2: {
+						OldString: OffsetY
+						NewString: OffsetY
+					}
+				}
+			}
+
+			CraftingHook: {
+				CraftingNog: {
+					1: {
+						OldString: OffsetY
+						NewString: OffsetY
+					}
+
+					2: {
+						OldString: OffsetX
+						NewString: OffsetX
+					}
+				}
+
+				InjectOffsetAtStloc: {
+					1: {
+						OldString: Could not find stloc.
+						NewString: Could not find stloc.
+					}
+
+					2: {
+						OldString: " for "
+						NewString: " for "
+					}
+				}
+			}
+
+			CraftWindowHook: {
+				InjectOffsetAtStloc: {
+					1: {
+						OldString: Could not find stloc.
+						NewString: Could not find stloc.
+					}
+
+					2: {
+						OldString: " for "
+						NewString: " for "
+					}
+				}
+			}
+
+			HorizontalBarsHook: {
+				InjectOffset: {
+					1: {
+						OldString: Failed to find life bar filling
+						NewString: Failed to find life bar filling
+					}
+
+					2: {
+						OldString: Failed to find mana bar panels
+						NewString: Failed to find mana bar panels
+					}
+
+					3: {
+						OldString: Failed to find mana bar filling
+						NewString: Failed to find mana bar filling
+					}
+				}
+			}
+
+			HotbarHook: {
+				InjectOffset: {
+					1: {
+						OldString: op_Addition
+						NewString: op_Addition
+					}
+
+					2: {
+						OldString: OffsetX
+						NewString: OffsetX
+					}
+
+					3: {
+						OldString: OffsetY
+						NewString: OffsetY
+					}
+				}
+			}
+
+			InventoryHook: {
+				InjectOffsetAtStloc: {
+					1: {
+						OldString: Could not find stloc.
+						NewString: Could not find stloc.
+					}
+
+					2: {
+						OldString: " for "
+						NewString: " for "
+					}
+				}
+			}
+
+			AccessoriesHook+<>c: {
+				<InjectEquipSlotsOffset>b__5_2: {
+					1: {
+						OldString: X
+						NewString: X
+					}
+				}
+
+				<InjectEquipSlotsOffset>b__5_3: {
+					1: {
+						OldString: Y
+						NewString: Y
+					}
+				}
+
+				<InjectPageIconsOffset>b__6_3: {
+					1: {
+						OldString: .ctor
+						NewString: .ctor
+					}
+				}
+
+				<InjectArmor3Slots>b__10_2: {
+					1: {
+						OldString: Y
+						NewString: Y
+					}
+				}
+
+				<InjectArmor3Slots>b__10_4: {
+					1: {
+						OldString: inventoryScale
+						NewString: inventoryScale
+					}
+				}
+
+				<InjectArmor3Slots>b__10_10: {
+					1: {
+						OldString: X
+						NewString: X
+					}
+				}
+
+				<InjectArmor3Slots>b__10_12: {
+					1: {
+						OldString: Y
+						NewString: Y
+					}
+				}
+			}
+
+			BarLifeTextHook+<>c: {
+				<InjectLifeTextOffset>b__4_4: {
+					1: {
+						OldString: op_Addition
+						NewString: op_Addition
+					}
+				}
+			}
+
+			BarManaTextHook+<>c: {
+				<InjectManaTextOffset>b__4_1: {
+					1: {
+						OldString: Terraria.Main
+						NewString: Terraria.Main
+					}
+
+					2: {
+						OldString: screenWidth
+						NewString: screenWidth
+					}
+				}
+
+				<InjectManaTextOffset>b__4_6: {
+					1: {
+						OldString: .ctor
+						NewString: .ctor
+					}
+				}
+			}
+
+			CraftingHook+<>c: {
+				<CraftingNog>b__5_5: {
+					1: {
+						OldString: OffsetX
+						NewString: OffsetX
+					}
+
+					2: {
+						OldString: OffsetY
+						NewString: OffsetY
+					}
+				}
+			}
+
+			CraftWindowHook+<>c: {
+				<WindowNog>b__4_0: {
+					1: {
+						OldString: OffsetY
+						NewString: OffsetY
+					}
+
+					2: {
+						OldString: OffsetX
+						NewString: OffsetX
+					}
+				}
+			}
+
+			FancyLifeHook+<>c: {
+				<InjectLifeBarOffset>b__4_0: {
+					1: {
+						OldString: Terraria.Main
+						NewString: Terraria.Main
+					}
+
+					2: {
+						OldString: screenWidth
+						NewString: screenWidth
+					}
+				}
+
+				<InjectLifeBarOffset>b__4_10: {
+					1: {
+						OldString: TopLeftAnchor
+						NewString: TopLeftAnchor
+					}
+				}
+			}
+
+			FancyManaHook+<>c: {
+				<InjectManaBarOffset>b__4_1: {
+					1: {
+						OldString: Terraria.Main
+						NewString: Terraria.Main
+					}
+
+					2: {
+						OldString: screenWidth
+						NewString: screenWidth
+					}
+				}
+
+				<InjectManaBarOffset>b__4_6: {
+					1: {
+						OldString: .ctor
+						NewString: .ctor
+					}
+				}
+
+				<InjectManaTextOffset>b__5_0: {
+					1: {
+						OldString: Terraria.Main
+						NewString: Terraria.Main
+					}
+
+					2: {
+						OldString: screenWidth
+						NewString: screenWidth
+					}
+				}
+			}
+
+			HorizontalBarsHook+<>c: {
+				<InjectOffset>b__4_8: {
+					1: {
+						OldString: op_Addition
+						NewString: op_Addition
+					}
+				}
+
+				<InjectOffset>b__4_18: {
+					1: {
+						OldString: op_Addition
+						NewString: op_Addition
+					}
+				}
+			}
+
+			HotbarHook+<>c: {
+				<ModifyHotbarItemPosition>b__4_3: {
+					1: {
+						OldString: .ctor
+						NewString: .ctor
+					}
+				}
+			}
+
+			InventoryHook+<>c: {
+				<InventoryNog>b__4_0: {
+					1: {
+						OldString: OffsetX
+						NewString: OffsetX
+					}
+
+					2: {
+						OldString: OffsetY
+						NewString: OffsetY
+					}
+				}
+
+				<InjectBestiaryIconOffset>b__6_4: {
+					1: {
+						OldString: .ctor
+						NewString: .ctor
+					}
+				}
+
+				<InjectBestiaryIconOffset>b__6_5: {
+					1: {
+						OldString: .ctor
+						NewString: .ctor
+					}
+				}
+
+				<InjectBestiaryIconOffset>b__6_2: {
+					1: {
+						OldString: .ctor
+						NewString: .ctor
+					}
+				}
+			}
+		}
+	}
+
+	LayersEditor: {
+		ElementsTab: {
+			Populate: {
+				1: {
+					OldString: List null.
+					NewString: List null.
+				}
+
+				2: {
+					OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\LayersEditor\ElementsTab.cs
+					NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\LayersEditor\ElementsTab.cs
+				}
+
+				3: {
+					OldString: No UI elements registered yet.
+					NewString: No UI elements registered yet.
+				}
+			}
+
+			SetupSectionHeaderControls: {
+				1: {
+					OldString: (
+					NewString: (
+				}
+
+				2: {
+					OldString: /
+					NewString: /
+				}
+
+				3: {
+					OldString: )
+					NewString: )
+				}
+			}
+		}
+
+		LayersTab: {
+			GetModPrefixes: {
+				1: {
+					OldString: LayerStates is null in GetModPrefixes. Returning empty list.
+					NewString: LayerStates is null in GetModPrefixes. Returning empty list.
+				}
+			}
+
+			Populate: {
+				1: {
+					OldString: Layers is null. LayersTab cannot populate.
+					NewString: Layers is null. LayersTab cannot populate.
+				}
+
+				2: {
+					OldString: "Found "
+					NewString: "Found "
+				}
+
+				3: {
+					OldString: " vanilla layers and "
+					NewString: " vanilla layers and "
+				}
+
+				4: {
+					OldString: " non-vanilla layers."
+					NewString: " non-vanilla layers."
+				}
+
+				5: {
+					OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\LayersEditor\LayersTab.cs
+					NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\LayersEditor\LayersTab.cs
+				}
+
+				6: {
+					OldString: Vanilla
+					NewString: Vanilla
+				}
+
+				7: {
+					OldString: Other Mods
+					NewString: Other Mods
+				}
+			}
+
+			BuildSection: {
+				1: {
+					OldString: DragonLens
+					NewString: DragonLens
+				}
+			}
+		}
+
+		LayerSystem: {
+			ModifyInterfaceLayers: {
+				1: {
+					OldString: UIEditor: LayerSystem
+					NewString: UIEditor: LayerSystem
+				}
+			}
+		}
+
+		ModUtils: {
+			GetModInstance: {
+				1: {
+					OldString: GetInstance
+					NewString: GetInstance
+				}
+
+				2: {
+					OldString: " is not a Mod or could not be instantiated via ModContent.GetInstance<T>()"
+					NewString: " is not a Mod or could not be instantiated via ModContent.GetInstance<T>()"
+				}
+			}
+		}
+
+		PacksTab: {
+			Populate: {
+				1: {
+					OldString: Enabled Packs
+					NewString: Enabled Packs
+				}
+
+				2: {
+					OldString: Disabled Packs
+					NewString: Disabled Packs
+				}
+			}
+		}
+
+		UIElementDrawSystem: {
+			ElementDrawingHook: {
+				1: {
+					OldString: Unknown
+					NewString: Unknown
+				}
+
+				2: {
+					OldString: "Registered UI Element: "
+					NewString: "Registered UI Element: "
+				}
+
+				3: {
+					OldString: ": "
+					NewString: ": "
+				}
+
+				4: {
+					OldString: " (count: "
+					NewString: " (count: "
+				}
+
+				5: {
+					OldString: )
+					NewString: )
+				}
+
+				6: {
+					OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\LayersEditor\UIElementDrawSystem.cs
+					NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\LayersEditor\UIElementDrawSystem.cs
+				}
+			}
+		}
+
+		LayersTab+<>c: {
+			<GetModPrefixes>b__4_0: {
+				1: {
+					OldString: Vanilla
+					NewString: Vanilla
+				}
+			}
+
+			<GetModPrefixes>b__4_1: {
+				1: {
+					OldString: BrickAndMortar
+					NewString: BrickAndMortar
+				}
+
+				2: {
+					OldString: DragonLens
+					NewString: DragonLens
+				}
+			}
+
+			<Populate>b__5_0: {
+				1: {
+					OldString: Vanilla
+					NewString: Vanilla
+				}
+			}
+
+			<Populate>b__5_1: {
+				1: {
+					OldString: ": "
+					NewString: ": "
+				}
+			}
+
+			<Populate>b__5_2: {
+				1: {
+					OldString: Vanilla
+					NewString: Vanilla
+				}
+			}
+
+			<Populate>b__5_3: {
+				1: {
+					OldString: ": "
+					NewString: ": "
+				}
+			}
+
+			<Populate>b__5_4: {
+				1: {
+					OldString: Vanilla
+					NewString: Vanilla
+				}
+			}
+
+			<Populate>b__5_5: {
+				1: {
+					OldString: Vanilla
+					NewString: Vanilla
+				}
+			}
+
+			<Populate>b__5_6: {
+				1: {
+					OldString: Vanilla
+					NewString: Vanilla
+				}
+			}
+
+			<BuildSection>b__6_0: {
+				1: {
+					OldString: BrickAndMortar:
+					NewString: BrickAndMortar:
+				}
+			}
+		}
+
+		LayersTab+<>c__DisplayClass5_0: {
+			<Populate>b__7: {
+				1: {
+					OldString: ":"
+					NewString: ":"
+				}
+			}
+		}
+
+		LayersTab+<>c__DisplayClass6_0: {
+			<BuildSection>b__4: {
+				1: {
+					OldString: (
+					NewString: (
+				}
+
+				2: {
+					OldString: /
+					NewString: /
+				}
+
+				3: {
+					OldString: )
+					NewString: )
+				}
+			}
+		}
+
+		LayerSystem+<>c: {
+			<ModifyInterfaceLayers>b__11_0: {
+				1: {
+					OldString: Vanilla: Mouse Text
+					NewString: Vanilla: Mouse Text
+				}
+			}
+		}
+
+		PacksTab+<>c__DisplayClass6_1: {
+			<Populate>b__12: {
+				1: {
+					OldString: "Click to disable "
+					NewString: "Click to disable "
+				}
+
+				2: {
+					OldString: "Click to enable "
+					NewString: "Click to enable "
+				}
+			}
+
+			<Populate>b__13: {
+				1: {
+					OldString: explorer.exe
+					NewString: explorer.exe
+				}
+			}
+		}
+	}
+
+	IconsWhenInventoryOpen: {
+		InventoryOpenIconState: {
+			Draw: {
+				1: {
+					OldString: Open
+					NewString: Open
+				}
+
+				2: {
+					OldString: Close
+					NewString: Close
+				}
+
+				3: {
+					OldString: " UI editor panel"
+					NewString: " UI editor panel"
+				}
+
+				4: {
+					OldString: " layer panel"
+					NewString: " layer panel"
+				}
+			}
+		}
+
+		InventoryOpenIconSystem: {
+			ModifyInterfaceLayers: {
+				1: {
+					OldString: UIEditor: Draw Icons When Inventory Is Open
+					NewString: UIEditor: Draw Icons When Inventory Is Open
+				}
+			}
+		}
+
+		InventoryOpenIconSystem+<>c: {
+			<ModifyInterfaceLayers>b__4_0: {
+				1: {
+					OldString: Vanilla: Mouse Text
+					NewString: Vanilla: Mouse Text
+				}
+			}
+		}
+	}
+
+	Helpers: {
+		ColorHelper: {
+			HexToColor: {
+				1: {
+					OldString: "#"
+					NewString: "#"
+				}
+
+				2: {
+					OldString: Hex must be 6 characters long.
+					NewString: Hex must be 6 characters long.
+				}
+			}
+
+			ColorToHex: {
+				1: {
+					OldString: "#"
+					NewString: "#"
+				}
+
+				2: {
+					OldString: X2
+					NewString: X2
+				}
+			}
+		}
+
+		IL: {
+			Edit: {
+				1: {
+					OldString: "::"
+					NewString: "::"
+				}
+
+				2: {
+					OldString: DMD<>
+					NewString: DMD<>
+				}
+
+				3: {
+					OldString: unknown file
+					NewString: unknown file
+				}
+
+				4: {
+					OldString: N/A
+					NewString: N/A
+				}
+
+				5: {
+					OldString: ERROR: IL Patch failed for '
+					NewString: ERROR: IL Patch failed for '
+				}
+
+				6: {
+					OldString:
+						'''
+						' :: 
+						 Error in file '
+						'''
+					NewString:
+						'''
+						' :: 
+						 Error in file '
+						'''
+				}
+
+				7: {
+					OldString: "' :: line "
+					NewString: "' :: line "
+				}
+
+				8: {
+					OldString: . Please contact Erky!
+					NewString: . Please contact Erky!
+				}
+			}
+		}
+
+		Loc: {
+			Get: {
+				1: {
+					OldString: Mods.UIEditor.
+					NewString: Mods.UIEditor.
+				}
+			}
+		}
+
+		Log: {
+			get_ModInstance: {
+				1: {
+					OldString: UIEditor
+					NewString: UIEditor
+				}
+
+				2: {
+					OldString: "Error getting mod instance: "
+					NewString: "Error getting mod instance: "
+				}
+			}
+
+			SlowInfo: {
+				1: {
+					OldString: "["
+					NewString: "["
+				}
+
+				2: {
+					OldString: "] "
+					NewString: "] "
+				}
+			}
+
+			Info: {
+				1: {
+					OldString: "["
+					NewString: "["
+				}
+
+				2: {
+					OldString: "] "
+					NewString: "] "
+				}
+			}
+		}
+
+		Layouts: {
+			DefaultLayouts: {
+				CreateDefaultLayout: {
+					1: {
+						OldString: Default
+						NewString: Default
+					}
+				}
+
+				CreateHotbarCenteredLayout: {
+					1: {
+						OldString: Hotbar Center
+						NewString: Hotbar Center
+					}
+				}
+
+				CreateMapLeftLayout: {
+					1: {
+						OldString: Map Left
+						NewString: Map Left
+					}
+				}
+
+				CreateMinecraftLayout: {
+					1: {
+						OldString: Minecraft
+						NewString: Minecraft
+					}
+
+					2: {
+						OldString: Creating layout: Minecraft
+						NewString: Creating layout: Minecraft
+					}
+
+					3: {
+						OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\Helpers\Layouts\DefaultLayouts.cs
+						NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\Helpers\Layouts\DefaultLayouts.cs
+					}
+
+					4: {
+						OldString: Created layout: Minecraft
+						NewString: Created layout: Minecraft
+					}
+				}
+
+				CreateMirrorLayout: {
+					1: {
+						OldString: Mirror
+						NewString: Mirror
+					}
+
+					2: {
+						OldString: Creating layout: Mirror
+						NewString: Creating layout: Mirror
+					}
+
+					3: {
+						OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\Helpers\Layouts\DefaultLayouts.cs
+						NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\Helpers\Layouts\DefaultLayouts.cs
+					}
+
+					4: {
+						OldString: Created layout: Mirror
+						NewString: Created layout: Mirror
+					}
+				}
+
+				CreateBottomLayout: {
+					1: {
+						OldString: Bottom
+						NewString: Bottom
+					}
+
+					2: {
+						OldString: Creating layout: Bottom
+						NewString: Creating layout: Bottom
+					}
+
+					3: {
+						OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\Helpers\Layouts\DefaultLayouts.cs
+						NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\Helpers\Layouts\DefaultLayouts.cs
+					}
+
+					4: {
+						OldString: Created layout: Bottom
+						NewString: Created layout: Bottom
+					}
+				}
+
+				CreateLastLayoutFile: {
+					1: {
+						OldString: LastLayout.txt
+						NewString: LastLayout.txt
+					}
+
+					2: {
+						OldString: Default
+						NewString: Default
+					}
+				}
+			}
+
+			FileHelper: {
+				GetLayoutsFolderPath: {
+					1: {
+						OldString: UIEditorLayouts
+						NewString: UIEditorLayouts
+					}
+				}
+
+				GetLayouts: {
+					1: {
+						OldString: "Layouts folder does not exist: "
+						NewString: "Layouts folder does not exist: "
+					}
+
+					2: {
+						OldString: *.json
+						NewString: *.json
+					}
+				}
+
+				GetLayoutFilePath: {
+					1: {
+						OldString: .json
+						NewString: .json
+					}
+				}
+
+				GetLastLayoutFilePath: {
+					1: {
+						OldString: LastLayout.txt
+						NewString: LastLayout.txt
+					}
+				}
+
+				LoadLastLayoutName: {
+					1: {
+						OldString: Default
+						NewString: Default
+					}
+				}
+
+				CreateAndOpenNewLayoutFile: {
+					1: {
+						OldString: "Failed to open layout file: "
+						NewString: "Failed to open layout file: "
+					}
+				}
+
+				OpenLayoutFolder: {
+					1: {
+						OldString: "Failed to open layouts folder: "
+						NewString: "Failed to open layouts folder: "
+					}
+
+					2: {
+						OldString: "Layouts folder does not exist: "
+						NewString: "Layouts folder does not exist: "
+					}
+				}
+
+				OpenLayoutFile: {
+					1: {
+						OldString: Layout file '
+						NewString: Layout file '
+					}
+
+					2: {
+						OldString: .json' not found.
+						NewString: .json' not found.
+					}
+
+					3: {
+						OldString: "Failed to open layout file: "
+						NewString: "Failed to open layout file: "
+					}
+				}
+
+				DeleteAllLayouts: {
+					1: {
+						OldString: *.json
+						NewString: *.json
+					}
+
+					2: {
+						OldString: All layouts deleted successfully.
+						NewString: All layouts deleted successfully.
+					}
+
+					3: {
+						OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\Helpers\Layouts\FileHelper.cs
+						NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\Helpers\Layouts\FileHelper.cs
+					}
+
+					4: {
+						OldString: "Error deleting layouts: "
+						NewString: "Error deleting layouts: "
+					}
+				}
+			}
+
+			LayoutHelper: {
+				SaveActiveLayout: {
+					1: {
+						OldString: Active
+						NewString: Active
+					}
+
+					2: {
+						OldString: Saved layout '
+						NewString: Saved layout '
+					}
+
+					3: {
+						OldString: "' with life theme '"
+						NewString: "' with life theme '"
+					}
+
+					4: {
+						OldString: "'."
+						NewString: "'."
+					}
+
+					5: {
+						OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\Helpers\Layouts\LayoutHelper.cs
+						NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\Helpers\Layouts\LayoutHelper.cs
+					}
+				}
+
+				WriteLayoutFile: {
+					1: {
+						OldString: "Creating directory: "
+						NewString: "Creating directory: "
+					}
+
+					2: {
+						OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\Helpers\Layouts\LayoutHelper.cs
+						NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\Helpers\Layouts\LayoutHelper.cs
+					}
+
+					3: {
+						OldString: "File was not created: "
+						NewString: "File was not created: "
+					}
+
+					4: {
+						OldString: Failed to write layout '
+						NewString: Failed to write layout '
+					}
+
+					5: {
+						OldString: "': "
+						NewString: "': "
+					}
+
+					6: {
+						OldString: "Stack trace: "
+						NewString: "Stack trace: "
+					}
+				}
+
+				ApplyLayout: {
+					1: {
+						OldString: Layout file '
+						NewString: Layout file '
+					}
+
+					2: {
+						OldString: .json' not found.
+						NewString: .json' not found.
+					}
+
+					3: {
+						OldString: Failed to parse '
+						NewString: Failed to parse '
+					}
+
+					4: {
+						OldString: .json'.
+						NewString: .json'.
+					}
+
+					5: {
+						OldString: Applied layout '
+						NewString: Applied layout '
+					}
+
+					6: {
+						OldString: "' with resource theme '"
+						NewString: "' with resource theme '"
+					}
+
+					7: {
+						OldString: "' and map theme '"
+						NewString: "' and map theme '"
+					}
+
+					8: {
+						OldString: "'."
+						NewString: "'."
+					}
+
+					9: {
+						OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\Helpers\Layouts\LayoutHelper.cs
+						NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Core\Helpers\Layouts\LayoutHelper.cs
+					}
+
+					10: {
+						OldString: Error applying layout '
+						NewString: Error applying layout '
+					}
+
+					11: {
+						OldString: "': "
+						NewString: "': "
+					}
+				}
+			}
+
+			ResourceThemeHelper: {
+				GetActiveResourceTheme: {
+					1: {
+						OldString: Fancy
+						NewString: Fancy
+					}
+
+					2: {
+						OldString: Fancy2
+						NewString: Fancy2
+					}
+
+					3: {
+						OldString: Bars
+						NewString: Bars
+					}
+
+					4: {
+						OldString: Bars2
+						NewString: Bars2
+					}
+
+					5: {
+						OldString: Bars3
+						NewString: Bars3
+					}
+
+					6: {
+						OldString: Classic
+						NewString: Classic
+					}
+				}
+			}
+		}
+	}
+}
+
+Common: {
+	Integrations: {
+		Heros: {
+			HerosModIntegration: {
+				PostSetupContent: {
+					1: {
+						OldString: HEROsMod
+						NewString: HEROsMod
+					}
+				}
+
+				AddButtons: {
+					1: {
+						OldString: AddSimpleButton
+						NewString: AddSimpleButton
+					}
+
+					2: {
+						OldString: Editor
+						NewString: Editor
+					}
+				}
+
+				PermissionChanged: {
+					1: {
+						OldString: "You lost permission for "
+						NewString: "You lost permission for "
+					}
+
+					2: {
+						OldString: " button. You cannot use it anymore."
+						NewString: " button. You cannot use it anymore."
+					}
+
+					3: {
+						OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Common\Integrations\Heros\HerosIntegration.cs
+						NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Common\Integrations\Heros\HerosIntegration.cs
+					}
+
+					4: {
+						OldString: "You regained permission for "
+						NewString: "You regained permission for "
+					}
+
+					5: {
+						OldString: " button. You can use it again."
+						NewString: " button. You can use it again."
+					}
+				}
+			}
+
+			HerosModIntegration+<>c: {
+				<AddButtons>b__3_1: {
+					1: {
+						OldString: Editor
+						NewString: Editor
+					}
+				}
+
+				<AddButtons>b__3_2: {
+					1: {
+						OldString: Open UIEditor panel
+						NewString: Open UIEditor panel
+					}
+
+					2: {
+						OldString: Close UIEditor panel
+						NewString: Close UIEditor panel
+					}
+				}
+
+				<AddButtons>b__3_4: {
+					1: {
+						OldString: Editor
+						NewString: Editor
+					}
+				}
+
+				<AddButtons>b__3_5: {
+					1: {
+						OldString: Open layer editor panel
+						NewString: Open layer editor panel
+					}
+
+					2: {
+						OldString: Close layer editor panel
+						NewString: Close layer editor panel
+					}
+				}
+			}
+		}
+
+		DragonLens: {
+			DragonLensEditTool: {
+				get_IconKey: {
+					1: {
+						OldString: UIEditor
+						NewString: UIEditor
+					}
+				}
+
+				get_Name: {
+					1: {
+						OldString: UI Editor
+						NewString: UI Editor
+					}
+				}
+
+				get_Description: {
+					1: {
+						OldString: Edit the UI layout.
+						NewString: Edit the UI layout.
+					}
+				}
+
+				DrawIcon: {
+					1: {
+						OldString: DragonLensToolIcon is not loaded
+						NewString: DragonLensToolIcon is not loaded
+					}
+
+					2: {
+						OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Common\Integrations\DragonLens\DragonLensEditTool.cs
+						NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Common\Integrations\DragonLens\DragonLensEditTool.cs
+					}
+
+					3: {
+						OldString: DragonLens/Assets/Misc/GlowAlpha
+						NewString: DragonLens/Assets/Misc/GlowAlpha
+					}
+				}
+			}
+
+			DragonLensIcons: {
+				AddIcons: {
+					1: {
+						OldString: DragonLens
+						NewString: DragonLens
+					}
+
+					2: {
+						OldString: UIEditor
+						NewString: UIEditor
+					}
+
+					3: {
+						OldString: Layers
+						NewString: Layers
+					}
+				}
+			}
+
+			DragonLensLayersTool: {
+				get_IconKey: {
+					1: {
+						OldString: LayersTool
+						NewString: LayersTool
+					}
+				}
+
+				get_Name: {
+					1: {
+						OldString: Layers Tool
+						NewString: Layers Tool
+					}
+				}
+
+				get_Description: {
+					1: {
+						OldString: Toggle vanilla interface layers, UIElements and resource packs.
+						NewString: Toggle vanilla interface layers, UIElements and resource packs.
+					}
+				}
+
+				DrawIcon: {
+					1: {
+						OldString: DragonLensToolIcon is not loaded
+						NewString: DragonLensToolIcon is not loaded
+					}
+
+					2: {
+						OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Common\Integrations\DragonLens\DragonLensLayersTool.cs
+						NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Common\Integrations\DragonLens\DragonLensLayersTool.cs
+					}
+
+					3: {
+						OldString: DragonLens/Assets/Misc/GlowAlpha
+						NewString: DragonLens/Assets/Misc/GlowAlpha
+					}
+				}
+			}
+		}
+	}
+
+	Keybinds: {
+		KeybindSystem: {
+			Load: {
+				1: {
+					OldString: Toggle Edit Panel
+					NewString: Toggle Edit Panel
+				}
+
+				2: {
+					OldString: Toggle Layers Panel
+					NewString: Toggle Layers Panel
+				}
+			}
+		}
+	}
+
+	Configs: {
+		ColorTagConfigElement: {
+			UpdateText: {
+				1: {
+					OldString: "#FFFFFF"
+					NewString: "#FFFFFF"
+				}
+			}
+
+			TryParseHexColor: {
+				1: {
+					OldString: "#"
+					NewString: "#"
+				}
+			}
+		}
+
+		Config: {
+			OnChanged: {
+				1: {
+					OldString: Config is null OnChanged.
+					NewString: Config is null OnChanged.
+				}
+
+				2: {
+					OldString: change
+					NewString: change
+				}
+
+				3: {
+					OldString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Common\Configs\Config.cs
+					NewString: C:\Users\erikm\Documents\My Games\Terraria\tModLoader\ModSources\UIEditor\Common\Configs\Config.cs
+				}
+
+				4: {
+					OldString: MainMenuSystem is null OnChanged.
+					NewString: MainMenuSystem is null OnChanged.
+				}
+			}
+		}
+
+		Conf: {
+			Save: {
+				1: {
+					OldString: An error occurred while manually saving ModConfig!.
+					NewString: An error occurred while manually saving ModConfig!.
+				}
+			}
+		}
+	}
+}

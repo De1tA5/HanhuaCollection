@@ -1,0 +1,332 @@
+Configs: {
+	Config: {
+		DisplayName: 设置
+
+		Headers: {
+			MainMenu: 主界面
+			Misc: 杂项
+			UIEditor: UI编辑器
+		}
+
+		EditMainMenu: {
+			Label: 编辑主界面
+			Tooltip:
+				'''
+				是否允许编辑主界面
+				将其关闭意味使用原版无改动的主界面
+				'''
+		}
+
+		ShowMainMenu: {
+			Label: 显示主界面
+			Tooltip: ""
+		}
+
+		FillColor: {
+			Label: 填充
+			Tooltip: Fill text color of the main menu options
+		}
+
+		NormalColor: {
+			Label: Outline
+			Tooltip: Outline text color of the main menu options
+		}
+
+		HoverColor: {
+			Label: Hover
+			Tooltip: Outline hover text color of the main menu options
+		}
+
+		ShowMessageWhenEnteringWorld: {
+			Label: Show Message When Entering World
+			Tooltip: ""
+		}
+
+		ShowCombatTextTooltips: {
+			Label: Show Combat Text Tooltips
+			Tooltip: ""
+		}
+
+		DisableItemUseWhileDragging: {
+			Label: Disable Item Use While Dragging
+			Tooltip: ""
+		}
+
+		OutlineColor: {
+			Tooltip: ""
+			Label: 轮廓颜色
+		}
+
+		ShowBackToMainMenu: {
+			Label: 显示“返回主界面”
+			Tooltip: 即右上角的“返回主界面”
+		}
+
+		MainMenuDraw: {
+			Label: 绘制
+			Tooltip: ""
+		}
+
+		MainMenuTextColor: {
+			Label: 文本颜色
+			Tooltip: ""
+		}
+
+		MainMenuTime: {
+			Label: 时间
+			Tooltip: ""
+		}
+
+		MainMenuLogo: {
+			Label: 图标
+			Tooltip: ""
+		}
+
+		MainMenuBackground: {
+			Label: 背景
+			Tooltip: ""
+		}
+
+		Layout: {
+			Label: 布局
+			Tooltip: 当前启用的布局文件的名称，打开布局文件夹即可查看并编辑所有布局
+		}
+	}
+
+	MainMenuDraw: {
+		Tooltip: ""
+
+		DrawBackground: {
+			Label: 绘制背景
+			Tooltip: ""
+		}
+
+		DrawClouds: {
+			Label: 绘制云层
+			Tooltip: ""
+		}
+
+		DrawSun: {
+			Label: 绘制太阳
+			Tooltip: ""
+		}
+
+		DrawSky: {
+			Label: 绘制天空
+			Tooltip: ""
+		}
+
+		DrawLogo: {
+			Label: 绘制图标
+			Tooltip: 仅限tModLoader主题的图标
+		}
+
+		DrawMainText: {
+			Label: 绘制主要文字
+			Tooltip: ""
+		}
+
+		DrawSocial: {
+			Label: Draw Social
+			Tooltip: ""
+		}
+
+		DrawVersion: {
+			Label: 绘制版本号
+			Tooltip: ""
+		}
+
+		DrawStars: {
+			Label: 绘制星星
+			Tooltip: ""
+		}
+
+		DrawText: {
+			Label: 绘制文本
+			Tooltip: ""
+		}
+	}
+
+	MainMenuTextColor: {
+		Tooltip: ""
+
+		FillColor: {
+			Label: 填充颜色
+			Tooltip: 文本文字本身颜色
+		}
+
+		OutlineColor: {
+			Label: 轮廓颜色
+			Tooltip: 文本轮廓线的颜色
+		}
+
+		HoverColor: {
+			Label: 停留颜色
+			Tooltip: 光标悬停在文本上时显示的颜色
+		}
+
+		Scale: {
+			Label: 缩放比例
+			Tooltip: ""
+		}
+
+		OffsetX: {
+			Label: X轴偏移
+			Tooltip: 向右为正数，向左为负数
+		}
+
+		OffsetY: {
+			Label: Y轴偏移
+			Tooltip: 向下为正数，向上为负数
+		}
+	}
+
+	MainMenuTime: {
+		Tooltip: ""
+
+		Time: {
+			Label: 时间
+			Tooltip: ""
+		}
+
+		Speed: {
+			Label: 速度
+			Tooltip: 太阳和月亮的速度，也就是时间流速
+		}
+
+		ParallaxSpeed: {
+			Label: 视差速度
+			Tooltip: 除太阳和月亮的背景物移动速度
+		}
+
+		IsPaused: {
+			Label: 是否暂停
+			Tooltip: 停止时间流动
+		}
+	}
+
+	MainMenuLogo: {
+		Tooltip: ""
+
+		Scale: {
+			Label: 缩放比例
+			Tooltip: 仅限自定义图标
+		}
+
+		Rotation: {
+			Label: 旋转
+			Tooltip: 仅限自定义图标
+		}
+
+		Position: {
+			Label: 位置
+			Tooltip: 仅限自定义图标
+		}
+
+		Color: {
+			Label: 颜色
+			Tooltip: 仅限自定义图标
+		}
+
+		CustomLogoTexture: {
+			Label: 自定义图标材质
+			Tooltip: ""
+		}
+
+		LogoFileName: {
+			Label: 图标文件名称
+			Tooltip: ""
+		}
+
+		OffsetX: {
+			Label: X轴偏移
+			Tooltip: 仅限自定义图标
+		}
+
+		OffsetY: {
+			Label: Y轴偏移
+			Tooltip: 仅限自定义图标
+		}
+	}
+
+	MainMenuBackground: {
+		Tooltip: ""
+
+		Scale: {
+			Label: 缩放比例
+			Tooltip: 仅限自定义背景
+		}
+
+		Rotation: {
+			Label: 旋转
+			Tooltip: 仅限自定义背景
+		}
+
+		Position: {
+			Label: 位置
+			Tooltip: 仅限自定义背景
+		}
+
+		Color: {
+			Label: 颜色
+			Tooltip: 仅限自定义背景
+		}
+
+		CustomBackgroundTexture: {
+			Label: 自定义背景材质
+			Tooltip: ""
+		}
+
+		BackgroundFileName: {
+			Label: 背景文件名称
+			Tooltip: ""
+		}
+
+		OffsetX: {
+			Label: X轴偏移
+			Tooltip: 仅限自定义背景
+		}
+
+		OffsetY: {
+			Label: Y轴偏移
+			Tooltip: 仅限自定义背景
+		}
+	}
+}
+
+PlayerMessages: {
+	OnEnterWorld: {
+		Welcome: Welcome to {0} v{1}!
+		IntroPanels: There are two new tools, the [c/FFFF00:UI Editor] and the [c/FF0000:Layers Tool].
+		EditToolInfo: "[c/FFFF00:UI Editor] allows you to move elements and save your layouts."
+		LayersToolInfo: "[c/FF0000:Layers Tool] allows you to toggle elements, interface layers, and resource packs."
+		ToolIntegration: You can find these as tools in DragonLens, Cheat Sheet and more, and also next to the Settings button.
+		ConfigInfo: Use the configuration to turn this message off and change other stuff, too.
+	}
+}
+
+EditorPanel: {
+	Icon: {
+		Label: UI编辑器
+		Open: 打开UI编辑器
+		Close: 关闭UI编辑器
+		Tooltip: 移动元素并保存布局！
+	}
+
+	SaveButton: {
+		Label: 保存
+		Tooltip: 保存目前的布局并退出编辑模式
+	}
+}
+
+Keybinds: {
+	"Toggle Edit Panel.DisplayName": 切换编辑面板
+	"UI Editor.DisplayName": UI编辑器
+}
+
+Tools: {
+	"UI Editor": {
+		DisplayName: UI编辑器
+		Description: The tool has no description! Add one in .hjson files!
+	}
+}

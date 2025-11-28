@@ -49,4 +49,17 @@ namespace HanhuaCollection
             }
         }
     }
+
+    //UIEditor-UI±à¼­Æ÷
+    public class UIEditor : ModSystem
+    {
+        public override void PostSetupContent()
+        {
+            if (ModLoader.HasMod("UIEditor"))
+            {
+                TigerForceLocalizationHelper.LocalizeAll("HanhuaCollection", "UIEditor", false);
+                base.PostSetupContent();
+            }
+        }
+    }
 }

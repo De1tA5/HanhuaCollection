@@ -1,0 +1,332 @@
+Configs: {
+	Config: {
+		DisplayName: Config
+
+		Headers: {
+			MainMenu: Main Menu
+			Misc: Misc
+			UIEditor: UI Editor
+		}
+
+		EditMainMenu: {
+			Label: Edit Main Menu
+			Tooltip:
+				'''
+				Whether to allow editing the main menu.
+				Leaving it off means using the vanilla main menu with no changes.
+				'''
+		}
+
+		ShowMainMenu: {
+			Label: Show Main Menu
+			Tooltip: ""
+		}
+
+		FillColor: {
+			Label: Fill
+			Tooltip: Fill text color of the main menu options
+		}
+
+		NormalColor: {
+			Label: Outline
+			Tooltip: Outline text color of the main menu options
+		}
+
+		HoverColor: {
+			Label: Hover
+			Tooltip: Outline hover text color of the main menu options
+		}
+
+		ShowMessageWhenEnteringWorld: {
+			Label: Show Message When Entering World
+			Tooltip: ""
+		}
+
+		ShowCombatTextTooltips: {
+			Label: Show Combat Text Tooltips
+			Tooltip: ""
+		}
+
+		DisableItemUseWhileDragging: {
+			Label: Disable Item Use While Dragging
+			Tooltip: ""
+		}
+
+		OutlineColor: {
+			Tooltip: ""
+			Label: Outline Color
+		}
+
+		ShowBackToMainMenu: {
+			Label: Show Back To Main Menu
+			Tooltip: ""
+		}
+
+		MainMenuDraw: {
+			Label: Draw
+			Tooltip: ""
+		}
+
+		MainMenuTextColor: {
+			Label: Text Color
+			Tooltip: ""
+		}
+
+		MainMenuTime: {
+			Label: Time
+			Tooltip: ""
+		}
+
+		MainMenuLogo: {
+			Label: Logo
+			Tooltip: ""
+		}
+
+		MainMenuBackground: {
+			Label: Background
+			Tooltip: ""
+		}
+
+		Layout: {
+			Label: Layout
+			Tooltip: The active layout file name. Open the Layouts folder to view and edit all layouts.
+		}
+	}
+
+	MainMenuDraw: {
+		Tooltip: ""
+
+		DrawBackground: {
+			Label: Draw Background
+			Tooltip: ""
+		}
+
+		DrawClouds: {
+			Label: Draw Clouds
+			Tooltip: ""
+		}
+
+		DrawSun: {
+			Label: Draw Sun
+			Tooltip: ""
+		}
+
+		DrawSky: {
+			Label: Draw Sky
+			Tooltip: ""
+		}
+
+		DrawLogo: {
+			Label: Draw Logo
+			Tooltip: ""
+		}
+
+		DrawMainText: {
+			Label: Draw Main Text
+			Tooltip: ""
+		}
+
+		DrawSocial: {
+			Label: Draw Social
+			Tooltip: ""
+		}
+
+		DrawVersion: {
+			Label: Draw Version
+			Tooltip: ""
+		}
+
+		DrawStars: {
+			Label: Draw Stars
+			Tooltip: ""
+		}
+
+		DrawText: {
+			Label: Draw Text
+			Tooltip: ""
+		}
+	}
+
+	MainMenuTextColor: {
+		Tooltip: ""
+
+		FillColor: {
+			Label: Fill Color
+			Tooltip: ""
+		}
+
+		OutlineColor: {
+			Label: Outline Color
+			Tooltip: ""
+		}
+
+		HoverColor: {
+			Label: Hover Color
+			Tooltip: ""
+		}
+
+		Scale: {
+			Label: Scale
+			Tooltip: ""
+		}
+
+		OffsetX: {
+			Label: Offset X
+			Tooltip: ""
+		}
+
+		OffsetY: {
+			Label: Offset Y
+			Tooltip: ""
+		}
+	}
+
+	MainMenuTime: {
+		Tooltip: ""
+
+		Time: {
+			Label: Time
+			Tooltip: ""
+		}
+
+		Speed: {
+			Label: Speed
+			Tooltip: ""
+		}
+
+		ParallaxSpeed: {
+			Label: Parallax Speed
+			Tooltip: ""
+		}
+
+		IsPaused: {
+			Label: Is Paused
+			Tooltip: ""
+		}
+	}
+
+	MainMenuLogo: {
+		Tooltip: ""
+
+		Scale: {
+			Label: Scale
+			Tooltip: ""
+		}
+
+		Rotation: {
+			Label: Rotation
+			Tooltip: ""
+		}
+
+		Position: {
+			Label: Position
+			Tooltip: ""
+		}
+
+		Color: {
+			Label: Color
+			Tooltip: ""
+		}
+
+		CustomLogoTexture: {
+			Label: Custom Logo Texture
+			Tooltip: ""
+		}
+
+		LogoFileName: {
+			Label: Logo File Name
+			Tooltip: ""
+		}
+
+		OffsetX: {
+			Label: Offset X
+			Tooltip: ""
+		}
+
+		OffsetY: {
+			Label: Offset Y
+			Tooltip: ""
+		}
+	}
+
+	MainMenuBackground: {
+		Tooltip: ""
+
+		Scale: {
+			Label: Scale
+			Tooltip: ""
+		}
+
+		Rotation: {
+			Label: Rotation
+			Tooltip: ""
+		}
+
+		Position: {
+			Label: Position
+			Tooltip: ""
+		}
+
+		Color: {
+			Label: Color
+			Tooltip: ""
+		}
+
+		CustomBackgroundTexture: {
+			Label: Custom Background Texture
+			Tooltip: ""
+		}
+
+		BackgroundFileName: {
+			Label: Background File Name
+			Tooltip: ""
+		}
+
+		OffsetX: {
+			Label: Offset X
+			Tooltip: ""
+		}
+
+		OffsetY: {
+			Label: Offset Y
+			Tooltip: ""
+		}
+	}
+}
+
+PlayerMessages: {
+	OnEnterWorld: {
+		Welcome: Welcome to {0} v{1}!
+		IntroPanels: There are two new tools, the [c/FFFF00:UI Editor] and the [c/FF0000:Layers Tool].
+		EditToolInfo: "[c/FFFF00:UI Editor] allows you to move elements and save your layouts."
+		LayersToolInfo: "[c/FF0000:Layers Tool] allows you to toggle elements, interface layers, and resource packs."
+		ToolIntegration: You can find these as tools in DragonLens, Cheat Sheet and more, and also next to the Settings button.
+		ConfigInfo: Use the configuration to turn this message off and change other stuff, too.
+	}
+}
+
+EditorPanel: {
+	Icon: {
+		Label: UI Editor
+		Open: Open UI Editor
+		Close: Close UI Editor
+		Tooltip: Move elements and save layouts!
+	}
+
+	SaveButton: {
+		Label: Save
+		Tooltip: Save current layout and exit edit mode
+	}
+}
+
+Keybinds: {
+	"Toggle Edit Panel.DisplayName": Toggle  Edit  Panel
+	"UI Editor.DisplayName": U I  Editor
+}
+
+Tools: {
+	"UI Editor": {
+		DisplayName: UI Editor
+		Description: The tool has no description! Add one in .hjson files!
+	}
+}
