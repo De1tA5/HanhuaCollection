@@ -169,6 +169,35 @@ Items: {
 		DisplayName: 青铜镐
 		Tooltip: ""
 	}
+
+	AssassinsDagger: {
+		DisplayName: 刺客匕首
+		Tooltip:
+			'''
+			每10秒使暴击伤害翻倍
+			增加10%近战暴击率
+			'''
+	}
+
+	BattlemageEmblem: {
+		DisplayName: 战斗法师徽章
+		Tooltip: 增加15%近战和魔法暴击率
+	}
+
+	CommanderEmblem: {
+		DisplayName: 指挥官徽章
+		Tooltip: 增加15%远程和召唤暴击率
+	}
+
+	HunterEmblem: {
+		DisplayName: 猎人徽章
+		Tooltip: 增加15%近战和远程暴击率
+	}
+
+	TeacherEmblem: {
+		DisplayName: 教职徽章
+		Tooltip: 增加15%魔法和召唤暴击率
+	}
 }
 
 Whetstone: {
@@ -207,7 +236,7 @@ Configs: {
 		}
 
 		critSoundEffect: {
-			Label: 暴击听觉效果
+			Label: 暴击音效
 			Tooltip: 启用/禁用击中敌怪时的暴击音效
 		}
 	}
@@ -259,10 +288,9 @@ Configs: {
 CritTypes: {
 	AboveFoe.Description: 处于目标上方时造成暴击
 	BelowFoe.Description: 处于目标下方时造成暴击
-	BunchedUpFoes.Description: 当有许多敌人相互靠近时造成暴击
+	BunchedUpFoes.Description: 当有许多敌怪相互靠近时造成暴击
 	CloseToFoe.Description: 当你距离目标不到6格时造成暴击
 	ElfMelter.Description: 目标具有史莱姆减益时造成暴击
-	//没找到对应词缀
 	Falling.Description: 当你坠落时造成暴击
 	FarFromFoe.Description: 当你距离目标超过40多格时造成暴击
 	Flamethrower.Description: 目标具有史莱姆减益时造成暴击
@@ -282,7 +310,7 @@ CritTypes: {
 	PlayerNohit.Description: 如果你超过15秒未受到伤害则造成暴击
 	StandingStill.Description: 当你移动速度低于10 mph时造成暴击
 	TipOfTheWeapon.Description: 使用武器尖端部分攻击敌怪造成暴击
-	CrystalVileShard.Description: 使用魔晶碎块的尖端攻击敌人时造成暴击
+	CrystalVileShard.Description: 使用魔晶碎块的尖端攻击敌怪时造成暴击
 	FreshItem.Description: 在切换该武器后1秒内造成暴击
 	Harpoon.Description: 当你距离目标至少26格远时造成暴击
 	JustHitByEnemy.Description: 受伤后2.5秒内造成暴击
@@ -293,7 +321,7 @@ CritTypes: {
 	Sniper.Description: 当你距离目标至少75格远时造成暴击
 	SpikyBall.Description: 存在超过5秒后造成暴击
 	ThrowingKnife.Description: 投刀坠落时造成暴击
-	Vilethorn.Description: 使用荆棘尖端攻击敌人造成暴击
+	Vilethorn.Description: 使用荆棘尖端攻击敌怪造成暴击
 	Adaptive.Description: 治疗至少20点生命值后3秒能造成暴击（满血治疗不算入内）
 	Ammo.Description: 此次攻击不消耗弹药时则造成暴击
 	Ancient.Description: 在你重生后60秒内造成暴击
@@ -305,13 +333,26 @@ CritTypes: {
 	Starter.Description: 如果你最大生命值低于200则造成暴击
 	WebCovered.Description: 使用钩爪抓住物块过程中超过1秒，或已抓住物块则造成暴击
 	Boomerangs.Description: 回旋镖回归时造成暴击
-	//目前不明
 	Prepared.Description: 在攻击激活5秒后造成暴击
 	Holy.Description: 当你处于无敌帧状态时造成暴击（如受到伤害）
 	CritWithAnother.Description: 其他武器暴击后3秒内该武器造成暴击
 	BronzeBowCrit.Description: 当目标距离你15-20个物块之间则造成暴击
 	TenSecondCooldown.Description: 如果你最后一次暴击至少是在10秒前则造成暴击
 	ThreeSecondCooldown.Description: 如果你最后一次暴击至少是在3秒前则造成暴击
+	Backstab.Description: 当你从背后攻击敌怪（大部分）时造成暴击
+	PickUpAmmo.Description: Mods.CritRework.CritTypes.PickUpAmmo.Description
+	HasDebuff.Description: 当你获得减益时造成暴击
+	ClassyCane.Description: 当你持有至少50个铂金币时则造成暴击
+	Katana.Description: 当你防御为0时则造成暴击
+	EyeOfCthulhu.Description: 当你生命值低于50%时则造成暴击
+	CodeYoyos.Description: 当你至少击中一个敌怪10次后造成暴击
+	Chik.Description: 当你至少击中2个不同敌怪后造成暴击
+	Code1.Description: 当你至少击中一个敌怪10次后造成暴击
+	Code2.Description: 当你至少击中一个敌怪20次后造成暴击
+	Valor.Description: 当返回时造成暴击
+	Amarok.Description: 当你超过2秒未击中敌怪后造成暴击
+	HelFire.Description: 当快速击中敌怪时造成暴击
+	Kraken.Description: 每次抛出悠悠球时，对每个被击中的敌怪造成一次暴击
 }
 
 UnknownTooltip: 未知暴击情况
