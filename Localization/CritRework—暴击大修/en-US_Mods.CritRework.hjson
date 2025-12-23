@@ -190,6 +190,54 @@ Items: {
 		DisplayName: Teacher Emblem
 		Tooltip: 15% increased magic and summoner critical strike chance
 	}
+
+	BronzeStaff: {
+		DisplayName: Bronze Staff
+		Tooltip: ""
+	}
+
+	RabidClaw: {
+		DisplayName: Rabid Claw
+		Tooltip: Critically striking grants you 30% increased melee speed for 5 seconds
+	}
+
+	NoxiousEye: {
+		DisplayName: Noxious Eye
+		Tooltip:
+			'''
+			5% increased critical strike chance
+			Critically striking briefly poisons enemies
+			Critically striking also gains a 10% chance to spawn a heart pickup and inflict extra damage
+			'''
+	}
+
+	IronChakram: {
+		DisplayName: Iron Chakram
+		Tooltip:
+			'''
+			You can usually only throw one chakram at once
+			Critically striking allows you to throw another chakram immediately
+			'''
+	}
+
+	LeadChakram: {
+		DisplayName: Lead Chakram
+		Tooltip:
+			'''
+			You can usually only throw one chakram at once
+			Critically striking allows you to throw another chakram immediately
+			'''
+	}
+
+	GoldJavelin: {
+		DisplayName: Gold Javelin
+		Tooltip: Pierces enemies only when critically striking
+	}
+
+	PlatinumJavelin: {
+		DisplayName: Platinum Javelin
+		Tooltip: Pierces enemies only when critically striking
+	}
 }
 
 Whetstone: {
@@ -230,6 +278,11 @@ Configs: {
 		critSoundEffect: {
 			Label: Critical strike sound effects
 			Tooltip: Enable/disable the sound effect that plays when critically striking enemies
+		}
+
+		showActiveCrits: {
+			Label: Show active crits in inventory
+			Tooltip: While enabled, items that currently meet a crit condition will glow in your inventory
 		}
 	}
 
@@ -341,6 +394,11 @@ CritTypes: {
 	Amarok.Description: Critically strikes after not hitting an enemy for 2 seconds
 	HelFire.Description: Critically strikes when rapidly hitting enemies
 	Kraken.Description: Critically strikes once against each hit enemy per yoyo thrown
+	MandibleBlade.Description: Critically strikes against enemies moving towards you
+	Trident.Description: Critically strikes after hitting at least 3 times in one use
+	TitaniumTrident.Description: Critically strikes when hitting multiple enemies in one use
+	DemonScytheShadowflameBow.Description: Projectiles will critically strike after killing an enemy
+	BronzeStaffCrit.Description: Critically strikes while you have less than 20 mana
 }
 
 UnknownTooltip: Unknown critical strike condition
@@ -387,6 +445,11 @@ Buffs: {
 		DisplayName: Scallywag
 		Description: Yo ho, yo ho, a pirate's life for me!
 	}
+
+	RabidFrenzy: {
+		DisplayName: Rabid Frenzy
+		Description: 30% increased melee speed
+	}
 }
 
 RecipeGroups: {
@@ -397,6 +460,10 @@ RecipeGroups: {
 Projectiles: {
 	BronzeArrowProjectile.DisplayName: Bronze Arrow
 	BronzeQuarterstaffProjectile.DisplayName: Bronze Quarterstaff Projectile
+	IronChakramProjectile.DisplayName: Iron Chakram Projectile
+	LeadChakramProjectile.DisplayName: Lead Chakram Projectile
+	GoldJavelinProjectile.DisplayName: Gold Javelin Projectile
+	PlatinumJavelinProjectile.DisplayName: Platinum Javelin Projectile
 }
 
 BronzeHelm.SetBonus:
