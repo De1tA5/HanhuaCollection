@@ -9,57 +9,44 @@ using TigerForceLocalizationLib;
 
 namespace HanhuaCollection
 {
-
-    //PotionMastery—药水精通
-    public class PotionMastery : ModSystem
+    public class HardCodePatch : ModSystem 
     {
         public override void PostSetupContent()
         {
+            //PotionMastery—药水精通
             if (ModLoader.HasMod("PotionMastery"))
             {
                 TigerForceLocalizationHelper.LocalizeAll("HanhuaCollection", "PotionMastery", false);
-                base.PostSetupContent();
+                
             }
 
-        }
-    }
-    //AutoPotion—自动药水
-    public class AutoPotion : ModSystem
-    {
-        public override void PostSetupContent()
-        {
+            //AutoPotion—自动药水
             if (ModLoader.HasMod("AutoPotion"))
             {
                 TigerForceLocalizationHelper.LocalizeAll("HanhuaCollection", "AutoPotion", false);
-                base.PostSetupContent();
+                
             }
 
-        }
-    }
-
-    //DyeAnything—染上一切
-    public class DyeAnything : ModSystem 
-    {
-        public override void PostSetupContent()
-        {
+            //DyeAnything—染上一切
             if (ModLoader.HasMod("DyeAnything"))
             {
                 TigerForceLocalizationHelper.LocalizeAll("HanhuaCollection", "DyeAnything", false);
-                base.PostSetupContent();
+                
             }
-        }
-    }
 
-    //UIEditor-UI编辑器
-    public class UIEditor : ModSystem
-    {
-        public override void PostSetupContent()
-        {
+            //UIEditor-UI编辑器
             if (ModLoader.HasMod("UIEditor"))
             {
                 TigerForceLocalizationHelper.LocalizeAll("HanhuaCollection", "UIEditor", false);
-                base.PostSetupContent();
+                
             }
+
+            //CritRework-暴击大修
+            if (ModLoader.HasMod("CritRework"))
+            {
+                TigerForceLocalizationHelper.LocalizeAll("HanhuaCollection", "CritRework", false);
+            }
+           
         }
     }
 }

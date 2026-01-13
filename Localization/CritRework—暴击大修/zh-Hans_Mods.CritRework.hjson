@@ -198,6 +198,112 @@ Items: {
 		DisplayName: 教职徽章
 		Tooltip: 增加15%魔法和召唤暴击率
 	}
+
+	BronzeStaff: {
+		DisplayName: 青铜法杖
+		Tooltip: ""
+	}
+
+	RabidClaw: {
+		DisplayName: 狂暴之爪
+		Tooltip: 暴击时使你获得30%近战攻击速度加成，持续5秒
+	}
+
+	NoxiousEye: {
+		DisplayName: 血毒之眼
+		Tooltip:
+			'''
+			暴击时施加敌怪短暂中毒
+			暴击时也有10%概率生成一个红心
+			'''
+	}
+
+	IronChakram: {
+		DisplayName: 铁轮刃
+		Tooltip:
+			'''
+			你通常只能投掷一个轮刃
+			暴击时允许你立刻投掷另一个轮刃
+			'''
+	}
+
+	LeadChakram: {
+		DisplayName: 铅轮刃
+		Tooltip:
+			'''
+			你通常只能投掷一个轮刃
+			暴击时允许你立刻投掷另一个轮刃
+			'''
+	}
+
+	GoldJavelin: {
+		DisplayName: 金标枪
+		Tooltip: 仅在暴击时穿透敌怪
+	}
+
+	PlatinumJavelin: {
+		DisplayName: 博金标枪
+		Tooltip: 仅在暴击时穿透敌怪
+	}
+
+	CrystalShield: {
+		DisplayName: 水晶盾
+		Tooltip:
+			'''
+			增加5%近战暴击率
+			暴击时获得能叠加的防御提升，最多增加50点防御
+			被击中时该加成会被重置
+			'''
+	}
+
+	EternalGuillotine: {
+		DisplayName: 诅咒断头台
+		Tooltip: 对满血的敌怪的暴击伤害增加100%
+	}
+
+	SilverGauntlet: {
+		DisplayName: 银拳套
+		Tooltip: ""
+	}
+
+	TungstenGauntlet: {
+		DisplayName: 钨拳套
+		Tooltip: ""
+	}
+
+	LeatherGlove: {
+		DisplayName: 皮质手套
+		Tooltip: ""
+	}
+
+	SilkGlove: {
+		DisplayName: 丝绸手套
+		Tooltip: ""
+	}
+
+	AncientGlove: {
+		DisplayName: 远古手套
+		Tooltip: ""
+	}
+
+	GalacticGauntlet: {
+		DisplayName: 银河拳套
+		Tooltip: ""
+	}
+
+	PoisonedHand: {
+		DisplayName: 带毒手套
+		Tooltip: 暴击时施加敌怪中毒效果，持续20秒
+	}
+
+	SatansClaw: {
+		DisplayName: 撒旦之爪
+		Tooltip:
+			'''
+			[c/ff655d:使投掷武器的攻击速度翻倍]
+			[c/ff655d:手持时你将快速燃烧]
+			'''
+	}
 }
 
 Whetstone: {
@@ -238,6 +344,16 @@ Configs: {
 		critSoundEffect: {
 			Label: 暴击音效
 			Tooltip: 启用/禁用击中敌怪时的暴击音效
+		}
+
+		showActiveCrits: {
+			Label: 物品栏显示激活暴击物品
+			Tooltip: 启用后，物品栏中满足暴击条件的物品将高亮显示
+		}
+
+		hideGloveDescription: {
+			Label: 隐藏手套教程
+			Tooltip: 启用后，手套的教程描述将从其工具提示中移除以减少冗杂信息
 		}
 	}
 
@@ -281,6 +397,45 @@ Configs: {
 		pirateArmorRework: {
 			Label: "[i:876]海盗套装重做"
 			Tooltip: 启用后，由海盗出售的[i:876]海盗时装 具有实际盔甲效果
+		}
+
+		gloveDamageType: {
+			Label: 手套/标枪职业伤害
+			Tooltip:
+				'''
+				该伤害类型将应用于手套/标枪武器
+				如果未启用《灾厄》模组，且设置为盗贼，则默认为远程伤害
+				请在Steam创意工坊上评论任何你认为应该添加的伤害类型
+				'''
+		}
+
+		critScaling: {
+			Label: 暴击倍率计算方式
+			Tooltip:
+				'''
+				根据暴击伤害/几率加成，决定暴击伤害的计算方式
+				最推荐“平衡”模式，但如果你更喜欢“简单”模式的话，它更强大且易于理解
+				平衡：（（武器伤害倍率-1）*（（100+武器暴击率）/99）/2+1）+1)*(1+(（100+武器暴击率）/99)/2)
+				简单：武器伤害倍率 * （1+武器暴击率）
+				'''
+		}
+
+		bossLife: {
+			Label: Boss血量倍率
+			Tooltip:
+				'''
+				模组启用且你想的话，允许你增加Boss的血量
+				以防你觉得此模组过于强力，想要削弱它
+				'''
+		}
+
+		enemyLife: {
+			Label: 敌怪血量倍率
+			Tooltip:
+				'''
+				模组启用且你想的话，允许你增加非Boss敌怪的血量
+				以防你觉得此模组过于强力，想要削弱它
+				'''
 		}
 	}
 }
@@ -353,6 +508,15 @@ CritTypes: {
 	Amarok.Description: 当你超过2秒未击中敌怪后造成暴击
 	HelFire.Description: 当快速击中敌怪时造成暴击
 	Kraken.Description: 每次抛出悠悠球时，对每个被击中的敌怪造成一次暴击
+	MandibleBlade.Description: 攻击朝你移动的敌怪时造成暴击
+	Trident.Description: 在至少击中3次后造成暴击
+	TitaniumTrident.Description: 当同一时间击中多个敌怪则造成暴击
+	DemonScytheShadowflameBow.Description: 在击杀一个敌怪后弹幕将造成暴击
+	BronzeStaffCrit.Description: 当你魔力值低于20时造成暴击
+	FallingEnemy.Description: 攻击正在下落的目标时造成暴击
+	Blowpipe.Description: 如果你上次使用该武器至少3秒前则造成暴击
+	GalacticCrit.Description: 如果武器被向上投出且坠落超过10个物块则造成暴击
+	NonBoss.Description: 攻击非Boss目标时造成暴击
 }
 
 UnknownTooltip: 未知暴击情况
@@ -399,6 +563,16 @@ Buffs: {
 		DisplayName: 混蛋
 		Description: 哟吼，哟吼，海盗的生活真快活！
 	}
+
+	RabidFrenzy: {
+		DisplayName: 狂乱
+		Description: 增加30%近战攻击速度
+	}
+
+	Repentence: {
+		DisplayName: 悔恨
+		Description: 你的双手正在被贪欲所摧残
+	}
 }
 
 RecipeGroups: {
@@ -409,6 +583,10 @@ RecipeGroups: {
 Projectiles: {
 	BronzeArrowProjectile.DisplayName: 青铜箭
 	BronzeQuarterstaffProjectile.DisplayName: 青铜长杖
+	IronChakramProjectile.DisplayName: 铁轮刃弹幕
+	LeadChakramProjectile.DisplayName: 铅轮刃弹幕
+	GoldJavelinProjectile.DisplayName: 金标枪弹幕
+	PlatinumJavelinProjectile.DisplayName: 铂金标枪弹幕
 }
 
 BronzeHelm.SetBonus:
@@ -416,3 +594,22 @@ BronzeHelm.SetBonus:
 	近战暴击将汲取魔力
 	恢复魔力时，增加35%近战伤害和近战暴击率
 	'''
+GloveDescription:
+	'''
+	可以用来投掷可消耗武器
+	投掷的可消耗武器将继承此武器的暴击情况并获得额外属性
+	越重的手套攻击速度越慢
+	'''
+GloveUsing: 当前使用：
+GloveCritMult: x 暴击伤害倍率
+GloveShootSpeed: 速度加成
+GloveBonus: 加成
+GloveWeight0: 无重量
+GloveWeight1: 非常轻
+GloveWeight2: 轻
+GloveWeight3: 中等重量
+GloveWeight4: 重
+GloveWeight5: 非常重
+GloveWeight6: 极重
+GloveWeight7: 无法承受的重
+GloveWeight8: 泰坦般重量
