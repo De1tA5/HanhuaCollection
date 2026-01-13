@@ -98,7 +98,7 @@ Items: {
 		DisplayName: Mug Shot
 		Tooltip:
 			'''
-			10% increased crit chance
+			10% increased ranged crit chance
 			Grants a chance to steal money when critically striking
 			25% reduced damage when paired with greedy whetstone
 			'''
@@ -205,9 +205,8 @@ Items: {
 		DisplayName: Noxious Eye
 		Tooltip:
 			'''
-			5% increased critical strike chance
 			Critically striking briefly poisons enemies
-			Critically striking also gains a 10% chance to spawn a heart pickup and inflict extra damage
+			Critically striking also gains a 10% chance to spawn a heart pickup
 			'''
 	}
 
@@ -238,6 +237,65 @@ Items: {
 		DisplayName: Platinum Javelin
 		Tooltip: Pierces enemies only when critically striking
 	}
+
+	CrystalShield: {
+		DisplayName: Crystal Shield
+		Tooltip:
+			'''
+			5% increased melee critical strike chance
+			Inflicting critical strikes grants a stacking defense buff, up to 50 defense
+			Upon getting hit, that buff is reset
+			'''
+	}
+
+	EternalGuillotine: {
+		DisplayName: Accursed Guillotine
+		Tooltip: 100% increased critical strike damage on full health enemies
+	}
+
+	SilverGauntlet: {
+		DisplayName: Silver Gauntlet
+		Tooltip: ""
+	}
+
+	TungstenGauntlet: {
+		DisplayName: Tungsten Gauntlet
+		Tooltip: ""
+	}
+
+	LeatherGlove: {
+		DisplayName: Leather Glove
+		Tooltip: ""
+	}
+
+	SilkGlove: {
+		DisplayName: Silk Glove
+		Tooltip: ""
+	}
+
+	AncientGlove: {
+		DisplayName: Ancient Glove
+		Tooltip: ""
+	}
+
+	GalacticGauntlet: {
+		DisplayName: Galactic Gauntlet
+		Tooltip: ""
+	}
+
+	PoisonedHand: {
+		DisplayName: Poisoned Hand
+		Tooltip: Critical strikes will poison enemies for 20 seconds
+	}
+
+	SatansClaw: {
+		DisplayName: Satan's Claw
+		Tooltip:
+			'''
+			[c/ff655d:Doubles the attack speed of thrown weapon]
+			[c/ff655d:While held, you rapidly burn]
+			'''
+	}
 }
 
 Whetstone: {
@@ -262,7 +320,7 @@ NecromanticTooltip: +2 lifesteal when inflicting critical damage upon enemies
 
 Configs: {
 	ClientConfig: {
-		DisplayName: Client Config
+		DisplayName: Clientside Config
 		Headers.AestheticHeader: Aesthetic
 
 		overrideCritColor: {
@@ -284,10 +342,15 @@ Configs: {
 			Label: Show active crits in inventory
 			Tooltip: While enabled, items that currently meet a crit condition will glow in your inventory
 		}
+
+		hideGloveDescription: {
+			Label: Hide glove tutorial
+			Tooltip: When set to true, the tutorial description on gloves will be removed from their tooltip to reduce clutter
+		}
 	}
 
 	ServerConfig: {
-		DisplayName: Server Config
+		DisplayName: Serverside Config
 
 		Headers: {
 			BalanceHeader: Balance
@@ -322,6 +385,43 @@ Configs: {
 		pirateArmorRework: {
 			Label: Pirate set rework
 			Tooltip: Whether or not the pirate vanity set, sold by the Pirate NPC, will be turned into an actual armor set or not
+		}
+
+		gloveDamageType: {
+			Label: Glove/javelin damage class
+			Tooltip:
+				'''
+				The damage class that glove/javelin type weapons will have
+				If set to rogue while you don't have Calamity enabled, it will default to ranged
+				Be sure to comment any damage classes you think should be added here on the steam workshop
+				'''
+		}
+
+		critScaling: {
+			Label: Crit scaling calculations
+			Tooltip:
+				'''
+				Determines the way critical strike damage scales with crit damage/chance bonuses.
+				"Balanced" is the most recommended, but simple is more powerful and easier to understand if that's what you prefer.
+				'''
+		}
+
+		bossLife: {
+			Label: Boss health multiplier
+			Tooltip:
+				'''
+				Allows you to increase boss health with this mod enabled if you so desire
+				In case you find this mod to be overpowered and want a way to nerf it
+				'''
+		}
+
+		enemyLife: {
+			Label: Enemy health multiplier
+			Tooltip:
+				'''
+				Allows you to increase NON-BOSS health with this mod enabled if you so desire
+				In case you find this mod to be overpowered and want a way to nerf it
+				'''
 		}
 	}
 }
@@ -399,6 +499,10 @@ CritTypes: {
 	TitaniumTrident.Description: Critically strikes when hitting multiple enemies in one use
 	DemonScytheShadowflameBow.Description: Projectiles will critically strike after killing an enemy
 	BronzeStaffCrit.Description: Critically strikes while you have less than 20 mana
+	FallingEnemy.Description: Critically strikes on falling targets
+	Blowpipe.Description: Critically strikes if the last time you used this weapon was at least 3 seconds ago
+	GalacticCrit.Description: Critically strikes if the weapon is thrown upward and then falls at least 10 tiles
+	NonBoss.Description: Critically strikes on non-boss targets
 }
 
 UnknownTooltip: Unknown critical strike condition
@@ -435,7 +539,7 @@ PiratePants:
 PirateSetBonus:
 	'''
 	While riding a mount, critically striking grants the 'Scallywag' buff for 5 seconds
-	Scallywag increases crit chance by 30%, attack speed by 10%, and defense by 10
+	Scallywag increases crit chance by 15% and defense by 10
 	You will lose the bonus instantly if you stop riding your mount
 	'''
 ScallywagText: Scallywag!
@@ -449,6 +553,11 @@ Buffs: {
 	RabidFrenzy: {
 		DisplayName: Rabid Frenzy
 		Description: 30% increased melee speed
+	}
+
+	Repentence: {
+		DisplayName: Repentence
+		Description: Your hands are ravaged by avarice
 	}
 }
 
@@ -471,3 +580,22 @@ BronzeHelm.SetBonus:
 	Melee critical strikes regenerate mana
 	35% increased melee damage and critical strike chance while regenerating mana
 	'''
+GloveDescription:
+	'''
+	Can be used to throw consumable weapons
+	Thrown consumable will inherit this weapon's crit condition & gain bonus stats
+	Heavier gloves have slower attack speed
+	'''
+GloveUsing: Currently using:
+GloveCritMult: x critical damage multiplier
+GloveShootSpeed: bonus velocity
+GloveBonus: bonus
+GloveWeight0: No weight
+GloveWeight1: Very light weight
+GloveWeight2: Light weight
+GloveWeight3: Average weight
+GloveWeight4: Heavy weight
+GloveWeight5: Very heavy weight
+GloveWeight6: Extremely heavy weight
+GloveWeight7: Unbearably heavy weight
+GloveWeight8: Titanic weight
