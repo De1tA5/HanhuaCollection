@@ -166,7 +166,7 @@ Items: {
 		DisplayName: Assassin's Dagger
 		Tooltip:
 			'''
-			Doubles your critical strike damage once every 10 seconds
+			Doubles your critical strike damage once every 15 seconds
 			10% increased melee critical strike chance
 			'''
 	}
@@ -294,6 +294,57 @@ Items: {
 			'''
 			[c/ff655d:Doubles the attack speed of thrown weapon]
 			[c/ff655d:While held, you rapidly burn]
+			'''
+	}
+
+	SharpenedWrench: {
+		DisplayName: Sharpened Wrench
+		Tooltip:
+			'''
+			Tools gain 30% increased use speed if their crit condition is met
+			25% increased tool critical strike chance
+			'''
+	}
+
+	SparkingSludge: {
+		DisplayName: Sparking Sludge
+		Tooltip:
+			'''
+			6% increased critical strike chance
+			Critical strikes set enemies ablaze
+			'''
+	}
+
+	ProstheticArm: {
+		LastTooltipLine: "[dmg] increased critical strike damage"
+		DisplayName: Prosthetic Arm
+		Tooltip:
+			'''
+			Can be given a crit condition
+			All weapons will inherit this crit condition, in addition to their own
+			Both crit conditions must be met to critically strike
+			'''
+	}
+
+	ThawingCloth: {
+		DisplayName: Thawing Cloth
+		Tooltip:
+			'''
+			Critical strikes deal 30% increased damage per debuff inflicted on the enemy
+			Cleanses enemy debuffs in the process
+			'''
+	}
+
+	ShadowDonut: {
+		LastTooltipLine: Enemies have [dmg] critical strike damage
+		DisplayName: Shadow Donut
+		Tooltip:
+			'''
+			Can be given a crit condition
+			While that crit condition is active, [c/ff6868:enemies can critically strike against you]
+			...however, when enemies critically strike against you, gain 'Shadow Frenzy' for 5 seconds
+			Shadow Frenzy greatly increases movement speed, attack speed, critical strike damage, and life regeneration
+			'Glazed with EVIL!!!!!'
 			'''
 	}
 }
@@ -452,7 +503,7 @@ CritTypes: {
 	StandingStill.Description: Critically strikes while you are moving less than 10 miles per hour
 	TipOfTheWeapon.Description: Critically strikes when hitting enemies at the tip of the weapon
 	CrystalVileShard.Description: Critically strikes at the tip of the crystals
-	FreshItem.Description: Critically strikes for 1 second after selecting this weapon
+	FreshItem.Description: Critically strikes for a brief moment after selecting this weapon
 	Harpoon.Description: Critically strikes while the target is at least 26 tiles away
 	JustHitByEnemy.Description: Critically strikes for 2.5 seconds after getting hit
 	ProjectileTravel.Description: Critically strikes if the projectile has been travelling for more than 1 second
@@ -482,7 +533,7 @@ CritTypes: {
 	ThreeSecondCooldown.Description: Critically strikes if the the last time you crit was at least 3 seconds ago
 	Backstab.Description: Critically strikes when hitting (most) enemies in the back
 	PickUpAmmo.Description: Mods.CritRework.CritTypes.PickUpAmmo.Description
-	HasDebuff.Description: Critically strikes while you are debuffed
+	HasDebuff.Description: Critically strikes while you are inflicted with a damage over time effect (such as On Fire!)
 	ClassyCane.Description: Critically strikes while you are holding at least 50 platinum
 	Katana.Description: Critically strikes while you have 0 defense
 	EyeOfCthulhu.Description: Critically strikes while you have less than 50% of your life left
@@ -503,6 +554,21 @@ CritTypes: {
 	Blowpipe.Description: Critically strikes if the last time you used this weapon was at least 3 seconds ago
 	GalacticCrit.Description: Critically strikes if the weapon is thrown upward and then falls at least 10 tiles
 	NonBoss.Description: Critically strikes on non-boss targets
+	Shapeshifter_ShapeshiftSickness.Description: Critically strikes while you are afflicted with Shapeshifting Sickness
+	Shapeshifter_ShapeshiftBleedStackingMedium.Description: Critically strikes when you have inflicted at least 20 stacks of bleed total
+	Shapeshifter_ShapeshiftShawlDash.Description: Critically strikes for a brief moment after using a shawl dash
+	Shapeshifter_ShapeshiftBleedStackingHigh.Description: Critically strikes when you have inflicted at least 20 stacks of bleed total
+	Shapeshifter_ShapeshiftBleedStackingSingle.Description: Critically strikes when you have inflicted at least 5 stacks of bleed on the target enemy
+	Shapeshifter_AfterSkillUse.Description: Critically strikes on the next hit after using this shapeshift's skill
+	Shapeshifter_PredatorHit.Description: Critically strikes for 5 seconds after hitting an enemy as a predator wildshape
+	Shapeshifter_SageHit.Description: Critically strikes for 5 seconds after hitting an enemy as a sage wildshape
+	Shapeshifter_SymbioteHit.Description: Critically strikes for 5 seconds after hitting an enemy as a symbiote wildshape
+	Shapeshifter_WardenHit.Description: Critically strikes for 5 seconds after hitting an enemy as a warden wildshape
+	Adrenaline.Description: Critically strikes while in adrenaline mode
+	Rage.Description: Critically strikes while in rage mode
+	StealthStrike.Description: Critically strikes on stealth strikes
+	AfterUseTechnique.Description: Critically strikes for 1 second after using a technique
+	LowInspiration.Description: Critically strikes if you have less than 30% of your max inspiration remaining
 }
 
 UnknownTooltip: Unknown critical strike condition
@@ -559,6 +625,16 @@ Buffs: {
 		DisplayName: Repentence
 		Description: Your hands are ravaged by avarice
 	}
+
+	ProstheticsActive: {
+		DisplayName: Prosthetics: Active
+		Description: Prosthetic arm's critical strike condition has been met
+	}
+
+	ShadowFrenzy: {
+		DisplayName: Shadow Frenzy
+		Description: PANIC
+	}
 }
 
 RecipeGroups: {
@@ -599,3 +675,4 @@ GloveWeight5: Very heavy weight
 GloveWeight6: Extremely heavy weight
 GloveWeight7: Unbearably heavy weight
 GloveWeight8: Titanic weight
+ProstheticTooltip: Both of the following conditions must be met to critically strike:

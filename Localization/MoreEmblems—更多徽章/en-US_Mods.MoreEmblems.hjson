@@ -15,14 +15,14 @@ Items: {
 	}
 
 	BaronEmblem: {
-		Tooltip: 25% increased melee damage
+		Tooltip: 20% increased melee damage
 		DisplayName: Baron Emblem
 	}
 
 	SovereignEmblem: {
 		Tooltip:
 			'''
-			33% increased melee damage
+			25% increased melee damage
 			8% increased melee critical strike chance
 			'''
 		DisplayName: Sovereign Emblem
