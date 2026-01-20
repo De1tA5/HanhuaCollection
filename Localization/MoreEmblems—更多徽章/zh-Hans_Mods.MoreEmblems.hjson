@@ -15,14 +15,14 @@ Items: {
 	}
 
 	BaronEmblem: {
-		Tooltip: 增加25%近战伤害
+		Tooltip: 增加20%近战伤害
 		DisplayName: 尊爵徽章
 	}
 
 	SovereignEmblem: {
 		Tooltip:
 			'''
-			增加33%近战伤害
+			增加25%近战伤害
 			增加8%近战暴击率
 			'''
 		DisplayName: 君主徽章

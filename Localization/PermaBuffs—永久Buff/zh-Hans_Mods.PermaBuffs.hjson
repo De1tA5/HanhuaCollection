@@ -1,0 +1,148 @@
+Configs: {
+	PermaBuffsConfig: {
+		DisplayName: Permanent Buffs设置
+
+		keepStationBuffs: {
+			Tooltip: 从利器站、施法桌等增益站获得的增益效果将永久存在
+			Label: 永久增益站buff
+		}
+
+		keepBannerBuffs: {
+			Tooltip: 永久保留旗帜赋予的增益效果
+			Label: 永久旗帜增益
+		}
+
+		drawBorders: {
+			Tooltip:
+				'''
+				启用此选项后
+				被设置为永久生效的增益效果，图标周围会有[c/fff200:金色边框]
+				被设置为永不生效的增益效果，图标周围会有[c/a739de:紫色边框]
+				'''
+			Label: 绘制增益边框
+		}
+
+		autoHideKeybindTooltips: {
+			Tooltip:
+				'''
+				启用此选项后
+				按键提示在首次显示后会被隐藏
+				如果你未在控制设置中绑定相应按键，此设置无效
+				'''
+			Label: 自动隐藏按键提示
+		}
+
+		experimentalChanges: {
+			Tooltip:
+				'''
+				启用此选项后，使用由反射功能提供的实验性跨模组兼容功能
+				允许各种[c/fff200:永久生效]/[c/a739de:永不生效]增益效果能正确应用
+				当前支持的模组：[c/ff0000：（实验）灾厄]，[c/ffff00：（稳定）红云物语]
+				请将相关问题提交到作者的 GitHub 页面或 Steam Workshop 页面 [c/f11414:启用此功能需要重新加载才能生效]
+				'''
+			Label: 启用最新的实验性内容
+		}
+
+		clearNeverBuffsOnDeathOrLoad: {
+			Label: 在死亡或重载时清除[c/a739de:永不生效]增益
+			Tooltip:
+				'''
+				启用此选项后 
+				在死亡或重生加载时，你可以禁用任何[c/a739de:永不生效]增益
+				如果你想重置[c/a739de:永不生效]增益 这会十分有用
+				'''
+		}
+
+		clearPermaBuffsOnDeathOrLoad: {
+			Label: 在死亡或重载时清除[c/fff200:永久生效]增益
+			Tooltip:
+				'''
+				启用此选项后  
+				在死亡或重生加载时，你可以禁用任何[c/fff200:永久生效]增益
+				如果你想重置[c/fff200:永久生效]增益或仅想在一段时间内得到[c/fff200:永久生效]增益 这会十分有用
+				'''
+		}
+
+		Headers.Advanced: "[c/9370db:高级选项]"
+	}
+}
+
+GlobalBuff: {
+	ToggleBuffAlwaysPermanent: {
+		DisplayName: 切换为[c/fff200:永久生效]增益
+		Tooltip:
+			'''
+			按 [c/ff0000:{0}] 键保存为 [c/ffff00:永久生效增益]
+			[c/ffff00:永久生效增益] 将一直保持 [c/ffff00:永久生效]
+			'''
+	}
+
+	ToggleBuffNeverPermanent: {
+		DisplayName: 切换为[c/a739de:永不生效]增益
+		Tooltip:
+			'''
+			按 [c/ff0000:{0}] 键保存为 [c/9370db:永不生效增益]
+			[c/9370db:永不生效增益]的部分效果将被阻止应用于玩家，并且几乎总能被移除
+			'''
+	}
+
+	AutoDeleteBuff: {
+		DisplayName: 自动删除
+		Tooltip:
+			'''
+			按 [c/ff0000:{0}] 键每当增益出现时会自动删除
+			如果你改变主意，你必须重置[c/9370db:永不生效增益]才能取消此操作
+			'''
+	}
+
+	PermaBuffPreBuffDisplayName: "[c/ffff00:永久生效： ]"
+	NeverBuffPreBuffDisplayName: "[c/9370db:永不生效： ]"
+}
+
+Errors: {
+	BuffCountDifferent:
+		'''
+		[c/ff0000:当前加载的ModBuffs数量与之前保存时的数量不同，这意味着之前保存的非原版 Buffs ID 已不再有效]
+		[c/ff0000:因此，仅加载了原版的增益效果]
+		[c/ff0000:此问题是由在保存时添加或移除包含 ModBuff 的模组所引起的]
+		'''
+	NpcCountDifferent:
+		'''
+		[c/ff0000:当前加载的 ModNPCs 数量与之前保存时不同，这意味着之前保存的非原版 NPCs ID 已不再有效]
+		[c/ff0000:因此，仅将原版 NPC 加载到生效的旗帜列表中]
+		[c/ff0000:此问题是由在保存时添加或移除包含 ModNPCs 的模组所引起的]
+		'''
+	NeverBuffSummon:
+		'''
+		[c/ff0000:召唤物被设置为“永不生效增益”后，再次尝试召唤该随从时，增益图标将自动删除]
+		[c/ff0000:这意味着如果增益效果在被设置为“永不生效增益”后被移除，你将无法轻易撤销“永不生效增益”图标更改]
+		[c/ff0000:建议你不要要将召唤物切换为 “永不生效增益” ]
+		'''
+	AutoDeleteRequirement:
+		'''
+		[c/ff0000:只有“永不生效增益”才能被标记为自动删除，这是防止意外删除的保护措施]
+		[c/ff0000:如果您确定要自动删除此增益，请将其切换为“永不生效增益”并重试]
+		'''
+}
+
+CombatText: {
+	PermaBuffed: "{0} 成为永久生效增益"
+	NeverBuffed: "{0} 成为永不生效增益"
+	AutoDelete: "{0} 再也不会出现"
+}
+
+Keybinds: {
+	"Toggle Buff Always Permanent.DisplayName": 切换为永久生效
+
+	"Toggle Buff Never Permanent": {
+		$parentVal: 切换增益为永不生效
+		DisplayName: 切换为永不生效
+	}
+
+	NotBound: ": <未绑定，请在控键设置中进行绑定>"
+
+	"Auto Delete NeverBuff": {
+		DisplayName: 自动删除永不生效增益
+		Tooltip: 按下此键，同时左键单击“永不生效增益”的图标，将其标记为自动删除
+	}
+}

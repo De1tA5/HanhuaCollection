@@ -174,7 +174,7 @@ Items: {
 		DisplayName: 刺客匕首
 		Tooltip:
 			'''
-			每10秒使暴击伤害翻倍
+			每过15秒使暴击伤害翻倍
 			增加10%近战暴击率
 			'''
 	}
@@ -302,6 +302,57 @@ Items: {
 			'''
 			[c/ff655d:使投掷武器的攻击速度翻倍]
 			[c/ff655d:手持时你将快速燃烧]
+			'''
+	}
+
+	SharpenedWrench: {
+		DisplayName: 尖锐扳手
+		Tooltip:
+			'''
+			如果工具的暴击条件得到满足，则增加30%的使用速度
+			增加25%工具暴击率
+			'''
+	}
+
+	SparkingSludge: {
+		DisplayName: 闪耀淤泥
+		Tooltip:
+			'''
+			增加6%暴击率
+			暴击时将点燃敌怪
+			'''
+	}
+
+	ProstheticArm: {
+		LastTooltipLine: "[dmg] 暴击伤害加成"
+		DisplayName: 义肢臂甲
+		Tooltip:
+			'''
+			能够被给予暴击条件
+			所有武器将继承此暴击条件，除此之外还保留它们自己的暴击条件
+			两个暴击条件必须同时被满足才能造成暴击：
+			'''
+	}
+
+	ThawingCloth: {
+		DisplayName: 解冻布料
+		Tooltip:
+			'''
+			暴击时，敌怪每有一个减益则造成30%额外伤害
+			该过程中会清除敌怪的减益
+			'''
+	}
+
+	ShadowDonut: {
+		LastTooltipLine: 敌怪有 [dmg] 的暴击伤害
+		DisplayName: 暗影甜甜圈
+		Tooltip:
+			'''
+			能够被给予暴击条件
+			当暴击条件激活时, [c/ff6868:敌怪将对你造成暴击]
+			……但是，当敌怪对你造成暴击时，使你获得持续5秒的“暗影狂乱”
+			暗影狂乱大幅提升移动速度、攻击速度、暴击伤害和生命回复速度
+			“邪恶糖霜！！！！”
 			'''
 	}
 }
@@ -466,7 +517,7 @@ CritTypes: {
 	StandingStill.Description: 当你移动速度低于10 mph时造成暴击
 	TipOfTheWeapon.Description: 使用武器尖端部分攻击敌怪造成暴击
 	CrystalVileShard.Description: 使用魔晶碎块的尖端攻击敌怪时造成暴击
-	FreshItem.Description: 在切换该武器后1秒内造成暴击
+	FreshItem.Description: 在切换该武器后一小段时间内造成暴击
 	Harpoon.Description: 当你距离目标至少26格远时造成暴击
 	JustHitByEnemy.Description: 受伤后2.5秒内造成暴击
 	ProjectileTravel.Description: 若弹幕飞行超过1秒则造成暴击
@@ -496,7 +547,7 @@ CritTypes: {
 	ThreeSecondCooldown.Description: 如果你最后一次暴击至少是在3秒前则造成暴击
 	Backstab.Description: 当你从背后攻击敌怪（大部分）时造成暴击
 	PickUpAmmo.Description: Mods.CritRework.CritTypes.PickUpAmmo.Description
-	HasDebuff.Description: 当你获得减益时造成暴击
+	HasDebuff.Description: 当你被施加随时间造成伤害的效果（如：着火了！）时造成暴击
 	ClassyCane.Description: 当你持有至少50个铂金币时则造成暴击
 	Katana.Description: 当你防御为0时则造成暴击
 	EyeOfCthulhu.Description: 当你生命值低于50%时则造成暴击
@@ -517,6 +568,21 @@ CritTypes: {
 	Blowpipe.Description: 如果你上次使用该武器至少3秒前则造成暴击
 	GalacticCrit.Description: 如果武器被向上投出且坠落超过10个物块则造成暴击
 	NonBoss.Description: 攻击非Boss目标时造成暴击
+	Shapeshifter_ShapeshiftSickness.Description: 当你获得Shapeshifting Sickness时造成暴击
+	Shapeshifter_ShapeshiftBleedStackingMedium.Description: 当你施加共计至少20层流血时造成暴击
+	Shapeshifter_ShapeshiftShawlDash.Description: 使用shawl dash一段时间内造成暴击
+	Shapeshifter_ShapeshiftBleedStackingHigh.Description: 当你施加共计至少20层流血时造成暴击
+	Shapeshifter_ShapeshiftBleedStackingSingle.Description: 当你在施加给敌怪共计20层流血时造成暴击
+	Shapeshifter_AfterSkillUse.Description: 使用拟态技能后下一次攻击将造成暴击
+	Shapeshifter_PredatorHit.Description: 以掠食 野兽形态攻击敌怪后则5秒内造成暴击
+	Shapeshifter_SageHit.Description: 以智敏 野兽形态攻击敌怪后则5秒内造成暴击
+	Shapeshifter_SymbioteHit.Description: 以共生 野兽形态攻击敌怪后则5秒内造成暴击
+	Shapeshifter_WardenHit.Description: 以防守 野兽形态攻击敌怪后则5秒内造成暴击
+	Adrenaline.Description: 处于肾上腺素模式时造成暴击
+	Rage.Description: 处于怒气模式时造成暴击
+	StealthStrike.Description: 潜伏攻击会造成暴击
+	AfterUseTechnique.Description: 使用秘技卷轴后后1秒内造成暴击
+	LowInspiration.Description: 当你灵感值低于最大值的30%时则造成暴击
 }
 
 UnknownTooltip: 未知暴击情况
@@ -573,6 +639,16 @@ Buffs: {
 		DisplayName: 悔恨
 		Description: 你的双手正在被贪欲所摧残
 	}
+
+	ProstheticsActive: {
+		DisplayName: 义肢状态：激活
+		Description: 义肢臂甲的暴击条件已满足
+	}
+
+	ShadowFrenzy: {
+		DisplayName: 暗影狂乱
+		Description: 恐 慌
+	}
 }
 
 RecipeGroups: {
@@ -613,3 +689,4 @@ GloveWeight5: 非常重
 GloveWeight6: 极重
 GloveWeight7: 无法承受的重
 GloveWeight8: 泰坦般重量
+ProstheticTooltip: 如下两个暴击条件必须被同时满足才能造成暴击：

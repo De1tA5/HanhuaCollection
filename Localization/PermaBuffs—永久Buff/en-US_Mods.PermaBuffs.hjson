@@ -1,0 +1,142 @@
+Configs: {
+	PermaBuffsConfig: {
+		DisplayName: Permanent Buffs Config
+
+		keepStationBuffs: {
+			Tooltip: This makes buffs such as the ones obtained from the Sharpening Station, Bewitching Table, etc permanent.
+			Label: Permanent Station Buffs
+		}
+
+		keepBannerBuffs: {
+			Tooltip: This lets you always permanently keep buffs you've recieved from banners anywhere you go.
+			Label: Permanent Banners
+		}
+
+		drawBorders: {
+			Tooltip:
+				'''
+				When set to true, all PermaBuffs will gain a golden frame around their icon.
+				NeverBuffs will gain a purple frame.
+				'''
+			Label: Draw Borders
+		}
+
+		autoHideKeybindTooltips: {
+			Tooltip:
+				'''
+				When set to true, keybind tooltips are hidden after they're shown for the first time.
+				This has no effect if you have not bound said keybind in the controls.
+				'''
+			Label: Auto Hide Keybind Tooltips
+		}
+
+		experimentalChanges: {
+			Tooltip:
+				'''
+				When set to true, experimental cross-mod functionality patches powered by reflection are enabled. 
+				This may allow various PermaBuff/NeverBuff effects to apply correctly where they otherwise wouldn't.
+				Current Supported Mods: [c/ff0000:(Experimental) Calamity], [c/ffff00:(Stable) The Story of Red Cloud]
+				Please report any bugs/issues to my github or the discord. **Enabling this feature requires a full reload to take effect**
+				'''
+			Label: Use the Latest Experimental Features
+		}
+
+		clearNeverBuffsOnDeathOrLoad: {
+			Label: Clear NeverBuffs On Death Or Load
+			Tooltip:
+				'''
+				By toggling this on, you disable any NeverBuffs and AutoDeleted buffs from being remembered after death/load.
+				This is useful if you wish to reset your NeverBuffs or clear your auto-deletes.
+				'''
+		}
+
+		clearPermaBuffsOnDeathOrLoad: {
+			Label: Clear Permanent Buffs On Death Or Load
+			Tooltip:
+				'''
+				By toggling this on, you disable any PermaBuffs from being loaded upon death or spawn.
+				This is useful if you wish to reset your PermaBuffs or only benefit from the permanent duration.
+				'''
+		}
+
+		Headers.Advanced: "[c/9370db:Advanced]"
+	}
+}
+
+GlobalBuff: {
+	ToggleBuffAlwaysPermanent: {
+		DisplayName: Toggle Always Permanent
+		Tooltip:
+			'''
+			Press [c/ff0000:{0}] to save this as a [c/ffff00:Permabuff]
+			[c/ffff00:PermaBuffs] are always kept [c/ffff00:permanently active]
+			'''
+	}
+
+	ToggleBuffNeverPermanent: {
+		DisplayName: Toggle Never Permanent
+		Tooltip:
+			'''
+			Press [c/ff0000:{0}] to save this as a [c/9370db:NeverBuff]
+			[c/9370db:NeverBuffs] are partially blocked from applying to the player and can almost always be removed
+			'''
+	}
+
+	AutoDeleteBuff: {
+		DisplayName: Auto Delete
+		Tooltip:
+			'''
+			Press [c/ff0000:{0}] to automatically delete this buff every time it's added
+			You will have to reset your NeverBuffs in order to undo this if you change your mind
+			'''
+	}
+
+	PermaBuffPreBuffDisplayName: "[c/ffff00:PermaBuff: ]"
+	NeverBuffPreBuffDisplayName: "[c/9370db:NeverBuff: ]"
+}
+
+Errors: {
+	BuffCountDifferent:
+		'''
+		[c/ff0000:The number of ModBuffs currently loaded are different from when they were previously saved. This means the non-vanilla buffID's previously saved are no longer valid.]
+		[c/ff0000:Therefore only Vanilla buffs are loaded. This issue is caused by adding or removing mods that contain a ModBuff between saves.]
+		'''
+	NpcCountDifferent:
+		'''
+		[c/ff0000:The number of ModNPCs currently loaded are different from when they were previously saved. This means the non-vanilla npcID's previously saved are no longer valid.]
+		[c/ff0000:Therefore only Vanilla NPCs are loaded into the active banners list. This issue is caused by adding or removing mods that contain a ModNPC between saves.]
+		'''
+	NeverBuffSummon:
+		'''
+		[c/ff0000:After a summon is NeverBuffed, any time you try to resummon that minion the buff icon will be automatically deleted.]
+		[c/ff0000:This means you will not be able to easily undo the Neverbuff icon change if the buff is ever removed while Neverbuffed.]
+		[c/ff0000:It is recommended that you untoggle this NeverBuff.]
+		'''
+	AutoDeleteRequirement:
+		'''
+		[c/ff0000:For a buff to be flagged for auto-deletion, it must be a NeverBuff first. This is a safeguard against accidental deletions.]
+		[c/ff0000:If you are sure you want this buff to be auto-deleted, please toggle it as a NeverBuff and try again.]
+		'''
+}
+
+CombatText: {
+	PermaBuffed: "{0} is now PermaBuffed!"
+	NeverBuffed: "{0} is now NeverBuffed!"
+	AutoDelete: "{0} won't be seen again..."
+}
+
+Keybinds: {
+	"Toggle Buff Always Permanent.DisplayName": Toggle PermaBuff
+
+	"Toggle Buff Never Permanent": {
+		$parentVal: Toggle Buff Is Never Permanent
+		DisplayName: Toggle NeverBuff
+	}
+
+	NotBound: ": <Not bound, set it in your control settings>"
+
+	"Auto Delete NeverBuff": {
+		DisplayName: Auto Delete NeverBuff
+		Tooltip: Press this key along with left-clicking a NeverBuffed icon to flag it for deletion.
+	}
+}
