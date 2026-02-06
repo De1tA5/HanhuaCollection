@@ -1,0 +1,36 @@
+DisplayName: SSP (Boss Practice Tools)
+
+Headers: {
+	ScuffedStartPos: Scuffed Start Pos Settings
+	PracticeMode: Practice Mode
+}
+
+BossHealth: {
+	Label: Boss Health %
+	Tooltip: Starts the boss at this % HP
+}
+
+Enabled: {
+	Label: SSP Enabled
+	Tooltip: Turns SSP on and off
+}
+
+BossTagOnly: {
+	Label: Boss Tag Only
+	Tooltip: If disabled, all enemies have their HP reduced.
+}
+
+PercentageLock: {
+	Label: Percentage Lock
+	Tooltip: Locks the HP at the selected value instead of starting it
+}
+
+PracticeMode: {
+	Label: Scuffed Practice Mode
+	Tooltip: Doesn't work in multiplayer, scuffed warning in general. Prevents you being killed by bosses, letting you practice them more.
+}
+
+BossDeathPrevention: {
+	Label: Practice Mode Boss Death Prevention
+	Tooltip: Tries to prevent bosses from dying in Practice Mode
+}

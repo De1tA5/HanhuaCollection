@@ -1,0 +1,25 @@
+StandardDialogue0: Hi! What would you like?
+StandardDialogue1: What do you need?
+StandardDialogue2: How may I take your order?
+StandardDialogue3: I've been feeling more myself lately...
+StandardDialogue4: Please, drink responsibly. I don't wanna kick you out.
+StandardDialogue5:
+	'''
+	Some people are telling me about someone else who used
+	to sell alcohol around these parts. Glad I never met 'em!
+	'''
+StandardDialogue6: Aren't I lucky that some of these ingredients are hard to find... What can I do for you?
+StandardDialogue7: Do I drink? Ha, sometimes. Not as much as I did back in univsersity.
+StandardDialogue8: If it ain't my second favorite customer...
+CommonDialogue: Hey, how's it going?
+CommonDialogue2: What can I get for ya?
+RareDialogue: Shimmer is such an interesting substance. It tastes like dreams, which makes no sense, but you know what I mean.
+SuperRareDialogue: Wouldn't it be crazy if my entire existence was to make fun of someone? Pfft. How ridiculous.
+TalkALot: I got customers to serve, I don't need your life story...
+PartyGirlDialogue: Sometimes I worry about {0}. She might have a problem.
+NurseDialogue: "{0} somehow figured out how to cure the effects of weaker alcohol. Impressive."
+DemolitionistDialogue: Ha, {0} really brings the boom. Sometimes a bit too much though.
+DryadDialogue: "{0} is awesome, she taught me some cool stuff about fermentation."
+ArmsDealerDialogue: "{0} weirds me out. He keeps staring at me."
+GoblinTinkererDialogue: "{0} gave me some cool gadgets to improve my process... the first few blew up in my face, but the latest ones work like a charm."
+TavernkeepDialogue: "{0} is nicer than he looks! He saves me a lot of time, and the dude is just full of fun stories."

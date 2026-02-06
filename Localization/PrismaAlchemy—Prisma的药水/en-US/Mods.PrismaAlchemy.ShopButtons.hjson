@@ -1,0 +1,24 @@
+Cycle: Cycle
+Builder_Soil: Soils
+Builder_Wood: Wood and Plants
+Builder_OtherBasicBlocks: Miscellaneous Blocks
+Builder_CraftingStations: Crafting Stations
+Builder_Blessings: Blessings
+Chemist_UtilPots: Utility Potions
+Chemist_RecoveryPots: Recovery Potions
+CombatExpert_BuffStations: Buff Stations
+CombatExpert_Curses: Curses
+CombatExpert_MovementAcc: Movement Accessories
+CombatExpert_BattleAcc: Battle Accessories
+CombatExpert_MiscAcc: Miscellaneous Accessories
+CombatExpert_CalAcc: Calamity Accessories
+CombatExpert_CursesUltraDummy: Ultra Dummies
+Huntress_VanillaBags: Treasure Bags
+Huntress_CalBags: Calamity Treasure Bags
+Huntress_VanillaMats: Vanilla Materials
+Huntress_CalMatsPreML: Calamity Materials (Pre-ML)
+Huntress_CalMatsPostML: Calamity Materials (Post-ML)
+Elixirist_CombatPots: Combat Buffs
+Elixirist_CalPots: Calamity Buffs
+Elixirist_Flasks: Flasks
+RegularPerson_Alcohols: Alcohols

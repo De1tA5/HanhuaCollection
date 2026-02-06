@@ -1,0 +1,138 @@
+Elixirist: {
+	TownNPCMood: {
+		Princess_LovesNPC: "{NPCName} makes me the coolest sparkly potions!"
+		LikeNPC_Princess: "{NPCName} is a treasure, she cares about everyone around here so much!"
+		HateNPC: "{NPCName} gives me a lecture every time I make a Shine Potion, it's so annoying, what else am I meant to use?!"
+		DislikeNPC: Seriously, {NPCName} reeks of fish and gunpowder.
+		LikeNPC: "{NPCName} is a great friend of mine, I love her style!"
+		LoveNPC: "{NPCName} is really stylish, and I hear he used to be afflicted by an ancient curse... so cool!"
+		DislikeBiome: Ugh... {BiomeName} is so f-freezing... I can't work here.
+		LikeBiome: I like {BiomeName}, it always smells nice.
+		LoveBiome: I love {BiomeName}, it's so peaceful here.
+		HateCrowded: Too... many people... get me out of here.
+		DislikeCrowded: It's starting to get cramped here...
+		LoveSpace: I love my privacy, I'll give you a discount on the house.
+		FarFromHome: I think I might be lost... hmm... maybe I'll make myself a Recall Potion instead of my usual buffs.
+		NoHome: I can make you the best buff potions out there if you build me a house.
+		Content: I'm doing alright.
+	}
+
+	DisplayName: Elixirist
+	Census.SpawnCondition: If a house is available
+}
+
+Chemist: {
+	TownNPCMood: {
+		Princess_LovesNPC: "{NPCName} might be a grumpy old guy, but he's nice to me!"
+		LikeNPC_Princess: "{NPCName} reminds me of my daughter... family is good."
+		HateNPC: "{NPCName}'s 'magic' stands against everything chemistry stands for!"
+		DislikeNPC: Why is {NPCName} called a Witch Doctor if he is neither.
+		LikeNPC: "{NPCName} is a professional with firearms, and I can respect that."
+		DislikeBiome: I dislike {BiomeName}, it's too populated for me to concentrate on my work.
+		LikeBiome: If I had to hide away from society, {BiomeName} is where I would see myself living.
+		LoveBiome: Seriously, {BiomeName} is the perfect place to make a nice batch of potions.
+		HateCrowded: There's far too many people around, I can't make anything of decent quality.
+		DislikeCrowded: There's too many people around, you have to pay extra for me to sell you anything.
+		LoveSpace: Nice and quiet here, I can work without any disturbance.
+		FarFromHome: I'm far from my home, where all my lab equipment is.
+		NoHome: I can carry my lab equipment around with me, but I need a house to work.
+		Content: Things are okay here.
+	}
+
+	DisplayName: Chemist
+	Census.SpawnCondition: If a house is available
+}
+
+CombatExpert: {
+	TownNPCMood: {
+		Princess_LovesNPC: "{NPCName} is scary when you first meet him. But after talking to him for awhile, I think he's a very nice guy under that harsh demeanor!"
+		LikeNPC_Princess: "{NPCName} is a good kid. Quite the opposite of fish boy over there."
+		HateNPC: "{NPCName} smells like shit. Move me far away from him or I'm going to run your pockets."
+		DislikeNPC: "{NPCName} is an annoying brat, but I don't quite hate the kid. He's still growing, he has still time to evolve."
+		LikeNPC: Until I learn and understand {NPCName}'s technology, it is beneficial for me to be in close proximity to this creature.
+		LoveNPC: "{NPCName} is a wonderful woman. I've tried to court her but it seems she is not interested in relationships, but that is fine. I will remain merely an admirer."
+		DislikeBiome: I dislike {BiomeName}, the heat makes it harder to focus when training.
+		LikeBiome: I quite enjoy {BiomeName}. Reminds me of the days in my rusty ol' dungeon training grounds.
+		LoveBiome: I've always loved {BiomeName}, there's something about grinding in a blizzard that just hits different.
+		HateCrowded: Clean this shit up or deal with increased prices from me and everyone else locked up here. I can stomach it so I'll be the one winning in the end.
+		DislikeCrowded: This mixture of body odor is far from pleasant. I do not enjoy this crowding.
+		LoveSpace: Ah, this is a wonderful spot. As thanks, I'll give you a hefty discount on all my cursed tools.
+		FarFromHome: Hm, where's my new housing unit? It better not be that jar.
+		NoHome: I can only respawn and provide you with gear if I have a house.
+		Content: Not a bad spot to settle down, infinitely better than being homeless.
+	}
+
+	DisplayName: Combat Expert
+	Census.SpawnCondition: If a house is available
+}
+
+Builder: {
+	TownNPCMood: {
+		Princess_LovesNPC: Have you ever seen a "Mainframe"? {NPCName} can tell you all about them! They are quite fascinating!
+		LikeNPC_Princess: "{NPCName} likes my mainframe!"
+		HateNPC: "{NPCName} Won't stop backseating and spoiling EVERY SINGLE THING coming in the next update! Get me out of here now, or I'm gonna be pissed."
+		DislikeNPC: Look. I'm cool with {NPCName}... But he keeps selling my buddy Matt explosives, and it just never goes well for anyone...
+		LikeNPC: Bro, you should go talk to {NPCName}, he was giving away free money earlier!
+		LoveNPC: Dude, this guy, {NPCName} knows everything! He pretty much knows every crafting recipe you can think of, and if you ever get lost, he tells you where you need to go next!
+		DislikeBiome: This place feels off... Something about the rainbows and happy music just doesn't feel right...
+		LikeBiome: Man, you can do so much stuff right here. Ya know, you could put a mainframe here? Do some fishing? And like... other stuff too, probably!
+		LoveBiome: Did you know, that right here in {BiomeName} you can catch Salmon? find a really big pond and see what you get!
+		HateCrowded: DUDE! Having everyone in one place like this isn't "QUALITY OF LIFE" for me! I can't hear my fishing bobber make *Bloop* noise!
+		DislikeCrowded: I would rather be fishing, than be here with this many people around.
+		LoveSpace: This is the best. It reminds me of the good ol' days with my main man, Cole.
+		FarFromHome: This place has terrible vibes... I need to get back to my mainframe ASAP.
+		NoHome: Bro, I've been walking around all day, you know, I've been digging, and after a long hard day, I want a place to sit down! Who stole the chairs?!
+		Content: Yeah, you know what? I can work with this.
+	}
+
+	DisplayName: Builder
+	Census.SpawnCondition: If a house is available
+}
+
+Huntress: {
+	TownNPCMood: {
+		Princess_LovesNPC: "{NPCName} is so so cool! I hope she teaches me to be as strong as her!"
+		LikeNPC_Princess: I'll admit it, I do have a soft spot for {NPCName}.
+		HateNPC: "{NPCName} pisses me off. All the money you spend at my shop goes to reforging my weapons."
+		DislikeNPC: "{NPCName}... he's not the worst, but good lord those quests make me wanna rip my eyes out."
+		LikeNPC: "{NPCName} is pretty strong! I will always respect that."
+		LoveNPC: "{NPCName} is great! I love a girl who's not afraid to get her hands dirty."
+		DislikeBiome: Egh! I always get sand in my boots, {BiomeName} sucks!
+		LikeBiome: Yeah, {BiomeName} is fun... there's never a dull moment, something new to hunt down always shows up.
+		LoveBiome: Hahaha! I love {BiomeName}! It ALWAYS keeps me on my feet!
+		HateCrowded: Too many people around when I'm carrying this many weapons on hand! I don't wanna drop anything...
+		DislikeCrowded: I'm feeling cramped, and I need space to relax from today's hunt...
+		LoveSpace: Yes! You're the best! Some peace and quiet!
+		FarFromHome: I can't give you the best price right now, I'm too far from home.
+		NoHome: Get me a place to sort my wares, and I'll give you the best items possible!
+		Content: Yeah, I'm doin' alright.
+	}
+
+	DisplayName: Huntress
+	Census.SpawnCondition: If a house is available
+}
+
+RegularPerson: {
+	TownNPCMood: {
+		Princess_LovesNPC: "{NPCName} is really nice to me, they make sweet drinks that I'm actually allowed to drink!"
+		LikeNPC_Princess: As far as kids go, {NPCName} isn't too bad. I just gotta make sure she stays on the other side of the counter.
+		HateNPC: That brat {NPCName} keeps trying to get into my alcohol. I can't serve customers when I'm babysitting.
+		DislikeNPC: "{NPCName} is trying to make me pay an extra tax for serving alcohol, and he's just... creepy."
+		LikeNPC: "{NPCName} is a simple man, and I can appreciate it."
+		LoveNPC: Seriously, {NPCName} is a lifesaver. He provides all the base, and I do the mixing!
+		DislikeBiome: I'd much rather set up shop somewhere other than {BiomeName}... I'm tired of sweeping the floor.
+		LikeBiome: Sweet, {BiomeName} is real nice for keeping the drinks cold.
+		LoveBiome: Nothing beats the simplicity of {BiomeName}! It's just perfect.
+		HateCrowded: Too many people, I can't serve this many customers!
+		DislikeCrowded: Starting to get backed up here, there's too many people...
+		LoveSpace: Ahh, quiet and peaceful... gives me time to think.
+		FarFromHome: I'm charging you extra, it's a lot harder to make this stuff when I'm away from home.
+		NoHome: Sorry to charge you this much, but I don't have a home... could you help me out?
+		Content: Things are okay right now.
+	}
+
+	DisplayName: Regular Person
+	Census.SpawnCondition: If a house is available and Calamity Mod is enabled
+}
+
+UltraDummy.DisplayName: Ultra Dummy

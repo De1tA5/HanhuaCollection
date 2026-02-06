@@ -1,0 +1,60 @@
+CombatExpertFlav:
+	'''
+	"No challenge too great, no price too high."
+	Happiness Info:
+	Loves the Snow and the Dryad
+	Likes the Underground and the Goblin Tinkerer
+	Dislikes the Desert and the Angler
+	Hates the Pirate
+	'''
+CombatExpert: A cool-headed tactician with extreme proficience in taking on any enemies. Carries around his wares inside a strange worm. It's said that he has a soft side, but not many live to see it.
+BuilderFlav:
+	'''
+	"Need something built? I'm the guy."
+	Happiness Info:
+	Loves the Forest and the Guide
+	Likes the Ocean and the Tax Collector
+	Dislikes the Hallow and the Demolitionist
+	Hates the Clothier
+	'''
+Builder: Builder by trade, he can put together arenas, or sell the materials to build your own (someday). On the weekends he is seen fishing (and gonking, whatever that means).
+HuntressFlav:
+	'''
+	"If ya ever get stuck, grab that knife and cut yourself out!"
+	Happiness Info:
+	Loves the Jungle and the Mechanic
+	Likes the Underground and the Combat Expert
+	Dislikes the Desert and the Angler
+	Hates the Goblin Tinkerer
+	'''
+Huntress: The Huntress is a thrillseeker by nature who loves to seek out and fight the strongest thing she can find. If there's anything she loves more than fighting, it's helping the next generation of fighters. She owes her talent and skills to a mysterious teacher.
+ElixiristFlav:
+	'''
+	"Getting ready for a boss fight, are we?"
+	Happiness Info:
+	Loves the Ocean and the Clothier
+	Likes the Forest and the Steampunker
+	Dislikes the Snow and the Pirate
+	Hates the Truffle
+	'''
+Elixirist: The Elixirist is shy, perhaps even gloomy at first, but if she starts talking about potions, her excitement can't be stopped by anyone.
+ChemistFlav:
+	'''
+	"I am the one who knocks!"
+	Happiness Info:
+	Loves the Desert
+	Likes the Snow and the Arms Dealer
+	Dislikes the Forest and the Witch Doctor
+	Hates the Wizard
+	'''
+Chemist: A very overqualified chemist selling useful potions at a good price. It seems like he has some lingering regrets following him around wherever he goes.
+RegularPersonFlav:
+	'''
+	"May I take your order?"
+	Happiness Info:
+	Loves the Forest
+	Likes the Snow and the Merchant
+	Dislikes the Desert and the Tax Collector
+	Hates the Angler
+	'''
+RegularPerson: Just a normal person, except they sell Calamity Mod's unique alcohols.

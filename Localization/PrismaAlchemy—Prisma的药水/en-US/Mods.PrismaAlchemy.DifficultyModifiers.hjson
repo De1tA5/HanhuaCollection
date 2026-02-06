@@ -1,0 +1,17 @@
+NightmareFuel: {
+	DeathMessage: "{0} was burned away by the Nightmare Fuel"
+	IntroMessage: Max Hits: {0}
+	EndMessage: The nightmare fuel dissipates...
+}
+
+PracticeMode: {
+	DeathMessage: You would have died from: {0}
+	IntroMessage: Practice Mode Active
+	EndMessage: You can't defeat bosses in practice mode!
+
+	FightStats: {
+		Message: ---Practice Mode Stats---
+		HitsTaken: Hits Taken: {0}
+		Deaths: Deaths: {0}
+	}
+}

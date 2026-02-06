@@ -1,0 +1,52 @@
+StandardDialogue0: You really can't go wrong with Swiftness, Regeneration and Ironskin.
+StandardDialogue1: As much as I love the darkness, when I'm making stuff I need my Shine and Night Owl potions.
+StandardDialogue2:
+	'''
+	I'll give you a 50% discount today...
+	If you ignore the fact I doubled the prices, hehehe!
+	'''
+StandardDialogue3: Why does everyone think I'm crazy? I only do a little bit of the dark arts...
+StandardDialogue4:
+	'''
+	Featherfall Potions are incredibly useful, if you know how
+	to control them.
+	'''
+StandardDialogue5: If you ever perish in battle, could I take a look at your bones? ...Sorry. I shouldn't ask that.
+StandardDialogue6:
+	'''
+	Summoning Potions are awesome! 
+	Two devoted minions are always better than one.
+	'''
+StandardDialogue7: Do you think you could bring me some zombie corpses? I'll give you a discount!
+StandardDialogue8: You should try my latest concoction... hehehe!
+CommonDialogue: Getting ready for a boss fight, are we?
+CommonDialogue2: Care to buy anything?
+RareDialogue:
+	'''
+	Have you ever felt like you've lost everything? No matter how hard you try, you can't bring it back? 
+	Happened to me once, don't recommend it.
+	'''
+SuperRareDialogue: What is a Blurring Potion? It sounds... so lame.
+TalkALot: I'm not really sure why you're talking to me so much... Are you looking to get hexxed?
+PartyGirlDialogue: "{0} convinced me to make the Flasks of Party for her Pigronatas."
+NurseDialogue:
+	'''
+	I asked {0} about you, she said that you're her best customer. I still don't know how I feel about charging money for life-saving surgery... 
+	I'd try it for free.
+	'''
+StylistDialogue:
+	'''
+	{0} has been helping with my hair styling lately... she's
+	very kind.
+	'''
+DryadDialogue: I was really happy when {0} told me that my Regeneration potions were top-notch, but I stopped listening soon after that.
+ArmsDealerDialogue: "{0} keeps asking me for Love Potions... but he seems happy when I give him Ammo Reservation potions instead."
+MerchantDialogue: That {0} has such a strange assortment of wares, surprisingly handy.
+MechanicDialogue: I wish {0} would tell me about what happened in that Dungeon... I might have to go look myself.
+SteampunkerDialogue: I will sell you potions to gear you up, {0} will sell you actual gears. We're not the same.
+CyborgDialogue: I don't even need to sell {0} any Ironskin potions...
+WizardDialogue:
+	'''
+	I'll tell you a secret... I've been charging {0} extra for those Magic Power and Mana Regeneration potions... 
+	Don't look at me like that..! Business is business!
+	'''

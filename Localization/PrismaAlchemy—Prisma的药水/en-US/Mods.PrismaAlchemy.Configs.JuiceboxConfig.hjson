@@ -1,0 +1,142 @@
+DisplayName: Prisma's Juicebox Settings
+
+Headers: {
+	Presets: Presets
+	NPCArrival: NPC Arrival
+	InfoTweaks: Informational Tweaks
+	GameplayTweaks: Gameplay Tweaks
+	CalamityTweaks: Calamity Tweaks
+	BalancingToggle: Balancing
+	SpecialItems: Special Items
+	ChallengeModifiers: Challenge Modifiers
+}
+
+DefaultPreset: {
+	Tooltip: The default preset the mod comes with
+	Label: "[i:TargetDummy] Default"
+}
+
+EverythingPreset: {
+	Tooltip: Everything is enabled!
+	Label: "[i:SoulofSight] Everything"
+}
+
+PrismasPresetA: {
+	Tooltip: Recommended for a fast experience
+	Label: "[i:EmpressBlade] Prisma's Preset A - Recommended"
+}
+
+PrismasPresetB: {
+	Tooltip: Recommended for a balanced experience
+	Label: "[i:LastPrism] Prisma's Preset B"
+}
+
+YardisPreset: {
+	Tooltip: lol
+	Label: "[i:Bass] QoL Abuse Preset"
+}
+
+PurePotions: {
+	Tooltip: Only the Potion NPCs and nothing else
+	Label: "[i:RegenerationPotion] Pure Potions"
+}
+
+ArriveElixirist: {
+	Label: "[i:SwiftnessPotion] Elixirist [i:RegenerationPotion]"
+	Tooltip: Allows the Elixirist to arrive
+}
+
+ArriveChemist: {
+	Label: "[i:RecallPotion] Chemist [i:WormholePotion]"
+	Tooltip: Allows the Chemist to arrive
+}
+
+ArriveCombatExpert: {
+	Label: "[i:SharpeningStation] Combat Expert [i:Shackle]"
+	Tooltip: Allows the Combat Expert to arrive
+}
+
+ArriveHuntress: {
+	Label: "[i:EyeOfCthulhuBossBag] Huntress [i:BlackLens]"
+	Tooltip: Allows the Huntress to arrive
+}
+
+ArriveBuilder: {
+	Label: "[i:IronHammer] Builder [i:Toolbelt]"
+	Tooltip: Allows the Builder to arrive
+}
+
+ArriveRegularPerson: {
+	Label: Regular Person [i:Ale]
+	Tooltip: Allows the Regular Person NPC to arrive, must have Calamity Mod enabled
+}
+
+Huntress_MaterialShop: {
+	Label: "[i:HallowedBar] Huntress Material Shop [i:Ectoplasm]"
+	Tooltip: Disabling this will disable the Material Shops, as some may consider them too OP
+}
+
+CombatExpert_AccessoryShop: {
+	Label: "[i:HermesBoots] Combat Expert Accessory Shop [i:Shackle]"
+	Tooltip: Disabling this will disable the Accessory Shops, as some may consider them too OP
+}
+
+SpecialItems: {
+	Label: "[i:PrismaAlchemy/ShimmerMirror] Curses and Blessings [i:PrismaAlchemy/HammerizerItem]"
+	Tooltip: Very powerful QoL items sold by the Combat Expert and Builder respectively
+}
+
+PermanentSentries: {
+	Label: "[i:StaffoftheFrostHydra] Permanent Sentries"
+	Tooltip: Sentries do not despawn 10 minutes after being placed. Disabled for Rusty Beacon Prototype.
+}
+
+PermanentSentryLike: {
+	Label: "[i:NimbusRod] Permanent Sentry-Likes"
+	Tooltip: Nimbus Rod, Crimson Rod, and Clinger Staff have an unlimited timer
+}
+
+BuffedSpectrePaintTools: {
+	Label: "[i:SpectrePaintRoller] Buffed Spectre Paint Tools"
+	Tooltip: Makes the Spectre Paintbrush, Paint Roller, and Paint Scraper 15x faster. Requires a relog to enable/disable
+}
+
+DisableDraedonArsenalCharge: {
+	Label: "[i:Wrench] Disable Draedon's Arsenal Charge"
+	Tooltip: Disables charging mechanic from Draedon's Arsenal, must have Calamity Mod enabled. Requires a relog to enable/disable
+}
+
+CalamityTagDamageTooltip: {
+	Label: "[i:RainbowWhip] Calamity Tag Damage Tooltip"
+	Tooltip: Replaces the vanilla tag damage tooltip with the calamity values
+}
+
+GlassHeart: {
+	Label: "[i:PrismaAlchemy/GlassHeartItem] Glass Heart"
+	Tooltip: Forces your max HP to always be 1 no matter what
+}
+
+NightmareFuel: {
+	Label: "[i:PrismaAlchemy/NightmareFuel] Nightmare Fuel"
+	Tooltip: Limits the amount of hits you can take in a boss fight
+}
+
+TaintedSoul: {
+	Label: "[i:PrismaAlchemy/TaintedSoul] Tainted Soul"
+	Tooltip: Using Life Crystals lowers your max HP by a small amount
+}
+
+BuffBoxPotionStackSize: {
+	Label: "[i:PrismaAlchemy/BuffBox] Buff Box Potion Stack Size [i:SwiftnessPotion]"
+	Tooltip: Max items to activate permanent effect of potions/consumable buffs
+}
+
+BuffBoxTileStackSize: {
+	Label: "[i:PrismaAlchemy/BuffBox] Buff Box Tile Stack Size [i:BewitchingTable]"
+	Tooltip: Max items to activate permanent effect of tile buffs
+}
+
+EnableLimitedTileBuffs: {
+	Label: "[i:PrismaAlchemy/BuffBox] Buff Box Limited Tile Buffs [i:Sunflower]"
+	Tooltip: Enables limited tile buffs for use in the Buff Box (Sunflowers, Piece of Cake) - I don't recommend enabling this.
+}

@@ -1,0 +1,286 @@
+ShimmerSeeker: {
+	DisplayName: Shimmer Seeker
+	Tooltip: ""
+}
+
+ShimmerMirror: {
+	DisplayName: Shimmer Mirror
+	Tooltip:
+		'''
+		'It glimmers with a strange light...'
+		Gaze in the mirror to teleport to the Aether
+		'''
+}
+
+CobwebMirror: {
+	DisplayName: Cobweb Mirror
+	Tooltip:
+		'''
+		'Don't ask how this works, the spiders won't tell you'
+		Right click to mark a location
+		Gaze in the mirror to teleport to the marked location
+		Cannot be used while a boss is alive
+		'''
+}
+
+ShadowMirror: {
+	DisplayName: Shadow Mirror
+	Tooltip:
+		'''
+		'A normal clock tells you the time, but a cursed clock? You tell it the time.'
+		Gaze in the mirror to return to your death point
+		'''
+}
+
+CursedClock: {
+	DisplayName: Cursed Clock
+	Tooltip:
+		'''
+		'A normal clock tells you the time, but a cursed clock? You tell it the time.'
+		Left click to jump forward in time
+		Right click while holding to fast forward to dawn/dusk
+		Right click on the item to freeze time
+		'''
+}
+
+ScorchingHeatLamp: {
+	Tooltip: Favorite this item to activate a large light effect around you. Also grants Night Owl.
+	DisplayName: Scorching Heat Lamp
+}
+
+ReverseRadio: {
+	DisplayName: Reverse Radio
+	Tooltip:
+		'''
+		'A very useful curse manifested in this radio.'
+		Left click to toggle rain
+		Right click to toggle sandstorm
+		'''
+}
+
+HammerizerItem: {
+	DisplayName: Platform Hammerizer
+	Tooltip:
+		'''
+		Click a platform to hammer every single platform on the same Y-coordinate
+		Right click while holding will only hammer non-stair platforms
+		Right click in the inventory to change to mini hammerizer
+		'''
+}
+
+WorldWreckerItem: {
+	DisplayName: World Wrecker
+	Tooltip: ""
+}
+
+ProfanedRopeCoil: {
+	DisplayName: Profaned Rope Coil
+	Tooltip:
+		'''
+		Creates a 1200x400 area of echo coated ropes, top left corner at your cursor.
+		Right Click will remove a 1200x400 area of echo coated ropes.
+		'''
+}
+
+Mainframeinator: {
+	DisplayName: Wexel Radley's Mainframeinator
+	Tooltip:
+		'''
+		Requires at least 500 blocks of vertical space
+		The structure is so large that some background walls may be improper
+		---
+		Wexel Radley's Mainframe, used to defeat Duke Fishron EX on March 1st, 2025
+		'''
+}
+
+Miniframe: {
+	DisplayName: Mainframeinator
+	Tooltip:
+		'''
+		Requires at least 500 blocks of vertical space
+		Can be stacked horizontally
+		'''
+}
+
+MiniframeLite: {
+	DisplayName: Mainframeinator Lite
+	Tooltip:
+		'''
+		Requires at least 500 blocks of vertical space
+		Can be stacked horizontally
+		It is not echo painted
+		'''
+}
+
+TestDevice: {
+	DisplayName: Test Device
+	Tooltip: ""
+}
+
+ShadowSparkGrenade: {
+	DisplayName: Shadow Spark Grenade
+	Tooltip: ""
+}
+
+HammerizerMiniItem: {
+	DisplayName: Platform Hammerizer Mini
+	Tooltip:
+		'''
+		Click a platform to hammer a 100 platforms on the same Y-coordinate, cursor at the middle point.
+		Right click while holding will only hammer non-stair platforms
+		Right click in the inventory to change to regular hammerizer
+		'''
+}
+
+EveryPlatformIsMainframe: {
+	DisplayName: Every Platform Is Mainframe
+	Tooltip:
+		'''
+		All platforms are actuated when you are near them
+		Favorite to activate
+		'''
+}
+
+GranitePlatformIsMainframe: {
+	DisplayName: Granite Platform Is Mainframe
+	Tooltip:
+		'''
+		Granite platforms are actuated when you are near them
+		Favorite to activate
+		'''
+}
+
+DraedonDownloader: {
+	DisplayName: XU-0P Prometheus
+	Tooltip:
+		'''
+		'What a fancy name to call a USB stick...'
+		When used, unlocks all Draedon recipes instantly, without decoding schematics.
+		'''
+}
+
+GlassHeartItem: {
+	DisplayName: Glass Heart
+	Tooltip: Debug item
+}
+
+NightmareFuel: {
+	DisplayName: Nightmare Fuel
+	Tooltip: Debug item
+}
+
+TaintedSoul: {
+	DisplayName: Tainted Soul
+	Tooltip: Debug item
+}
+
+HellfireArenaItem: {
+	Tooltip:
+		'''
+		Creates an optimised Wall of Flesh arena (Designed for Death Mode)
+		This extends across the middle of the world, excluding the edges
+		The bottom of the arena is placed at your cursor
+		Left click places the bomb, which takes 10 seconds to detonate, building the arena
+		Right click disarms all Hellfire Arena bombs, in case you change your mind
+		'''
+	DisplayName: Hellfire Arena Mk3
+}
+
+PPP_HighWall_BigSize: {
+	DisplayName: Pretty Platform Placer
+	Tooltip:
+		'''
+		Right click to change mode
+		Background Walls: High
+		Size: Big (500 tiles wide)
+		'''
+}
+
+PPP_HighWall_SmallSize: {
+	DisplayName: Pretty Platform Placer
+	Tooltip:
+		'''
+		Right click to change mode
+		Background Walls: High
+		Size: Small (200 tiles wide)
+		'''
+}
+
+PPP_LowWall_BigSize: {
+	DisplayName: Pretty Platform Placer
+	Tooltip:
+		'''
+		Right click to change mode
+		Background Walls: Low
+		Size: Big (500 tiles wide)
+		'''
+}
+
+PPP_LowWall_SmallSize: {
+	DisplayName: Pretty Platform Placer
+	Tooltip:
+		'''
+		Right click to change mode
+		Background Walls: Low
+		Size: Small (200 tiles wide)
+		'''
+}
+
+PPP_NoWall_BigSize: {
+	DisplayName: Pretty Platform Placer
+	Tooltip:
+		'''
+		Right click to change mode
+		Background Walls: None
+		Size: Big (500 tiles wide)
+		'''
+}
+
+PPP_NoWall_SmallSize: {
+	DisplayName: Pretty Platform Placer
+	Tooltip:
+		'''
+		Right click to change mode
+		Background Walls: None
+		Size: Small (200 tiles wide)
+		'''
+}
+
+BuffBox: {
+	DisplayName: Buff Box
+	Tooltip:
+		'''
+		'All of your potions and buffs in one neat package!'
+		Right click to open
+		'''
+}
+
+VialOViolence: {
+	DisplayName: Vial o' Violence
+	Tooltip:
+		'''
+		UNOBTAINABLE - Chemist and Elixirist self defense weapon.
+		'This is what happens when you mix chemistry and magic...'
+		'''
+}
+
+Rattlesnake: {
+	DisplayName: Rattlesnake
+	Tooltip:
+		'''
+		UNOBTAINABLE - Huntress self defense weapon.
+		Charge up by shooting, and then right click for more damage
+		'Famed in an old journal for getting a young girl out of a perilous encounter.'
+		'''
+}
+
+UltraDummy: {
+	DisplayName: Ultra Dummy
+	Tooltip:
+		'''
+		Spawns an immortal dummy that can be targeted by projectiles
+		Right click to remove all ultra dummies
+		You can use commands to edit the Ultra Dummy
+		'Have you ever wondered what happens when a Super Dummy ascends past being a normal Super Dummy?'
+		'''
+}

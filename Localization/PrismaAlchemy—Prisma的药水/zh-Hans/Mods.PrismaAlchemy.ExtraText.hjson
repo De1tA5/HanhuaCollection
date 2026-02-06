@@ -1,0 +1,13 @@
+SpawnMessage1: ---Prisma's Juicebox---
+SpawnMessage2: This mod is highly customisable, so make sure to check out the config before playing!
+SpawnMessage3: All original items such as the Mirrors and Hammerizer are disabled by default.
+Page1Header: Hello!
+Page1Subtext: This looks like your first time playing with Prisma's Juicebox.
+Page1Paragraph:
+	'''
+	I don't want to interrupt your experience too much, so I'll keep it short.
+	This mod is highly customisable in the config settings.
+	By default, this mod doesn't include any original content.
+	Shimmer Mirror, Platform Hammerizer, etc.
+	There are presets at the bottom of the config, which you may find helpful.
+	'''

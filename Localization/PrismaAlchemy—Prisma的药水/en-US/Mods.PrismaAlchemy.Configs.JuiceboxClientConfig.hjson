@@ -1,0 +1,17 @@
+DisplayName: Prisma's Juicebox Client Settings
+
+BuffBoxSkin: {
+	Label: Buff Box Style
+	Tooltip:
+		'''
+		0 - Wooden Style
+		1 - Pristine Neon Style (PrismaAce)
+		2 - Mechworm Style (deathsascension)
+		3 - Pristine Neon but Jolly Style (PrismaAce)
+		'''
+}
+
+LegacyShopSwitcher: {
+	Label: Alternative Shop Switcher UI
+	Tooltip: Changes the look of the Shop Switcher UI to the original one I used in development
+}

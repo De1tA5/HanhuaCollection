@@ -1,0 +1,37 @@
+StandardDialogue0: Hi! I got some cool stuff today, want some?
+StandardDialogue1: I heard about this place from some guy wearing blue, and I had to check it out!
+StandardDialogue2:
+	'''
+	I can't wait to see how strong you get... you're getting me
+	itching for a fight just thinkin' about it!
+	'''
+StandardDialogue3: How did I get this strong? Practice, a ton of it. I had a teacher too, but... he disappeared.
+StandardDialogue4:
+	'''
+	Warding reforges will keep you alive longer, but Menacing and Lucky will increase your damage.
+	It's your choice, they're both fantastic.
+	'''
+StandardDialogue5: Take the time, slow down and look at what's coming at you, then make your move. Flying around like an idiot without thinking will get you killed.
+StandardDialogue6: Many bosses will have visual indicators for what attacks they're gonna hit you with, keep your eyes peeled!
+StandardDialogue7: No amount of fancy tricks will save you if your fundamentals are poor.
+StandardDialogue8: Make sure you're well prepared before taking on a boss if you want it to be easy... what are you even doing if you're not prepared?
+CommonDialogue: Hey! Need somethin'?
+CommonDialogue2: Well well, if it isn't my favorite customer!
+RareDialogue: You're strong... almost as strong as... him.
+SuperRareDialogue: My teacher would love to meet you, you might find him soon if you keep getting stronger.
+TalkALot:
+	'''
+	Are you gonna buy something?
+	You know it's rude to keep a woman waiting, right?!
+	'''
+PartyGirlDialogue: Don't tell anyone... but {0} is kinda cute...
+NurseDialogue: "{0} keeps insulting me for getting myself injured, but I'm the one paying her bills, so she needs to shut it!"
+DemolitionistDialogue: Carving out an arena? {0}'s Dynamite is a real time-saver.
+DryadDialogue: I'll never understand {0}... why get rid of the world's evil when everything in there makes for such great target practice?
+ArmsDealerDialogue: "{0} has pretty nice arms. The weapons are decent too, haha!"
+GoblinTinkererDialogue: "{0}... don't even wanna think about him. Get in, get your reforge, and get out."
+MechanicDialogue: I know {0} and {1} miiight have a thing going on but... she can do so much better than that scamming piece of- whatever.
+SteampunkerDialogue: "{0} makes the gears in my mind turn..."
+CyborgDialogue: God {0} is so cool! I wanna see what combat features that guy has installed...
+WizardDialogue: Not the biggest fan of magic, but {0} has me covered whenever I need to scratch that itch!
+CalamityExclusiveAnglerDialogue: If you need a good fishing rod, feed {0} to one of the crocs in the Sulphurous Sea. Funniest shit ever.
