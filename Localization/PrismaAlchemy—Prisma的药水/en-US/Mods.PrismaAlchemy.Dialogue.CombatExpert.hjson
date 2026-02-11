@@ -1,17 +1,9 @@
 StandardDialogue0: Looking for something special? Tell me your needs, and I'll find the perfect tool for the job. No challenge too great, no price too high.
-StandardDialogue1:
-	'''
-	You think your enemies are tough?
-	This cursed tool here will make them beg for mercy. It's a game-changer, and it's all yours for the right price.
-	'''
+StandardDialogue1: You think your enemies are tough? This cursed tool here will make them beg for mercy. It's a game-changer, and it's all yours for the right price.
 StandardDialogue2: I don't need your admiration nor do I need your pity. I am who I am, and nothing can change that.
 StandardDialogue3: Fancy techniques don't mean shit if you can't land a hit.
 StandardDialogue4: These boots ain't just for show, they're faster than a rumor in a small town.
-StandardDialogue5:
-	'''
-	You want to be a player in this game? Then you need the
-	right equipment. And I'm the only one who can provide it.
-	'''
+StandardDialogue5: You want to be a player in this game? Then you need the right equipment. And I'm the only one who can provide it.
 StandardDialogue6: Wings? They're a one-way ticket to the sky. You'll be dodging attacks and laughing at those ground-bound fools.
 StandardDialogue7: I'm not here to make friends. I'm here to solve your problem.
 StandardDialogue8: Want to hire me? Better have a fat wallet and an even bigger problem.

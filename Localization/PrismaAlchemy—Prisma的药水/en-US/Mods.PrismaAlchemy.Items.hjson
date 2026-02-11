@@ -27,7 +27,7 @@ ShadowMirror: {
 	DisplayName: Shadow Mirror
 	Tooltip:
 		'''
-		'A normal clock tells you the time, but a cursed clock? You tell it the time.'
+		'A grim reflection of a past life stares back'
 		Gaze in the mirror to return to your death point
 		'''
 }

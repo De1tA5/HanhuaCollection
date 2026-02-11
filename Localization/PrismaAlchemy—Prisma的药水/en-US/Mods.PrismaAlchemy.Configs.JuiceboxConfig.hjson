@@ -102,7 +102,7 @@ BuffedSpectrePaintTools: {
 }
 
 DisableDraedonArsenalCharge: {
-	Label: "[i:Wrench] Disable Draedon's Arsenal Charge"
+	Label: "[i:Wrench] Disable Draedon's Arsenal Charge - DISABLED TEMPORARILY DUE TO UPDATE"
 	Tooltip: Disables charging mechanic from Draedon's Arsenal, must have Calamity Mod enabled. Requires a relog to enable/disable
 }
 
