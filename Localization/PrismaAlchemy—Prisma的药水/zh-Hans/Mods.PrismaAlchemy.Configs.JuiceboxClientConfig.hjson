@@ -1,17 +1,17 @@
-DisplayName: Prisma's Juicebox Client Settings
+DisplayName: Prisma的果汁盒客户端配置
 
 BuffBoxSkin: {
-	Label: Buff Box Style
+	Label: Buff盒面板样式
 	Tooltip:
 		'''
-		0 - Wooden Style
-		1 - Pristine Neon Style (PrismaAce)
-		2 - Mechworm Style (deathsascension)
-		3 - Pristine Neon but Jolly Style (PrismaAce)
+		0 - 木制样式
+		1 - 辉灿霓虹样式 (PrismaAce)
+		2 - 机械蠕虫样式 (deathsascension)
+		3 - 辉灿霓虹但是圣诞节样式 (PrismaAce)
 		'''
 }
 
 LegacyShopSwitcher: {
-	Label: Alternative Shop Switcher UI
-	Tooltip: Changes the look of the Shop Switcher UI to the original one I used in development
+	Label: 替换商店切换器界面
+	Tooltip: 将商店切换器界面改回我开发时使用的原始样式
 }

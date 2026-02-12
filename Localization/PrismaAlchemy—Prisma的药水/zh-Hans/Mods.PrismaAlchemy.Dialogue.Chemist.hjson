@@ -1,14 +1,14 @@
-StandardDialogue0: If you don't know who I am, then maybe your best course would be to tread lightly.
-StandardDialogue1: Technically, chemistry is the study of matter, but I prefer to see it as the study of change.
-StandardDialogue2: You know who I am, address me by my name.
-StandardDialogue3: You asked if I was in the potion business or the money business. Neither. I'm in the empire business.
-StandardDialogue4: Why do I sell potions? I like it. I'm good at it. It makes me feel alive.
-StandardDialogue5: Have you learned nothing from my chemistry class so far?
-StandardDialogue6: What is a talking pillow?
-StandardDialogue7: Advice with taking on those bosses? Fear is the real enemy. So, get up, get out in the real world and you kick that bastard as hard as you can right in the teeth.
-StandardDialogue8: How are you feeling?
-CommonDialogue: Care to buy a potion?
-CommonDialogue2: These potions are 99.1% pure, the best on the market.
-RareDialogue: Healing potions can't cure any terminal disease, but they can keep you around for a lot longer.
-SuperRareDialogue: This truly was our Breaking Bad.
-TalkALot: I don't have all day to talk around.
+StandardDialogue0: 如果你不知道我是谁，那么你最好小心行事。
+StandardDialogue1: 从学术层面讲，化学是一门研究物质的学科，但是我更倾向于它是一门研究变化的学科。
+StandardDialogue2: 你知道我是谁，用我的名字称呼我。
+StandardDialogue3: 你问我是在经营药水生意，还是在金钱生意。都不是，我是在经营帝国的生意。
+StandardDialogue4: 我为什么卖药水？因为我喜欢，而且我也很擅长。这让我觉得自己还活着。
+StandardDialogue5: 到目前为止，难道你从我的化学课里什么都没学到吗？
+StandardDialogue6: 什么是会说话的枕头？
+StandardDialogue7: 你问我有没有什么对抗Boss的建议？恐惧才是真正的敌人。所以，站起来，冲进现实世界，狠狠地踹掉那混蛋的牙齿！
+StandardDialogue8: 你现在感觉怎么样？
+CommonDialogue: 考虑买瓶药水？
+CommonDialogue2: 这些药水纯度高达99.1%，是市场上最好的。
+RareDialogue: 治疗药水无法治愈任何绝症，但却可以让你活得久些。
+SuperRareDialogue: 这确实就是我们的《绝命毒师》。
+TalkALot: 我没法谈一整天。

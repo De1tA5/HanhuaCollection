@@ -1,57 +1,58 @@
-400MaxHP: After using 15 Life Crystals
-200MaxMana: After using 9 Mana Crystals
-PlanteraAndTwins: After defeating Plantera & The Twins
-TwoMechs: After defeating two or more mechanical bosses
-HasSoulofLightorMech: Has a Soul of Light or after defeating any mechanical boss
-HasSoulofNightorMech: Has a Soul of Night or after defeating any mechanical boss
-DownedDS: After defeating Desert Scourge
-DownedCrabulon: After defeating Crabulon
-DownedHiveMind: After defeating The Hive Mind
-DownedPerferators: After defeating The Perforators
-DownedSlimeGod: After defeating The Slime God
-DownedCryogen: After defeating Cryogen
-DownedAS: After defeating Aquatic Scourge
-DownedBrimmy: After defeating Brimstone Elemental
-DownedCalClone: After defeating Calamitas Clone
-DownedLeviathan: After defeating The Leviathan & Anahita
-DownedAureus: After defeating Astrum Aureus
-DownedPBG: After defeating The Plaguebringer Goliath
-DownedRavager: After defeating Ravager
-DownedDeus: After defeating Astrum Deus
-DownedDragonfolly: After defeating Dragonfolly
-DownedGuardians: After defeating Profaned Guardians
-DownedProvidence: After defeating Providence
-DownedSignus: After defeating Signus
-DownedSW: After defeating Storm Weaver
-DownedCV: After defeating Ceaseless Void
-DownedPolterchan: After defeating Polterghast
-DownedOD: After defeating Old Duke
-DownedDoG: After defeating Devourer of Gods
-DownedYharon: After defeating Yharon
-DownedNeonTides: After defeating The Exo Mechs
-DownedSCal: After defeating Supreme Witch, Calamitas
-DownedEarlyBoss: After defeating King Slime or the Eye of Cthulhu
-DownedEarlyBossCal: After defeating King Slime, Desert Scourge or the Eye of Cthulhu
-DownedEarlyBossInRev: After defeating Desert Scourge, King Slime or the Eye of Cthulhu in Revengeance or higher
-UnlockedAerialite: After defeating The Hive Mind or The Perferators
-KingSlimeSlimeGod: After defeating King Slime and The Slime God
-DownedGiantClam: After defeating the Giant Clam
-DownedGiantClamHM: After defeating the Giant Clam in Hardmode
-EleumOrCroygen: Has an Essence of Eleum or after Cryogen
-SunlightOrAS: Has an Essence of Sunlight or after Aquatic Scourge
-HavocOrBrimmy: Has an Essence of Havoc or after Brimstone Elemental
-PostDoGPumpking: After defeating Devourer of Gods and Pumpking
-PostDoGIceQueen: After defeating Devourer of Gods and Ice Queen
-PostDoGMothron: After defeating Devourer of Gods and Mothron
-DownedWyvern: After defeating a Wyvern
-DownedSandy: After defeating a Sand Elemental
-DownedIceGolem: After defeating an Ice Golem
-DownedMothron: After defeating a Mothron
-DownedSolar: After defeating the Solar Pillar
-DownedVortex: After defeating the Vortex Pillar
-DownedNebula: After defeating the Nebula Pillar
-DownedStardust: After defeating the Stardust Pillar
-DownedAnyPillar: After defeating any of the four Lunar Pillars
-WaterglassToken: Has a Waterglass Token in your inventory
-HoneyfinBee: Defeated Queen Bee or fished up a Honeyfin
-ShimmeredTwins: Defeated Twins and is Wexel Radley
+400MaxHP: 使用15个生命水晶
+200MaxMana: 使用9个魔力水晶
+PlanteraAndTwins: 击败世纪之花和双子魔眼后
+TwoMechs: 击败两个或以上机械Boss后
+HasSoulofLightorMech: 拥有光明之魂或击败任意机械Boss后
+HasSoulofNightorMech: 拥有黑暗之魂或击败任意机械Boss后
+DownedDS: 击败荒漠灾虫后
+DownedCrabulon: 击败菌生蟹后
+DownedHiveMind: 击败腐巢意志后
+DownedPerferators: 击败血肉宿主后
+DownedSlimeGod: 击败史莱姆之神后
+DownedCryogen: 击败极地之灵后
+DownedAS: 击败渊海灾虫后
+DownedBrimmy: 击败硫磺火元素后
+DownedCalClone: 击败灾厄之影后
+DownedLeviathan: 击败利维坦和阿娜希塔后
+DownedAureus: 击败白金星舰后
+DownedPBG: 击败瘟疫使者歌莉娅后
+DownedRavager: 击败毁灭魔像后
+DownedDeus: 击败星神游龙后
+DownedDragonfolly: 击败痴愚金龙后
+DownedGuardians: 击败亵渎守卫后
+DownedProvidence: 击败亵渎天神，普罗维登斯后
+DownedSignus: 击败神之使徒西格纳斯后
+DownedSW: 击败风暴编织者后
+DownedCV: 击败无尽虚空后
+DownedPolterchan: 击败噬魂幽花后
+DownedOD: 击败硫海遗爵后
+DownedDoG: 击败神明吞噬者后
+DownedYharon: 击败重生之龙，犽戎后
+DownedNeonTides: 击败星流巨械后
+DownedSCal: 击败至尊女巫，灾厄后
+DownedEarlyBoss: 击败史莱姆之王或克苏鲁之眼后
+DownedEarlyBossCal: 击败史莱姆之王、荒漠灾虫或克苏鲁之眼后
+DownedEarlyBossInRev: 在复仇或以上难度，击败史莱姆之王、荒漠灾虫或克苏鲁之眼后
+UnlockedAerialite: 击败腐巢意志或血肉宿主后
+KingSlimeSlimeGod: 击败史莱姆王和史莱姆之神后
+VodkaCondition: 在困难模式击败史莱姆之神后
+DownedGiantClam: 击败巨像蛤后
+DownedGiantClamHM:在困难模式击败巨像蛤后
+EleumOrCroygen: 拥有冰川精华或击败极地之灵后
+SunlightOrAS: 拥有日光精华或击败渊海灾虫后
+HavocOrBrimmy: 拥有混乱精华或击败硫磺火元素后
+PostDoGPumpking: 击败神明吞噬者和南瓜王后
+PostDoGIceQueen: 击败神明吞噬者和冰雪女王后
+PostDoGMothron: 击败神明吞噬者和蛾怪后
+DownedWyvern: 击败飞龙后
+DownedSandy: 击败沙尘精后
+DownedIceGolem: 击败冰雪巨人后
+DownedMothron: 击败蛾怪后
+DownedSolar: 击败日耀柱后
+DownedVortex: 击败星旋柱后
+DownedNebula: 击败星云柱后
+DownedStardust: 击败星尘柱后
+DownedAnyPillar: 击败任意一个天界柱后
+WaterglassToken: 你的物品栏中有一个玻璃酒杯
+HoneyfinBee: 击败蜂王或钓上一条蜂蜜鱼
+ShimmeredTwins: 击败双子魔眼且NPC为微光变体

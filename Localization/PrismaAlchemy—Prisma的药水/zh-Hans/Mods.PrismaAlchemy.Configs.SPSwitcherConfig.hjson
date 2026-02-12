@@ -1,36 +1,36 @@
-DisplayName: SSP (Boss Practice Tools)
+DisplayName: SSP （Boss练习工具工具）
 
 Headers: {
-	ScuffedStartPos: Scuffed Start Pos Settings
-	PracticeMode: Practice Mode
+	ScuffedStartPos: Scuffed Start Pos设置
+	PracticeMode: 练习模式
 }
 
 BossHealth: {
-	Label: Boss Health %
-	Tooltip: Starts the boss at this % HP
+	Label: Boss血量百分比
+	Tooltip: 开始时Boss的血量百分比
 }
 
 Enabled: {
-	Label: SSP Enabled
-	Tooltip: Turns SSP on and off
+	Label: 启用SSP
+	Tooltip: 启用/关闭SSP
 }
 
 BossTagOnly: {
-	Label: Boss Tag Only
-	Tooltip: If disabled, all enemies have their HP reduced.
+	Label: 仅针对Boss
+	Tooltip: 如果禁用，所有敌怪都会削减生命值
 }
 
 PercentageLock: {
-	Label: Percentage Lock
-	Tooltip: Locks the HP at the selected value instead of starting it
+	Label: 血量百分比锁
+	Tooltip: 锁定选择数值百分比的血量
 }
 
 PracticeMode: {
-	Label: Scuffed Practice Mode
-	Tooltip: Doesn't work in multiplayer, scuffed warning in general. Prevents you being killed by bosses, letting you practice them more.
+	Label: Scuffed练习模式
+	Tooltip: 在多人模式下无法生效，通常会发出scuffed警告。该模式下，会阻止你被Boss击杀，使你有更多练习的机会
 }
 
 BossDeathPrevention: {
-	Label: Practice Mode Boss Death Prevention
-	Tooltip: Tries to prevent bosses from dying in Practice Mode
+	Label: 阻止练习模式Boss死亡
+	Tooltip: 尝试阻止Boss在练习模式下死亡
 }

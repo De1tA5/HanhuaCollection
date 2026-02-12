@@ -1,43 +1,35 @@
-StandardDialogue0: Looking for something special? Tell me your needs, and I'll find the perfect tool for the job. No challenge too great, no price too high.
-StandardDialogue1:
-	'''
-	You think your enemies are tough?
-	This cursed tool here will make them beg for mercy. It's a game-changer, and it's all yours for the right price.
-	'''
-StandardDialogue2: I don't need your admiration nor do I need your pity. I am who I am, and nothing can change that.
-StandardDialogue3: Fancy techniques don't mean shit if you can't land a hit.
-StandardDialogue4: These boots ain't just for show, they're faster than a rumor in a small town.
-StandardDialogue5:
-	'''
-	You want to be a player in this game? Then you need the
-	right equipment. And I'm the only one who can provide it.
-	'''
-StandardDialogue6: Wings? They're a one-way ticket to the sky. You'll be dodging attacks and laughing at those ground-bound fools.
-StandardDialogue7: I'm not here to make friends. I'm here to solve your problem.
-StandardDialogue8: Want to hire me? Better have a fat wallet and an even bigger problem.
-CommonDialogue: I've got this cursed spirit that can store objects. I use it to carry my cursed tools.
-CommonDialogue2: Don't be fooled by flashy salesmen. I offer quality, not promises. My reputation speaks for itself, and my wares are the proof.
-RareDialogue: Oh speaking of blessings. That's right, I almost forgot. I named my cursed spirit Megumi.
-SuperRareDialogue: I can't teach you my Domain Expansion. Come back when you're older and you've completed both MID Human Mode and a full Infernal Journey.
-TalkALot: Don't just stand there gawking. The world won't wait for you, and neither will my inventory.
-PartyGirlDialogue: "{0}'s Pogo Stick is quite useful for dodging."
-NurseDialogue: "{0}'s services are only useful if you can't dodge. Spend your platinum here instead."
-DemolitionistDialogue: "{0} can help fix your lobotomy arenas."
-DryadDialogue: There's something... special, about {0}. I'm going to talk to her.
-ArmsDealerDialogue: "{0}? He's a real brother, sells some good shit."
-GoblinTinkererDialogue: I am going to steal {0}'s goblin technology soon. No one will suffer through his shoddy craftsmanship any longer. Until then, we are stuck with that walking garbage.
-MechanicDialogue: You really killed Skeletron? Huh. Not bad, kid.
-SteampunkerDialogue: "{0}'s steampunk technology is quite underrated. Have you seen what's possible with her Static Hook?"
-CyborgDialogue: If {0} exists, does that mean there are robot girls out there?
-WizardDialogue: How did {0} get tied up underground in the first place? Is he stupid? Ah, perhaps he wanted it and let it happen on purpose. Makes sense.
-AnglerDialogue: I've never met someone more kickable than {0}.
-ShimmerExclusiveDialogue1: I love men.
-ShimmerExclusiveDialogue2: I would elaborate more on why I love femboys but then I'd be removed from the mod.
-ShimmerExclusiveDialogue3: Hey, do you think {0} is too good for me? Do I have a chance?
-ShimmerExclusiveDialogue4: Sometimes I just want to be hugged by a very tall and muscular goth girl.
-ShimmerExclusiveDialogue5: There's a decent chance I'm live on YouTube right now. You should totally subscribe, would be kinda cool haha.
-ShimmerExclusiveDialogue6: Check out Nevilsico Shard on the Steam Workshop. He makes the coolest shit.
-ShimmerExclusiveDialogue7: I love Lucy.
-ShimmerExclusiveDialogue8: BoB? Who's that again?
-ShimmerExclusiveDialogue9: Put me in the ring with Yharon and the Exo Mechs. I'll kill them for you, free of charge. I can't guarantee I'll win first attempt, though.
-ShimmerExclusiveDialogue9IfCalamityDisabled: Put me in the ring with Yharon and the Exo Me- who? You don't know who they are? Go look at the VOD and then come back.
+StandardDialogue0: 在找些特殊的东西？告诉我你需要的，我会为这事提供完美的工具。无论挑战多么艰巨，无论代价多么高昂。
+StandardDialogue1: 你觉得你的敌人很棘手吗？这些诅咒工具会让他们求饶。它改变了游戏，只要价格合适一切都是你的。
+StandardDialogue2: 我既不需要你的钦佩也不需要你同情。我就是我，没有什么能改变这一点。
+StandardDialogue3: 如果你不能击中目标，在花里胡哨的技术也没什么用。
+StandardDialogue4: 这些靴子不仅仅是为了展示，它们比小镇上的谣言还快。
+StandardDialogue5: 你想成为游戏玩家吗？那么你需要正确装备，而我是唯一一个能提供装备的。
+StandardDialogue6: 翅膀？它们是通往天空的入场券。你能躲避攻击，还能嘲笑那些在地上的傻瓜。
+StandardDialogue7: 我在这不是为了交朋友，我在这是为了解决你的问题。
+StandardDialogue8: 想要雇佣我？最好是准备一个鼓鼓的钱包，还有一个大麻烦。
+CommonDialogue: 我有一个被诅咒的灵魂，可以储存物品。我用它来携带我的诅咒工具。
+CommonDialogue2: 别被那些光鲜亮丽的推销员骗了。我提供的是质量，而不是承诺。我的声誉已经证明了一切，而我的货物就是最好的证据。
+RareDialogue: 哦，说到祝福，，我叫那个被诅咒的灵魂为惠。
+SuperRareDialogue: 我没法教你领域展开，等你再大些完成了MID人类模式和完整的炼狱之旅后再回来吧。
+TalkALot: 别傻站在那里发呆！这世界不会等你，我的货也不会等你！
+PartyGirlDialogue: "{0}的蹦蹦跷很适合用来闪避。"
+NurseDialogue: 如果你没法闪避那么{0}的服务是最有用的，把你的铂金币花在这里。
+DemolitionistDialogue: "{0}可以帮助你修复脑叶切除手术。"
+DryadDialogue: "{0}身上有某种……特别的东西,我打算和她谈谈。"
+ArmsDealerDialogue: "{0}？他是那种真兄弟，卖的东西都不赖。"
+GoblinTinkererDialogue: 我打算过一会去偷{0}的哥布林科技，这样再也不会有人遭受他垃圾的工艺了。但在那之前，我们只能忍受那些随地的垃圾。
+MechanicDialogue: 你真的杀了骷髅王？嗯，干的不错，伙计。
+SteampunkerDialogue: "{0}的蒸汽科技被低估了，你有没有了解她的静止钩能做到的事情？"
+CyborgDialogue: 如果{0}存在，那是否意味这在这之外还有机器女孩？
+WizardDialogue: "{0}最初是怎么被绑到地底下？他是不是傻？嗯，或许是他自己想这样，才故意让它发生，这解释得通。"
+AnglerDialogue: 我从没见过比{0}还欠揍的人。
+ShimmerExclusiveDialogue1: 我爱男人们。
+ShimmerExclusiveDialogue2: 我本可以详细阐述为什么我喜欢伪娘，但是这么干我就会从这个mod里被移除了。
+ShimmerExclusiveDialogue3: 嘿，你觉得{0}是不是太好了？我是不是没机会啊？
+ShimmerExclusiveDialogue4: 有时候我就想被一个身材高大、肌肉发达的哥特女孩抱住。
+ShimmerExclusiveDialogue5: 我现在在YouTube上直播是个不错的机会，你真该去订阅，感觉挺有意思的，哈哈。
+ShimmerExclusiveDialogue6: 去Steam创意工坊里搜Nevilsico Shard，他做了许多超酷的玩意。
+ShimmerExclusiveDialogue7: 我爱露西。
+ShimmerExclusiveDialogue8: BoB？那个人又是谁来着？
+ShimmerExclusiveDialogue9: 把我放在犽戎和星流巨械里。我会免费帮你杀了他们。但是我没法保证第一次就能赢。
+ShimmerExclusiveDialogue9IfCalamityDisabled: 把我放在犽戎和星流巨—谁？你不知道他们是谁？这样吧，去看一下视频，然后再回来。

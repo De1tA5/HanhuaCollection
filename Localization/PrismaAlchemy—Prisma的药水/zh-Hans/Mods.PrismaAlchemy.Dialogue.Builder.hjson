@@ -1,39 +1,39 @@
-StandardDialogue0: The Mainframe is the greatest arena I've ever made, you'll never want to use another arena ever again.
-StandardDialogue1: I hope there's fishing in this one.
-StandardDialogue2: *Starts beatboxing*
-StandardDialogue3: This is perfect weather for fishing!
-StandardDialogue4: Me and Mr. Blix have been cooking up a new version of the mainframe recently... Maybe I'll sell it one day.
-StandardDialogue5: I once had a dream where I woke up and the entire world was a mainframe! How awesome would that be...
-StandardDialogue6: The mainframe is sometimes SO GOOD, that it becomes a bad thing... I know that sounds crazy, but it really is that strong.
-StandardDialogue7: I have a PHD in mainframe technology by the way. So please, call me Doctor.
-StandardDialogue8: Oh! sorry. I didn't see you there, I was thinking about something important... Fishing.
-CommonDialogue: Yo, how's things?
-CommonDialogue2: Catch any nice fish?
-RareDialogue: Fortnite.
-SuperRareDialogue: Duke Fishron can Eat. My. Shit.
-TalkALot: Yeah, I'm working on it... It'll be done when it's finished.
+StandardDialogue0: 主机是我建造过最好的竞技场，你再也不需要使用别的竞技场了。
+StandardDialogue1: 我希望这里有一个能够钓鱼的地方。
+StandardDialogue2: *开始Beatbox*
+StandardDialogue3: 这样的天气最适合钓鱼了！
+StandardDialogue4: 我和Blix先生最近在研制新版本的主机……或许某天我会售卖它。
+StandardDialogue5: 我曾经做了个梦—当我醒来时这个世界成为了主机！要是这是真的那该有多棒啊……
+StandardDialogue6: 主机有时候非常强大，反而成了件坏事……我知道这听起来很疯狂，但它真的就是这么强。
+StandardDialogue7: 顺便说一下，我在主机技术有博士学位。所以请称呼我为“博士”。
+StandardDialogue8: 哦！对不起，我没注意到你在这，我正在思考一些重要的事……钓鱼。
+CommonDialogue: 嘿，最近怎么样？
+CommonDialogue2: 钓到好鱼了吗？
+RareDialogue: 堡垒之夜。
+SuperRareDialogue: 猪龙鱼公爵吔！屎！啦！
+TalkALot: 嗯，我正在做呢……等它做好了自然就完了。
 PartyGirlDialogue:
 	'''
-	Want to have a good time? {0} has got you covered!
-	Bubble Machines! Smoke Bombs! CAKE! Love it!
+	想来点美好时光？{0}都能为你准备好！
+    泡泡机！烟雾弹！蛋糕！太棒啦！
 	'''
-NurseDialogue: "{0} is literally here to heal us... THAT'S THE ONLY REASON SHE'S HERE! So like, why do people hate getting healed by her so much?"
-DemolitionistDialogue: "{0} and I, don't seem to agree on a few things. He thinks that the mainframe is bad because it wouldn't work underground, but he doesn't know how it works! I'll show him."
-DryadDialogue: I wish I could do that green aoe spell that {0} does... Like when you think about it, that move is pretty strong!
-ArmsDealerDialogue: I have a lot of respect for {0}. He sells GUN.
-GoblinTinkererDialogue: The tinkler really is a special fella. I love that guy.
-MechanicDialogue: I wish {0} would just sell me a grand design, pre-assembled... Like, why do I have to buy all the pieces, and then just combine it all myself?
-SteampunkerDialogue: "{0}'s jet pack looks pretty cool... But have you seen the mainframe?"
-CyborgDialogue: Bro, check out {0}'s nanites... They're AWESOME! But also confusing...
-WizardDialogue: That guy over there, {0}, once pulled a RABBIT out of his hat!... Nah, just kidding.
-AnglerDialogue: This dude, {0}, clearly knows how to enjoy himself.
-ShimmerExclusiveDialogue1: Gonk.
-ShimmerExclusiveDialogue2: David Cutlery? I haven't heard that name in a long time...
-ShimmerExclusiveDialogue3: Mr. President? Never heard of him.
-ShimmerExclusiveDialogue4: My friends and I are trying to beat Terraria in hardcore co-op and I make videos about it.
-ShimmerExclusiveDialogue5: Thank you for the $10 USD.
-ShimmerExclusiveDialogue6: Yo!
-ShimmerExclusiveDialogue7: *Starts beatboxing*
-ShimmerExclusiveDialogue8: In a past life, I was a Power Ranger
-ShimmerExclusiveDialogue9: Good morning! *sips coffee* damn... this is a good one. *sips coffee again*
-ShimmerExclusiveDialogue10: How did I get this outfit, you ask? Honestly, it was an accident. I was just putting things on, and when I put my character with the outfit into a thumbnail for episode 4, I thought it looked cool and I stuck with it.
+NurseDialogue: "{0}在这就是为了治疗我们的…… 她在这的唯一原因就是这个！所以说，为什么还有人嫌她治疗麻烦呢？"
+DemolitionistDialogue: "{0}和我，在某些事上貌似没法谈拢。他觉得主机不行因为在地下无法工作，但是他压根就不知道它如何运行！我得展示给他看。"
+DryadDialogue: 我希望我也能做到{0}施展的绿色群攻法术……当你仔细想想，这个动作确实挺强的！
+ArmsDealerDialogue: 我非常尊敬{0}，因为他卖枪。
+GoblinTinkererDialogue: 这个工匠真是个特别的家伙，我喜欢他。
+MechanicDialogue: 我希望{0}能直接卖一套预组装好的成品给我……为什么要我买一堆零件，然后再自己去组合呢？
+SteampunkerDialogue: "{0}的喷气背包看起来很酷……但你看过主机吗？"
+CyborgDialogue: 伙计，看看{0}的纳米机器人……它们太酷了！但也有点让人困惑……
+WizardDialogue: 那边那个家伙，{0}，曾经从他的帽子里变出了一只兔子！……开玩笑的。
+AnglerDialogue: 这个家伙，{0}，显然知道如何享受生活。
+ShimmerExclusiveDialogue1: Gonk。
+ShimmerExclusiveDialogue2: 大卫·卡特利？我已经很久没听到这个名字了……
+ShimmerExclusiveDialogue3: 总统先生？从未听说过他。
+ShimmerExclusiveDialogue4: 我的朋友和我正在尝试挑战合作通关泰拉瑞亚硬核模式，并且我制作了一个和它相关的视频。
+ShimmerExclusiveDialogue5: 谢谢你的10美元。
+ShimmerExclusiveDialogue6: 呦！
+ShimmerExclusiveDialogue7: *开始Beatbox*
+ShimmerExclusiveDialogue8: 在前世，我曾是一名强大射手。
+ShimmerExclusiveDialogue9: 早上好！ *啜咖啡* 该死……这是个味道不错。 *啜咖啡*
+ShimmerExclusiveDialogue10: 你问我这套衣服是怎么来的？说真的，这完全是个意外。我只是随便试了几件，当我把穿着这套衣服的角色放入第4集的缩略图时，我觉得它看起来很酷，所以我就这么定了。

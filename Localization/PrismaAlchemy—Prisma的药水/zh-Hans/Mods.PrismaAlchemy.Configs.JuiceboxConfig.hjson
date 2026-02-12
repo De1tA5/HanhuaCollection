@@ -1,142 +1,142 @@
-DisplayName: Prisma's Juicebox Settings
+DisplayName: Prisma的果汁盒设置
 
 Headers: {
-	Presets: Presets
-	NPCArrival: NPC Arrival
+	Presets: 预设
+	NPCArrival: NPC到达
 	InfoTweaks: Informational Tweaks
-	GameplayTweaks: Gameplay Tweaks
-	CalamityTweaks: Calamity Tweaks
-	BalancingToggle: Balancing
-	SpecialItems: Special Items
-	ChallengeModifiers: Challenge Modifiers
+	GameplayTweaks: 游戏调整
+	CalamityTweaks: 灾厄调整
+	BalancingToggle: 平衡
+	SpecialItems: 特殊物品
+	ChallengeModifiers: 挑战调整
 }
 
 DefaultPreset: {
-	Tooltip: The default preset the mod comes with
-	Label: "[i:TargetDummy] Default"
+	Tooltip: 模组自带的默认预设
+	Label: "[i:TargetDummy] 默认"
 }
 
 EverythingPreset: {
-	Tooltip: Everything is enabled!
-	Label: "[i:SoulofSight] Everything"
+	Tooltip: 全部启动、启动、启动，还有这个！
+	Label: "[i:SoulofSight] 全部"
 }
 
 PrismasPresetA: {
-	Tooltip: Recommended for a fast experience
-	Label: "[i:EmpressBlade] Prisma's Preset A - Recommended"
+	Tooltip: 推荐用于快速体验
+	Label: "[i:EmpressBlade] Prisma的预设A - 推荐"
 }
 
 PrismasPresetB: {
-	Tooltip: Recommended for a balanced experience
-	Label: "[i:LastPrism] Prisma's Preset B"
+	Tooltip: 推荐用于平衡体验
+	Label: "[i:LastPrism] Prisma的预设B"
 }
 
 YardisPreset: {
-	Tooltip: lol
-	Label: "[i:Bass] QoL Abuse Preset"
+	Tooltip: LOL，你这个cheater
+	Label: "[i:Bass] 辅助滥用预设"
 }
 
 PurePotions: {
-	Tooltip: Only the Potion NPCs and nothing else
-	Label: "[i:RegenerationPotion] Pure Potions"
+	Tooltip: 只有药水NPC，其他均没有
+	Label: "[i:RegenerationPotion] 纯药水"
 }
 
 ArriveElixirist: {
-	Label: "[i:SwiftnessPotion] Elixirist [i:RegenerationPotion]"
-	Tooltip: Allows the Elixirist to arrive
+	Label: "[i:SwiftnessPotion] 炼金师 [i:RegenerationPotion]"
+	Tooltip: 允许炼金师到达
 }
 
 ArriveChemist: {
-	Label: "[i:RecallPotion] Chemist [i:WormholePotion]"
-	Tooltip: Allows the Chemist to arrive
+	Label: "[i:RecallPotion] 化学家 [i:WormholePotion]"
+	Tooltip: 允许化学家到达
 }
 
 ArriveCombatExpert: {
-	Label: "[i:SharpeningStation] Combat Expert [i:Shackle]"
-	Tooltip: Allows the Combat Expert to arrive
+	Label: "[i:SharpeningStation] 战斗专家 [i:Shackle]"
+	Tooltip: 允许战斗专家到达
 }
 
 ArriveHuntress: {
-	Label: "[i:EyeOfCthulhuBossBag] Huntress [i:BlackLens]"
-	Tooltip: Allows the Huntress to arrive
+	Label: "[i:EyeOfCthulhuBossBag] 女猎人 [i:BlackLens]"
+	Tooltip: 允许女猎人到达
 }
 
 ArriveBuilder: {
-	Label: "[i:IronHammer] Builder [i:Toolbelt]"
-	Tooltip: Allows the Builder to arrive
+	Label: "[i:IronHammer] 建筑师 [i:Toolbelt]"
+	Tooltip: 允许建筑师到达
 }
 
 ArriveRegularPerson: {
-	Label: Regular Person [i:Ale]
-	Tooltip: Allows the Regular Person NPC to arrive, must have Calamity Mod enabled
+	Label: 调酒师 [i:Ale]
+	Tooltip: 允许调酒师NPC到达 （必须启用[C/AB1B1B:灾厄]模组）
 }
 
 Huntress_MaterialShop: {
-	Label: "[i:HallowedBar] Huntress Material Shop [i:Ectoplasm]"
-	Tooltip: Disabling this will disable the Material Shops, as some may consider them too OP
+	Label: "[i:HallowedBar] 女猎人材料商店 [i:Ectoplasm]"
+	Tooltip: 禁用该选项后将取消材料商店，因为有些人认为它们过于超模
 }
 
 CombatExpert_AccessoryShop: {
-	Label: "[i:HermesBoots] Combat Expert Accessory Shop [i:Shackle]"
-	Tooltip: Disabling this will disable the Accessory Shops, as some may consider them too OP
+	Label: "[i:HermesBoots] 战斗专家饰品商店 [i:Shackle]"
+	Tooltip: 禁用该选项后将取消饰品商店，因为有些人认为它们过于超模
 }
 
 SpecialItems: {
-	Label: "[i:PrismaAlchemy/ShimmerMirror] Curses and Blessings [i:PrismaAlchemy/HammerizerItem]"
-	Tooltip: Very powerful QoL items sold by the Combat Expert and Builder respectively
+	Label: "[i:PrismaAlchemy/ShimmerMirror] 诅咒与祝福 [i:PrismaAlchemy/HammerizerItem]"
+	Tooltip: 战斗专家和建筑师会各自售卖非常强大的辅助物品
 }
 
 PermanentSentries: {
-	Label: "[i:StaffoftheFrostHydra] Permanent Sentries"
-	Tooltip: Sentries do not despawn 10 minutes after being placed. Disabled for Rusty Beacon Prototype.
+	Label: "[i:StaffoftheFrostHydra] 永久哨兵"
+	Tooltip: 哨兵在放置10分钟后也不会消失，锈蚀信标原型不可用
 }
 
 PermanentSentryLike: {
-	Label: "[i:NimbusRod] Permanent Sentry-Likes"
-	Tooltip: Nimbus Rod, Crimson Rod, and Clinger Staff have an unlimited timer
+	Label: "[i:NimbusRod] 永久类哨兵武器"
+	Tooltip: "[i:NimbusRod]雨云魔杖、[i:CrimsonRod]猩红魔杖和[i:ClingerStaff]爬藤怪法杖持续时间无限"
 }
 
 BuffedSpectrePaintTools: {
-	Label: "[i:SpectrePaintRoller] Buffed Spectre Paint Tools"
-	Tooltip: Makes the Spectre Paintbrush, Paint Roller, and Paint Scraper 15x faster. Requires a relog to enable/disable
+	Label: "[i:SpectrePaintRoller] 强化幽灵刷漆工具"
+	Tooltip: 使[i:1543]幽灵漆刷，[i:1544]幽灵涂漆滚刷，[i:1545]幽灵铲漆速度加快15倍 （需要重进世界来生效）
 }
 
 DisableDraedonArsenalCharge: {
-	Label: "[i:Wrench] Disable Draedon's Arsenal Charge"
-	Tooltip: Disables charging mechanic from Draedon's Arsenal, must have Calamity Mod enabled. Requires a relog to enable/disable
+	Label: "[i:Wrench] 禁用嘉登军械库充能（因更新暂时不可用）"
+	Tooltip: 禁用嘉登军械库的充能机制 （必须启用[C/AB1B1B:灾厄]模组） （需要重进世界来生效）
 }
 
 CalamityTagDamageTooltip: {
-	Label: "[i:RainbowWhip] Calamity Tag Damage Tooltip"
+	Label: "[i:RainbowWhip] 灾厄伤害标签文本"
 	Tooltip: Replaces the vanilla tag damage tooltip with the calamity values
 }
 
 GlassHeart: {
-	Label: "[i:PrismaAlchemy/GlassHeartItem] Glass Heart"
-	Tooltip: Forces your max HP to always be 1 no matter what
+	Label: "[i:PrismaAlchemy/GlassHeartItem] 玻璃心"
+	Tooltip: 强制将你的最大生命值定为 1
 }
 
 NightmareFuel: {
-	Label: "[i:PrismaAlchemy/NightmareFuel] Nightmare Fuel"
-	Tooltip: Limits the amount of hits you can take in a boss fight
+	Label: "[i:PrismaAlchemy/NightmareFuel] 梦魇燃料"
+	Tooltip: 限制你在Boss战的受击次数
 }
 
 TaintedSoul: {
-	Label: "[i:PrismaAlchemy/TaintedSoul] Tainted Soul"
-	Tooltip: Using Life Crystals lowers your max HP by a small amount
+	Label: "[i:PrismaAlchemy/TaintedSoul] 堕落之魂"
+	Tooltip: 使用生命水晶会减少少量最大生命值
 }
 
 BuffBoxPotionStackSize: {
-	Label: "[i:PrismaAlchemy/BuffBox] Buff Box Potion Stack Size [i:SwiftnessPotion]"
-	Tooltip: Max items to activate permanent effect of potions/consumable buffs
+	Label: "[i:PrismaAlchemy/BuffBox] Buff盒药水堆叠上限 [i:SwiftnessPotion]"
+	Tooltip: 激活药水或消耗品的永久增益效果所需最大物品数
 }
 
 BuffBoxTileStackSize: {
-	Label: "[i:PrismaAlchemy/BuffBox] Buff Box Tile Stack Size [i:BewitchingTable]"
-	Tooltip: Max items to activate permanent effect of tile buffs
+	Label: "[i:PrismaAlchemy/BuffBox] Buff盒增益站堆叠上限[i:BewitchingTable]"
+	Tooltip: 激活增益站的永久增益效果所需最大物品数
 }
 
 EnableLimitedTileBuffs: {
-	Label: "[i:PrismaAlchemy/BuffBox] Buff Box Limited Tile Buffs [i:Sunflower]"
-	Tooltip: Enables limited tile buffs for use in the Buff Box (Sunflowers, Piece of Cake) - I don't recommend enabling this.
+	Label: "[i:PrismaAlchemy/BuffBox] Buff盒限制性增益站效果 [i:Sunflower]"
+	Tooltip: 启用有限制性的增益站在Buff盒中能生效（如[i:63]向日葵，[i:3750]蛋糕块）- 我不推荐启用这个（这是作者原话）
 }
