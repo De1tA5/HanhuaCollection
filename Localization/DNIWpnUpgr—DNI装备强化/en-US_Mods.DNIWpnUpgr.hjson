@@ -556,16 +556,36 @@ Configs: {
 	}
 
 	SuffixDisplay: {
-		ItemName.Label: Item Name
-		ItemTooltip.Label: Item Tooltip
+		ItemName: {
+			Label: Item Name
+			Tooltip: ""
+		}
+
+		ItemTooltip: {
+			Label: Item Tooltip
+			Tooltip: ""
+		}
+
 		Tooltip: ""
 	}
 
 	UpgradeValueScaling: {
 		Tooltip: ""
-		WorldDynamic.Label: World Dynamic
-		UseNormal.Label: Use Normal
-		UseExpert.Label: Use Expert
+
+		WorldDynamic: {
+			Label: World Dynamic
+			Tooltip: ""
+		}
+
+		UseNormal: {
+			Label: Use Normal
+			Tooltip: ""
+		}
+
+		UseExpert: {
+			Label: Use Expert
+			Tooltip: ""
+		}
 	}
 }
 
