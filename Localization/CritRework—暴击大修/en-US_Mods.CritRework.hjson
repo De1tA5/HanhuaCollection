@@ -6,7 +6,7 @@ Items: {
 
 	IronWhetstone: {
 		DisplayName: Iron Whetstone
-		Tooltip: "'The most basic whetstone'"
+		Tooltip: ""
 		CanBeApplied: Can be applied to any weapon
 	}
 
@@ -244,7 +244,7 @@ Items: {
 			'''
 			5% increased melee critical strike chance
 			Inflicting critical strikes grants a stacking defense buff, up to 50 defense
-			Upon getting hit, that buff is reset
+			Upon getting hit, that buff is reset and put on a 10 second cooldown
 			'''
 	}
 
@@ -347,6 +347,97 @@ Items: {
 			'Glazed with EVIL!!!!!'
 			'''
 	}
+
+	SparkleIcon: {
+		DisplayName: Sparkle Icon
+		Tooltip: ""
+	}
+
+	DuckyToken: {
+		DisplayName: Ducky Token
+		Tooltip: Squeaks on critical strike
+	}
+
+	MetalPipeToken: {
+		DisplayName: Metal Pipe Token
+		Tooltip: Makes... a noise. On critical strike
+	}
+
+	BoxingToken: {
+		DisplayName: Boxing Token
+		Tooltip: Plays a punching sound on critical strike
+	}
+
+	BoneToken: {
+		DisplayName: Bone Token
+		Tooltip: Plays a xylophone sound on critical strike
+	}
+
+	RockToken: {
+		DisplayName: Rock Token
+		Tooltip: Makes rock sounds on critical strike
+	}
+
+	OrchestraToken: {
+		DisplayName: Orchestra Token
+		Tooltip: Makes cinematic noises on critical strike
+	}
+
+	FireInABottle: {
+		DisplayName: Fire In A Bottle
+		Tooltip:
+			'''
+			Allows the holder to double jump after critically striking while midair
+			Critically striking five times while midair allows you to jump yet again
+			'''
+	}
+
+	FireInABalloon: {
+		DisplayName: Fire In A Balloon
+		Tooltip:
+			'''
+			Allows the holder to double jump after critically striking while midair
+			Critically striking five times while midair allows you to jump yet again
+			Increases jump height
+			'''
+	}
+
+	MagmaHorseshoeBalloon: {
+		DisplayName: Magma Horseshoe Balloon
+		Tooltip:
+			'''
+			Allows the holder to double jump after critically striking while midair
+			Critically striking five times while midair allows you to jump yet again
+			Increases jump height and negates fall damage
+			'''
+	}
+
+	BasicWhetstone: {
+		CanBeApplied: Mods.CritRework.Items.BasicWhetstone.CanBeApplied
+		DisplayName: Whetstone
+		Tooltip: "'Merely a basic whetstone'"
+	}
+
+	WhetstoneExtractor: {
+		DisplayName: Whetstone Extractor
+		Tooltip:
+			'''
+			Allows you to extract whetstones from weapons with crit conditions
+			To use, hold desired weapon with mouse cursor and right click on this item
+			Doing so will remove the crit condition and modifier from that weapon
+			'''
+	}
+
+	DivineShard: {
+		DisplayName: Divine Ingot
+		Tooltip:
+			'''
+			Can be used to enchant weapons with [icon] [c/fffaac:critical reforges] [icon]
+			Critical reforges are unique and change based on the weapon's critical strike condition
+			To use, hold desired weapon with mouse and right click on this item
+			'A shard of some God's sacred whetstone'
+			'''
+	}
 }
 
 Whetstone: {
@@ -365,6 +456,7 @@ Prefixes: {
 	Quality.DisplayName: Quality
 	Blunt.DisplayName: Blunt
 	Necromantic.DisplayName: Necromantic
+	Special.DisplayName: Special
 }
 
 NecromanticTooltip: +2 lifesteal when inflicting critical damage upon enemies
@@ -397,6 +489,11 @@ Configs: {
 		hideGloveDescription: {
 			Label: Hide glove tutorial
 			Tooltip: When set to true, the tutorial description on gloves will be removed from their tooltip to reduce clutter
+		}
+
+		abbreviateWhetstoneTooltip: {
+			Label: Abbreviate whetstone tooltip
+			Tooltip: When set to true, the tutorial description for whetstones will be removed from their tooltip to reduce clutter
 		}
 	}
 
@@ -474,101 +571,788 @@ Configs: {
 				In case you find this mod to be overpowered and want a way to nerf it
 				'''
 		}
+
+		travellingMerchantWhetstones: {
+			Label: Travelling merchant whetstones
+			Tooltip: Whether the Travelling Merchant will gain the function to give you basic whetstones or not
+		}
 	}
 }
 
 CritTypes: {
-	AboveFoe.Description: Critically strikes while you are above the target
-	BelowFoe.Description: Critically strikes while you are below the target
-	BunchedUpFoes.Description: Critically strikes when there are many enemies in close proximity to each other
-	CloseToFoe.Description: Critically strikes while you are closer than 6 tiles away from the target
-	ElfMelter.Description: Critically strikes while the target is covered in slime
-	Falling.Description: Critically strikes while you are falling
-	FarFromFoe.Description: Critically strikes while you are further than 40 tiles away from the target
-	Flamethrower.Description: Critically strikes while the target is covered in slime
-	FoeAtHighHP.Description: Critically strikes while the target has more than 85% of its health left
-	FoeAtLowHP.Description: Critically strikes while the target has less than 25% of its health left
-	FoeConfused.Description: Critically strikes while the target is confused
-	FoeHasFourDebuffs.Description: Critically strikes while the target is inflicted with four or more debuffs
-	FoeHasThreeDebuffs.Description: Critically strikes while the target is inflicted with three or more debuffs
-	FoeHasTwoDebuffs.Description: Critically strikes while the target is inflicted with two or more debuffs
-	FoeIsWet.Description: Critically strikes while the target is wet or underwater
-	FoeOnFire.Description: Critically strikes while the target is on fire
-	FoePoisoned.Description: Critically strikes while the target is poisoned
-	HighChance.Description: Critically strikes 25% of the time
-	LowChance.Description: Critically strikes 1% of the time
-	MediumChance.Description: Critically strikes 10% of the time
-	MovingFast.Description: Critically strikes while you are moving faster than 60 miles per hour
-	PlayerNohit.Description: Critically strikes if you haven't taken damage in more than 15 seconds
-	StandingStill.Description: Critically strikes while you are moving less than 10 miles per hour
-	TipOfTheWeapon.Description: Critically strikes when hitting enemies at the tip of the weapon
-	CrystalVileShard.Description: Critically strikes at the tip of the crystals
-	FreshItem.Description: Critically strikes for a brief moment after selecting this weapon
-	Harpoon.Description: Critically strikes while the target is at least 26 tiles away
-	JustHitByEnemy.Description: Critically strikes for 2.5 seconds after getting hit
-	ProjectileTravel.Description: Critically strikes if the projectile has been travelling for more than 1 second
-	ShadowbeamStaff.Description: Critically strikes after bouncing off a wall
-	ShadowflameKnife.Description: Critically strikes after ricocheting off at least one target
-	Shuriken.Description: Critically strikes after hitting at least one target
-	Sniper.Description: Critically strikes while the target is at least 75 tiles away
-	SpikyBall.Description: Critically strikes after being present for more than 5 seconds
-	ThrowingKnife.Description: Critically strikes when falling
-	Vilethorn.Description: Critically strikes at the tip of the thorns
-	Adaptive.Description: Critically strikes for 3 seconds after healing for at least 20 hp (healing while at max doesn't count)
-	Ammo.Description: Critically strikes when not consuming ammo
-	Ancient.Description: Critically strikes for 60 seconds after you respawn
-	Enchanted.Description: Critically strikes if you have less than 30% of your maximum mana
-	Frozen.Description: Critically strikes on targets moving less than 10 miles per hour
-	Greedy.Description: Critically strikes for 3 seconds after you pick up money
-	Necromantic.Description: Critically strikes while another player is dead
-	Soaring.Description: Critically strikes when falling or gliding for at least 4 seconds
-	Starter.Description: Critically strikes if you have less than 200 max life
-	WebCovered.Description: Critically strikes for 1 second after grappling yourself to a block, or while grappled
-	Boomerangs.Description: Critically strikes while returning to you
-	Prepared.Description: Critically strikes after the attack has been active for at least 5 seconds
-	Holy.Description: Critically strikes while you have invincibility (such as after taking damage)
-	CritWithAnother.Description: Critically strikes for 3 seconds after critically striking with another weapon
-	BronzeBowCrit.Description: Critically strikes if the target is between 15 and 20 tiles away
-	TenSecondCooldown.Description: Critically strikes if the the last time you crit was at least 10 seconds ago
-	ThreeSecondCooldown.Description: Critically strikes if the the last time you crit was at least 3 seconds ago
-	Backstab.Description: Critically strikes when hitting (most) enemies in the back
-	PickUpAmmo.Description: Mods.CritRework.CritTypes.PickUpAmmo.Description
-	HasDebuff.Description: Critically strikes while you are inflicted with a damage over time effect (such as On Fire!)
-	ClassyCane.Description: Critically strikes while you are holding at least 50 platinum
-	Katana.Description: Critically strikes while you have 0 defense
-	EyeOfCthulhu.Description: Critically strikes while you have less than 50% of your life left
-	CodeYoyos.Description: Critically strikes after hitting an enemy at least 10 times
-	Chik.Description: Critically strikes after hitting at least 2 different enemies
-	Code1.Description: Critically strikes after hitting an enemy at least 10 times
-	Code2.Description: Critically strikes after hitting an enemy at least 20 times
-	Valor.Description: Critically strikes when returning
-	Amarok.Description: Critically strikes after not hitting an enemy for 2 seconds
-	HelFire.Description: Critically strikes when rapidly hitting enemies
-	Kraken.Description: Critically strikes once against each hit enemy per yoyo thrown
-	MandibleBlade.Description: Critically strikes against enemies moving towards you
-	Trident.Description: Critically strikes after hitting at least 3 times in one use
-	TitaniumTrident.Description: Critically strikes when hitting multiple enemies in one use
-	DemonScytheShadowflameBow.Description: Projectiles will critically strike after killing an enemy
-	BronzeStaffCrit.Description: Critically strikes while you have less than 20 mana
-	FallingEnemy.Description: Critically strikes on falling targets
-	Blowpipe.Description: Critically strikes if the last time you used this weapon was at least 3 seconds ago
-	GalacticCrit.Description: Critically strikes if the weapon is thrown upward and then falls at least 10 tiles
-	NonBoss.Description: Critically strikes on non-boss targets
-	Shapeshifter_ShapeshiftSickness.Description: Critically strikes while you are afflicted with Shapeshifting Sickness
-	Shapeshifter_ShapeshiftBleedStackingMedium.Description: Critically strikes when you have inflicted at least 20 stacks of bleed total
-	Shapeshifter_ShapeshiftShawlDash.Description: Critically strikes for a brief moment after using a shawl dash
-	Shapeshifter_ShapeshiftBleedStackingHigh.Description: Critically strikes when you have inflicted at least 20 stacks of bleed total
-	Shapeshifter_ShapeshiftBleedStackingSingle.Description: Critically strikes when you have inflicted at least 5 stacks of bleed on the target enemy
-	Shapeshifter_AfterSkillUse.Description: Critically strikes on the next hit after using this shapeshift's skill
-	Shapeshifter_PredatorHit.Description: Critically strikes for 5 seconds after hitting an enemy as a predator wildshape
-	Shapeshifter_SageHit.Description: Critically strikes for 5 seconds after hitting an enemy as a sage wildshape
-	Shapeshifter_SymbioteHit.Description: Critically strikes for 5 seconds after hitting an enemy as a symbiote wildshape
-	Shapeshifter_WardenHit.Description: Critically strikes for 5 seconds after hitting an enemy as a warden wildshape
-	Adrenaline.Description: Critically strikes while in adrenaline mode
-	Rage.Description: Critically strikes while in rage mode
-	StealthStrike.Description: Critically strikes on stealth strikes
-	AfterUseTechnique.Description: Critically strikes for 1 second after using a technique
-	LowInspiration.Description: Critically strikes if you have less than 30% of your max inspiration remaining
+	AboveFoe: {
+		Description: Critically strikes while you are above the target
+		SpecialPrefixName: Hovering
+		SpecialPrefixTooltip1: Hold jump while using this weapon to hover instead of falling
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to weapons of orange rarity or lower
+		BasicWhetstonePrefix: Elevated
+	}
+
+	BelowFoe: {
+		Description: Critically strikes while you are below the target
+		SpecialPrefixName: Diving
+		SpecialPrefixTooltip1: Hold down while using this weapon to fall faster
+		SpecialPrefixTooltip2: Negates fall damage while held
+		CanBeAppliedToDescription: Can be applied to weapons of orange rarity or lower
+		BasicWhetstonePrefix: Rooted
+	}
+
+	BunchedUpFoes: {
+		Description: Critically strikes when there are many enemies in close proximity to each other
+		SpecialPrefixName: Gravitational
+		SpecialPrefixTooltip1: Creates a gravity well on hit that pulls enemies together
+		SpecialPrefixTooltip2: On critical strike, the gravity well is also damaging, and increases in size
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.BunchedUpFoes.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.BunchedUpFoes.BasicWhetstonePrefix
+	}
+
+	CloseToFoe: {
+		Description: Critically strikes while you are closer than 6 tiles away from the target
+		SpecialPrefixName: Vigilant
+		SpecialPrefixTooltip1: Critical strike distance extended to 18 tiles
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to non-melee weapons
+		BasicWhetstonePrefix: Aggressive
+	}
+
+	Falling: {
+		Description: Critically strikes while you are falling
+		SpecialPrefixName: Crushing
+		SpecialPrefixTooltip1: Critical strike damage is increased proportionally to how far you fell
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to melee weapons with no projectile
+		BasicWhetstonePrefix: Falling
+	}
+
+	FarFromFoe: {
+		Description: Critically strikes while you are further than 40 tiles away from the target
+		SpecialPrefixName: Extroverted
+		SpecialPrefixTooltip1: Critical strike distance reduced to 30 tiles
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to non-melee weapons
+		BasicWhetstonePrefix: Cautious
+	}
+
+	Flamethrower: {
+		Description: Critically strikes while the target is covered in slime or oil
+		SpecialPrefixName: Epidemic
+		SpecialPrefixTooltip1: Enemies killed by this weapon will spread slime to nearby enemies
+		SpecialPrefixTooltip2: Flame infinitely pierce and travel further on critical strike
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Flamethrower.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Flamethrower.BasicWhetstonePrefix
+	}
+
+	FoeAtHighHP: {
+		Description: Critically strikes while the target has more than 85% of its health left
+		SpecialPrefixName: Desperado's
+		SpecialPrefixTooltip1: If an enemy is killed by a critical strike, increase the damage of the next critical strike by 30%
+		SpecialPrefixTooltip2: Damage bonuses stack infinitely until you either fail to crit or fail to instakill
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Assassin's
+	}
+
+	FoeAtLowHP: {
+		Description: Critically strikes while the target has less than 25% of its health left
+		SpecialPrefixName: Ravenous
+		SpecialPrefixTooltip1: Enemies killed by critical strikes have a 100% chance to drop hearts
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Polished
+	}
+
+	FoeConfused: {
+		Description: Critically strikes while the target is confused
+		SpecialPrefixName: Illusory
+		SpecialPrefixTooltip1: 20% chance to confuse enemies for 10 seconds on hit
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Confusing
+	}
+
+	FoeHasFourDebuffs: {
+		Description: Critically strikes while the target is inflicted with four or more debuffs
+		SpecialPrefixName: Harrowing
+		SpecialPrefixTooltip1: 20% chance to inflict a random debuff on hit
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Harrowed
+	}
+
+	FoeHasTwoDebuffs: {
+		Description: Critically strikes while the target is inflicted with two or more debuffs
+		SpecialPrefixName: Vexing
+		SpecialPrefixTooltip1: 10% chance to inflict a random debuff on hit
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Vexed
+	}
+
+	FoeIsWet: {
+		Description: Critically strikes while the target is wet or underwater
+		SpecialPrefixName: Bubbling
+		SpecialPrefixTooltip1: Periodically spawns water bubbles that make enemies wet while held
+		SpecialPrefixTooltip2: Chance to spawn additional bubbles on critical strike
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Damp
+	}
+
+	FoeOnFire: {
+		Description: Critically strikes while the target is on fire
+		SpecialPrefixName: Arsonous
+		SpecialPrefixTooltip1: Critical strikes coat enemies in flammable oil
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Fiery
+	}
+
+	FoePoisoned: {
+		Description: Critically strikes while the target is poisoned
+		SpecialPrefixName: Venomous
+		SpecialPrefixTooltip1: Critical strikes inflict foes with a long lasting venom
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Poison-stained
+	}
+
+	HighChance: {
+		Description: Critically strikes 20% of the time
+		SpecialPrefixName: Fortunate
+		SpecialPrefixTooltip1: Chance increased to 30%
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Fortunate
+	}
+
+	LowChance: {
+		Description: Critically strikes 1% of the time
+		SpecialPrefixName: Deific
+		SpecialPrefixTooltip1: Chance increased to 2%
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Rare
+	}
+
+	MediumChance: {
+		Description: Critically strikes 10% of the time
+		SpecialPrefixName: Blessed
+		SpecialPrefixTooltip1: Chance increased to 20%
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Lucky
+	}
+
+	MovingFast: {
+		Description: Critically strikes while you are moving faster than 70 miles per hour
+		SpecialPrefixName: Supersonic
+		SpecialPrefixTooltip1: Critical strike requirement reduced to 50 miles per hour
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Speedy
+	}
+
+	PlayerNohit: {
+		Description: Critically strikes if you haven't taken damage in more than 15 seconds
+		SpecialPrefixName: Virtuoso
+		SpecialPrefixTooltip1: Critical strike damage doubled if you have taken damage in more than 45 seconds
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Perfected
+	}
+
+	StandingStill: {
+		Description: Critically strikes while you are moving less than 10 miles per hour
+		SpecialPrefixName: Calm
+		SpecialPrefixTooltip1: Continues critically striking for 1 second after moving less than 10 miles per hour
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Serene
+	}
+
+	TipOfTheWeapon: {
+		Description: Critically strikes when hitting enemies at the tip of the weapon
+		SpecialPrefixName: Gargantuan
+		SpecialPrefixTooltip1: Weapon size increased immeasurably
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to swung melee weapons without projectiles
+		BasicWhetstonePrefix: Pointed
+	}
+
+	CrystalVileShard: {
+		Description: Critically strikes at the tip of the crystals
+		SpecialPrefixName: Growing
+		SpecialPrefixTooltip1: Crystal tip size greatly increased
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.CrystalVileShard.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.CrystalVileShard.BasicWhetstonePrefix
+	}
+
+	FreshItem: {
+		Description: Critically strikes for a brief moment after selecting this weapon
+		SpecialPrefixName: Trickshot
+		SpecialPrefixTooltip1: Critically strikes for significantly longer than normal
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Fresh
+	}
+
+	Harpoon: {
+		Description: Critically strikes while the target is at least 26 tiles away
+		SpecialPrefixName: Repeating
+		SpecialPrefixTooltip1: Critically striking allows you to fire again immediately
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Harpoon.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Harpoon.BasicWhetstonePrefix
+	}
+
+	JustHitByEnemy: {
+		Description: Critically strikes for 2.5 seconds after getting hit
+		SpecialPrefixName: Rallying
+		SpecialPrefixTooltip1: Critical strikes heal you for 3 life
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Damaged
+	}
+
+	ProjectileTravel: {
+		Description: Critically strikes if the projectile has been travelling for more than 1 second and less than 4 seconds
+		SpecialPrefixName: Patient
+		SpecialPrefixTooltip1: Critically strikes forever past 1 second
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon which fires a projectile
+		BasicWhetstonePrefix: Old
+	}
+
+	ShadowbeamStaff: {
+		Description: Critically strikes after bouncing off a wall
+		SpecialPrefixName: Refractive
+		SpecialPrefixTooltip1: Can hit single targets an additional time for each wall hit
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.ShadowbeamStaff.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.ShadowbeamStaff.BasicWhetstonePrefix
+	}
+
+	ShadowflameKnife: {
+		Description: Critically strikes after ricocheting off at least one target
+		SpecialPrefixName: Enduring
+		SpecialPrefixTooltip1: Can ricochet infinitely many times
+		SpecialPrefixTooltip2: Multiple knives can strike a single target at once
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.ShadowflameKnife.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.ShadowflameKnife.BasicWhetstonePrefix
+	}
+
+	Shuriken: {
+		Description: Critically strikes after hitting at least one target
+		SpecialPrefixName: Mods.CritRework.CritTypes.Shuriken.SpecialPrefixName
+		SpecialPrefixTooltip1: Mods.CritRework.CritTypes.Shuriken.SpecialPrefixTooltip1
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Shuriken.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Shuriken.BasicWhetstonePrefix
+	}
+
+	Sniper: {
+		Description: Critically strikes while the target is at least 75 tiles away
+		SpecialPrefixName: Untraceable
+		SpecialPrefixTooltip1: Also critically strikes on max health enemies
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Sniper.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Sniper.BasicWhetstonePrefix
+	}
+
+	SpikyBall: {
+		Description: Critically strikes after being present for more than 5 seconds
+		SpecialPrefixName: Mods.CritRework.CritTypes.SpikyBall.SpecialPrefixName
+		SpecialPrefixTooltip1: Mods.CritRework.CritTypes.SpikyBall.SpecialPrefixTooltip1
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.SpikyBall.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.SpikyBall.BasicWhetstonePrefix
+	}
+
+	ThrowingKnife: {
+		Description: Critically strikes when falling
+		SpecialPrefixName: Mods.CritRework.CritTypes.ThrowingKnife.SpecialPrefixName
+		SpecialPrefixTooltip1: Mods.CritRework.CritTypes.ThrowingKnife.SpecialPrefixTooltip1
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.ThrowingKnife.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.ThrowingKnife.BasicWhetstonePrefix
+	}
+
+	Vilethorn: {
+		Description: Critically strikes at the tip of the thorns
+		SpecialPrefixName: Growing
+		SpecialPrefixTooltip1: The tip of the vilethorn is much larger
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Vilethorn.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Vilethorn.BasicWhetstonePrefix
+	}
+
+	Adaptive: {
+		Description: Critically strikes for 5 seconds after healing for at least 20 hp (healing while at max doesn't count)
+		SpecialPrefixName: Evolved
+		SpecialPrefixTooltip1: The critical strikes are more powerful the more you heal
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Adaptive.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Adaptive.BasicWhetstonePrefix
+	}
+
+	Ammo: {
+		Description: Critically strikes when not consuming ammo
+		SpecialPrefixName: Reserved
+		SpecialPrefixTooltip1: 20% additional chance to not consume ammo
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Ammo.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Ammo.BasicWhetstonePrefix
+	}
+
+	Ancient: {
+		Description: Critically strikes for 60 seconds after you respawn
+		SpecialPrefixName: Reanimated
+		SpecialPrefixTooltip1: Extended duration of critical strike condition to 90 seconds
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Ancient.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Ancient.BasicWhetstonePrefix
+	}
+
+	Enchanted: {
+		Description: Critically strikes if you have less than 30% of your maximum mana
+		SpecialPrefixName: Restoring
+		SpecialPrefixTooltip1: Critical strikes regenerate mana
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Enchanted.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Enchanted.BasicWhetstonePrefix
+	}
+
+	Frozen: {
+		Description: Critically strikes on targets moving less than 10 miles per hour
+		SpecialPrefixName: Freezing
+		SpecialPrefixTooltip1: Continues critically striking for 3 seconds after targets speed up again
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Frozen.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Frozen.BasicWhetstonePrefix
+	}
+
+	Greedy: {
+		Description: Critically strikes for 3 seconds after you pick up money
+		SpecialPrefixName: Avaricious
+		SpecialPrefixTooltip1: Critical strikes at close range steal money
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Greedy.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Greedy.BasicWhetstonePrefix
+	}
+
+	Necromantic: {
+		Description: Critically strikes while another player is dead
+		SpecialPrefixName: Reviving
+		SpecialPrefixTooltip1: Critical strikes cause players to respawn faster
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Necromantic.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Necromantic.BasicWhetstonePrefix
+	}
+
+	Soaring: {
+		Description: Critically strikes when falling or gliding for at least 4 seconds
+		SpecialPrefixName: Soaring
+		SpecialPrefixTooltip1: Grants featherfall while held
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Soaring.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Soaring.BasicWhetstonePrefix
+	}
+
+	Starter: {
+		Description: Critically strikes if you have less than 200 max life
+		SpecialPrefixName: Progressed
+		SpecialPrefixTooltip1: Critical strike condition extended to 300 max life
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Starter.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Starter.BasicWhetstonePrefix
+	}
+
+	WebCovered: {
+		Description: Critically strikes for 1 second after grappling yourself to a block, or while grappled
+		SpecialPrefixName: Grappling
+		SpecialPrefixTooltip1: Allows you to grapple enemies while held
+		SpecialPrefixTooltip2: You will bounce off of enemies upon colliding
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.WebCovered.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.WebCovered.BasicWhetstonePrefix
+	}
+
+	Boomerangs: {
+		Description: Critically strikes while returning to you
+		SpecialPrefixName: Rebounding
+		SpecialPrefixTooltip1: Critical strikes will bounce the boomerang away from oneself, allowing it to hit a target several times
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Boomerangs.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Boomerangs.BasicWhetstonePrefix
+	}
+
+	Prepared: {
+		Description: Critically strikes after the attack has been active for at least 5 seconds
+		SpecialPrefixName: Dark Knight's
+		SpecialPrefixTooltip1: Critical strikes grant you increased critical strike damage on all weapons
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Prepared.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Prepared.BasicWhetstonePrefix
+	}
+
+	Holy: {
+		Description: Critically strikes while you have invincibility (such as after taking damage)
+		SpecialPrefixName: Sacred
+		SpecialPrefixTooltip1: Critical strikes grant invincibility to allies
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Holy.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Holy.BasicWhetstonePrefix
+	}
+
+	CritWithAnother: {
+		Description: Critically strikes for 3 seconds after critically striking with another weapon
+		SpecialPrefixName: Cooperative
+		SpecialPrefixTooltip1: Critical strikes from other players also count towards this crit condition
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Shiny
+	}
+
+	BronzeBowCrit: {
+		Description: Critically strikes if the target is between 15 and 20 tiles away
+		SpecialPrefixName: Perfected
+		SpecialPrefixTooltip1: Target must now be at least 18 tiles away
+		SpecialPrefixTooltip2: 50% increased critical strike damage
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.BronzeBowCrit.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.BronzeBowCrit.BasicWhetstonePrefix
+	}
+
+	TenSecondCooldown: {
+		Description: Critically strikes if the the last time you crit was at least 10 seconds ago
+		SpecialPrefixName: Impatient
+		SpecialPrefixTooltip1: Critical strike cooldown reduced to 7 seconds
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Timely
+	}
+
+	ThreeSecondCooldown: {
+		Description: Critically strikes if the the last time you crit was at least 3 seconds ago
+		SpecialPrefixName: Impatient
+		SpecialPrefixTooltip1: Critical strike cooldown reduced to 2 seconds
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Convenient
+	}
+
+	Backstab: {
+		Description: Critically strikes when hitting (most) enemies in the back
+		SpecialPrefixName: Stealthy
+		SpecialPrefixTooltip1: Grants invisibility while held
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Sneaky
+	}
+
+	HasDebuff: {
+		Description: Critically strikes while you are inflicted with a damage over time effect (such as On Fire!)
+		SpecialPrefixName: Vitriolic
+		SpecialPrefixTooltip1: Poisons you while held
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Stained
+	}
+
+	ClassyCane: {
+		Description: Critically strikes while you are holding at least 50 platinum
+		SpecialPrefixName: Billionaire's
+		SpecialPrefixTooltip1: 100% increased critical strike damage
+		SpecialPrefixTooltip2: Requires 150 platinum to critically strike
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.ClassyCane.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.ClassyCane.BasicWhetstonePrefix
+	}
+
+	Katana: {
+		Description: Critically strikes while you have 0 defense
+		SpecialPrefixName: Refined
+		SpecialPrefixTooltip1: Critical strike condition extended to 10 defense or under
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Katana.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Katana.BasicWhetstonePrefix
+	}
+
+	EyeOfCthulhu: {
+		Description: Critically strikes while you have less than 50% of your life left
+		SpecialPrefixName: Enraged
+		SpecialPrefixTooltip1: Critical strikes allow the yoyo to hit much more rapidly
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.EyeOfCthulhu.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.EyeOfCthulhu.BasicWhetstonePrefix
+	}
+
+	Chik: {
+		Description: Critically strikes after hitting at least 2 different enemies
+		SpecialPrefixName: Merrier
+		SpecialPrefixTooltip1: Gains critical strike damage by 30% for each additional enemy hit
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Chik.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Chik.BasicWhetstonePrefix
+	}
+
+	Code1: {
+		Description: Critically strikes after hitting an enemy at least 10 times
+		SpecialPrefixName: Sentient
+		SpecialPrefixTooltip1: Critical strikes ramp in damage
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Code1.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Code1.BasicWhetstonePrefix
+	}
+
+	Code2: {
+		Description: Critically strikes after hitting an enemy at least 20 times
+		SpecialPrefixName: Sentient
+		SpecialPrefixTooltip1: Critical strikes ramp in damage
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Code2.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Code2.BasicWhetstonePrefix
+	}
+
+	Valor: {
+		Description: Critically strikes when returning
+		SpecialPrefixName: Brave
+		SpecialPrefixTooltip1: Grants immunity frames on critical strike
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Valor.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Valor.BasicWhetstonePrefix
+	}
+
+	Amarok: {
+		Description: Critically strikes after not hitting an enemy for 2 seconds
+		SpecialPrefixName: Thawed
+		SpecialPrefixTooltip1: Critically strike immediately after being thrown
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Amarok.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Amarok.BasicWhetstonePrefix
+	}
+
+	HelFire: {
+		Description: Critically strikes when rapidly hitting enemies
+		SpecialPrefixName: Weeping
+		SpecialPrefixTooltip1: Can hit enemies much more rapidly
+		SpecialPrefixTooltip2: Requires more rapid hits to critically strike
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.HelFire.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.HelFire.BasicWhetstonePrefix
+	}
+
+	Kraken: {
+		Description: Critically strikes once against each hit enemy per yoyo thrown
+		SpecialPrefixName: Unbound
+		SpecialPrefixTooltip1: Grows in size and critical strike damage with each critical strike
+		SpecialPrefixTooltip2: Retracting the yoyo resets its stats to normal
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Kraken.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Kraken.BasicWhetstonePrefix
+	}
+
+	MandibleBlade: {
+		Description: Critically strikes against enemies moving towards you
+		SpecialPrefixName: Charging
+		SpecialPrefixTooltip1: Critical strikes grant you immunity frames and a burst of movement speed
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.MandibleBlade.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.MandibleBlade.BasicWhetstonePrefix
+	}
+
+	Trident: {
+		Description: Critically strikes after hitting at least 3 times in one use
+		SpecialPrefixName: Poseidon's
+		SpecialPrefixTooltip1: Can hit much more rapidly
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Trident.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Trident.BasicWhetstonePrefix
+	}
+
+	TitaniumTrident: {
+		Description: Critically strikes when hitting multiple enemies in one use
+		SpecialPrefixName: Reaching
+		SpecialPrefixTooltip1: Reaches much further
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.TitaniumTrident.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.TitaniumTrident.BasicWhetstonePrefix
+	}
+
+	DemonScytheShadowflameBow: {
+		Description: Projectiles will critically strike after killing an enemy
+		SpecialPrefixName: Deatheater
+		SpecialPrefixTooltip1: Homes into enemies after killing an enemy
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.DemonScytheShadowflameBow.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.DemonScytheShadowflameBow.BasicWhetstonePrefix
+	}
+
+	BronzeStaffCrit: {
+		Description: Critically strikes while you have less than 20 mana
+		SpecialPrefixName: Resplendent
+		SpecialPrefixTooltip1: Restores 100 mana on crit
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.BronzeStaffCrit.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.BronzeStaffCrit.BasicWhetstonePrefix
+	}
+
+	FallingEnemy: {
+		Description: Critically strikes on falling targets
+		SpecialPrefixName: Juggling
+		SpecialPrefixTooltip1: Critical strikes launch enemies upward
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Fallen
+	}
+
+	Blowpipe: {
+		Description: Critically strikes if the last time you used this weapon was at least 3 seconds ago
+		SpecialPrefixName: Inhaling
+		SpecialPrefixTooltip1: Critically strikes after 10 seconds instead of 3
+		SpecialPrefixTooltip2: Significantly increased critical strike damage
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Blowpipe.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Blowpipe.BasicWhetstonePrefix
+	}
+
+	GalacticCrit: {
+		Description: Critically strikes if the weapon is thrown upward and then falls at least 10 tiles
+		SpecialPrefixName: Meteoric
+		SpecialPrefixTooltip1: Falling projectiles will slightly home into targets
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.GalacticCrit.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.GalacticCrit.BasicWhetstonePrefix
+	}
+
+	NonBoss: {
+		Description: Critically strikes on non-boss targets
+		SpecialPrefixName: Practical
+		SpecialPrefixTooltip1: Critical strikes increase mining speed for 1 minute
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Common
+	}
+
+	Shapeshifter_ShapeshiftBleedStackingMedium: {
+		Description: Critically strikes when you have inflicted at least 8 stacks of bleed total
+		SpecialPrefixName: Overkill
+		SpecialPrefixTooltip1: Increased critical strike damage for each additional stack of bleed
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to predator wildshapes
+		BasicWhetstonePrefix: Blood-soaked
+	}
+
+	Shapeshifter_ShapeshiftShawlDash: {
+		Description: Critically strikes for a brief moment after using a shawl dash
+		SpecialPrefixName: Dashing
+		SpecialPrefixTooltip1: Increases critical strike duration
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to feral weapons
+		BasicWhetstonePrefix: Dashing
+	}
+
+	Shapeshifter_ShapeshiftBleedStackingHigh: {
+		Description: Critically strikes when you have inflicted at least 20 stacks of bleed total
+		SpecialPrefixName: Ultrakill
+		SpecialPrefixTooltip1: Close-range critical strikes heal you for 10 life
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to predator wildshapes
+		BasicWhetstonePrefix: Bloody
+	}
+
+	Shapeshifter_ShapeshiftBleedStackingSingle: {
+		Description: Critically strikes when you have inflicted at least 5 stacks of bleed on the target enemy
+		SpecialPrefixName: Bloodthirsty
+		SpecialPrefixTooltip1: Massively increased critical strike damage
+		SpecialPrefixTooltip2: Critical strikes cleanse targets of all bleed stacks
+		CanBeAppliedToDescription: Can be applied to predator wildshapes
+		BasicWhetstonePrefix: Blood-stained
+	}
+
+	Shapeshifter_AfterSkillUse: {
+		Description: Critically strikes on the next hit after using this shapeshift's skill
+		SpecialPrefixName: Evolving
+		SpecialPrefixTooltip1: Critically strikes for a moment after using this shapeshift's skill
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to feral weapons
+		BasicWhetstonePrefix: Combined
+	}
+
+	Shapeshifter_PredatorHit: {
+		Description: Critically strikes for 5 seconds after hitting an enemy as a predator wildshape
+		SpecialPrefixName: Shifting
+		SpecialPrefixTooltip1: Grants immunity to shapeshift sickness while held
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to non-predator wildshapes
+		BasicWhetstonePrefix: Pack
+	}
+
+	Shapeshifter_SageHit: {
+		Description: Critically strikes for 5 seconds after hitting an enemy as a sage wildshape
+		SpecialPrefixName: Shifting
+		SpecialPrefixTooltip1: Grants immunity to shapeshift sickness while held
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to non-sage wildshapes
+		BasicWhetstonePrefix: Wise
+	}
+
+	Shapeshifter_SymbioteHit: {
+		Description: Critically strikes for 5 seconds after hitting an enemy as a symbiote wildshape
+		SpecialPrefixName: Shifting
+		SpecialPrefixTooltip1: Grants immunity to shapeshift sickness while held
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to non-symbiote wildshapes
+		BasicWhetstonePrefix: Symbiotic
+	}
+
+	Shapeshifter_WardenHit: {
+		Description: Critically strikes for 5 seconds after hitting an enemy as a warden wildshape
+		SpecialPrefixName: Shifting
+		SpecialPrefixTooltip1: Grants immunity to shapeshift sickness while held
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to non-warden wildshapes
+		BasicWhetstonePrefix: Warding
+	}
+
+	Adrenaline: {
+		Description: Critically strikes while in adrenaline mode
+		SpecialPrefixName: Daredevil's
+		SpecialPrefixTooltip1: Critical strike damage increased the longer you hold maximum adrenaline without using it
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Untouchable
+	}
+
+	Rage: {
+		Description: Critically strikes while in rage mode
+		SpecialPrefixName: Infuriating
+		SpecialPrefixTooltip1: Non-critical strikes help build up rage
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to any weapon
+		BasicWhetstonePrefix: Furious
+	}
+
+	StealthStrike: {
+		Description: Critically strikes on stealth strikes
+		SpecialPrefixName: Finishing
+		SpecialPrefixTooltip1: Continues critically striking for 1 second after a stealth strike
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to rogue weapons
+		BasicWhetstonePrefix: Startling
+	}
+
+	AfterUseTechnique: {
+		Description: Critically strikes for 1 second after using a technique
+		SpecialPrefixName: Talented
+		SpecialPrefixTooltip1: Critical strike duration extended to 2 seconds
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can be applied to throwing weapons
+		BasicWhetstonePrefix: Talented
+	}
+
+	BrokenCrit: {
+		Description: Cannot critically strike in any situation
+		SpecialPrefixName: Simply Incorrigible
+		SpecialPrefixTooltip1: Has nothing special going for it
+		SpecialPrefixTooltip2: You want to throw it against the ground in a fit of rage
+		CanBeAppliedToDescription: Cannot be applied to anything
+		BasicWhetstonePrefix: Hideous
+	}
 }
 
 UnknownTooltip: Unknown critical strike condition
@@ -584,6 +1368,16 @@ PirateBroke3: You tryin' to pirate ME? Ya scallywag!
 PirateSuccessful1: There ye go, matey! Good as new.
 PirateSuccessful2: No refunds!
 PirateSuccessful3: Aye aye, matey.
+TravellingMerchantGiveWhetstone: Whetstones
+TravellingMerchantGiveWhetstone1: Here, I found these during my travels. You seem like a fighter, maybe you'll have a use for them.
+TravellingMerchantGiveWhetstone2: Thanks for the tip! Here's something I found on my travels. Perhaps you can make good use of them.
+TravellingMerchantGiveWhetstone3: I appreciate the money. Here, take these.
+TravellingMerchantGiveWhetstone4: Cha-ching! Here you go! I hope these can be of some use.
+TravellingMerchantBroke1: Everything has a price, even if I don't need it; I won't give these to you for free.
+TravellingMerchantBroke2: Sorry, I can't give whetstones. Come back when you're a little... hmmmm... richer?
+TravellingMerchantBroke3: What's that? Oh, you don't have any money. Scraggle off, pal!
+TravellingMerchantAlreadyGiven1: That was all I had! I'll bring some more next time I come around.
+TravellingMerchantAlreadyGiven2: These things don't grow off of trees, you know.
 PirateHat:
 	'''
 	10% increased ranged and summon critical strike chance
@@ -635,6 +1429,16 @@ Buffs: {
 		DisplayName: Shadow Frenzy
 		Description: PANIC
 	}
+
+	CrystalShieldCooldown: {
+		DisplayName: Crystal Shield Broken
+		Description: Your crystal shield is inactive
+	}
+
+	Preparation: {
+		DisplayName: Preparation
+		Description: Mods.CritRework.Buffs.Preparation.Description
+	}
 }
 
 RecipeGroups: {
@@ -649,6 +1453,7 @@ Projectiles: {
 	LeadChakramProjectile.DisplayName: Lead Chakram Projectile
 	GoldJavelinProjectile.DisplayName: Gold Javelin Projectile
 	PlatinumJavelinProjectile.DisplayName: Platinum Javelin Projectile
+	WetBubble.DisplayName: Wet Bubble
 }
 
 BronzeHelm.SetBonus:
