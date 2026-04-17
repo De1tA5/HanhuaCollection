@@ -115,7 +115,7 @@ Items: {
 
 	BronzeAlloy: {
 		DisplayName: Bronze Alloy
-		Tooltip: ""
+		Tooltip: "'A new age begins'"
 	}
 
 	BronzeArrow: {
@@ -478,9 +478,383 @@ Items: {
 		DisplayName: Shortest Straw
 		Tooltip:
 			'''
-			Increases critical strike damage the lower the enemy's life is, up to 35%
+			Increases critical strike damage the lower the enemy's life is, up to 25%
 			Increases consecutive critical strike damage by 5%
 			'The fallout has begun, oppressive damage done'
+			'''
+	}
+
+	Greenprint: {
+		DisplayName: Greenprint
+		Tooltip:
+			'''
+			Details instructions for various Lihzahrd constructs
+			Colored green due to Lihzahrd printing tech, which utilizes plant fiber from the Jungle
+			'''
+	}
+
+	PocketLightningRod: {
+		DisplayName: Pocket Lightning Rod
+		Tooltip:
+			'''
+			Arcs lightning to hit enemies on critical strike, damaging all in its path
+			Its power is quite... shocking
+			'''
+		CanBeApplied: ""
+	}
+
+	AMPL: {
+		CanBeApplied: Can only be applied to ranged weapons
+		DisplayName: A.M.P.L.
+		Tooltip:
+			'''
+			When applied to a weapon, this disables normal critical strikes
+			When that weapon would critically strike, it will fire a homing missile
+			The homing missile inflicts the weapon's normal critical strike damage in a sizeable area
+			1 second cooldown
+			'''
+	}
+
+	HoneydippedStinger: {
+		CanBeApplied: ""
+		DisplayName: Honeydipped Stinger
+		Tooltip:
+			'''
+			When applied to a weapon, this disables normal critical strikes
+			When that weapon would normally critically strike, you will heal for some life
+			Healing scales with critical strike power and potency
+			'''
+	}
+
+	Boomstickifier: {
+		CanBeApplied: Can only be applied to spears
+		DisplayName: Boomstick-ifier
+		Tooltip:
+			'''
+			When applied to a weapon, this disables normal critical strikes
+			When that weapon would normally critically strike, it will explode for 2x the critical strike's damage
+			Shopkeeper not responsible for adverse effects
+			Does not destroy tiles
+			'It's literally just dynamite you strap to a spear'
+			'''
+	}
+
+	Buckler: {
+		CanBeApplied: ""
+		DisplayName: Buckler
+		Tooltip:
+			'''
+			When applied to a weapon, this disables normal critical strikes
+			Instead, gain defense proportional to the critical strike power and potency for 1 second
+			Upon taking damage while your defense is buffed, the defense is converted into damage for 3 seconds
+			During that time, critical strikes are re-enabled;
+			Afterwards, you are vulnerable for 10 seconds before you can use this again
+			'''
+	}
+
+	CursersQuill: {
+		CanBeApplied: ""
+		DisplayName: Curser's Quill
+		Tooltip:
+			'''
+			When applied to a weapon, this disables normal critical strikes
+			Instead, extract a soul from the struck enemy, storing the critical strike
+			Upon using a different weapon, all stored souls will be released for critical damage
+			Up to 10 souls can be stored by default, plus 1 per 10% potency
+			'''
+	}
+
+	ThornRing: {
+		CanBeApplied: ""
+		DisplayName: Thorn Ring
+		Tooltip:
+			'''
+			When applied to a weapon, this disables normal critical strikes
+			Instead, critical strike damage will be dealt over the course of 3 seconds via thorns
+			When an enemy dies, their thorns will be launched towards other foes
+			'[c/fc0303:Proceed].'
+			'''
+	}
+
+	HuntersDrawstring: {
+		CanBeApplied: Can only be applied to bows and repeaters
+		DisplayName: Hunter's Drawstring
+		Tooltip:
+			'''
+			When applied to a weapon, this disables normal critical strikes
+			Instead, inflict target with 'Hunter's Mark', increasing critical strike damage from non-arrows by 25%
+			Duration of the mark depends on the power and potency of the critical strike
+			'''
+	}
+
+	ManalyticConverter_Copper: {
+		CanBeApplied: ""
+		DisplayName: Manalytic Converter
+		Tooltip:
+			'''
+			When applied to a weapon, this disables normal critical strikes
+			Instead, gain mana in place of critically striking
+			Mana gained scales with critical strike power and potency
+			'''
+	}
+
+	ManalyticConverter_Tin: {
+		CanBeApplied: ""
+		DisplayName: Manalytic Converter
+		Tooltip:
+			'''
+			When applied to a weapon, this disables normal critical strikes
+			Instead, gain mana in place of critically striking
+			Mana gained scales with critical strike power and potency
+			'''
+	}
+
+	ReclawPotion: {
+		DisplayName: Reclaw Potion
+		Tooltip: Increases consecutive critical strike damage by 20%
+	}
+
+	Apophis: {
+		CanBeApplied: ""
+		DisplayName: Apophis
+		Tooltip:
+			'''
+			When applied to a weapon, critical strikes will summon extremely powerful asteroids
+			The asteroids do not discriminate
+			'''
+	}
+
+	WindWalker: {
+		DisplayName: Windwalker
+		Tooltip: Critical strikes grant you a movement speed boost for 3 seconds
+	}
+
+	BloodCog: {
+		CanBeApplied: Can only be applied to guns and magic staffs
+		DisplayName: Blood Cog
+		Tooltip:
+			'''
+			Attaches a chainsaw to augmented arnament, decreasing accuracy
+			Critically striking will rev the chainsaw to deal close-range damage
+			Rev duration depends on critical strike power and potency
+			Accuracy greatly reduced while chainsaw is active
+			'Mankind might not be dead but this thing will make us deader'
+			'''
+	}
+
+	ImperfectStorm: {
+		CanBeApplied: Can only be applied to melee weapons
+		DisplayName: Imperfect Storm
+		Tooltip:
+			'''
+			When applied to a weapon, this disables normal critical strikes
+			Instead, when not critically striking, prepare up to 20 reality slices
+			When you would normally critically strike, cut at every slice at once for critical damage
+			'I am the storm that is approaching'
+			'''
+	}
+
+	Horrificracker: {
+		DisplayName: Horrificracker
+		Tooltip:
+			'''
+			Can be given a crit condition
+			While equipped, all minions will inherit this crit condition
+			Increases your max number of minions by 1
+			'''
+	}
+
+	GildedRemains: {
+		DisplayName: Gilded Remains
+		Tooltip:
+			'''
+			Only active while favorited
+			While active, reforging an item at the Goblin Tinkerer cannot change an item's critical stike condition
+			'Supposedly touched by Midas. Its authenticity is... dubious.'
+			'''
+	}
+
+	SkywardSling: {
+		DisplayName: Skyward Sling
+		Tooltip:
+			'''
+			Allows you to add an additional augmentation to weapons
+			5% increased critical strike chance
+			'''
+	}
+
+	GraftedSling: {
+		DisplayName: Grafted Sling
+		Tooltip:
+			'''
+			Allows you to add an additional augmentation to weapons
+			Can be given a crit condition
+			All weapons will inherit this crit condition, in addition to their own
+			Both crit conditions must be met to critically strike
+			'''
+	}
+
+	ContaminatedSapling: {
+		DisplayName: Contaminated Sapling
+		Tooltip:
+			'''
+			10% increased critical strike chance per augmentation on a given weapon
+			'Seed will rock you'
+			'''
+	}
+
+	RainToken: {
+		DisplayName: Risky Token
+		Tooltip: Makes a familiar sound on critical strike
+	}
+
+	HomunculusToken: {
+		DisplayName: Homunculus Token
+		Tooltip: Makes a familiar sound on critical strike
+	}
+
+	Epitaph: {
+		CanBeApplied: ""
+		DisplayName: Epitaph
+		Tooltip:
+			'''
+			When applied to a weapon, if an enemy is killed by a critical strike, spawn a doomstone
+			All enemies and players near the doomstone are given 'Doom', lowering defense
+			Range of Doom scales with critical strike potency
+			'The wall on which the prophets wrote is cracking at the seams'
+			'''
+	}
+
+	ConstructHelmet: {
+		DisplayName: Construct Helmet
+		Tooltip:
+			'''
+			15% increased critical strike chance on augmented weapons
+			15% increased critical strike potency
+			'''
+	}
+
+	ConstructGreaves: {
+		DisplayName: Construct Greaves
+		Tooltip:
+			'''
+			10% increased critical strike chance on augmented weapons
+			Increased jump speed
+			'''
+	}
+
+	ConstructPlating: {
+		DisplayName: Construct Plating
+		Tooltip:
+			'''
+			12% increased critical strike chance on augmented weapons
+			5% increased damage
+			'''
+	}
+
+	SaplingSimulacrum: {
+		DisplayName: Sapling Simulacrum
+		Tooltip:
+			'''
+			10% increased critical strike chance
+			8% additional critical strike chance per augmentation on a given weapon
+			'''
+	}
+
+	Ambrosia: {
+		CanBeApplied: ""
+		DisplayName: Ambrosia
+		Tooltip:
+			'''
+			When applied to a weapon, this disables normal critical strikes
+			Instead, critical strikes will reduce all debuff times, including potion sickness
+			Debuff reduction scales with critical strike power and potency
+			'''
+	}
+
+	BouncyBall: {
+		CanBeApplied: ""
+		DisplayName: Bouncy Ball
+		Tooltip:
+			'''
+			When applied to a weapon, this disables normal critical strikes
+			Instead, critical strikes will increase the knockback of the attack
+			Knockback scales with critical strike power and potency
+			'''
+	}
+
+	FatedFlame: {
+		DisplayName: Fated Flame
+		Tooltip:
+			'''
+			Increases critical strike potency by 30% while at least half of your HP is missing
+			'It burns on both ends'
+			'''
+	}
+
+	LastStraw: {
+		DisplayName: Last Straw
+		Tooltip:
+			'''
+			Increases critical strike potency by 30% while at least half of your HP is missing
+			Increases critical strike damage the lower the enemy's life is, up to 25%
+			'Increases damage dealt to camels'
+			'''
+	}
+
+	CrownShard: {
+		DisplayName: Crown Shard
+		Tooltip: 20% increased critical strike chance on critically reforged weapons
+	}
+
+	ReuinitedCoronet: {
+		DisplayName: Reuinited Coronet
+		Tooltip:
+			'''
+			15% increased critical strike chance on critically reforged weapons
+			20% increased critical strike potency on critically reforged weapons
+			'Happily ever after'
+			'''
+	}
+
+	TiaraShard: {
+		DisplayName: Tiara Shard
+		Tooltip: 20% increased critical strike potency on critically reforged weapons
+	}
+
+	FraudCrown: {
+		SetBonus: All weapons gain critical reforge modifiers, regardless of what prefix they have
+		DisplayName: Falsehood's Crown
+		Tooltip: 8% increased critical strike chance
+	}
+
+	FraudPants: {
+		DisplayName: Falsehood's Trousers
+		Tooltip:
+			'''
+			5% increased critical strike chance
+			10% increased critical strike potency
+			'''
+	}
+
+	FraudVest: {
+		DisplayName: Falsehood's Vest
+		Tooltip: 10% increased critical strike chance
+	}
+
+	Lie: {
+		DisplayName: Lie
+		Tooltip: "'It's the little lies that add up'"
+	}
+
+	ParryingDagger: {
+		CanBeApplied: Can only be applied to pavises
+		DisplayName: Parrying Dagger
+		Tooltip:
+			'''
+			When applied to a weapon, this disables normal critical strikes
+			Instead, critical strikes will restore guard counters over time
+			The frequency of restoration scales with critical strike power and potency
 			'''
 	}
 }
@@ -503,6 +877,87 @@ Prefixes: {
 	Necromantic.DisplayName: Necromantic
 	Special.DisplayName: Special
 	Deliberate.DisplayName: Deliberate
+	Bulky.DisplayName: Bulky
+	Quality_Augment.DisplayName: Quality
+
+	Panicked: {
+		DisableCondition: Only active while below 25% life
+		DisplayName: Panicked
+	}
+
+	Timid: {
+		DisableCondition: Only active while above 65% life
+		DisplayName: Timid
+	}
+
+	Detrimental.DisplayName: Detrimental
+	Helpful.DisplayName: Helpful
+
+	Reactive: {
+		DisableCondition: Only active if you have critically struck in the last 3 seconds
+		DisplayName: Reactive
+	}
+
+	Vengeful: {
+		DisableCondition: Only active if you have taken damage in the last 3 seconds
+		DisplayName: Vengeful
+	}
+
+	Compensating.DisplayName: Compensating
+	Critical.DisplayName: Critical
+	Decent.DisplayName: Decent
+	Inconvenient.DisplayName: Inconvenient
+	Persistent.DisplayName: Persistent
+	Unreliable.DisplayName: Unreliable
+
+	Versatile: {
+		Description: 1 max augmentations
+		DisplayName: Versatile
+	}
+
+	Clockwork: {
+		DisableCondition: Only active half the time; active for 2 seconds, then inactive for 2 seconds
+		DisplayName: Clockwork
+	}
+
+	Intercontinental: {
+		tooltip: +Greatly increased explosion size
+		DisplayName: Intercontinental
+		tooltip2: Mods.CritRework.Prefixes.Intercontinental.tooltip2
+	}
+
+	Gradual: {
+		tooltip: +5 armor penetration for thorns
+		tooltip2: Thorns inflict their damage over a greater amount of time
+		DisplayName: Gradual
+	}
+
+	Apocalyptic: {
+		tooltip: Spawns more asteroids than normal
+		tooltip2: Mods.CritRework.Prefixes.Apocalyptic.tooltip2
+		DisplayName: Apocalyptic
+	}
+
+	Hoarding: {
+		tooltip: +5 maximum souls
+		tooltip2: Mods.CritRework.Prefixes.Hoarding.tooltip2
+		DisplayName: Hoarding
+	}
+
+	Grieving: {
+		tooltip: +50% doomstone range
+		tooltip2: Mods.CritRework.Prefixes.Grieving.tooltip2
+		DisplayName: Grieving
+	}
+
+	Potent: {
+		Tooltip: +30% critical strike potency
+		DisplayName: Potent
+	}
+
+	Effective.DisplayName: Effective
+	Impotent.DisplayName: Impotent
+	Particular.DisplayName: Particular
 }
 
 NecromanticTooltip: +2 lifesteal when inflicting critical damage upon enemies
@@ -541,6 +996,11 @@ Configs: {
 			Label: Abbreviate whetstone tooltip
 			Tooltip: When set to true, the tutorial description for whetstones will be removed from their tooltip to reduce clutter
 		}
+
+		abbreviateAugmentationTooltip: {
+			Label: Abbreviate augmentation tooltip
+			Tooltip: When set to true, the tutorial description for augmentations will be removed from their tooltip to reduce clutter
+		}
 	}
 
 	ServerConfig: {
@@ -568,7 +1028,7 @@ Configs: {
 
 		randomHijackChance: {
 			Label: Reforge hijack chance
-			Tooltip: The chance for a weapon to be "hijacked"" when reforged by the goblin tinkerer, changing its crit condition.
+			Tooltip: The chance for a weapon to be "hijacked" when reforged by the goblin tinkerer, changing its crit condition.
 		}
 
 		randomHijackSound: {
@@ -595,8 +1055,8 @@ Configs: {
 			Label: Crit scaling calculations
 			Tooltip:
 				'''
-				Determines the way critical strike damage scales with crit damage/chance bonuses.
-				"Balanced" is the most recommended, but simple is more powerful and easier to understand if that's what you prefer.
+				Determines the way critical strike damage scales with crit power/chance bonuses.
+				"Balanced" is the most recommended, but simple is generally more powerful and easier to understand if that's what you prefer.
 				'''
 		}
 
@@ -631,7 +1091,7 @@ CritTypes: {
 		SpecialPrefixName: Hovering
 		SpecialPrefixTooltip1: Hold jump while using this weapon to hover instead of falling
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Can be applied to weapons of orange rarity or lower
+		CanBeAppliedToDescription: Can be applied to weapons of green rarity or lower
 		BasicWhetstonePrefix: Elevated
 	}
 
@@ -640,7 +1100,7 @@ CritTypes: {
 		SpecialPrefixName: Diving
 		SpecialPrefixTooltip1: Hold down while using this weapon to fall faster
 		SpecialPrefixTooltip2: Negates fall damage while held
-		CanBeAppliedToDescription: Can be applied to weapons of orange rarity or lower
+		CanBeAppliedToDescription: Can be applied to weapons of green rarity or lower
 		BasicWhetstonePrefix: Rooted
 	}
 
@@ -721,7 +1181,7 @@ CritTypes: {
 		SpecialPrefixName: Harrowing
 		SpecialPrefixTooltip1: 20% chance to inflict a random debuff on hit
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Can be applied to any weapon
+		CanBeAppliedToDescription: Can be applied to weapons of orange rarity or higher
 		BasicWhetstonePrefix: Harrowed
 	}
 
@@ -773,7 +1233,7 @@ CritTypes: {
 	LowChance: {
 		Description: Critically strikes 1% of the time
 		SpecialPrefixName: Deific
-		SpecialPrefixTooltip1: Chance increased to 2%
+		SpecialPrefixTooltip1: Chance increased to 1.5%
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: Can be applied to any weapon
 		BasicWhetstonePrefix: Rare
@@ -782,7 +1242,7 @@ CritTypes: {
 	MediumChance: {
 		Description: Critically strikes 10% of the time
 		SpecialPrefixName: Blessed
-		SpecialPrefixTooltip1: Chance increased to 20%
+		SpecialPrefixTooltip1: Chance increased to 15%
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: Can be applied to any weapon
 		BasicWhetstonePrefix: Lucky
@@ -880,9 +1340,9 @@ CritTypes: {
 
 	ShadowflameKnife: {
 		Description: Critically strikes after ricocheting off at least one target
-		SpecialPrefixName: Enduring
-		SpecialPrefixTooltip1: Can ricochet infinitely many times
-		SpecialPrefixTooltip2: Multiple knives can strike a single target at once
+		SpecialPrefixName: Advanced
+		SpecialPrefixTooltip1: Can ricochet off of walls
+		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: Mods.CritRework.CritTypes.ShadowflameKnife.CanBeAppliedToDescription
 		BasicWhetstonePrefix: Mods.CritRework.CritTypes.ShadowflameKnife.BasicWhetstonePrefix
 	}
@@ -1077,9 +1537,9 @@ CritTypes: {
 	}
 
 	ThreeSecondCooldown: {
-		Description: Critically strikes if the the last time you crit was at least 3 seconds ago
+		Description: Critically strikes if the the last time you crit was at least 5 seconds ago
 		SpecialPrefixName: Impatient
-		SpecialPrefixTooltip1: Critical strike cooldown reduced to 2 seconds
+		SpecialPrefixTooltip1: Critical strike cooldown reduced to 3 seconds
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: Can be applied to any weapon
 		BasicWhetstonePrefix: Convenient
@@ -1097,7 +1557,7 @@ CritTypes: {
 	HasDebuff: {
 		Description: Critically strikes while you are inflicted with a damage over time effect (such as On Fire!)
 		SpecialPrefixName: Vitriolic
-		SpecialPrefixTooltip1: Poisons you while held
+		SpecialPrefixTooltip1: Ignites you while held
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: Can be applied to any weapon
 		BasicWhetstonePrefix: Stained
@@ -1270,7 +1730,7 @@ CritTypes: {
 		SpecialPrefixName: Practical
 		SpecialPrefixTooltip1: Critical strikes increase mining speed for 1 minute
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Can be applied to any weapon
+		CanBeAppliedToDescription: Can be applied to weapons of orange rarity or higher
 		BasicWhetstonePrefix: Common
 	}
 
@@ -1408,6 +1868,15 @@ CritTypes: {
 		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Fractal.CanBeAppliedToDescription
 		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Fractal.BasicWhetstonePrefix
 	}
+
+	Guardian_Riposte: {
+		Description: Critically strikes after parrying an attack
+		SpecialPrefixName: Vigorous
+		SpecialPrefixTooltip1: 50% chance to critically strike an additional time
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Can only be applied to opposing weapons
+		BasicWhetstonePrefix: Riposte
+	}
 }
 
 UnknownTooltip: Unknown critical strike condition
@@ -1514,6 +1983,46 @@ Buffs: {
 		DisplayName: Red Beauty
 		Description: 25% increased consecutive critical strike damage
 	}
+
+	BucklerDefense: {
+		DisplayName: Buckler Defense
+		Description: Ready...
+	}
+
+	BucklerRetaliation: {
+		DisplayName: Buckler Retaliation
+		Description: Riposte!
+	}
+
+	BucklerDepletion: {
+		DisplayName: Buckler Depletion
+		Description: You are vulnerable
+	}
+
+	HuntersMark: {
+		DisplayName: Hunter's Mark
+		Description: Marked...
+	}
+
+	Reclaw: {
+		DisplayName: Reclaw
+		Description: 20% increased consecutive critical strike damage
+	}
+
+	WalkingWithTheWind: {
+		DisplayName: Walking With The Wind
+		Description: Greatly increased movement speed
+	}
+
+	Overclocked: {
+		DisplayName: Overclocked
+		Description: You have too many augmentations on this weapon!
+	}
+
+	Doom: {
+		DisplayName: Doom
+		Description: Reduced defense
+	}
 }
 
 RecipeGroups: {
@@ -1531,6 +2040,19 @@ Projectiles: {
 	WetBubble.DisplayName: Wet Bubble
 	BronzeBulletProjectile.DisplayName: Bronze Bullet Projectile
 	BeautyOrb.DisplayName: Beauty Orb
+	PocketLightning.DisplayName: Pocket Lightning
+	AutoMissile.DisplayName: Auto Missile
+	AutoMissileExplosion.DisplayName: Auto Missile
+	BigBoom.DisplayName: Big Boom
+	CriticalCurse.DisplayName: Critical Curse
+	Thorn.DisplayName: Thorn
+	ApophisAsteroid.DisplayName: Apophis
+	TheExplosionThatKilledTheDinosaurs.DisplayName: The Explosion That Killed The Dinosaurs
+	SawedOn.DisplayName: Sawed On
+	Approach.DisplayName: Approach
+	Storm.DisplayName: Storm
+	IntercontinentalAutoMissileExplosion.DisplayName: Intercontinental Auto Missile Explosion
+	DoomTomb.DisplayName: Doom Tomb
 }
 
 BronzeHelm.SetBonus:
@@ -1558,3 +2080,24 @@ GloveWeight6: Extremely heavy weight
 GloveWeight7: Unbearably heavy weight
 GloveWeight8: Titanic weight
 ProstheticTooltip: Both of the following conditions must be met to critically strike:
+
+Augmentation: {
+	Tooltip1: Augmentation
+	Tooltip2: To apply, hold an applicable weapon with your mouse and right click on this item
+}
+
+RemoveAugmentation: Right click to remove augmentations
+StartingMessage:
+	'''
+	Welcome to [c/77ffb9:Critical Strikes Overhaul]!
+	FYI, this mod increases boss HP by 30% by default for balancing purposes; you can undo this change via the configm
+	If you have any questions or feedback on how the mod functions, feel free to ask on the Discord server, linked on the workshop
+	Have fun!
+	'''
+sawDamageReduced: -Chainsaw damage greatly reduced by this critical strike condition
+overclockedTooltip: Overclocked: Greater than max number of augmentations causes you to take damage upon use
+ConstructHelmet.SetBonus:
+	'''
+	Allows you to add an additional augmentation to weapons
+	25% increased critical strike potency
+	'''
