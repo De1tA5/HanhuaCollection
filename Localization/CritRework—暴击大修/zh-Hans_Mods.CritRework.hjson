@@ -498,7 +498,7 @@ Items: {
 	}
 
 	Greenprint: {
-		DisplayName: 绿色印纸
+		DisplayName: 绿染印纸
 		Tooltip:
 			'''
 			丛林蜥蜴各种造物的详细说明书
@@ -535,7 +535,7 @@ Items: {
 			'''
 			当被安装在武器上时，会禁用普通暴击
 			当武器造成暴击时治疗玩家一些生命值
-			治疗量根据暴击伤害倍率和效力
+			治疗量与暴击伤害倍率和效力有关
 			'''
 	}
 
@@ -571,7 +571,7 @@ Items: {
 		Tooltip:
 			'''
 			当被安装在武器上时，会禁用普通暴击
-			相反，将会提取受击敌怪的灵魂，并储存暴击中
+			相反，将会提取受击敌怪的灵魂，并储存在暴击中
 			当你使用不同的武器造成暴击时，所有的灵魂将会被释放造成暴击伤害
 			默认最高存储10个灵魂，每有10%效力增加1个存储量
 			'''
@@ -634,38 +634,39 @@ Items: {
 			'''
 			当被安装在武器上时，暴击时召唤威力极其巨大的陨石
 			陨石会造成无差别攻击
-			[C/959595:原名为 Apophis - 阿波菲斯，原为埃及蛇神]
+			[C/959595:原名为 Apophis - 阿波菲斯,为埃及蛇神]
 			[C/959595:这里指2029年飞向地球的小行星]
 			'''
 	}
 
 	WindWalker: {
-		DisplayName: Windwalker
-		Tooltip: Critical strikes grant you a movement speed boost for 3 seconds
+		DisplayName: 风行者
+		Tooltip: 暴击时提升你的移动速度，持续3秒
 	}
 
 	BloodCog: {
-		CanBeApplied: Can only be applied to guns and magic staffs
-		DisplayName: Blood Cog
+		CanBeApplied: 只能被安装在枪械和部分魔法杖上
+		DisplayName: 血腥齿轮
 		Tooltip:
 			'''
-			Attaches a chainsaw to augmented arnament, decreasing accuracy
-			Critically striking will rev the chainsaw to deal close-range damage
-			Rev duration depends on critical strike power and potency
-			Accuracy greatly reduced while chainsaw is active
-			'Mankind might not be dead but this thing will make us deader'
+			为强化的武器安装链锯，降低精准度
+			暴击时会转动链锯，造成近距离伤害
+			转动时间与暴击伤害倍率和效力有关
+			链锯激活时会大幅降低精准度
+			“人类或许尚未灭绝，但这玩意会让我们更快走向灭绝”
 			'''
 	}
 
 	ImperfectStorm: {
-		CanBeApplied: Can only be applied to melee weapons
-		DisplayName: Imperfect Storm
+		CanBeApplied: 只能被安装在近战武器上
+		DisplayName: 瑕缺风暴
 		Tooltip:
 			'''
 			当被安装在武器上时，会禁用普通暴击
-			Instead, when not critically striking, prepare up to 20 reality slices
-			When you would normally critically strike, cut at every slice at once for critical damage
-			'I am the storm that is approaching'
+			相反，未暴击时召唤最多20个现实切割
+			当你造成暴击时，每个现实切割会立刻造成暴击伤害
+			“我即是那迫近的风暴”
+			[C/959595:出自 Devil May Cry 5 - 《Bury the Light》]
 			'''
 	}
 
@@ -680,105 +681,115 @@ Items: {
 	}
 
 	GildedRemains: {
-		DisplayName: Gilded Remains
+		DisplayName: 镀金遗骨
 		Tooltip:
 			'''
-			Only active while favorited
-			While active, reforging an item at the Goblin Tinkerer cannot change an item's critical stike condition
-			'Supposedly touched by Midas. Its authenticity is... dubious.'
+			只在被收藏时激活
+			当激活时，在哥布林工匠重铸不再改变物品的暴击条件
+			“据说曾被弥达斯接触过，但其真实性……有待商榷”
 			'''
 	}
 
 	SkywardSling: {
-		DisplayName: Skyward Sling
+		DisplayName: 天际投石索
 		Tooltip:
 			'''
-			Allows you to add an additional augmentation to weapons
-			5% increased critical strike chance
+			允许你给武器额外安装一个强化部件
+			增加5%暴击率
 			'''
 	}
 
 	GraftedSling: {
-		DisplayName: Grafted Sling
+		DisplayName: 融合投掷臂甲
 		Tooltip:
 			'''
-			Allows you to add an additional augmentation to weapons
-			Can be given a crit condition
-			All weapons will inherit this crit condition, in addition to their own
-			Both crit conditions must be met to critically strike
+			允许你给武器额外安装一个强化部件
+			能够被给予暴击条件
+			所有武器将继承此暴击条件，除此之外还保留它们自己的暴击条件
+			两个暴击条件必须同时被满足才能造成暴击：
 			'''
 	}
 
 	ContaminatedSapling: {
-		DisplayName: Contaminated Sapling
+		DisplayName: 污染树苗
 		Tooltip:
 			'''
-			10% increased critical strike chance per augmentation on a given weapon
-			'Seed will rock you'
+			武器每安装一个强化部件增加10%暴击率
+			“种子将震撼你”
+			[C/959595:可能出自 Queen - 《We Will Rock You》]
 			'''
 	}
 
 	RainToken: {
-		DisplayName: Risky Token
-		Tooltip: Makes a familiar sound on critical strike
+		DisplayName: 冒险 Token
+		Tooltip:
+			''' 
+			暴击时产生熟悉的暴击音效
+			[C/959595:来自《雨中冒险》]
+			'''
 	}
 
 	HomunculusToken: {
-		DisplayName: Homunculus Token
-		Tooltip: Makes a familiar sound on critical strike
+		DisplayName: 人造人 Token
+		Tooltip:
+			''' 
+			暴击时产生熟悉的暴击音效
+			[C/959595:来自《死亡细胞》]
+			'''
 	}
 
 	Epitaph: {
 		CanBeApplied: ""
-		DisplayName: Epitaph
+		DisplayName: 墓志铭
 		Tooltip:
 			'''
-			When applied to a weapon, if an enemy is killed by a critical strike, spawn a doomstone
-			All enemies and players near the doomstone are given 'Doom', lowering defense
-			Range of Doom scales with critical strike potency
-			'The wall on which the prophets wrote is cracking at the seams'
+			当被安装在武器上时，如果敌怪被暴击伤害击杀，将生成末日石
+			所有敌怪和玩家靠近末日石会被施加末日减益，并降低防御力
+			末日石范围大小与暴击效力有关
+			“先知们镌写过的墙壁正沿着道道裂隙崩塌”
+			[C/959595:出自 King Crimson - 《Epitaph》]
 			'''
 	}
 
 	ConstructHelmet: {
-		DisplayName: Construct Helmet
+		DisplayName: 建造头盔
 		Tooltip:
 			'''
-			15% increased critical strike chance on augmented weapons
-			15% increased critical strike potency
+			增加15%暴击效力
+			武器每安装一个强化部件增加15%暴击率
 			'''
 	}
 
 	ConstructGreaves: {
-		DisplayName: Construct Greaves
+		DisplayName: 建造护胫
 		Tooltip:
 			'''
-			10% increased critical strike chance on augmented weapons
-			Increased jump speed
+			提升跳跃速度
+			武器每安装一个强化部件增加10%暴击率
 			'''
 	}
 
 	ConstructPlating: {
-		DisplayName: Construct Plating
+		DisplayName: 建造护甲
 		Tooltip:
 			'''
-			12% increased critical strike chance on augmented weapons
-			5% increased damage
+			增加5%伤害
+			武器每安装一个强化部件增加12%暴击率
 			'''
 	}
 
 	SaplingSimulacrum: {
-		DisplayName: Sapling Simulacrum
+		DisplayName: 拟态树苗
 		Tooltip:
 			'''
-			10% increased critical strike chance
-			8% additional critical strike chance per augmentation on a given weapon
+			增加10%暴击率
+			武器每安装一个强化部件增加8%暴击率
 			'''
 	}
 
 	Ambrosia: {
 		CanBeApplied: ""
-		DisplayName: Ambrosia
+		DisplayName: 神肴
 		Tooltip:
 			'''
 			当被安装在武器上时，会禁用普通暴击
@@ -878,7 +889,7 @@ Whetstone: {
 	Tooltip1: 可以使武器获得如下的暴击条件：
 	Tooltip2:
 		'''
-		若要使用，用光标持有符合条件的武器并右键对应的砥石
+		使用方法：光标持有符合条件的武器对着砥石右键点击
 		在重铸时有概率消除当前效果
 		'''
 	critDamageMult: 暴击倍率
@@ -1097,6 +1108,7 @@ Configs: {
 				以防你觉得此模组过于强力，想要削弱它
 				'''
 		}
+
 		travellingMerchantWhetstones: {
 			Label: Travelling merchant whetstones
 			Tooltip: Whether the Travelling Merchant will gain the function to give you basic whetstones or not
@@ -1286,6 +1298,22 @@ Projectiles: {
 	LeadChakramProjectile.DisplayName: 铅轮刃弹幕
 	GoldJavelinProjectile.DisplayName: 金标枪弹幕
 	PlatinumJavelinProjectile.DisplayName: 铂金标枪弹幕
+	WetBubble.DisplayName: Wet Bubble
+	BronzeBulletProjectile.DisplayName: Bronze Bullet Projectile
+	BeautyOrb.DisplayName: Beauty Orb
+	PocketLightning.DisplayName: Pocket Lightning
+	AutoMissile.DisplayName: Auto Missile
+	AutoMissileExplosion.DisplayName: Auto Missile
+	BigBoom.DisplayName: Big Boom
+	CriticalCurse.DisplayName: Critical Curse
+	Thorn.DisplayName: Thorn
+	ApophisAsteroid.DisplayName: Apophis
+	TheExplosionThatKilledTheDinosaurs.DisplayName: The Explosion That Killed The Dinosaurs
+	SawedOn.DisplayName: Sawed On
+	Approach.DisplayName: Approach
+	Storm.DisplayName: Storm
+	IntercontinentalAutoMissileExplosion.DisplayName: Intercontinental Auto Missile Explosion
+	DoomTomb.DisplayName: Doom Tomb
 }
 
 BronzeHelm.SetBonus:
@@ -1313,3 +1341,24 @@ GloveWeight6: 极重
 GloveWeight7: 无法承受的重
 GloveWeight8: 泰坦般重量
 ProstheticTooltip: 如下两个暴击条件必须被同时满足才能造成暴击：
+
+Augmentation: {
+	Tooltip1: "[C/FFB348:强化部件]"
+	Tooltip2: "[C/FF7F48:使用方法：光标持有可安装的武器对着相应强化部件右键点击]"
+}
+
+RemoveAugmentation: 右键点击移除强化部件
+StartingMessage:
+	'''
+	Welcome to [c/77ffb9:Critical Strikes Overhaul]!
+	FYI, this mod increases boss HP by 30% by default for balancing purposes; you can undo this change via the configm
+	If you have any questions or feedback on how the mod functions, feel free to ask on the Discord server, linked on the workshop
+	Have fun!
+	'''
+sawDamageReduced: -Chainsaw damage greatly reduced by this critical strike condition
+overclockedTooltip: Overclocked: Greater than max number of augmentations causes you to take damage upon use
+ConstructHelmet.SetBonus:
+	'''
+	Allows you to add an additional augmentation to weapons
+	25% increased critical strike potency
+	'''
