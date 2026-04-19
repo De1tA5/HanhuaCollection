@@ -123,7 +123,7 @@ Items: {
 
 	BronzeAlloy: {
 		DisplayName: 青铜合金
-		Tooltip: ""
+		Tooltip: “新时代的开始”
 	}
 
 	BronzeArrow: {
@@ -292,7 +292,7 @@ Items: {
 	}
 
 	PoisonedHand: {
-		DisplayName: 带毒手套
+		DisplayName: 浸毒手套
 		Tooltip: 暴击时施加敌怪中毒效果，持续20秒
 	}
 
@@ -382,7 +382,7 @@ Items: {
 		Tooltip: 
 			'''
 			暴击时播放木琴音效
-			[C/959595:取自《Spooky Scary Skeletons》其背景音乐为木琴]
+			[C/959595:取自《Spooky Scary Skeletons》，其背景音乐为木琴]
 			'''
 	}
 
@@ -490,7 +490,7 @@ Items: {
 		DisplayName: 最短的稻草
 		Tooltip:
 			'''
-			敌怪的生命值越低，暴击伤害提升的越高，最高25%
+			敌怪的生命值越低，提升的暴击伤害越高，最高25%
 			增加5%连续暴击伤害
 			“余波已然开始，压迫造成伤害”
 			[C/959595:出自 Metallica - 《The Shortest Straw》]
@@ -579,7 +579,7 @@ Items: {
 
 	ThornRing: {
 		CanBeApplied: ""
-		DisplayName: 禁忌戒指
+		DisplayName: 荆棘戒指
 		Tooltip:
 			'''
 			当被安装在武器上时，会禁用普通暴击
@@ -743,9 +743,9 @@ Items: {
 		DisplayName: 墓志铭
 		Tooltip:
 			'''
-			当被安装在武器上时，如果敌怪被暴击伤害击杀，将生成末日石
-			所有敌怪和玩家靠近末日石会被施加末日减益，并降低防御力
-			末日石范围大小与暴击效力有关
+			当被安装在武器上时，如果敌怪被暴击伤害击杀，将生成末日石碑
+			所有敌怪和玩家靠近末日石碑会被施加末日减益，并降低防御力
+			末日石碑范围大小与暴击效力有关
 			“先知们镌写过的墙壁正沿着道道裂隙崩塌”
 			[C/959595:出自 King Crimson - 《Epitaph》]
 			'''
@@ -793,94 +793,94 @@ Items: {
 		Tooltip:
 			'''
 			当被安装在武器上时，会禁用普通暴击
-			Instead, critical strikes will reduce all debuff times, including potion sickness
-			Debuff reduction scales with critical strike power and potency
+			相反，暴击会减少所有减益的时间，包括耐药性
+			减少的时间与暴击伤害倍率和效力有关
 			'''
 	}
 
 	BouncyBall: {
 		CanBeApplied: ""
-		DisplayName: Bouncy Ball
+		DisplayName: 弹力球
 		Tooltip:
 			'''
 			当被安装在武器上时，会禁用普通暴击
-			Instead, critical strikes will increase the knockback of the attack
-			Knockback scales with critical strike power and potency
+			相反，暴击会增加攻击造成的击退力
+			击退大小与暴击伤害倍率和效力有关
 			'''
 	}
 
 	FatedFlame: {
-		DisplayName: Fated Flame
+		DisplayName: 命定之焰
 		Tooltip:
 			'''
-			Increases critical strike potency by 30% while at least half of your HP is missing
-			'It burns on both ends'
+			当你生命值至少低于50%时，增加30%暴击效力
+			“火焰从两端燃烧”
 			'''
 	}
 
 	LastStraw: {
-		DisplayName: Last Straw
+		DisplayName: 最后的稻草
 		Tooltip:
 			'''
-			Increases critical strike potency by 30% while at least half of your HP is missing
-			Increases critical strike damage the lower the enemy's life is, up to 25%
-			'Increases damage dealt to camels'
+			当你生命值至少低于50%时，增加30%暴击效力
+			敌怪的生命值越低，提升的暴击伤害越高，最高25%
+			“增加对骆驼造成的伤害”
 			'''
 	}
 
 	CrownShard: {
-		DisplayName: Crown Shard
-		Tooltip: 20% increased critical strike chance on critically reforged weapons
+		DisplayName: 王冠碎片
+		Tooltip: 具有暴击重锻的武器增加20%暴击率
 	}
 
 	ReuinitedCoronet: {
-		DisplayName: Reuinited Coronet
+		DisplayName: 重锻之冠
 		Tooltip:
 			'''
-			15% increased critical strike chance on critically reforged weapons
-			20% increased critical strike potency on critically reforged weapons
-			'Happily ever after'
+			具有暴击重锻的武器增加15%暴击率
+			具有暴击重锻的武器增加20%暴击效力
+			“从此过上幸福的生活”
 			'''
 	}
 
 	TiaraShard: {
-		DisplayName: Tiara Shard
-		Tooltip: 20% increased critical strike potency on critically reforged weapons
+		DisplayName: 冠冕碎片
+		Tooltip: 具有暴击重锻的武器增加20%暴击效力
 	}
 
 	FraudCrown: {
-		SetBonus: All weapons gain critical reforge modifiers, regardless of what prefix they have
-		DisplayName: Falsehood's Crown
-		Tooltip: 8% increased critical strike chance
+		SetBonus: 所有武器获得暴击重锻，无论它们拥有何种前缀
+		DisplayName: 虚妄之冠
+		Tooltip: 增加8%暴击率
 	}
 
 	FraudPants: {
-		DisplayName: Falsehood's Trousers
+		DisplayName: 虚妄护腿
 		Tooltip:
 			'''
-			5% increased critical strike chance
-			10% increased critical strike potency
+			增加5%暴击率
+			增加10%暴击效力
 			'''
 	}
 
 	FraudVest: {
-		DisplayName: Falsehood's Vest
-		Tooltip: 10% increased critical strike chance
+		DisplayName: 虚妄覆甲
+		Tooltip: 增加10%暴击率
 	}
 
 	Lie: {
-		DisplayName: Lie
-		Tooltip: "'It's the little lies that add up'"
+		DisplayName: 谬言
+		Tooltip: “由微不足道的谎言所积累而成的”
 	}
 
 	ParryingDagger: {
-		CanBeApplied: Can only be applied to pavises
-		DisplayName: Parrying Dagger
+		CanBeApplied: 只能被安装在盾牌上
+		DisplayName: 格挡短刃
 		Tooltip:
 			'''
 			当被安装在武器上时，会禁用普通暴击
-			Instead, critical strikes will restore guard counters over time
-			The frequency of restoration scales with critical strike power and potency
+			相反，暴击会随时间恢复防守值
+			恢复频率与暴击伤害倍率和效力有关
 			'''
 	}
 }
@@ -902,88 +902,88 @@ Prefixes: {
 	Blunt.DisplayName: 钝重
 	Necromantic.DisplayName: 亡灵
 	Special.DisplayName: 独特
-	Deliberate.DisplayName: Deliberate
-	Bulky.DisplayName: Bulky
+	Deliberate.DisplayName: 谋划
+	Bulky.DisplayName: 笨重
+	Quality_Augment.DisplayName: 优质
 
-	Quality_Augment.DisplayName: Quality
 	Panicked: {
-		DisableCondition: Only active while below 25% life
-		DisplayName: Panicked
+		DisableCondition: 只在生命值低于25%时才激活
+		DisplayName: 恐慌
 	}
 
 	Timid: {
-		DisableCondition: Only active while above 65% life
-		DisplayName: Timid
+		DisableCondition: 只在生命值高于65%时才激活
+		DisplayName: 胆怯
 	}
 
-	Detrimental.DisplayName: Detrimental
-	Helpful.DisplayName: Helpful
+	Detrimental.DisplayName: 损伤
+	Helpful.DisplayName: 助力
 
 	Reactive: {
-		DisableCondition: Only active if you have critically struck in the last 3 seconds
-		DisplayName: Reactive
+		DisableCondition: 只在你造成暴击时才会激活3秒
+		DisplayName: 反应
 	}
 
 	Vengeful: {
-		DisableCondition: Only active if you have taken damage in the last 3 seconds
-		DisplayName: Vengeful
+		DisableCondition: 只在你受到伤害时才会激活3秒
+		DisplayName: 报复
 	}
 
-	Compensating.DisplayName: Compensating
-	Critical.DisplayName: Critical
-	Decent.DisplayName: Decent
-	Inconvenient.DisplayName: Inconvenient
-	Persistent.DisplayName: Persistent
-	Unreliable.DisplayName: Unreliable
+	Compensating.DisplayName: 补偿
+	Critical.DisplayName: 会心
+	Decent.DisplayName: 恰当
+	Inconvenient.DisplayName: 不便
+	Persistent.DisplayName: 持久
+	Unreliable.DisplayName: 出错
 
 	Versatile: {
-		Description: 1 max augmentations
-		DisplayName: Versatile
+		Description: +1最大强化部件栏位
+		DisplayName: 多样
 	}
 
 	Clockwork: {
-		DisableCondition: Only active half the time; active for 2 seconds, then inactive for 2 seconds
-		DisplayName: Clockwork
+		DisableCondition: 只在一半时间激活；激活2秒效果，再停用2秒
+		DisplayName: 钟摆
 	}
 
 	Intercontinental: {
-		tooltip: +Greatly increased explosion size
-		DisplayName: Intercontinental
+		tooltip: +大幅提升爆炸范围
+		DisplayName: 洲际
 		tooltip2: Mods.CritRework.Prefixes.Intercontinental.tooltip2
 	}
 
 	Gradual: {
-		tooltip: +5 armor penetration for thorns
-		tooltip2: Thorns inflict their damage over a greater amount of time
-		DisplayName: Gradual
+		tooltip: +5荆棘护甲穿透
+		tooltip2: 荆棘造成的伤害的时间间隔增加
+		DisplayName: 渐生
 	}
 
 	Apocalyptic: {
-		tooltip: Spawns more asteroids than normal
+		tooltip: 生成更多的陨石
 		tooltip2: Mods.CritRework.Prefixes.Apocalyptic.tooltip2
-		DisplayName: Apocalyptic
+		DisplayName: 末日
 	}
 
 	Hoarding: {
-		tooltip: +5 maximum souls
+		tooltip: +5最大灵魂储存位
 		tooltip2: Mods.CritRework.Prefixes.Hoarding.tooltip2
-		DisplayName: Hoarding
+		DisplayName: 储备
 	}
 
 	Grieving: {
-		tooltip: +50% doomstone range
+		tooltip: +50%末日石碑影响范围
 		tooltip2: Mods.CritRework.Prefixes.Grieving.tooltip2
-		DisplayName: Grieving
+		DisplayName: 悲痛
 	}
 
 	Potent: {
-		Tooltip: +30% critical strike potency
-		DisplayName: Potent
+		Tooltip: +30%暴击效力
+		DisplayName: 效能
 	}
 
-	Effective.DisplayName: Effective
-	Impotent.DisplayName: Impotent
-	Particular.DisplayName: Particular
+	Effective.DisplayName: 有效
+	Impotent.DisplayName: 无力
+	Particular.DisplayName: 特化
 }
 
 NecromanticTooltip: 暴击时窃取 2 点生命值
@@ -1015,16 +1015,16 @@ Configs: {
 
 		hideGloveDescription: {
 			Label: 隐藏手套教程
-			Tooltip: 启用后，手套的教程描述将从其工具提示中移除以减少冗杂信息
+			Tooltip: 启用后，手套的教程说明将从其工具提示中移除以减少冗杂信息
 		}
 		abbreviateWhetstoneTooltip: {
-			Label: Abbreviate whetstone tooltip
-			Tooltip: When set to true, the tutorial description for whetstones will be removed from their tooltip to reduce clutter
+			Label: 简化砥石文本
+			Tooltip: 启用后，砥石的教程说明将从其工具提示中移除以减少冗杂信息
 		}
 
 		abbreviateAugmentationTooltip: {
-			Label: Abbreviate augmentation tooltip
-			Tooltip: When set to true, the tutorial description for augmentations will be removed from their tooltip to reduce clutter
+			Label: 简化强化部件文本
+			Tooltip: 启用后，强化部件的教程说明将从其工具提示中移除以减少冗杂信息
 		}
 	}
 
@@ -1084,10 +1084,10 @@ Configs: {
 			Label: 暴击倍率计算方式
 			Tooltip:
 				'''
-				根据暴击伤害/几率加成，决定暴击伤害的计算方式
-				最推荐“平衡”模式，但如果你更喜欢“简单”模式的话，它更强大且易于理解
-				平衡：（（武器伤害倍率-1）*（（100+武器暴击率）/99）/2+1）+1)*(1+(（100+武器暴击率）/99)/2)
-				简单：武器伤害倍率 * （1+武器暴击率）
+				根据暴击伤害倍率/暴击率加成，决定暴击伤害的计算方式
+				最推荐“平衡”模式，但“简单”模式通常更强且易于理解，你可能更喜欢
+				平衡 - （（武器伤害倍率-1）*（（100+武器暴击率）/99）/2+1）+1)*(1+(（100+武器暴击率）/99)/2)
+				简单 - 武器伤害倍率 * （1+武器暴击率）
 				'''
 		}
 
@@ -1110,8 +1110,8 @@ Configs: {
 		}
 
 		travellingMerchantWhetstones: {
-			Label: Travelling merchant whetstones
-			Tooltip: Whether the Travelling Merchant will gain the function to give you basic whetstones or not
+			Label: 旅商售卖砥石
+			Tooltip: 启用后，旅行商人会贩卖给你随机效果的基础磨刀石
 		}
 	}
 }
@@ -1126,7 +1126,7 @@ CritTypes: {
 	FarFromFoe.Description: 当你距离目标超过40多格时造成暴击
 	Flamethrower.Description: 目标具有史莱姆减益时造成暴击
 	FoeAtHighHP.Description: 目标血量超过85%时造成暴击
-	FoeAtLowHP.Description: 目标血量低于25%时造成暴击
+	FoeAtLowHP.Description: 目标生命值低于25%时造成暴击
 	FoeConfused.Description: 目标具有困惑减益时造成暴击
 	FoeHasFourDebuffs.Description: 目标具有4个以上的减益时造成暴击
 	FoeHasThreeDebuffs.Description: 目标具有3个以上的减益时造成暴击
@@ -1223,7 +1223,7 @@ PirateBroke3: 你是不是想来劫持我？你这混蛋！
 PirateSuccessful1: 好了，伙计！跟新的一样！
 PirateSuccessful2: 不支持退款！
 PirateSuccessful3: 是的，伙计。
-TravellingMerchantGiveWhetstone: Whetstones
+TravellingMerchantGiveWhetstone: 砥石
 TravellingMerchantGiveWhetstone1: Here, I found these during my travels. You seem like a fighter, maybe you'll have a use for them.
 TravellingMerchantGiveWhetstone2: Thanks for the tip! Here's something I found on my travels. Perhaps you can make good use of them.
 TravellingMerchantGiveWhetstone3: I appreciate the money. Here, take these.
