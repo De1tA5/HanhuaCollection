@@ -937,7 +937,7 @@ Prefixes: {
 	Unreliable.DisplayName: 出错
 
 	Versatile: {
-		Description: +1最大强化部件栏位
+		Description: 1最大强化部件栏位
 		DisplayName: 多样
 	}
 
@@ -1310,131 +1310,130 @@ CritTypes: {
 	TipOfTheWeapon: {
 		Description: 使用武器尖端部分攻击敌怪时造成暴击
 		SpecialPrefixName: 巨大
-		SpecialPrefixTooltip1: Weapon size increased immeasurably
+		SpecialPrefixTooltip1: 武器尺寸不可估量般增大
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Can be applied to swung melee weapons without projectiles
-		BasicWhetstonePrefix: Pointed
+		CanBeAppliedToDescription: 可以被可挥舞且无弹幕的近战武器使用
+		BasicWhetstonePrefix: 尖端
 	}
 
 	CrystalVileShard: {
-		Description: Critically strikes at the tip of the crystals
-		SpecialPrefixName: Growing
-		SpecialPrefixTooltip1: Crystal tip size greatly increased
+		Description: 使用魔晶碎块的尖端攻击敌怪时造成暴击
+		SpecialPrefixName: 增长
+		SpecialPrefixTooltip1: 魔晶碎块尖端的尺寸大幅增大
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.CrystalVileShard.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.CrystalVileShard.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 魔晶碎块专属暴击条件，无法提取
+		BasicWhetstonePrefix: 魔晶碎块专属暴击条件，无法提取
 	}
 
 	FreshItem: {
-		Description: Critically strikes for a brief moment after selecting this weapon
-		SpecialPrefixName: Trickshot
-		SpecialPrefixTooltip1: Critically strikes for significantly longer than normal
+		Description: 在切换该武器后一小段时间内造成暴击
+		SpecialPrefixName: 高能
+		SpecialPrefixTooltip1: 大幅增加暴击持续时间
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: 可以被任意武器使用
-		BasicWhetstonePrefix: Fresh
+		BasicWhetstonePrefix: 新颖
 	}
 
 	Harpoon: {
-		Description: Critically strikes while the target is at least 26 tiles away
-		SpecialPrefixName: Repeating
-		SpecialPrefixTooltip1: Critically striking allows you to fire again immediately
+		Description: 当你距离目标至少26格远时造成暴击
+		SpecialPrefixName: 重复
+		SpecialPrefixTooltip1: 暴击时允许你立刻再次发射鱼叉
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Harpoon.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Harpoon.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 鱼叉枪专属暴击条件，无法提取
+		BasicWhetstonePrefix: 鱼叉枪专属暴击条件，无法提取
 	}
 
 	JustHitByEnemy: {
-		Description: Critically strikes for 2.5 seconds after getting hit
-		SpecialPrefixName: Rallying
-		SpecialPrefixTooltip1: Critical strikes heal you for 3 life
+		Description: 受伤后2.5秒内造成暴击
+		SpecialPrefixName: 康复
+		SpecialPrefixTooltip1: 暴击时治疗你3点生命值
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: 可以被任意武器使用
-		BasicWhetstonePrefix: Damaged
+		BasicWhetstonePrefix: 损伤
 	}
 
 	ProjectileTravel: {
-		Description: Critically strikes if the projectile has been travelling for more than 1 second and less than 4 seconds
-		SpecialPrefixName: Patient
-		SpecialPrefixTooltip1: Critically strikes forever past 1 second
+		Description: 若弹幕飞行超过1秒且小于4秒则造成暴击
+		SpecialPrefixName: 耐心
+		SpecialPrefixTooltip1: 飞行时间超过1秒即可暴击
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: 可以被任意能发射弹幕的武器使用
-		BasicWhetstonePrefix: Old
+		BasicWhetstonePrefix: 古久
 	}
 
 	ShadowbeamStaff: {
-		Description: Critically strikes after bouncing off a wall
-		SpecialPrefixName: Refractive
-		SpecialPrefixTooltip1: Can hit single targets an additional time for each wall hit
+		Description: 暗影射线在墙上反弹后造成暴击
+		SpecialPrefixName: 折射
+		SpecialPrefixTooltip1: 每次反弹墙壁后，单一目标额外造成一次攻击
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.ShadowbeamStaff.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.ShadowbeamStaff.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 暗影束法杖专属暴击条件，无法提取
+		BasicWhetstonePrefix: 暗影束法杖专属暴击条件，无法提取
 	}
 
 	ShadowflameKnife: {
-		Description: Critically strikes after ricocheting off at least one target
-		SpecialPrefixName: Advanced
-		SpecialPrefixTooltip1: Can ricochet off of walls
+		Description: 暗影焰刀反弹至少一个目标后造成暴击
+		SpecialPrefixName: 先进
+		SpecialPrefixTooltip1: 可以反弹墙壁
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.ShadowflameKnife.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.ShadowflameKnife.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 暗影焰刀专属暴击条件，无法提取
+		BasicWhetstonePrefix: 暗影焰刀专属暴击条件，无法提取
 	}
 
 	Shuriken: {
-		Description: Critically strikes after hitting at least one target
+		Description: 手里剑击中至少一个目标后造成暴击
 		SpecialPrefixName: Mods.CritRework.CritTypes.Shuriken.SpecialPrefixName
-		SpecialPrefixTooltip1: Mods.CritRework.CritTypes.Shuriken.SpecialPrefixTooltip1
+		SpecialPrefixTooltip1: 无
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Shuriken.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Shuriken.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 手里剑专属暴击条件，无法提取
+		BasicWhetstonePrefix: 手里剑专属暴击条件，无法提取
 	}
 
 	Sniper: {
-		Description: Critically strikes while the target is at least 75 tiles away
-		SpecialPrefixName: Untraceable
-		SpecialPrefixTooltip1: Also critically strikes on max health enemies
+		Description: 当你距离目标至少75格远时造成暴击
+		SpecialPrefixName: 无踪
+		SpecialPrefixTooltip1: 敌怪满血时也造成暴击
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Sniper.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Sniper.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 狙击步枪专属暴击条件，无法提取
+		BasicWhetstonePrefix: 狙击步枪专属暴击条件，无法提取
 	}
 
 	SpikyBall: {
-		Description: Critically strikes after being present for more than 5 seconds
+		Description: 尖球存在时间超过5秒后造成暴击
 		SpecialPrefixName: Mods.CritRework.CritTypes.SpikyBall.SpecialPrefixName
-		SpecialPrefixTooltip1: Mods.CritRework.CritTypes.SpikyBall.SpecialPrefixTooltip1
-		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.SpikyBall.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.SpikyBall.BasicWhetstonePrefix
+		SpecialPrefixTooltip1: 无
+		CanBeAppliedToDescription: 尖球专属暴击条件，无法提取
+		BasicWhetstonePrefix: 尖球专属暴击条件，无法提取
 	}
 
 	ThrowingKnife: {
-		Description: Critically strikes when falling
+		Description: 投刀坠落时造成暴击
 		SpecialPrefixName: Mods.CritRework.CritTypes.ThrowingKnife.SpecialPrefixName
-		SpecialPrefixTooltip1: Mods.CritRework.CritTypes.ThrowingKnife.SpecialPrefixTooltip1
+		SpecialPrefixTooltip1: 无
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.ThrowingKnife.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.ThrowingKnife.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 投刀专属暴击条件，无法提取
+		BasicWhetstonePrefix: 投刀专属暴击条件，无法提取
 	}
 
 	Vilethorn: {
-		Description: Critically strikes at the tip of the thorns
-		SpecialPrefixName: Growing
-		SpecialPrefixTooltip1: The tip of the vilethorn is much larger
+		Description: 使用荆棘尖端攻击敌怪造成暴击
+		SpecialPrefixName: 增长
+		SpecialPrefixTooltip1: 邪恶荆棘尖端变得更大
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Vilethorn.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Vilethorn.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 邪恶荆棘专属暴击条件，无法提取
+		BasicWhetstonePrefix: 邪恶荆棘专属暴击条件，无法提取
 	}
 
 	Adaptive: {
-		Description: Critically strikes for 5 seconds after healing for at least 20 hp (healing while at max doesn't count)
-		SpecialPrefixName: Evolved
-		SpecialPrefixTooltip1: The critical strikes are more powerful the more you heal
+		Description: 至少恢复20点生命值后5秒内能造成暴击（满血治疗不算入内）
+		SpecialPrefixName: 进化
+		SpecialPrefixTooltip1: 治疗生命值越多，造成暴击伤害越高
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Adaptive.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Adaptive.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 自适应砥石
+		BasicWhetstonePrefix: 自适应砥石
 	}
 
 	Ammo: {
-		Description: Critically strikes when not consuming ammo
+		Description: 此次攻击不消耗弹药时则造成暴击
 		SpecialPrefixName: Reserved
 		SpecialPrefixTooltip1: 20% additional chance to not consume ammo
 		SpecialPrefixTooltip2: ""
@@ -2000,11 +1999,11 @@ Projectiles: {
 	GoldJavelinProjectile.DisplayName: 金标枪弹幕
 	PlatinumJavelinProjectile.DisplayName: 铂金标枪弹幕
 	WetBubble.DisplayName: 潮湿泡泡
-	BronzeBulletProjectile.DisplayName: Bronze Bullet Projectile
+	BronzeBulletProjectile.DisplayName: 青铜子弹弹幕
 	BeautyOrb.DisplayName: Beauty Orb
 	PocketLightning.DisplayName: Pocket Lightning
-	AutoMissile.DisplayName: Auto Missile
-	AutoMissileExplosion.DisplayName: Auto Missile
+	AutoMissile.DisplayName: 自动导弹
+	AutoMissileExplosion.DisplayName: 自动导弹
 	BigBoom.DisplayName: Big Boom
 	CriticalCurse.DisplayName: Critical Curse
 	Thorn.DisplayName: 荆棘
@@ -2051,7 +2050,7 @@ Augmentation: {
 RemoveAugmentation: 右键点击移除强化部件
 StartingMessage:
 	'''
-	Welcome to [c/77ffb9:Critical Strikes Overhaul]!
+	欢迎使用[c/77ffb9:Critical Strikes Overhaul - 暴击大修]！
 	FYI, this mod increases boss HP by 30% by default for balancing purposes; you can undo this change via the configm
 	If you have any questions or feedback on how the mod functions, feel free to ask on the Discord server, linked on the workshop
 	Have fun!
