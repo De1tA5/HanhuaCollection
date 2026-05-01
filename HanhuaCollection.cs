@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Terraria.ModLoader;
 using Terraria;
-using TigerForceLocalizationLib; 
+using TigerForceLocalizationLib;
+using TigerForceLocalizationLib.Filters;
 
 namespace HanhuaCollection
 {
@@ -44,7 +45,24 @@ namespace HanhuaCollection
             //CritRework-±©»÷´óÐÞ
             if (ModLoader.HasMod("CritRework"))
             {
-                TigerForceLocalizationHelper.LocalizeAll("HanhuaCollection", "CritRework", false);
+                string[] methods = [
+                    "ModifyTooltips",
+                    "RightClick",
+                    "Apply",
+                    "Update",
+                    "SpecialPrefixOnHitNPC",
+                    "OnHurt",
+                    "ApplyModifiers",
+                    "PostUpdate",
+                    "OnHitNPC",
+                    "PreDrawInInventory",
+                    "GetTooltipLines"
+                    ];
+                
+                TigerForceLocalizationHelper.LocalizeAll("HanhuaCollection", "CritRework", false, filters: new() 
+                {
+                    MethodFilter = MethodFilter.MatchNames(methods)
+                });
             }
            
         }
