@@ -1434,344 +1434,344 @@ CritTypes: {
 
 	Ammo: {
 		Description: 此次攻击不消耗弹药时则造成暴击
-		SpecialPrefixName: Reserved
-		SpecialPrefixTooltip1: 20% additional chance to not consume ammo
+		SpecialPrefixName: 储备
+		SpecialPrefixTooltip1: 20%额外概率不消耗弹药
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Ammo.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Ammo.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 储备砥石
+		BasicWhetstonePrefix: 储备砥石
 	}
 
 	Ancient: {
-		Description: Critically strikes for 60 seconds after you respawn
-		SpecialPrefixName: Reanimated
-		SpecialPrefixTooltip1: Extended duration of critical strike condition to 90 seconds
+		Description: 在你重生后60秒内造成暴击
+		SpecialPrefixName: 重生
+		SpecialPrefixTooltip1: 暴击条件持续时间提升至90秒
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Ancient.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Ancient.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 远古砥石
+		BasicWhetstonePrefix: 远古砥石
 	}
 
 	Enchanted: {
-		Description: Critically strikes if you have less than 30% of your maximum mana
-		SpecialPrefixName: Restoring
-		SpecialPrefixTooltip1: Critical strikes regenerate mana
+		Description: 你的魔力值低于最大魔力值的30%则造成暴击
+		SpecialPrefixName: 回魔
+		SpecialPrefixTooltip1: 暴击时恢复魔力
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Enchanted.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Enchanted.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 附魔砥石
+		BasicWhetstonePrefix: 附魔砥石
 	}
 
 	Frozen: {
-		Description: Critically strikes on targets moving less than 10 miles per hour
-		SpecialPrefixName: Freezing
-		SpecialPrefixTooltip1: Continues critically striking for 3 seconds after targets speed up again
+		Description: 目标移动速度低于10 mph时造成暴击
+		SpecialPrefixName: 冻结
+		SpecialPrefixTooltip1: 目标速度重新提升后3秒内继续造成暴击
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Frozen.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Frozen.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 寒霜砥石
+		BasicWhetstonePrefix: 寒霜砥石
 	}
 
 	Greedy: {
-		Description: Critically strikes for 3 seconds after you pick up money
-		SpecialPrefixName: Avaricious
-		SpecialPrefixTooltip1: Critical strikes at close range steal money
+		Description: 拾取钱币后3秒内造成暴击
+		SpecialPrefixName: 贪欲
+		SpecialPrefixTooltip1: 靠近敌怪并进行暴击会产生钱币
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Greedy.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Greedy.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 贪婪砥石
+		BasicWhetstonePrefix: 贪婪砥石
 	}
 
 	Necromantic: {
-		Description: Critically strikes while another player is dead
-		SpecialPrefixName: Reviving
-		SpecialPrefixTooltip1: Critical strikes cause players to respawn faster
+		Description: 另一位玩家处于死亡状态则造成暴击
+		SpecialPrefixName: 复苏
+		SpecialPrefixTooltip1: 暴击使玩家重生速度加快
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Necromantic.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Necromantic.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 亡灵砥石
+		BasicWhetstonePrefix: 亡灵砥石
 	}
 
 	Soaring: {
-		Description: Critically strikes when falling or gliding for at least 4 seconds
-		SpecialPrefixName: Soaring
-		SpecialPrefixTooltip1: Grants featherfall while held
+		Description:  当你坠落或滑翔持续至少4秒则造成暴击
+		SpecialPrefixName: 翱翔
+		SpecialPrefixTooltip1: 手持武器时获得羽落效果
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Soaring.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Soaring.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 升空砥石
+		BasicWhetstonePrefix: 升空砥石
 	}
 
 	Starter: {
-		Description: Critically strikes if you have less than 200 max life
-		SpecialPrefixName: Progressed
-		SpecialPrefixTooltip1: Critical strike condition extended to 300 max life
+		Description: 如果你最大生命值低于200则造成暴击
+		SpecialPrefixName: 进步
+		SpecialPrefixTooltip1: 暴击条件所需生命值提升至300
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Starter.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Starter.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 新手砥石
+		BasicWhetstonePrefix: 新手砥石
 	}
 
 	WebCovered: {
-		Description: Critically strikes for 1 second after grappling yourself to a block, or while grappled
-		SpecialPrefixName: Grappling
-		SpecialPrefixTooltip1: Allows you to grapple enemies while held
-		SpecialPrefixTooltip2: You will bounce off of enemies upon colliding
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.WebCovered.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.WebCovered.BasicWhetstonePrefix
+		Description: 使用钩爪抓住物块过程超过1秒，或抓住物块则造成暴击
+		SpecialPrefixName: 抓钩
+		SpecialPrefixTooltip1: 手持武器时允许你抓住敌怪
+		SpecialPrefixTooltip2: 撞到敌怪后你会反弹
+		CanBeAppliedToDescription: 网覆砥石
+		BasicWhetstonePrefix: 网覆砥石
 	}
 
 	Boomerangs: {
-		Description: Critically strikes while returning to you
-		SpecialPrefixName: Rebounding
-		SpecialPrefixTooltip1: Critical strikes will bounce the boomerang away from oneself, allowing it to hit a target several times
+		Description: 回旋镖回归时造成暴击
+		SpecialPrefixName: 回弹
+		SpecialPrefixTooltip1: 暴击会使回旋镖弹开，使其能够击中目标多次
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Boomerangs.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Boomerangs.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 大部分回旋镖专属暴击条件，无法提取（仅限原版）
+		BasicWhetstonePrefix: 大部分回旋镖专属暴击条件，无法提取（仅限原版）
 	}
 
 	Prepared: {
-		Description: Critically strikes after the attack has been active for at least 5 seconds
-		SpecialPrefixName: Dark Knight's
-		SpecialPrefixTooltip1: Critical strikes grant you increased critical strike damage on all weapons
+		Description: 在攻击激活持续至少5秒后造成暴击
+		SpecialPrefixName: 暗骑
+		SpecialPrefixTooltip1: 暴击使你所有武器的暴击伤害提升
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Prepared.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Prepared.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 预备砥石
+		BasicWhetstonePrefix: 预备砥石
 	}
 
 	Holy: {
-		Description: Critically strikes while you have invincibility (such as after taking damage)
-		SpecialPrefixName: Sacred
-		SpecialPrefixTooltip1: Critical strikes grant invincibility to allies
+		Description: 当你处于无敌状态时造成暴击（如受到伤害）
+		SpecialPrefixName: 神圣
+		SpecialPrefixTooltip1: 暴击使队友获得无敌
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Holy.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Holy.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 神圣砥石
+		BasicWhetstonePrefix: 神圣砥石
 	}
 
 	CritWithAnother: {
-		Description: Critically strikes for 3 seconds after critically striking with another weapon
-		SpecialPrefixName: Cooperative
-		SpecialPrefixTooltip1: Critical strikes from other players also count towards this crit condition
+		Description: 其他武器暴击后3秒内则造成暴击
+		SpecialPrefixName: 合作
+		SpecialPrefixTooltip1: 来自其他玩家的暴击也符合该暴击条件
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: 可以被任意武器使用
-		BasicWhetstonePrefix: Shiny
+		BasicWhetstonePrefix: 闪亮
 	}
 
 	BronzeBowCrit: {
-		Description: Critically strikes if the target is between 15 and 20 tiles away
-		SpecialPrefixName: Perfected
-		SpecialPrefixTooltip1: Target must now be at least 18 tiles away
-		SpecialPrefixTooltip2: 50% increased critical strike damage
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.BronzeBowCrit.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.BronzeBowCrit.BasicWhetstonePrefix
+		Description: 当目标距离你15-20个物块之间则造成暴击
+		SpecialPrefixName: 完美
+		SpecialPrefixTooltip1: 目标现在的距离必须至少18格远
+		SpecialPrefixTooltip2: 增加50%暴击伤害
+		CanBeAppliedToDescription: 青铜弓专属暴击条件，无法提取
+		BasicWhetstonePrefix: 青铜弓专属暴击条件，无法提取
 	}
 
 	TenSecondCooldown: {
-		Description: Critically strikes if the the last time you crit was at least 10 seconds ago
-		SpecialPrefixName: Impatient
-		SpecialPrefixTooltip1: Critical strike cooldown reduced to 7 seconds
+		Description: 如果你最后一次暴击至少是在10秒前则造成暴击
+		SpecialPrefixName: 急躁
+		SpecialPrefixTooltip1: 暴击冷却时间减少至7秒
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: 可以被任意武器使用
-		BasicWhetstonePrefix: Timely
+		BasicWhetstonePrefix: 及时
 	}
 
 	ThreeSecondCooldown: {
-		Description: Critically strikes if the the last time you crit was at least 5 seconds ago
-		SpecialPrefixName: Impatient
-		SpecialPrefixTooltip1: Critical strike cooldown reduced to 3 seconds
+		Description: 如果你最后一次暴击至少是在5秒前则造成暴击
+		SpecialPrefixName: 焦躁
+		SpecialPrefixTooltip1: 暴击冷却时间减少至3秒
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: 可以被任意武器使用
-		BasicWhetstonePrefix: Convenient
+		BasicWhetstonePrefix: 便捷
 	}
 
 	Backstab: {
-		Description: Critically strikes when hitting (most) enemies in the back
-		SpecialPrefixName: Stealthy
-		SpecialPrefixTooltip1: Grants invisibility while held
+		Description: 当你从背后攻击（大部分）敌怪时造成暴击
+		SpecialPrefixName: 盗贼
+		SpecialPrefixTooltip1: 手持武器时获得隐身效果
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: 可以被任意武器使用
-		BasicWhetstonePrefix: Sneaky
+		BasicWhetstonePrefix: 鬼祟
 	}
 
 	HasDebuff: {
-		Description: Critically strikes while you are inflicted with a damage over time effect (such as On Fire!)
-		SpecialPrefixName: Vitriolic
-		SpecialPrefixTooltip1: Ignites you while held
+		Description: 当你被施加随时间造成伤害的减益时造成暴击（如：着火了！）
+		SpecialPrefixName: 恶毒
+		SpecialPrefixTooltip1: 手持武器时点燃你
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: 可以被任意武器使用
-		BasicWhetstonePrefix: Stained
+		BasicWhetstonePrefix: 玷污
 	}
 
 	ClassyCane: {
-		Description: Critically strikes while you are holding at least 50 platinum
-		SpecialPrefixName: Billionaire's
-		SpecialPrefixTooltip1: 100% increased critical strike damage
-		SpecialPrefixTooltip2: Requires 150 platinum to critically strike
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.ClassyCane.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.ClassyCane.BasicWhetstonePrefix
+		Description: 当你持有至少50个铂金币时则造成暴击
+		SpecialPrefixName: 富翁
+		SpecialPrefixTooltip1: 增加100%暴击伤害
+		SpecialPrefixTooltip2: 需要150个铂金币才能造成暴击
+		CanBeAppliedToDescription: 精致手杖专属暴击条件，无法提取
+		BasicWhetstonePrefix: 精致手杖专属暴击条件，无法提取
 	}
 
 	Katana: {
-		Description: Critically strikes while you have 0 defense
-		SpecialPrefixName: Refined
-		SpecialPrefixTooltip1: Critical strike condition extended to 10 defense or under
+		Description: 当你防御值为0时则造成暴击
+		SpecialPrefixName: 精炼
+		SpecialPrefixTooltip1: 防御值低于10时造成暴击
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Katana.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Katana.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 武士刀专属暴击条件，无法提取
+		BasicWhetstonePrefix: 武士刀专属暴击条件，无法提取
 	}
 
 	EyeOfCthulhu: {
-		Description: Critically strikes while you have less than 50% of your life left
-		SpecialPrefixName: Enraged
-		SpecialPrefixTooltip1: Critical strikes allow the yoyo to hit much more rapidly
+		Description: 当你生命值低于50%时则造成暴击
+		SpecialPrefixName: 激怒
+		SpecialPrefixTooltip1: 暴击使悠悠球的攻击更加频繁
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.EyeOfCthulhu.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.EyeOfCthulhu.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 克苏鲁悠悠球专属暴击条件，无法提取
+		BasicWhetstonePrefix: 克苏鲁悠悠球专属暴击条件，无法提取
 	}
 
 	Chik: {
-		Description: Critically strikes after hitting at least 2 different enemies
-		SpecialPrefixName: Merrier
-		SpecialPrefixTooltip1: Gains critical strike damage by 30% for each additional enemy hit
+		Description: 当你至少击中2个不同敌怪后造成暴击
+		SpecialPrefixName: 愉快
+		SpecialPrefixTooltip1: 每额外击中一次敌怪增加30%暴击伤害
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Chik.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Chik.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 吉克球专属暴击条件，无法提取
+		BasicWhetstonePrefix: 吉克球专属暴击条件，无法提取
 	}
 
 	Code1: {
-		Description: Critically strikes after hitting an enemy at least 10 times
-		SpecialPrefixName: Sentient
-		SpecialPrefixTooltip1: Critical strikes ramp in damage
+		Description: 当你击中一个敌怪至少10次后造成暴击
+		SpecialPrefixName: 感知
+		SpecialPrefixTooltip1: 暴击伤害会随击中次数逐步提升
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Code1.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Code1.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 代码1球专属暴击条件，无法提取
+		BasicWhetstonePrefix: 代码1球专属暴击条件，无法提取
 	}
 
 	Code2: {
-		Description: Critically strikes after hitting an enemy at least 20 times
-		SpecialPrefixName: Sentient
-		SpecialPrefixTooltip1: Critical strikes ramp in damage
+		Description: 当你击中一个敌怪至少20次后造成暴击
+		SpecialPrefixName: 意识
+		SpecialPrefixTooltip1: 暴击伤害会随击中次数逐步提升
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Code2.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Code2.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 代码2球专属暴击条件，无法提取
+		BasicWhetstonePrefix: 代码2球专属暴击条件，无法提取
 	}
 
 	Valor: {
-		Description: Critically strikes when returning
-		SpecialPrefixName: Brave
-		SpecialPrefixTooltip1: Grants immunity frames on critical strike
+		Description: 当英勇球返回时造成暴击
+		SpecialPrefixName: 勇敢
+		SpecialPrefixTooltip1: 暴击时获得无敌帧
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Valor.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Valor.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 英勇球专属暴击条件，无法提取
+		BasicWhetstonePrefix: 英勇球专属暴击条件，无法提取
 	}
 
 	Amarok: {
-		Description: Critically strikes after not hitting an enemy for 2 seconds
-		SpecialPrefixName: Thawed
-		SpecialPrefixTooltip1: Critically strike immediately after being thrown
+		Description: 当你超过2秒未击中敌怪后造成暴击
+		SpecialPrefixName: 解冻
+		SpecialPrefixTooltip1: 抛出悠悠球一瞬间造成暴击
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Amarok.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Amarok.BasicWhetstonePrefix
+		CanBeAppliedToDescription:  冰雪悠悠球专属暴击条件，无法提取
+		BasicWhetstonePrefix: 冰雪悠悠球专属暴击条件，无法提取
 	}
 
 	HelFire: {
-		Description: Critically strikes when rapidly hitting enemies
-		SpecialPrefixName: Weeping
-		SpecialPrefixTooltip1: Can hit enemies much more rapidly
-		SpecialPrefixTooltip2: Requires more rapid hits to critically strike
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.HelFire.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.HelFire.BasicWhetstonePrefix
+		Description: 当快速击中敌怪时造成暴击
+		SpecialPrefixName: 啜泣
+		SpecialPrefixTooltip1: 悠悠球的攻击更加频繁
+		SpecialPrefixTooltip2: 需要更快速度击中敌怪才能造成暴击
+		CanBeAppliedToDescription: 狱火球专属暴击条件，无法提取
+		BasicWhetstonePrefix: 狱火球专属暴击条件，无法提取
 	}
 
 	Kraken: {
-		Description: Critically strikes once against each hit enemy per yoyo thrown
-		SpecialPrefixName: Unbound
-		SpecialPrefixTooltip1: Grows in size and critical strike damage with each critical strike
-		SpecialPrefixTooltip2: Retracting the yoyo resets its stats to normal
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Kraken.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Kraken.BasicWhetstonePrefix
+		Description: 每次抛出悠悠球时，对每个被击中的敌怪造成一次暴击
+		SpecialPrefixName: 无缚
+		SpecialPrefixTooltip1: 每次暴击使悠悠球尺寸和暴击伤害提升
+		SpecialPrefixTooltip2: 收回悠悠球会将属性重置为正常值
+		CanBeAppliedToDescription: 克拉肯球专属暴击条件，无法提取
+		BasicWhetstonePrefix: 克拉肯球专属暴击条件，无法提取
 	}
 
 	MandibleBlade: {
-		Description: Critically strikes against enemies moving towards you
-		SpecialPrefixName: Charging
-		SpecialPrefixTooltip1: Critical strikes grant you immunity frames and a burst of movement speed
+		Description: 攻击朝你移动的敌怪时造成暴击
+		SpecialPrefixName: 冲锋
+		SpecialPrefixTooltip1: 暴击时获得短暂无敌，并大幅提升移动速度
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.MandibleBlade.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.MandibleBlade.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 颌骨剑专属暴击条件，无法提取
+		BasicWhetstonePrefix: 颌骨剑专属暴击条件，无法提取
 	}
 
 	Trident: {
-		Description: Critically strikes after hitting at least 3 times in one use
-		SpecialPrefixName: Poseidon's
-		SpecialPrefixTooltip1: Can hit much more rapidly
+		Description: 一次使用击中至少3次后造成暴击
+		SpecialPrefixName: 海神
+		SpecialPrefixTooltip1: 攻击更加频繁
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Trident.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Trident.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 三叉戟专属暴击条件，无法提取
+		BasicWhetstonePrefix: 三叉戟专属暴击条件，无法提取
 	}
 
 	TitaniumTrident: {
-		Description: Critically strikes when hitting multiple enemies in one use
-		SpecialPrefixName: Reaching
-		SpecialPrefixTooltip1: Reaches much further
+		Description: 一次使用击中多个敌怪则造成暴击
+		SpecialPrefixName: 触及
+		SpecialPrefixTooltip1: 攻击距离更远
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.TitaniumTrident.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.TitaniumTrident.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 钛金三叉戟专属暴击条件，无法提取
+		BasicWhetstonePrefix: 钛金三叉戟专属暴击条件，无法提取
 	}
 
 	DemonScytheShadowflameBow: {
-		Description: Projectiles will critically strike after killing an enemy
-		SpecialPrefixName: Deatheater
-		SpecialPrefixTooltip1: Homes into enemies after killing an enemy
+		Description: 击杀一个敌怪后弹幕会造成暴击
+		SpecialPrefixName: 噬亡
+		SpecialPrefixTooltip1: 击杀一个敌怪后会追踪其他敌怪
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.DemonScytheShadowflameBow.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.DemonScytheShadowflameBow.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 暗影焰弓和恶魔之镰专属暴击条件，无法提取
+		BasicWhetstonePrefix: 暗影焰弓和恶魔之镰专属暴击条件，无法提取
 	}
 
 	BronzeStaffCrit: {
-		Description: Critically strikes while you have less than 20 mana
-		SpecialPrefixName: Resplendent
-		SpecialPrefixTooltip1: Restores 100 mana on crit
+		Description: 当你魔力值低于20时造成暴击
+		SpecialPrefixName: 灿烂
+		SpecialPrefixTooltip1: 暴击时恢复100点魔力值
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.BronzeStaffCrit.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.BronzeStaffCrit.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 青铜法杖专属暴击条件，无法提取
+		BasicWhetstonePrefix: 青铜法杖专属暴击条件，无法提取
 	}
 
 	FallingEnemy: {
-		Description: Critically strikes on falling targets
-		SpecialPrefixName: Juggling
-		SpecialPrefixTooltip1: Critical strikes launch enemies upward
+		Description: 攻击正在下落的目标时造成暴击
+		SpecialPrefixName: 飞抛
+		SpecialPrefixTooltip1: 暴击会将敌人击飞至空中
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: 可以被任意武器使用
-		BasicWhetstonePrefix: Fallen
+		BasicWhetstonePrefix: 降落
 	}
 
 	Blowpipe: {
-		Description: Critically strikes if the last time you used this weapon was at least 3 seconds ago
-		SpecialPrefixName: Inhaling
-		SpecialPrefixTooltip1: Critically strikes after 10 seconds instead of 3
-		SpecialPrefixTooltip2: Significantly increased critical strike damage
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Blowpipe.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Blowpipe.BasicWhetstonePrefix
+		Description: 如果你上次使用该武器在至少3秒前则造成暴击
+		SpecialPrefixName: 吸气
+		SpecialPrefixTooltip1: 时间为10秒而非3秒
+		SpecialPrefixTooltip2: 大幅增加暴击伤害
+		CanBeAppliedToDescription: 吹管和吹箭筒专属暴击条件，无法提取
+		BasicWhetstonePrefix: 吹管和吹箭筒专属暴击条件，无法提取
 	}
 
 	GalacticCrit: {
-		Description: Critically strikes if the weapon is thrown upward and then falls at least 10 tiles
-		SpecialPrefixName: Meteoric
-		SpecialPrefixTooltip1: Falling projectiles will slightly home into targets
+		Description: 如果武器被向上投出且降落超过10个物块则造成暴击
+		SpecialPrefixName: 流星
+		SpecialPrefixTooltip1: 降落的弹幕将会略微追踪目标
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.GalacticCrit.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.GalacticCrit.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 银河拳套专属暴击条件，无法提取
+		BasicWhetstonePrefix: 银河拳套专属暴击条件，无法提取
 	}
 
 	NonBoss: {
-		Description: Critically strikes on non-boss targets
-		SpecialPrefixName: Practical
-		SpecialPrefixTooltip1: Critical strikes increase mining speed for 1 minute
+		Description: 攻击非Boss目标时造成暴击
+		SpecialPrefixName: 实用
+		SpecialPrefixTooltip1: 暴击时提升挖掘速度，持续1分钟
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Can be applied to weapons of orange rarity or higher
-		BasicWhetstonePrefix: Common
+		CanBeAppliedToDescription: 可以被稀有度为[C/FFC896:橙色]及以上的武器使用
+		BasicWhetstonePrefix: 普通
 	}
 
 	Shapeshifter_ShapeshiftBleedStackingMedium: {
-		Description: Critically strikes when you have inflicted at least 8 stacks of bleed total
-		SpecialPrefixName: Overkill
+		Description: 当你施加共计至少8层流血时造成暴击
+		SpecialPrefixName: 极端
 		SpecialPrefixTooltip1: Increased critical strike damage for each additional stack of bleed
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: Can be applied to predator wildshapes
-		BasicWhetstonePrefix: Blood-soaked
+		BasicWhetstonePrefix: 浸血
 	}
 
 	Shapeshifter_ShapeshiftShawlDash: {
@@ -1847,66 +1847,66 @@ CritTypes: {
 	}
 
 	Adrenaline: {
-		Description: Critically strikes while in adrenaline mode
-		SpecialPrefixName: Daredevil's
-		SpecialPrefixTooltip1: Critical strike damage increased the longer you hold maximum adrenaline without using it
+		Description: 处于肾上腺素模式时造成暴击
+		SpecialPrefixName: 冒险
+		SpecialPrefixTooltip1: 暴击伤害随肾上腺素保留时间增长而提升
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: 可以被任意武器使用
-		BasicWhetstonePrefix: Untouchable
+		BasicWhetstonePrefix: 无敌
 	}
 
 	Rage: {
-		Description: Critically strikes while in rage mode
-		SpecialPrefixName: Infuriating
-		SpecialPrefixTooltip1: Non-critical strikes help build up rage
+		Description: 处于怒气模式时造成暴击
+		SpecialPrefixName: 激怒
+		SpecialPrefixTooltip1: 非暴击能够积攒怒气值
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: 可以被任意武器使用
-		BasicWhetstonePrefix: Furious
+		BasicWhetstonePrefix: 狂怒
 	}
 
 	StealthStrike: {
-		Description: Critically strikes on stealth strikes
-		SpecialPrefixName: Finishing
-		SpecialPrefixTooltip1: Continues critically striking for 1 second after a stealth strike
+		Description: 潜伏攻击会造成暴击
+		SpecialPrefixName: 终结
+		SpecialPrefixTooltip1: 潜伏攻击后1秒内能继续暴击
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Can be applied to rogue weapons
-		BasicWhetstonePrefix: Startling
+		CanBeAppliedToDescription: 可以被盗贼武器使用
+		BasicWhetstonePrefix: 惊人
 	}
 
 	AfterUseTechnique: {
-		Description: Critically strikes for 1 second after using a technique
-		SpecialPrefixName: Talented
-		SpecialPrefixTooltip1: Critical strike duration extended to 2 seconds
+		Description: 使用技巧点后1秒内造成暴击
+		SpecialPrefixName: 才能
+		SpecialPrefixTooltip1: 暴击持续时间延续至2秒
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Can be applied to throwing weapons
-		BasicWhetstonePrefix: Talented
+		CanBeAppliedToDescription: 可以被投掷武器使用
+		BasicWhetstonePrefix: 天赋
 	}
 
 	BrokenCrit: {
-		Description: Cannot critically strike in any situation
-		SpecialPrefixName: Simply Incorrigible
-		SpecialPrefixTooltip1: Has nothing special going for it
-		SpecialPrefixTooltip2: You want to throw it against the ground in a fit of rage
-		CanBeAppliedToDescription: Cannot be applied to anything
-		BasicWhetstonePrefix: Hideous
+		Description: 任何情况下都无法暴击
+		SpecialPrefixName: 顽固
+		SpecialPrefixTooltip1: 毫无特色
+		SpecialPrefixTooltip2: 生气使你恨不得把它砸地上
+		CanBeAppliedToDescription: 无法被任何物品使用
+		BasicWhetstonePrefix: 可怕
 	}
 
 	Fractal: {
-		Description: Critically strikes on bosses you have previously killed
-		SpecialPrefixName: Determined
-		SpecialPrefixTooltip1: Critically strikes on any boss above 50% life
+		Description: 该Boss先前已被击败过一次后造成暴击
+		SpecialPrefixName: 决心
+		SpecialPrefixTooltip1: 任意Boss生命值低于50%时造成暴击
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Mods.CritRework.CritTypes.Fractal.CanBeAppliedToDescription
-		BasicWhetstonePrefix: Mods.CritRework.CritTypes.Fractal.BasicWhetstonePrefix
+		CanBeAppliedToDescription: 分层砥石
+		BasicWhetstonePrefix: 分层砥石
 	}
 
 	Guardian_Riposte: {
-		Description: Critically strikes after parrying an attack
-		SpecialPrefixName: Vigorous
-		SpecialPrefixTooltip1: 50% chance to critically strike an additional time
+		Description: 格挡攻击后造成暴击
+		SpecialPrefixName: 活力
+		SpecialPrefixTooltip1: 50%概率获得额外暴击时间
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription: Can only be applied to opposing weapons
-		BasicWhetstonePrefix: Riposte
+		CanBeAppliedToDescription: 只能被抗争武器使用
+		BasicWhetstonePrefix: 反击
 	}
 }
 
@@ -1924,15 +1924,15 @@ PirateSuccessful1: 好了，伙计！跟新的一样！
 PirateSuccessful2: 不支持退款！
 PirateSuccessful3: 是的，伙计。
 TravellingMerchantGiveWhetstone: 砥石
-TravellingMerchantGiveWhetstone1: Here, I found these during my travels. You seem like a fighter, maybe you'll have a use for them.
-TravellingMerchantGiveWhetstone2: Thanks for the tip! Here's something I found on my travels. Perhaps you can make good use of them.
-TravellingMerchantGiveWhetstone3: I appreciate the money. Here, take these.
-TravellingMerchantGiveWhetstone4: Cha-ching! Here you go! I hope these can be of some use.
-TravellingMerchantBroke1: Everything has a price, even if I don't need it; I won't give these to you for free.
-TravellingMerchantBroke2: Sorry, I can't give whetstones. Come back when you're a little... hmmmm... richer?
-TravellingMerchantBroke3: What's that? Oh, you don't have any money. Scraggle off, pal!
-TravellingMerchantAlreadyGiven1: That was all I had! I'll bring some more next time I come around.
-TravellingMerchantAlreadyGiven2: These things don't grow off of trees, you know.
+TravellingMerchantGiveWhetstone1: 这是我旅途中找到的东西。你看起来像是个战斗者，也许你能用得上。
+TravellingMerchantGiveWhetstone2: 多谢你的小费！这些是我旅途中找到的，或许你能派得上用场。
+TravellingMerchantGiveWhetstone3: 谢谢你给的钱。来，把这些拿去吧。
+TravellingMerchantGiveWhetstone4: Cha-ching（收银机音效）！拿去吧！希望这些能帮到你。
+TravellingMerchantBroke1: 凡事都有价，即便是我不需要的东西；我不会白送你这些东西的
+TravellingMerchantBroke2: 抱歉，我没法给你砥石。等你……嗯……手头再宽裕些的时候再回来？
+TravellingMerchantBroke3: 什么？哦，你没钱。滚开吧，伙计！
+TravellingMerchantAlreadyGiven1: 我手头只剩这些！下次再来的时候我会多带些。
+TravellingMerchantAlreadyGiven2: 你懂的，这些玩意不是树上长出来的
 PirateHat:
 	'''
 	增加5%远程伤害
@@ -2000,19 +2000,19 @@ Projectiles: {
 	PlatinumJavelinProjectile.DisplayName: 铂金标枪弹幕
 	WetBubble.DisplayName: 潮湿泡泡
 	BronzeBulletProjectile.DisplayName: 青铜子弹弹幕
-	BeautyOrb.DisplayName: Beauty Orb
-	PocketLightning.DisplayName: Pocket Lightning
+	BeautyOrb.DisplayName: 强化球
+	PocketLightning.DisplayName: 便捷避雷针闪电
 	AutoMissile.DisplayName: 自动导弹
 	AutoMissileExplosion.DisplayName: 自动导弹
-	BigBoom.DisplayName: Big Boom
-	CriticalCurse.DisplayName: Critical Curse
+	BigBoom.DisplayName: 大爆炸
+	CriticalCurse.DisplayName: 暴击诅咒灵魂
 	Thorn.DisplayName: 荆棘
 	ApophisAsteroid.DisplayName: 毁神星
-	TheExplosionThatKilledTheDinosaurs.DisplayName: The Explosion That Killed The Dinosaurs
-	SawedOn.DisplayName: Sawed On
-	Approach.DisplayName: Approach
-	Storm.DisplayName: Storm
-	IntercontinentalAutoMissileExplosion.DisplayName: Intercontinental Auto Missile Explosion
+	TheExplosionThatKilledTheDinosaurs.DisplayName: 杀死恐龙的爆炸
+	SawedOn.DisplayName: 链锯
+	Approach.DisplayName: 迫近
+	Storm.DisplayName: 风暴
+	IntercontinentalAutoMissileExplosion.DisplayName: 洲际自动导弹爆炸
 	DoomTomb.DisplayName: 毁灭石碑
 }
 
@@ -2051,14 +2051,14 @@ RemoveAugmentation: 右键点击移除强化部件
 StartingMessage:
 	'''
 	欢迎使用[c/77ffb9:Critical Strikes Overhaul - 暴击大修]！
-	FYI, this mod increases boss HP by 30% by default for balancing purposes; you can undo this change via the configm
-	If you have any questions or feedback on how the mod functions, feel free to ask on the Discord server, linked on the workshop
-	Have fun!
+	提示：为平衡战斗体验，本模组默认会将Boss的生命值提升30%，你可以在配置中关闭此改动。
+	若对模组功能有疑问或建议，欢迎加入创意工坊页面上的Discord服务器交流。
+	祝你游玩愉快！
 	'''
-sawDamageReduced: -Chainsaw damage greatly reduced by this critical strike condition
-overclockedTooltip: Overclocked: Greater than max number of augmentations causes you to take damage upon use
+sawDamageReduced: -在此暴击条件下链锯的伤害会大幅下降
+overclockedTooltip: "[C/D82727:超频警告]：当前安装的强化部件超过可安装最大值，使用武器会使你受到伤害"
 ConstructHelmet.SetBonus:
 	'''
-	Allows you to add an additional augmentation to weapons
-	25% increased critical strike potency
+	允许你给武器额外安装一个强化部件
+	增加25%暴击效力
 	'''
