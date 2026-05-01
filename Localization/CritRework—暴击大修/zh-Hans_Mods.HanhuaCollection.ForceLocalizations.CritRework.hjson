@@ -1,718 +1,533 @@
-Common: {
-	Globals: {
-		CritItem+<>c: {
-			<ModifyTooltips>b__40_29: {
-				1: {
-					// NewString: PrefixCritChance
-					// OldString: PrefixCritChance
-				}
-			}
-
-			<ModifyTooltips>b__40_28: {
-				1: {
-					// NewString: Knockback
-					// OldString: Knockback
-				}
-			}
-
-			<ModifyTooltips>b__40_27: {
-				1: {
-					// NewString: UseMana
-					// OldString: UseMana
-				}
-			}
-
-			<ModifyTooltips>b__40_26: {
-				1: {
-					// NewString: Consumable
-					// OldString: Consumable
-				}
-			}
-
-			<ModifyTooltips>b__40_25: {
-				1: {
-					// NewString: Tooltip
-					// OldString: Tooltip
-				}
-			}
-
-			<ModifyTooltips>b__40_24: {
-				1: {
-					// NewString: Knockback
-					// OldString: Knockback
-				}
-			}
-
-			<ModifyTooltips>b__40_23: {
-				1: {
-					// NewString: UseMana
-					// OldString: UseMana
-				}
-			}
-
-			<ModifyTooltips>b__40_22: {
-				1: {
-					// NewString: Consumable
-					// OldString: Consumable
-				}
-			}
-
-			<ModifyTooltips>b__40_21: {
-				1: {
-					// NewString: Tooltip
-					// OldString: Tooltip
-				}
-			}
-
-			<ModifyTooltips>b__40_20: {
-				1: {
-					// NewString: Damage
-					// OldString: Damage
-				}
-			}
-
-			<ModifyTooltips>b__40_2: {
-				1: {
-					// NewString: Defense
-					// OldString: Defense
-				}
-			}
-
-			<ModifyTooltips>b__40_19: {
-				1: {
-					// NewString: Damage
-					// OldString: Damage
-				}
-			}
-
-			<ModifyTooltips>b__40_18: {
-				1: {
-					// NewString: Damage
-					// OldString: Damage
-				}
-			}
-
-			<ModifyTooltips>b__40_17: {
-				1: {
-					// NewString: Knockback
-					// OldString: Knockback
-				}
-			}
-
-			<ModifyTooltips>b__40_16: {
-				1: {
-					// NewString: UseMana
-					// OldString: UseMana
-				}
-			}
-
-			<ModifyTooltips>b__40_15: {
-				1: {
-					// NewString: Consumable
-					// OldString: Consumable
-				}
-			}
-
-			<ModifyTooltips>b__40_14: {
-				1: {
-					// NewString: Tooltip
-					// OldString: Tooltip
-				}
-			}
-
-			<ModifyTooltips>b__40_13: {
-				1: {
-					// NewString: Damage
-					// OldString: Damage
-				}
-			}
-
-			<ModifyTooltips>b__40_12: {
-				1: {
-					// NewString: Damage
-					// OldString: Damage
-				}
-			}
-
-			<ModifyTooltips>b__40_11: {
-				1: {
-					// NewString: Knockback
-					// OldString: Knockback
-				}
-			}
-
-			<ModifyTooltips>b__40_10: {
-				1: {
-					// NewString: UseMana
-					// OldString: UseMana
-				}
-			}
-
-			<ModifyTooltips>b__40_1: {
-				1: {
-					// NewString: Defense
-					// OldString: Defense
-				}
-			}
-
-			<ModifyTooltips>b__40_9: {
-				1: {
-					// NewString: Consumable
-					// OldString: Consumable
-				}
-			}
-
-			<ModifyTooltips>b__40_8: {
-				1: {
-					// NewString: Tooltip
-					// OldString: Tooltip
-				}
-			}
-
-			<ModifyTooltips>b__40_7: {
-				1: {
-					// NewString: CritChance
-					// OldString: CritChance
-				}
-			}
-
-			<ModifyTooltips>b__40_6: {
-				1: {
-					// NewString: Damage
-					// OldString: Damage
-				}
-			}
-
-			<ModifyTooltips>b__40_5: {
-				1: {
-					// NewString: Damage
-					// OldString: Damage
-				}
-			}
-
-			<ModifyTooltips>b__40_3: {
-				1: {
-					// NewString: Defense
-					// OldString: Defense
-				}
-			}
-
-			<ModifyTooltips>b__40_4: {
-				1: {
-					// NewString: Social
-					// OldString: Social
-				}
-			}
-
-			<ModifyTooltips>b__40_0: {
-				1: {
-					// NewString: CritChance
-					// OldString: CritChance
-				}
-			}
-		}
-
-		CritItem: {
-			ModifyTooltips: {
-				14: {
-					// NewString: PrefixNecromantic
-					// OldString: PrefixNecromantic
-				}
-
-				13: {
-					// NewString: ProstheticTooltip
-					// OldString: ProstheticTooltip
-				}
-
-				12: {
-					// NewString: CritDescription2
-					// OldString: CritDescription2
-				}
-
-				11: {
-					// NewString: " ([c/808080:???])"
-					// OldString: " ([c/808080:???])"
-				}
-
-				10: {
-					// NewString: NoCrit
-					// OldString: NoCrit
-				}
-
-				1: {
-					// OldString: Tooltip
-					// NewString: Tooltip
-				}
-
-				9: {
-					// NewString: ""
-					// OldString: ""
-				}
-
-				8: {
-					// NewString: "])"
-					// OldString: "])"
-				}
-
-				7: {
-					// NewString: ":"
-					// OldString: ":"
-				}
-
-				6: {
-					// NewString: ([c/
-					// OldString: ([c/
-				}
-
-				2: {
-					// OldString: " "
-					// NewString: " "
-				}
-
-				3: {
-					// OldString: +
-					// NewString: +
-				}
-
-				4: {
-					// OldString: CritDescription
-					// NewString: CritDescription
-				}
-
-				5: {
-					// OldString: fff88d
-					// NewString: fff88d
-				}
-			}
-
-			SetStaticDefaults: {
-				1: {
-					// OldString: NecromanticTooltip
-					// NewString: NecromanticTooltip
-				}
-
-				2: {
-					// OldString: UnknownTooltip
-					// NewString: UnknownTooltip
-				}
-
-				3: {
-					// OldString: UnableTooltip
-					// NewString: UnableTooltip
-				}
-
-				4: {
-					// OldString: PirateHat
-					// NewString: PirateHat
-				}
-
-				5: {
-					// OldString: PirateShirt
-					// NewString: PirateShirt
-				}
-
-				6: {
-					// OldString: PiratePants
-					// NewString: PiratePants
-				}
-
-				7: {
-					// OldString: PirateSetBonus
-					// NewString: PirateSetBonus
-				}
-
-				8: {
-					// OldString: ProstheticTooltip
-					// NewString: ProstheticTooltip
-				}
-			}
-
-			SaveData: {
-				1: {
-					// OldString: critType
-					// NewString: critType
-				}
-			}
-
-			LoadData: {
-				1: {
-					// OldString: critType
-					// NewString: critType
-				}
-			}
-
-			PreDrawInInventory: {
-				1: {
-					// OldString: CritRework/Shine1
-					// NewString: CritRework/Shine1
-				}
-
-				2: {
-					// OldString: Crit condition incompatible with crit display
-					// NewString: Crit condition incompatible with crit display
-				}
-			}
-
-			PostReforge: {
-				1: {
-					// OldString: CritRework/Assets/Sounds/Hijack
-					// NewString: CritRework/Assets/Sounds/Hijack
-				}
-			}
-
-			CanConsumeAmmo: {
-				1: {
-					// OldString: PirateHat
-					// NewString: PirateHat
-				}
-			}
-
-			UpdateEquip: {
-				1: {
-					// OldString: PirateHat
-					// NewString: PirateHat
-				}
-			}
-
-			UpdateArmorSet: {
-				1: {
-					// OldString: PirateArmor
-					// NewString: PirateArmor
-				}
-			}
-
-			IsArmorSet: {
-				1: {
-					// OldString: PirateArmor
-					// NewString: PirateArmor
-				}
-			}
-		}
-
-		CritProjectile: {
-			OnHitNPC: {
-				1: {
-					// NewString: OrchidMod
-					// OldString: OrchidMod
-				}
-			}
-		}
-
-		CritNPC: {
-			GetPirateSuccessDialogue: {
-				1: {
-					// NewString: Mods.CritRework.PirateSuccessful
-					// OldString: Mods.CritRework.PirateSuccessful
-				}
-			}
-
-			GetPirateBrokeDialogue: {
-				1: {
-					// NewString: Mods.CritRework.PirateBroke
-					// OldString: Mods.CritRework.PirateBroke
-				}
-			}
-
-			GetPirateNoCanDoDialogue: {
-				1: {
-					// NewString: Mods.CritRework.PirateNoCanDo
-					// OldString: Mods.CritRework.PirateNoCanDo
-				}
-			}
-
-			OnChatButtonClicked: {
-				5: {
-					// NewString: "]"
-					// OldString: "]"
-				}
-
-				4: {
-					/* NewString:
-						'''
-
-						[c/fff78b:
-						''' */
-					/* OldString:
-						'''
-
-						[c/fff78b:
-						''' */
-				}
-
-				3: {
-					// NewString: " [c/ffff00:->] "
-					// OldString: " [c/ffff00:->] "
-				}
-
-				2: {
-					/* NewString: "\n" */
-					/* OldString: "\n" */
-				}
-
-				1: {
-					// NewString: CritRework/Assets/Sounds/Hijack
-					// OldString: CritRework/Assets/Sounds/Hijack
-				}
-			}
-
-			OnHitByProjectile: {
-				1: {
-					// NewString: CritRework/Assets/Sounds/Crit
-					// OldString: CritRework/Assets/Sounds/Crit
-				}
-			}
-
-			OnHitByItem: {
-				1: {
-					// NewString: CritRework/Assets/Sounds/Crit
-					// OldString: CritRework/Assets/Sounds/Crit
-				}
-			}
+CritRework: {
+	Load: {
+		1: {
+			// OldString: CritRework/Assets/Sounds/Crit
+			// NewString: CritRework/Assets/Sounds/Crit
 		}
 	}
 
-	CritType: {
-		CalculateActualCritMult: {
-			1: {
-				// OldString: Simple
-				// NewString: Simple
-			}
+	Call: {
+		1: {
+			// OldString: AddCritType
+			// NewString: AddCritType
 		}
 
-		Load: {
-			1: {
-				// OldString: CritTypes.
-				// NewString: CritTypes.
-			}
+		2: {
+			// OldString: Improper arguments used for mod call. See steam workshop discussion for Critical Strikes Overhaul on cross-compatibility for info on how to use.
+			// NewString: Improper arguments used for mod call. See steam workshop discussion for Critical Strikes Overhaul on cross-compatibility for info on how to use.
+		}
+	}
+}
 
-			2: {
-				// OldString: .Description
-				// NewString: .Description
-			}
+Detours: {
+	SetChatButtons: {
+		1: {
+			// OldString: " "
+			// NewString: " "
+		}
+
+		2: {
+			// OldString: " ("
+			// NewString: " ("
+		}
+
+		3: {
+			// OldString: )
+			// NewString: )
 		}
 	}
 
-	ModPlayers: {
-		CritPlayer: {
-			Load: {
-				1: {
-					// OldString: ScallywagText
-					// NewString: ScallywagText
-				}
-			}
+	AffixName: {
+		1: {
+			// OldString: " "
+			// NewString: " "
+		}
+	}
 
-			PostUpdate: {
-				1: {
-					// OldString: OrchidMod
-					// NewString: OrchidMod
-				}
+	SetCrit: {
+		1: {
+			// OldString: _critOverride
+			// NewString: _critOverride
+		}
+	}
 
-				2: {
-					// OldString: ThoriumMod
-					// NewString: ThoriumMod
-				}
+	DisableCrit: {
+		1: {
+			// OldString: CalamityMod
+			// NewString: CalamityMod
+		}
 
-				3: {
-					// OldString: ThoriumPlayer
-					// NewString: ThoriumPlayer
-				}
+		2: {
+			// OldString: _critOverride
+			// NewString: _critOverride
+		}
+	}
 
-				4: {
-					// OldString: techPoints
-					// NewString: techPoints
-				}
+	Load: {
+		1: {
+			// OldString: PirateHijack
+			// NewString: PirateHijack
+		}
 
-				5: {
-					// OldString: techDecharge
-					// NewString: techDecharge
-				}
-			}
+		2: {
+			// OldString: TravellingMerchantGiveWhetstone
+			// NewString: TravellingMerchantGiveWhetstone
+		}
 
-			ApplyModifiers: {
-				1: {
-					// OldString: Assassin's Strike!
-					NewString: 刺客暴击！
-				}
+		3: {
+			// OldString: SetChatButtons
+			// NewString: SetChatButtons
+		}
+	}
+}
 
-				2: {
-					// OldString: CritRework/Assets/Sounds/BloodSlash
-					// NewString: CritRework/Assets/Sounds/BloodSlash
-				}
-			}
+ServerConfig: {
+	OnChanged: {
+		1: {
+			// OldString: Ranged
+			// NewString: Ranged
+		}
 
-			OnHurt: {
-				1: {
-					// OldString: CRITICAL STRIKE
-					NewString: 暴 击！
-				}
+		2: {
+			// OldString: Throwing
+			// NewString: Throwing
+		}
 
-				2: {
-					// OldString: CritRework/Assets/Sounds/EVILCrit
-					// NewString: CritRework/Assets/Sounds/EVILCrit
-				}
-			}
+		3: {
+			// OldString: Rogue (CALAMITY ONLY)
+			// NewString: Rogue (CALAMITY ONLY)
+		}
 
-			OnHitNPC: {
-				1: {
-					// OldString: MugShotHit
-					// NewString: MugShotHit
-				}
+		4: {
+			// OldString: CalamityMod
+			// NewString: CalamityMod
+		}
 
-				2: {
-					// OldString: CritRework/Assets/Sounds/CoinCrit
-					// NewString: CritRework/Assets/Sounds/CoinCrit
-				}
-
-				3: {
-					// OldString: CritRework/Assets/Sounds/PirateLaugh
-					// NewString: CritRework/Assets/Sounds/PirateLaugh
-				}
-
-				4: {
-					// OldString: CritRework/Assets/Sounds/Cleanse
-					// NewString: CritRework/Assets/Sounds/Cleanse
-				}
-
-				5: {
-					// OldString: Thawed x
-					NewString: 解冻 x
-				}
-
-				6: {
-					// OldString: CritRework/Assets/Sounds/Gas
-					// NewString: CritRework/Assets/Sounds/Gas
-				}
-
-				7: {
-					// OldString: Exsanguinated
-					NewString: 过度失血
-				}
-
-				8: {
-					// OldString: NoxiousEyeHit
-					// NewString: NoxiousEyeHit
-				}
-
-				9: {
-					// OldString: CritRework/Assets/Sounds/FireIgnite
-					// NewString: CritRework/Assets/Sounds/FireIgnite
-				}
-			}
+		5: {
+			// OldString: RogueDamageClass
+			// NewString: RogueDamageClass
 		}
 	}
 }
 
 Content: {
+	Prefixes: {
+		Weapon: {
+			Potent: {
+				SetStaticDefaults: {
+					1: {
+						// OldString: Prefixes.Potent.Tooltip
+						// NewString: Prefixes.Potent.Tooltip
+					}
+				}
+
+				GetTooltipLines: {
+					1: {
+						// OldString: ModifierPotent
+						// NewString: ModifierPotent
+					}
+				}
+			}
+
+			Special: {
+				GetTooltipLines: {
+					1: {
+						// OldString: SpecialModifier1
+						// NewString: SpecialModifier1
+					}
+
+					2: {
+						// OldString: ""
+						// NewString: ""
+					}
+
+					3: {
+						// OldString: " "
+						// NewString: " "
+					}
+
+					4: {
+						// OldString: SpecialModifier2
+						// NewString: SpecialModifier2
+					}
+				}
+			}
+
+			Versatile: {
+				SetStaticDefaults: {
+					1: {
+						// OldString: Prefixes.
+						// NewString: Prefixes.
+					}
+
+					2: {
+						// OldString: .Description
+						// NewString: .Description
+					}
+				}
+
+				GetTooltipLines: {
+					1: {
+						// OldString: PrefixSpecial
+						// NewString: PrefixSpecial
+					}
+
+					2: {
+						// OldString: +
+						// NewString: +
+					}
+				}
+			}
+		}
+
+		Augmentation: {
+			AugmentationPrefix: {
+				SetStaticDefaults: {
+					1: {
+						// OldString: Prefixes.
+						// NewString: Prefixes.
+					}
+
+					2: {
+						// OldString: .DisableCondition
+						// NewString: .DisableCondition
+					}
+				}
+
+				GetTooltipLines: {
+					1: {
+						// OldString: PrefixCondition
+						// NewString: PrefixCondition
+					}
+
+					2: {
+						// OldString: "• "
+						// NewString: "• "
+					}
+
+					3: {
+						// OldString: PrefixDamage
+						// NewString: PrefixDamage
+					}
+
+					4: {
+						// OldString: +
+						// NewString: +
+					}
+
+					5: {
+						// OldString: % critical strike damage
+						NewString: %暴击伤害
+					}
+
+					6: {
+						// OldString: -
+						// NewString: -
+					}
+
+					7: {
+						// OldString: % non-critical strike damage
+						NewString: %非暴击伤害
+					}
+
+					8: {
+						// OldString: PrefixPotency
+						// NewString: PrefixPotency
+					}
+
+					9: {
+						// OldString: % critical strike potency
+						NewString: %暴击效力
+					}
+
+					10: {
+						// OldString: % use speed
+						NewString: %使用速度
+					}
+				}
+			}
+		}
+	}
+
 	Items: {
-		Equipable: {
-			Accessories: {
-				ShadowDonut+<>c: {
-					<ModifyTooltips>b__4_0: {
-						1: {
-							// NewString: Tooltip
-							// OldString: Tooltip
-						}
+		DivineShard: {
+			RightClick: {
+				1: {
+					// OldString: " is already enchanted"
+					NewString: " 已经被附魔"
+				}
+
+				2: {
+					// OldString: "[i:"
+					// NewString: "[i:"
+				}
+
+				3: {
+					// OldString: "] "
+					// NewString: "] "
+				}
+
+				4: {
+					// OldString: " has been enchanted [i:"
+					NewString: " 已经被附魔 [i:"
+				}
+
+				5: {
+					// OldString: "]"
+					// NewString: "]"
+				}
+
+				6: {
+					// OldString: " cannot be enchanted"
+					NewString: " 无法被附魔"
+				}
+			}
+
+			ModifyTooltips: {
+				1: {
+					// OldString: "[icon]"
+					// NewString: "[icon]"
+				}
+
+				2: {
+					// OldString: "[i:"
+					// NewString: "[i:"
+				}
+
+				3: {
+					// OldString: "]"
+					// NewString: "]"
+				}
+			}
+		}
+
+		WhetstoneExtractor: {
+			RightClick: {
+				1: {
+					// OldString: WhetstoneExtractor
+					// NewString: WhetstoneExtractor
+				}
+
+				2: {
+					// OldString: CritRework/Assets/Sounds/Hijack
+					// NewString: CritRework/Assets/Sounds/Hijack
+				}
+
+				3: {
+					// OldString: "Cannot extract whetstone from "
+					NewString: "无法提取砥石 "
+				}
+			}
+		}
+
+		Whetstones: {
+			Whetstone: {
+				SetStaticDefaults: {
+					1: {
+						// OldString: .Tooltip1
+						// NewString: .Tooltip1
+					}
+
+					2: {
+						// OldString: .Tooltip2
+						// NewString: .Tooltip2
+					}
+
+					3: {
+						// OldString: .critDamageMult
+						// NewString: .critDamageMult
+					}
+
+					4: {
+						// OldString: Items.
+						// NewString: Items.
+					}
+
+					5: {
+						// OldString: .CanBeApplied
+						// NewString: .CanBeApplied
 					}
 				}
 
-				ShadowDonut: {
-					SetStaticDefaults: {
-						1: {
-							// OldString: Items.ShadowDonut.LastTooltipLine
-							// NewString: Items.ShadowDonut.LastTooltipLine
-						}
+				RightClick: {
+					1: {
+						// OldString: "[i/d"
+						// NewString: "[i/d"
 					}
 
-					ModifyTooltips: {
-						1: {
-							// OldString: "[c/808080:???]"
-							// NewString: "[c/808080:???]"
-						}
+					2: {
+						// OldString: ":"
+						// NewString: ":"
+					}
 
-						2: {
-							// OldString: %
-							// NewString: %
-						}
+					3: {
+						// OldString: "] already has [i/s1/d"
+						NewString: "] 已经有 [i/s1/d"
+					}
 
-						3: {
-							// OldString: EVILTooltip
-							// NewString: EVILTooltip
-						}
+					4: {
+						// OldString: "]"
+						// NewString: "]"
+					}
 
-						4: {
-							// OldString: "[dmg]"
-							// NewString: "[dmg]"
-						}
+					5: {
+						// OldString: "] is not eligible for [i/s1/d"
+					    NewString: "] 不符合 [i/s1/d"
 					}
 				}
 
-				ProstheticArm+<>c: {
-					<ModifyTooltips>b__5_0: {
-						1: {
-							// NewString: Tooltip
-							// OldString: Tooltip
-						}
+				Apply: {
+					1: {
+						// OldString: CritRework/Assets/Sounds/Whetstone
+						// NewString: CritRework/Assets/Sounds/Whetstone
+					}
+
+					2: {
+						// OldString: Applied [i/s1/d
+						NewString: 将 [i/s1/d
+					}
+
+					3: {
+						// OldString: ":"
+						// NewString: ":"
+					}
+
+					4: {
+						// OldString: "] to [i/d"
+						NewString: "] 安装至 [i/d"
+					}
+
+					5: {
+						// OldString: "]"
+						// NewString: "]"
 					}
 				}
 
-				ProstheticArm: {
-					SetStaticDefaults: {
-						1: {
-							// OldString: Items.ProstheticArm.LastTooltipLine
-							// NewString: Items.ProstheticArm.LastTooltipLine
-						}
+				ModifyTooltips: {
+					1: {
+						// OldString: WhetstoneTooltip0
+						// NewString: WhetstoneTooltip0
 					}
 
-					ModifyTooltips: {
-						1: {
-							// OldString: "[c/808080:???]"
-							// NewString: "[c/808080:???]"
-						}
+					2: {
+						// OldString: WhetstoneTooltip1
+						// NewString: WhetstoneTooltip1
+					}
 
-						2: {
-							// OldString: %
-							// NewString: %
-						}
+					3: {
+						// OldString: ''' • "'''
+						// NewString: ''' • "'''
+					}
 
-						3: {
-							// OldString: Tooltip3
-							// NewString: Tooltip3
-						}
+					4: {
+						/* OldString:
+							'''
+							"
+							 • 
+							''' */
+						/* NewString:
+							'''
+							"
+							 • 
+							''' */
+					}
 
-						4: {
-							// OldString: "[dmg]"
-							// NewString: "[dmg]"
-						}
+					5: {
+						// OldString: "x "
+						// NewString: "x "
+					}
+
+					6: {
+						// OldString: WhetstoneTooltip3
+						// NewString: WhetstoneTooltip3
+					}
+
+					7: {
+						// OldString: Items.
+						// NewString: Items.
+					}
+
+					8: {
+						// OldString: .CanBeApplied
+						// NewString: .CanBeApplied
+					}
+
+					9: {
+						// OldString: WhetstoneTooltip2
+						// NewString: WhetstoneTooltip2
+					}
+				}
+			}
+
+			Whetstone+<>c: {
+				<ModifyTooltips>b__11_1: {
+					1: {
+						// OldString: FavoriteDesc
+						// NewString: FavoriteDesc
+					}
+				}
+
+				<ModifyTooltips>b__11_0: {
+					1: {
+						// OldString: FavoriteDesc
+						// NewString: FavoriteDesc
 					}
 				}
 			}
 		}
 
 		Weapons: {
-			Gloves: {
-				GloveWeapon+<>c: {
-					<ModifyTooltips>b__25_2: {
-						1: {
-							// NewString: Damage
-							// OldString: Damage
-						}
-					}
-
-					<ModifyTooltips>b__25_1: {
-						1: {
-							// NewString: Knockback
-							// OldString: Knockback
-						}
-					}
-
-					<ModifyTooltips>b__25_0: {
-						1: {
-							// NewString: Speed
-							// OldString: Speed
-						}
+			GoldJavelinProjectile: {
+				get_Texture: {
+					1: {
+						// OldString: CritRework/Content/Items/Weapons/GoldJavelin
+						// NewString: CritRework/Content/Items/Weapons/GoldJavelin
 					}
 				}
 
+				OnHitNPC: {
+					1: {
+						// OldString: CritRework/Assets/Sounds/SharpHit2
+						// NewString: CritRework/Assets/Sounds/SharpHit2
+					}
+				}
+			}
+
+			IronChakramProjectile: {
+				get_Texture: {
+					1: {
+						// OldString: CritRework/Content/Items/Weapons/IronChakram
+						// NewString: CritRework/Content/Items/Weapons/IronChakram
+					}
+				}
+			}
+
+			LeadChakramProjectile: {
+				get_Texture: {
+					1: {
+						// OldString: CritRework/Content/Items/Weapons/LeadChakram
+						// NewString: CritRework/Content/Items/Weapons/LeadChakram
+					}
+				}
+			}
+
+			PlatinumJavelinProjectile: {
+				get_Texture: {
+					1: {
+						// OldString: CritRework/Content/Items/Weapons/PlatinumJavelin
+						// NewString: CritRework/Content/Items/Weapons/PlatinumJavelin
+					}
+				}
+
+				OnHitNPC: {
+					1: {
+						// OldString: CritRework/Assets/Sounds/SharpHit2
+						// NewString: CritRework/Assets/Sounds/SharpHit2
+					}
+				}
+			}
+
+			Gloves: {
 				GloveWeapon: {
 					SetStaticDefaults: {
 						1: {
@@ -778,7 +593,7 @@ Content: {
 						}
 
 						7: {
-							// OldString: " [c/ff4b4b:None]"
+							OldString: " [c/ff4b4b:None]"
 							NewString: " [c/ff4b4b:无]"
 						}
 
@@ -799,214 +614,31 @@ Content: {
 
 						11: {
 							// OldString: ???
-							// NewString: ???
+							NewString: ？？？
 						}
 					}
 				}
-			}
 
-			GoldJavelinProjectile: {
-				get_Texture: {
-					1: {
-						// OldString: CritRework/Content/Items/Weapons/GoldJavelin
-						// NewString: CritRework/Content/Items/Weapons/GoldJavelin
-					}
-				}
-
-				OnHitNPC: {
-					1: {
-						// OldString: CritRework/Assets/Sounds/SharpHit2
-						// NewString: CritRework/Assets/Sounds/SharpHit2
-					}
-				}
-			}
-
-			IronChakramProjectile: {
-				get_Texture: {
-					1: {
-						// OldString: CritRework/Content/Items/Weapons/IronChakram
-						// NewString: CritRework/Content/Items/Weapons/IronChakram
-					}
-				}
-			}
-
-			LeadChakramProjectile: {
-				get_Texture: {
-					1: {
-						// OldString: CritRework/Content/Items/Weapons/LeadChakram
-						// NewString: CritRework/Content/Items/Weapons/LeadChakram
-					}
-				}
-			}
-
-			PlatinumJavelinProjectile: {
-				get_Texture: {
-					1: {
-						// OldString: CritRework/Content/Items/Weapons/PlatinumJavelin
-						// NewString: CritRework/Content/Items/Weapons/PlatinumJavelin
-					}
-				}
-
-				OnHitNPC: {
-					1: {
-						// OldString: CritRework/Assets/Sounds/SharpHit2
-						// NewString: CritRework/Assets/Sounds/SharpHit2
-					}
-				}
-			}
-		}
-
-		Whetstones: {
-			Whetstone+<>c: {
-				<ModifyTooltips>b__11_0: {
-					1: {
-						// NewString: FavoriteDesc
-						// OldString: FavoriteDesc
-					}
-				}
-
-				<ModifyTooltips>b__11_1: {
-					1: {
-						// NewString: FavoriteDesc
-						// OldString: FavoriteDesc
-					}
-				}
-			}
-
-			Whetstone: {
-				SetStaticDefaults: {
-					1: {
-						// OldString: .Tooltip1
-						// NewString: .Tooltip1
+				GloveWeapon+<>c: {
+					<ModifyTooltips>b__25_0: {
+						1: {
+							// OldString: Speed
+							// NewString: Speed
+						}
 					}
 
-					2: {
-						// OldString: .Tooltip2
-						// NewString: .Tooltip2
+					<ModifyTooltips>b__25_1: {
+						1: {
+							// OldString: Knockback
+							// NewString: Knockback
+						}
 					}
 
-					3: {
-						// OldString: .critDamageMult
-						// NewString: .critDamageMult
-					}
-
-					4: {
-						// OldString: Items.
-						// NewString: Items.
-					}
-
-					5: {
-						// OldString: .CanBeApplied
-						// NewString: .CanBeApplied
-					}
-				}
-
-				RightClick: {
-					1: {
-						// OldString: "[i/d"
-						// NewString: "[i/d"
-					}
-
-					2: {
-						// OldString: ":"
-						// NewString: ":"
-					}
-
-					3: {
-						// OldString: "] already has [i/s1/d"
-						// NewString: "] already has [i/s1/d"
-					}
-
-					4: {
-						// OldString: "]"
-						// NewString: "]"
-					}
-
-					5: {
-						// OldString: "] is not eligible for [i/s1/d"
-						// NewString: "] is not eligible for [i/s1/d"
-					}
-				}
-
-				Apply: {
-					1: {
-						// OldString: CritRework/Assets/Sounds/Whetstone
-						// NewString: CritRework/Assets/Sounds/Whetstone
-					}
-
-					2: {
-						// OldString: Applied [i/s1/d
-						// NewString: Applied [i/s1/d
-					}
-
-					3: {
-						// OldString: ":"
-						// NewString: ":"
-					}
-
-					4: {
-						// OldString: "] to [i/d"
-						// NewString: "] to [i/d"
-					}
-
-					5: {
-						// OldString: "]"
-						// NewString: "]"
-					}
-				}
-
-				ModifyTooltips: {
-					1: {
-						// OldString: WhetstoneTooltip0
-						// NewString: WhetstoneTooltip0
-					}
-
-					2: {
-						// OldString: WhetstoneTooltip1
-						// NewString: WhetstoneTooltip1
-					}
-
-					3: {
-						// OldString: • "
-						// NewString: • "
-					}
-
-					4: {
-						/* OldString:
-							'''
-							"
-							 • 
-							''' */
-						/* NewString:
-							'''
-							"
-							 • 
-							''' */
-					}
-
-					5: {
-						// OldString: "x "
-						// NewString: "x "
-					}
-
-					6: {
-						// OldString: WhetstoneTooltip3
-						// NewString: WhetstoneTooltip3
-					}
-
-					7: {
-						// OldString: Items.
-						// NewString: Items.
-					}
-
-					8: {
-						// OldString: .CanBeApplied
-						// NewString: .CanBeApplied
-					}
-
-					9: {
-						// OldString: WhetstoneTooltip2
-						// NewString: WhetstoneTooltip2
+					<ModifyTooltips>b__25_2: {
+						1: {
+							// OldString: Damage
+							// NewString: Damage
+						}
 					}
 				}
 			}
@@ -1040,6 +672,278 @@ Content: {
 			}
 		}
 
+		Equipable: {
+			Tokens: {
+				BoneToken: {
+					UpdateSoundEffect: {
+						1: {
+							// OldString: CritRework/Assets/Sounds/XylophoneCrit
+							// NewString: CritRework/Assets/Sounds/XylophoneCrit
+						}
+					}
+				}
+
+				BoxingToken: {
+					UpdateSoundEffect: {
+						1: {
+							// OldString: CritRework/Assets/Sounds/PunchCrit
+							// NewString: CritRework/Assets/Sounds/PunchCrit
+						}
+					}
+				}
+
+				DuckyToken: {
+					UpdateSoundEffect: {
+						1: {
+							// OldString: CritRework/Assets/Sounds/RubberCrit
+							// NewString: CritRework/Assets/Sounds/RubberCrit
+						}
+					}
+				}
+
+				HomunculusToken: {
+					UpdateSoundEffect: {
+						1: {
+							// OldString: CritRework/Assets/Sounds/CellsCrit
+							// NewString: CritRework/Assets/Sounds/CellsCrit
+						}
+					}
+				}
+
+				MetalPipeToken: {
+					UpdateSoundEffect: {
+						1: {
+							// OldString: CritRework/Assets/Sounds/MetalPipeCrit
+							// NewString: CritRework/Assets/Sounds/MetalPipeCrit
+						}
+					}
+				}
+
+				OrchestraToken: {
+					UpdateSoundEffect: {
+						1: {
+							// OldString: CritRework/Assets/Sounds/OrchestraCrit
+							// NewString: CritRework/Assets/Sounds/OrchestraCrit
+						}
+					}
+				}
+
+				RainToken: {
+					UpdateSoundEffect: {
+						1: {
+							// OldString: CritRework/Assets/Sounds/RiskOfRainCrit
+							// NewString: CritRework/Assets/Sounds/RiskOfRainCrit
+						}
+					}
+				}
+			}
+
+			Armor: {
+				Fraud: {
+					FraudCrown: {
+						SetStaticDefaults: {
+							1: {
+								// OldString: Items.FraudCrown.SetBonus
+								// NewString: Items.FraudCrown.SetBonus
+							}
+						}
+					}
+				}
+
+				Construct: {
+					ConstructHelmet: {
+						SetStaticDefaults: {
+							1: {
+								// OldString: ConstructHelmet.SetBonus
+								// NewString: ConstructHelmet.SetBonus
+							}
+						}
+					}
+				}
+			}
+
+			Accessories: {
+				GraftedSling: {
+					SetStaticDefaults: {
+						1: {
+							// OldString: Items.ProstheticArm.LastTooltipLine
+							// NewString: Items.ProstheticArm.LastTooltipLine
+						}
+					}
+
+					ModifyTooltips: {
+						1: {
+							// OldString: "[c/808080:???]"
+							NewString: "[c/808080:？？？]"
+						}
+
+						2: {
+							// OldString: %
+							// NewString: %
+						}
+
+						3: {
+							// OldString: Tooltip3
+							// NewString: Tooltip3
+						}
+
+						4: {
+							// OldString: "[dmg]"
+							// NewString: "[dmg]"
+						}
+					}
+				}
+
+				ProstheticArm: {
+					SetStaticDefaults: {
+						1: {
+							// OldString: Items.ProstheticArm.LastTooltipLine
+							// NewString: Items.ProstheticArm.LastTooltipLine
+						}
+					}
+
+					ModifyTooltips: {
+						1: {
+							// OldString: "[c/808080:???]"
+							NewString: "[c/808080:？？？]"
+						}
+
+						2: {
+							// OldString: %
+							// NewString: %
+						}
+
+						3: {
+							// OldString: Tooltip3
+							// NewString: Tooltip3
+						}
+
+						4: {
+							// OldString: "[dmg]"
+							// NewString: "[dmg]"
+						}
+					}
+				}
+
+				ShadowDonut: {
+					SetStaticDefaults: {
+						1: {
+							// OldString: Items.ShadowDonut.LastTooltipLine
+							// NewString: Items.ShadowDonut.LastTooltipLine
+						}
+					}
+
+					ModifyTooltips: {
+						1: {
+							// OldString: "[c/808080:???]"
+							NewString: "[c/808080:？？？]"
+						}
+
+						2: {
+							// OldString: %
+							// NewString: %
+						}
+
+						3: {
+							// OldString: EVILTooltip
+							// NewString: EVILTooltip
+						}
+
+						4: {
+							// OldString: "[dmg]"
+							// NewString: "[dmg]"
+						}
+					}
+				}
+
+				Crackers: {
+					Beautificracker: {
+						ModifyTooltips: {
+							1: {
+								// OldString: Unknown bonus orb effect
+								NewString: 未知强化球效果
+							}
+
+							2: {
+								// OldString: Collecting the orb will boost consecutive critical strike damage by 25% for 4 seconds
+								NewString: 拾取强化球后，增加25%连续暴击伤害，持续4秒
+							}
+
+							3: {
+								// OldString: Collecting the orb will greatly boost life regen for 7 seconds
+								NewString: 拾取强化球后，大幅提升生命再生速度，持续7秒
+							}
+
+							4: {
+								// OldString: Collecting the orb will grant a 2 second burst of movement speed
+								NewString: 拾取强化球后，获得2秒移动速度提升
+							}
+
+							5: {
+								// OldString: "[insert]"
+								// NewString: "[insert]"
+							}
+						}
+					}
+
+					Deificracker: {
+						ModifyTooltips: {
+							1: {
+								// OldString: "[icon]"
+								// NewString: "[icon]"
+							}
+
+							2: {
+								// OldString: "[i:"
+								// NewString: "[i:"
+							}
+
+							3: {
+								// OldString: "]"
+								// NewString: "]"
+							}
+						}
+					}
+
+					Deificracker+<>c: {
+						<ModifyTooltips>b__4_0: {
+							1: {
+								// OldString: Tooltip
+								// NewString: Tooltip
+							}
+						}
+					}
+				}
+
+				GraftedSling+<>c: {
+					<ModifyTooltips>b__6_0: {
+						1: {
+							// OldString: Tooltip
+							// NewString: Tooltip
+						}
+					}
+				}
+
+				ProstheticArm+<>c: {
+					<ModifyTooltips>b__5_0: {
+						1: {
+							// OldString: Tooltip
+							// NewString: Tooltip
+						}
+					}
+				}
+
+				ShadowDonut+<>c: {
+					<ModifyTooltips>b__4_0: {
+						1: {
+							// OldString: Tooltip
+							// NewString: Tooltip
+						}
+					}
+				}
+			}
+		}
+
 		Bronze: {
 			BronzeArrowProjectile: {
 				get_Texture: {
@@ -1061,6 +965,332 @@ Content: {
 				}
 			}
 		}
+
+		Augmentations: {
+			Ambrosia: {
+				AugmentationOnHitNPC: {
+					1: {
+						// OldString: CritRework/Assets/Sounds/Ambrosia
+						// NewString: CritRework/Assets/Sounds/Ambrosia
+					}
+				}
+			}
+
+			AutoMissile: {
+				PreDraw: {
+					1: {
+						// OldString: _Glow
+						// NewString: _Glow
+					}
+				}
+			}
+
+			AutoMissileExplosion: {
+				get_Texture: {
+					1: {
+						// OldString: CritRework/Content/Items/Augmentations/AutoMissile
+						// NewString: CritRework/Content/Items/Augmentations/AutoMissile
+					}
+				}
+			}
+
+			Intercontinental: {
+				AddExtraTooltipLines: {
+					1: {
+						// OldString: PrefixBIG
+						// NewString: PrefixBIG
+					}
+				}
+			}
+
+			IntercontinentalAutoMissileExplosion: {
+				get_Texture: {
+					1: {
+						// OldString: CritRework/Content/Items/Augmentations/AutoMissile
+						// NewString: CritRework/Content/Items/Augmentations/AutoMissile
+					}
+				}
+
+				AI: {
+					1: {
+						// OldString: CritRework/Assets/Sounds/Explosion
+						// NewString: CritRework/Assets/Sounds/Explosion
+					}
+				}
+			}
+
+			Apocalyptic: {
+				AddExtraTooltipLines: {
+					1: {
+						// OldString: ModfierApocalyptic
+						// NewString: ModfierApocalyptic
+					}
+
+					2: {
+						// OldString: "• "
+						// NewString: "• "
+					}
+				}
+			}
+
+			ApophisAsteroid: {
+				PreDraw: {
+					1: {
+						// OldString: Trail
+						// NewString: Trail
+					}
+				}
+			}
+
+			TheExplosionThatKilledTheDinosaurs: {
+				get_Texture: {
+					1: {
+						// OldString: CritRework/nothing
+						// NewString: CritRework/nothing
+					}
+				}
+			}
+
+			Augmentation: {
+				SetStaticDefaults: {
+					1: {
+						// OldString: .Tooltip1
+						// NewString: .Tooltip1
+					}
+
+					2: {
+						// OldString: .Tooltip2
+						// NewString: .Tooltip2
+					}
+
+					3: {
+						// OldString: Items.
+						// NewString: Items.
+					}
+
+					4: {
+						// OldString: .CanBeApplied
+						// NewString: .CanBeApplied
+					}
+				}
+
+				RightClick: {
+					1: {
+						// OldString: " is not eligible for "
+						NewString: " 不符合 "
+					}
+				}
+
+				Apply: {
+					1: {
+						// OldString: "Applied "
+						NewString: "将 "
+					}
+
+					2: {
+						// OldString: " to "
+						NewString: " 安装至 "
+					}
+				}
+
+				ModifyTooltips: {
+					1: {
+						// OldString: AugmentationTooltip
+						// NewString: AugmentationTooltip
+					}
+
+					2: {
+						// OldString: AugmentationTooltip3
+						// NewString: AugmentationTooltip3
+					}
+
+					3: {
+						// OldString: Items.
+						// NewString: Items.
+					}
+
+					4: {
+						// OldString: .CanBeApplied
+						// NewString: .CanBeApplied
+					}
+
+					5: {
+						// OldString: AugmentationTooltip2
+						// NewString: AugmentationTooltip2
+					}
+				}
+			}
+
+			SawedOn: {
+				OnHitNPC: {
+					1: {
+						// OldString: CritRework/Assets/Sounds/SharpHit2
+						// NewString: CritRework/Assets/Sounds/SharpHit2
+					}
+				}
+			}
+
+			BigBoom: {
+				get_Texture: {
+					1: {
+						// OldString: CritRework/nothing
+						// NewString: CritRework/nothing
+					}
+				}
+			}
+
+			BucklerRetaliation: {
+				Update: {
+					1: {
+						// OldString: Recharging...
+						NewString: 充能……
+					}
+				}
+			}
+
+			Hoarding: {
+				AddExtraTooltipLines: {
+					1: {
+						// OldString: ModifierHoarding
+						// NewString: ModifierHoarding
+					}
+				}
+			}
+
+			Grieving: {
+				AddExtraTooltipLines: {
+					1: {
+						// OldString: ModifierGrieving
+						// NewString: ModifierGrieving
+					}
+				}
+			}
+
+			HoneydippedStinger: {
+				AugmentationOnHitNPC: {
+					1: {
+						// OldString: CritRework/Assets/Sounds/SharpHit2
+						// NewString: CritRework/Assets/Sounds/SharpHit2
+					}
+				}
+			}
+
+			ManalyticConverter_Copper: {
+				SetDefaults: {
+					1: {
+						// OldString: CritRework/Assets/Sounds/Zap
+						// NewString: CritRework/Assets/Sounds/Zap
+					}
+				}
+
+				AugmentationOnHitNPC: {
+					1: {
+						// OldString: CritRework/Assets/Sounds/Zap
+						// NewString: CritRework/Assets/Sounds/Zap
+					}
+				}
+			}
+
+			ManalyticConverter_Tin: {
+				SetDefaults: {
+					1: {
+						// OldString: CritRework/Assets/Sounds/Zap
+						// NewString: CritRework/Assets/Sounds/Zap
+					}
+				}
+
+				AugmentationOnHitNPC: {
+					1: {
+						// OldString: CritRework/Assets/Sounds/Zap
+						// NewString: CritRework/Assets/Sounds/Zap
+					}
+				}
+			}
+
+			PocketLightningRod: {
+				AugmentationOnHitNPC: {
+					1: {
+						// OldString: CritRework/Assets/Sounds/Zap
+						// NewString: CritRework/Assets/Sounds/Zap
+					}
+				}
+			}
+
+			PocketLightning: {
+				get_Texture: {
+					1: {
+						// OldString: CritRework/nothing
+						// NewString: CritRework/nothing
+					}
+				}
+			}
+
+			ThornRing: {
+				SetDefaults: {
+					1: {
+						// OldString: CritRework/Assets/Sounds/BloodSlash
+						// NewString: CritRework/Assets/Sounds/BloodSlash
+					}
+				}
+			}
+
+			Gradual: {
+				AddExtraTooltipLines: {
+					1: {
+						// OldString: PrefixGradual
+						// NewString: PrefixGradual
+					}
+
+					2: {
+						// OldString: "• "
+						// NewString: "• "
+					}
+				}
+			}
+
+			Orchid: {
+				ParryingDagger: {
+					IsLoadingEnabled: {
+						1: {
+							// OldString: OrchidMod
+							// NewString: OrchidMod
+						}
+					}
+
+					AugmentationOnHitNPC: {
+						1: {
+							// OldString: CritRework/Assets/Sounds/ParryCrit
+							// NewString: CritRework/Assets/Sounds/ParryCrit
+						}
+					}
+				}
+			}
+
+			Augmentation+<>c: {
+				<ModifyTooltips>b__17_1: {
+					1: {
+						// OldString: FavoriteDesc
+						// NewString: FavoriteDesc
+					}
+				}
+
+				<ModifyTooltips>b__17_0: {
+					1: {
+						// OldString: FavoriteDesc
+						// NewString: FavoriteDesc
+					}
+				}
+			}
+		}
+
+		DivineShard+<>c: {
+			<ModifyTooltips>b__3_0: {
+				1: {
+					// OldString: Tooltip
+					// NewString: Tooltip
+				}
+			}
+		}
 	}
 
 	CritTypes: {
@@ -1073,7 +1303,440 @@ Content: {
 			}
 		}
 
+		OrchidOnly: {
+			Shapeshifter_PredatorHit: {
+				ShouldLoad: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+				}
+
+				CanApplyTo: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+
+					2: {
+						// OldString: ShapeshifterDamageClass
+						// NewString: ShapeshifterDamageClass
+					}
+				}
+			}
+
+			Shapeshifter_SymbioteHit: {
+				ShouldLoad: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+				}
+
+				CanApplyTo: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+
+					2: {
+						// OldString: ShapeshifterDamageClass
+						// NewString: ShapeshifterDamageClass
+					}
+				}
+			}
+
+			Shapeshifter_SageHit: {
+				ShouldLoad: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+				}
+
+				CanApplyTo: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+
+					2: {
+						// OldString: ShapeshifterDamageClass
+						// NewString: ShapeshifterDamageClass
+					}
+				}
+			}
+
+			Shapeshifter_WardenHit: {
+				ShouldLoad: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+				}
+
+				CanApplyTo: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+
+					2: {
+						// OldString: ShapeshifterDamageClass
+						// NewString: ShapeshifterDamageClass
+					}
+				}
+			}
+		}
+
 		RandomPool: {
+			Adrenaline: {
+				ShouldLoad: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+				}
+
+				ShouldCrit: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: CalamityPlayer
+						// NewString: CalamityPlayer
+					}
+
+					3: {
+						// OldString: adrenalineModeActive
+						// NewString: adrenalineModeActive
+					}
+				}
+			}
+
+			Rage: {
+				ShouldLoad: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+				}
+
+				SpecialPrefixOnHitNPC: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: CalamityPlayer
+						// NewString: CalamityPlayer
+					}
+
+					3: {
+						// OldString: rage
+						// NewString: rage
+					}
+				}
+
+				ShouldCrit: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: CalamityPlayer
+						// NewString: CalamityPlayer
+					}
+
+					3: {
+						// OldString: rageModeActive
+						// NewString: rageModeActive
+					}
+				}
+			}
+
+			StealthStrike: {
+				ShouldLoad: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+				}
+
+				CanApplyTo: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: RogueDamageClass
+						// NewString: RogueDamageClass
+					}
+				}
+
+				ShouldCrit: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: CalamityPlayer
+						// NewString: CalamityPlayer
+					}
+
+					3: {
+						// OldString: rogueStealth
+						// NewString: rogueStealth
+					}
+
+					4: {
+						// OldString: rogueStealthMax
+						// NewString: rogueStealthMax
+					}
+
+					5: {
+						// OldString: CalamityGlobalProjectile
+						// NewString: CalamityGlobalProjectile
+					}
+
+					6: {
+						// OldString: stealthStrike
+						// NewString: stealthStrike
+					}
+				}
+			}
+
+			Guardian_Riposte: {
+				ShouldLoad: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+				}
+
+				OnLoad: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+
+					2: {
+						// OldString: OnParry
+						// NewString: OnParry
+					}
+				}
+
+				CanApplyTo: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+
+					2: {
+						// OldString: GuardianDamageClass
+						// NewString: GuardianDamageClass
+					}
+				}
+			}
+
+			Shapeshifter_AfterSkillUse: {
+				ShouldLoad: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+				}
+
+				OnLoad: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+
+					2: {
+						// OldString: ShapeshiftOnRightClick
+						// NewString: ShapeshiftOnRightClick
+					}
+				}
+
+				CanApplyTo: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+
+					2: {
+						// OldString: ShapeshifterDamageClass
+						// NewString: ShapeshifterDamageClass
+					}
+				}
+			}
+
+			Shapeshifter_ShapeshiftBleedStackingSingle: {
+				ShouldLoad: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+				}
+
+				CanApplyTo: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+
+					2: {
+						// OldString: ShapeshifterDamageClass
+						// NewString: ShapeshifterDamageClass
+					}
+				}
+
+				ShouldCrit: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+
+					2: {
+						// OldString: ShapeshifterGlobalNPC
+						// NewString: ShapeshifterGlobalNPC
+					}
+
+					3: {
+						// OldString: BleedSpecific
+						// NewString: BleedSpecific
+					}
+
+					4: {
+						// OldString: BleedGeneral
+						// NewString: BleedGeneral
+					}
+				}
+			}
+
+			Shapeshifter_ShapeshiftBleedStackingMedium: {
+				ShouldLoad: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+				}
+
+				CanApplyTo: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+
+					2: {
+						// OldString: ShapeshifterDamageClass
+						// NewString: ShapeshifterDamageClass
+					}
+				}
+
+				ShouldCrit: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+
+					2: {
+						// OldString: ShapeshifterGlobalNPC
+						// NewString: ShapeshifterGlobalNPC
+					}
+
+					3: {
+						// OldString: BleedSpecific
+						// NewString: BleedSpecific
+					}
+
+					4: {
+						// OldString: BleedGeneral
+						// NewString: BleedGeneral
+					}
+				}
+			}
+
+			Shapeshifter_ShapeshiftBleedStackingHigh: {
+				ShouldLoad: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+				}
+
+				CanApplyTo: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+
+					2: {
+						// OldString: ShapeshifterDamageClass
+						// NewString: ShapeshifterDamageClass
+					}
+				}
+
+				ShouldCrit: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+
+					2: {
+						// OldString: ShapeshifterGlobalNPC
+						// NewString: ShapeshifterGlobalNPC
+					}
+
+					3: {
+						// OldString: BleedSpecific
+						// NewString: BleedSpecific
+					}
+
+					4: {
+						// OldString: BleedGeneral
+						// NewString: BleedGeneral
+					}
+				}
+			}
+
+			Shapeshifter_ShapeshiftShawlDash: {
+				ShouldLoad: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+				}
+
+				CanApplyTo: {
+					1: {
+						// OldString: OrchidMod
+						// NewString: OrchidMod
+					}
+
+					2: {
+						// OldString: ShapeshifterDamageClass
+						// NewString: ShapeshifterDamageClass
+					}
+				}
+			}
+
+			BunchedUpFoes: {
+				GravityWell: {
+					1: {
+						// OldString: CritRework/Assets/Sounds/EVILCrit
+						// NewString: CritRework/Assets/Sounds/EVILCrit
+					}
+				}
+			}
+
 			CloseToFoe: {
 				CanApplyTo: {
 					1: {
@@ -1097,6 +1760,34 @@ Content: {
 				}
 			}
 
+			FoeAtHighHP: {
+				SpecialPrefixOnHitNPC: {
+					1: {
+						// OldString: CritRework/Assets/Sounds/SpecialReforge
+						// NewString: CritRework/Assets/Sounds/SpecialReforge
+					}
+
+					2: {
+						// OldString: %
+						// NewString: %
+					}
+
+					3: {
+						// OldString: Desperado!
+						NewString: 亡命徒！
+					}
+				}
+			}
+
+			FoeAtLowHP: {
+				SpecialPrefixOnHitNPC: {
+					1: {
+						// OldString: RavenouseHit
+						// NewString: RavenouseHit
+					}
+				}
+			}
+
 			AfterUseTechnique: {
 				ShouldLoad: {
 					1: {
@@ -1112,144 +1803,1061 @@ Content: {
 					}
 				}
 			}
+		}
+	}
+}
 
-			LowInspiration: {
-				ShouldLoad: {
-					1: {
-						// OldString: ThoriumMod
-						// NewString: ThoriumMod
-					}
+Common: {
+	CritType: {
+		CalculateActualCritMult: {
+			1: {
+				// OldString: Simple
+				// NewString: Simple
+			}
+		}
+
+		Load: {
+			1: {
+				// OldString: CritTypes.
+				// NewString: CritTypes.
+			}
+
+			2: {
+				// OldString: .Description
+				// NewString: .Description
+			}
+
+			3: {
+				// OldString: .SpecialPrefixName
+				// NewString: .SpecialPrefixName
+			}
+
+			4: {
+				// OldString: .SpecialPrefixTooltip1
+				// NewString: .SpecialPrefixTooltip1
+			}
+
+			5: {
+				// OldString: .SpecialPrefixTooltip2
+				// NewString: .SpecialPrefixTooltip2
+			}
+
+			6: {
+				// OldString: .CanBeAppliedToDescription
+				// NewString: .CanBeAppliedToDescription
+			}
+
+			7: {
+				// OldString: .BasicWhetstonePrefix
+				// NewString: .BasicWhetstonePrefix
+			}
+		}
+	}
+
+	ModPlayers: {
+		CritPlayer: {
+			AddStartingItems: {
+				1: {
+					// OldString: Noelle
+					// NewString: Noelle
 				}
 
-				CanApplyTo: {
-					1: {
-						// OldString: ThoriumMod
-						// NewString: ThoriumMod
-					}
-
-					2: {
-						// OldString: BardDamage
-						// NewString: BardDamage
-					}
+				2: {
+					// OldString: Apophis
+					// NewString: Apophis
 				}
 
-				ShouldCrit: {
-					1: {
-						// OldString: ThoriumMod
-						// NewString: ThoriumMod
-					}
+				3: {
+					// OldString: Cult
+					// NewString: Cult
+				}
 
-					2: {
-						// OldString: ThoriumPlayer
-						// NewString: ThoriumPlayer
-					}
+				4: {
+					// OldString: Benjamin Franklin
+					// NewString: Benjamin Franklin
+				}
 
-					3: {
-						// OldString: bardResource
-						// NewString: bardResource
-					}
+				5: {
+					// OldString: Ben Franklin
+					// NewString: Ben Franklin
+				}
 
-					4: {
-						// OldString: bardResourceMax
-						// NewString: bardResourceMax
-					}
+				6: {
+					// OldString: Dark
+					// NewString: Dark
+				}
+
+				7: {
+					// OldString: Soul
+					// NewString: Soul
+				}
+
+				8: {
+					// OldString: Undead
+					// NewString: Undead
+				}
+
+				9: {
+					// OldString: "2020"
+					// NewString: "2020"
+				}
+
+				10: {
+					// OldString: "2021"
+					// NewString: "2021"
+				}
+
+				11: {
+					// OldString: "2022"
+					// NewString: "2022"
+				}
+
+				12: {
+					// OldString: Light Yagami
+					// NewString: Light Yagami
+				}
+
+				13: {
+					// OldString: "Kira "
+					// NewString: "Kira "
+				}
+
+				14: {
+					// OldString: kira
+					// NewString: kira
+				}
+
+				15: {
+					// OldString: Jerry
+					// NewString: Jerry
+				}
+
+				16: {
+					// OldString: Seinfeld
+					// NewString: Seinfeld
+				}
+
+				17: {
+					// OldString: Ultra
+					// NewString: Ultra
+				}
+
+				18: {
+					// OldString: Kill
+					// NewString: Kill
+				}
+
+				19: {
+					// OldString: V1
+					// NewString: V1
+				}
+
+				20: {
+					// OldString: Vergil
+					// NewString: Vergil
+				}
+			}
+
+			SaveData: {
+				1: {
+					// OldString: firstTimeSpawning
+					// NewString: firstTimeSpawning
+				}
+			}
+
+			LoadData: {
+				1: {
+					// OldString: firstTimeSpawning
+					// NewString: firstTimeSpawning
+				}
+			}
+
+			Load: {
+				1: {
+					// OldString: ScallywagText
+					// NewString: ScallywagText
+				}
+
+				2: {
+					// OldString: StartingMessage
+					// NewString: StartingMessage
+				}
+			}
+
+			PostUpdate: {
+				1: {
+					// OldString: -
+					// NewString: -
+				}
+
+				2: {
+					// OldString: s
+					NewString: 秒
+				}
+
+				3: {
+					// OldString: OrchidMod
+					// NewString: OrchidMod
+				}
+
+				4: {
+					// OldString: ThoriumMod
+					// NewString: ThoriumMod
+				}
+
+				5: {
+					// OldString: ThoriumPlayer
+					// NewString: ThoriumPlayer
+				}
+
+				6: {
+					// OldString: techPoints
+					// NewString: techPoints
+				}
+
+				7: {
+					// OldString: techDecharge
+					// NewString: techDecharge
+				}
+
+				8: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				9: {
+					// OldString: CalamityPlayer
+					// NewString: CalamityPlayer
+				}
+
+				10: {
+					// OldString: adrenalineModeActive
+					// NewString: adrenalineModeActive
+				}
+
+				11: {
+					// OldString: adrenaline
+					// NewString: adrenaline
+				}
+			}
+
+			ApplyModifiers: {
+				1: {
+					// OldString: Assassin's Strike!
+					NewString: 刺客暴击！
+				}
+
+				2: {
+					// OldString: CritRework/Assets/Sounds/BloodSlash
+					// NewString: CritRework/Assets/Sounds/BloodSlash
+				}
+			}
+
+			OnHurt: {
+				1: {
+					// OldString: CritRework/Assets/Sounds/HeavyMetal
+					// NewString: CritRework/Assets/Sounds/HeavyMetal
+				}
+
+				2: {
+					// OldString: +
+					// NewString: +
+				}
+
+				3: {
+					// OldString: %
+					// NewString: %
+				}
+
+				4: {
+					// OldString: CRITICAL STRIKE
+					NewString: 暴 击！
+				}
+
+				5: {
+					// OldString: CritRework/Assets/Sounds/EVILCrit
+					// NewString: CritRework/Assets/Sounds/EVILCrit
+				}
+			}
+
+			OnHitNPC: {
+				1: {
+					// OldString: Zoom!
+					NewString: 咻！
+				}
+
+				2: {
+					// OldString: CritRework/Assets/Sounds/Boost
+					// NewString: CritRework/Assets/Sounds/Boost
+				}
+
+				3: {
+					// OldString: MugShotHit
+					// NewString: MugShotHit
+				}
+
+				4: {
+					// OldString: CritRework/Assets/Sounds/CoinCrit
+					// NewString: CritRework/Assets/Sounds/CoinCrit
+				}
+
+				5: {
+					// OldString: CritRework/Assets/Sounds/PirateLaugh
+					// NewString: CritRework/Assets/Sounds/PirateLaugh
+				}
+
+				6: {
+					// OldString: CritRework/Assets/Sounds/Cleanse
+					// NewString: CritRework/Assets/Sounds/Cleanse
+				}
+
+				7: {
+					// OldString: Thawed x
+					NewString: 解冻 x
+				}
+
+				8: {
+					// OldString: CritRework/Assets/Sounds/Gas
+					// NewString: CritRework/Assets/Sounds/Gas
+				}
+
+				9: {
+					// OldString: Exsanguinated
+					NewString: 过度失血
+				}
+
+				10: {
+					// OldString: NoxiousEyeHit
+					// NewString: NoxiousEyeHit
+				}
+
+				11: {
+					// OldString: CritRework/Assets/Sounds/FireIgnite
+					// NewString: CritRework/Assets/Sounds/FireIgnite
 				}
 			}
 		}
 	}
-}
 
-CritRework: {
-	Load: {
-		1: {
-			// OldString: CritRework/Assets/Sounds/Crit
-			// NewString: CritRework/Assets/Sounds/Crit
+	Globals: {
+		CritItem: {
+			SetStaticDefaults: {
+				1: {
+					// OldString: NecromanticTooltip
+					// NewString: NecromanticTooltip
+				}
+
+				2: {
+					// OldString: UnknownTooltip
+					// NewString: UnknownTooltip
+				}
+
+				3: {
+					// OldString: UnableTooltip
+					// NewString: UnableTooltip
+				}
+
+				4: {
+					// OldString: PirateHat
+					// NewString: PirateHat
+				}
+
+				5: {
+					// OldString: PirateShirt
+					// NewString: PirateShirt
+				}
+
+				6: {
+					// OldString: PiratePants
+					// NewString: PiratePants
+				}
+
+				7: {
+					// OldString: PirateSetBonus
+					// NewString: PirateSetBonus
+				}
+
+				8: {
+					// OldString: ProstheticTooltip
+					// NewString: ProstheticTooltip
+				}
+
+				9: {
+					// OldString: RemoveAugmentation
+					// NewString: RemoveAugmentation
+				}
+
+				10: {
+					// OldString: sawDamageReduced
+					// NewString: sawDamageReduced
+				}
+
+				11: {
+					// OldString: overclockedTooltip
+					// NewString: overclockedTooltip
+				}
+			}
+
+			SaveData: {
+				1: {
+					// OldString: critType
+					// NewString: critType
+				}
+
+				2: {
+					// OldString: NumAugmentations
+					// NewString: NumAugmentations
+				}
+
+				3: {
+					// OldString: _augmentation_
+					// NewString: _augmentation_
+				}
+			}
+
+			LoadData: {
+				1: {
+					// OldString: critType
+					// NewString: critType
+				}
+
+				2: {
+					// OldString: NumAugmentations
+					// NewString: NumAugmentations
+				}
+
+				3: {
+					// OldString: _augmentation_
+					// NewString: _augmentation_
+				}
+
+				4: {
+					// OldString: ""
+					// NewString: ""
+				}
+			}
+
+			PreDrawInInventory: {
+				1: {
+					// OldString: CritRework/Shine1
+					// NewString: CritRework/Shine1
+				}
+
+				2: {
+					// OldString: Crit condition incompatible with crit display
+					NewString: 暴击条件与暴击显示不兼容
+				}
+			}
+
+			PostReforge: {
+				1: {
+					// OldString: CritRework/Assets/Sounds/Hijack
+					// NewString: CritRework/Assets/Sounds/Hijack
+				}
+			}
+
+			CanConsumeAmmo: {
+				1: {
+					// OldString: PirateHat
+					// NewString: PirateHat
+				}
+			}
+
+			UpdateEquip: {
+				1: {
+					// OldString: PirateHat
+					// NewString: PirateHat
+				}
+			}
+
+			UpdateArmorSet: {
+				1: {
+					// OldString: PirateArmor
+					// NewString: PirateArmor
+				}
+			}
+
+			IsArmorSet: {
+				1: {
+					// OldString: PirateArmor
+					// NewString: PirateArmor
+				}
+			}
+
+			RemoveAugmentation: {
+				1: {
+					// OldString: Remove augmentation
+					// NewString: Remove augmentation
+				}
+			}
+
+			ModifyTooltips: {
+				1: {
+					// OldString: "[i:"
+					// NewString: "[i:"
+				}
+
+				2: {
+					// OldString: "]"
+					// NewString: "]"
+				}
+
+				3: {
+					// OldString: " "
+					// NewString: " "
+				}
+
+				4: {
+					// OldString: Augmentation
+					// NewString: Augmentation
+				}
+
+				5: {
+					// OldString: Hold Left Alt for more info
+					NewString: 按住左Alt键以查看更多信息
+				}
+
+				6: {
+					// OldString: "Has augmentation: "
+					NewString: "已安装强化部件：  "
+				}
+
+				7: {
+					// OldString: "  [c/"
+					// NewString: "  [c/"
+				}
+
+				8: {
+					// OldString: ":"
+					// NewString: ":"
+				}
+
+				9: {
+					// OldString: AugmentationName
+					// NewString: AugmentationName
+				}
+
+				10: {
+					// OldString: "[c/"
+					// NewString: "[c/"
+				}
+
+				11: {
+					// OldString: ":Augmentation: ]"
+					NewString: ":强化部件： ]"
+				}
+
+				12: {
+					// OldString: " [c/"
+					// NewString: " [c/"
+				}
+
+				13: {
+					// OldString: AugmentationTooltip
+					// NewString: AugmentationTooltip
+				}
+
+				14: {
+					// OldString: AugmentationRemoval
+					// NewString: AugmentationRemoval
+				}
+
+				15: {
+					// OldString: SawDamageReduced
+					// NewString: SawDamageReduced
+				}
+
+				16: {
+					// OldString: Tooltip
+					// NewString: Tooltip
+				}
+
+				17: {
+					// OldString: TooltipTagCrit
+					// NewString: TooltipTagCrit
+				}
+
+				18: {
+					// OldString: Bonus crits enabled by this whip have a damage mult of 2x
+					NewString: 这条鞭子触发的额外暴击造成2倍伤害
+				}
+
+				19: {
+					// OldString: +
+					// NewString: +
+				}
+
+				20: {
+					// OldString: CritDescription
+					// NewString: CritDescription
+				}
+
+				21: {
+					// OldString: fff88d
+					// NewString: fff88d
+				}
+
+				22: {
+					// OldString: ([c/
+					// NewString: ([c/
+				}
+
+				23: {
+					// OldString: "])"
+					// NewString: "])"
+				}
+
+				24: {
+					// OldString: ""
+					// NewString: ""
+				}
+
+				25: {
+					// OldString: NoCrit
+					// NewString: NoCrit
+				}
+
+				26: {
+					// OldString: " ([c/808080:???])"
+					NewString: " ([c/808080:？？？])"
+				}
+
+				27: {
+					// OldString: CritDescription2
+					// NewString: CritDescription2
+				}
+
+				28: {
+					// OldString: ProstheticTooltip
+					// NewString: ProstheticTooltip
+				}
+
+				29: {
+					// OldString: SpecialModifier1_Summon
+					// NewString: SpecialModifier1_Summon
+				}
+
+				30: {
+					// OldString: SpecialModifier2_Summon
+					// NewString: SpecialModifier2_Summon
+				}
+
+				31: {
+					// OldString: SpecialModifier1
+					// NewString: SpecialModifier1
+				}
+
+				32: {
+					// OldString: SpecialModifier2
+					// NewString: SpecialModifier2
+				}
+
+				33: {
+					// OldString: Overclocked
+					// NewString: Overclocked
+				}
+			}
 		}
-	}
 
-	Call: {
-		1: {
-			// OldString: AddCritType
-			// NewString: AddCritType
+		CritNPC: {
+			ModifyShop: {
+				1: {
+					// OldString: Mods.ExampleMod.Conditions.PlayerHasLifeforceBuff
+					// NewString: Mods.ExampleMod.Conditions.PlayerHasLifeforceBuff
+				}
+			}
+
+			OnHitByItem: {
+				1: {
+					// OldString: CritRework/Assets/Sounds/Crit
+					// NewString: CritRework/Assets/Sounds/Crit
+				}
+			}
+
+			OnHitByProjectile: {
+				1: {
+					// OldString: CritRework/Assets/Sounds/Crit
+					// NewString: CritRework/Assets/Sounds/Crit
+				}
+			}
+
+			OnChatButtonClicked: {
+				1: {
+					// OldString: TravellingMerchantGiveItem
+					// NewString: TravellingMerchantGiveItem
+				}
+
+				2: {
+					// OldString: CritRework/Assets/Sounds/Hijack
+					// NewString: CritRework/Assets/Sounds/Hijack
+				}
+
+				3: {
+					/* OldString: "\n" */
+					/* NewString: "\n" */
+				}
+
+				4: {
+					// OldString: " [c/ffff00:->] "
+					// NewString: " [c/ffff00:->] "
+				}
+
+				5: {
+					/* OldString:
+						'''
+
+						[c/fff78b:
+						''' */
+					/* NewString:
+						'''
+
+						[c/fff78b:
+						''' */
+				}
+
+				6: {
+					// OldString: "]"
+					// NewString: "]"
+				}
+			}
+
+			TravellingMerchantGiveWhetstoneDialogue: {
+				1: {
+					// OldString: Mods.CritRework.TravellingMerchantGiveWhetstone
+					// NewString: Mods.CritRework.TravellingMerchantGiveWhetstone
+				}
+			}
+
+			TravellingMerchantBrokeDialogue: {
+				1: {
+					// OldString: Mods.CritRework.TravellingMerchantBroke
+					// NewString: Mods.CritRework.TravellingMerchantBroke
+				}
+			}
+
+			TravellingMerchantAlreadyGivenWhetstoneDialogue: {
+				1: {
+					// OldString: Mods.CritRework.TravellingMerchantAlreadyGiven
+					// NewString: Mods.CritRework.TravellingMerchantAlreadyGiven
+				}
+			}
+
+			GetPirateNoCanDoDialogue: {
+				1: {
+					// OldString: Mods.CritRework.PirateNoCanDo
+					// NewString: Mods.CritRework.PirateNoCanDo
+				}
+			}
+
+			GetPirateBrokeDialogue: {
+				1: {
+					// OldString: Mods.CritRework.PirateBroke
+					// NewString: Mods.CritRework.PirateBroke
+				}
+			}
+
+			GetPirateSuccessDialogue: {
+				1: {
+					// OldString: Mods.CritRework.PirateSuccessful
+					// NewString: Mods.CritRework.PirateSuccessful
+				}
+			}
 		}
 
-		2: {
-			// OldString: Improper arguments used for mod call. See steam workshop discussion for Critical Strikes Overhaul on cross-compatibility for info on how to use.
-			// NewString: Improper arguments used for mod call. See steam workshop discussion for Critical Strikes Overhaul on cross-compatibility for info on how to use.
-		}
-	}
-}
+		CritProjectile: {
+			OnHitNPC: {
+				1: {
+					// OldString: OrchidMod
+					// NewString: OrchidMod
+				}
+			}
 
-Detours: {
-	SetChatButtons: {
-		1: {
-			// OldString: " "
-			// NewString: " "
-		}
+			OnTileCollide: {
+				1: {
+					// OldString: CritRework/Assets/Sounds/MetalClink3
+					// NewString: CritRework/Assets/Sounds/MetalClink3
+				}
+			}
 
-		2: {
-			// OldString: " ("
-			// NewString: " ("
-		}
+			InheritItemCrit: {
+				1: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
 
-		3: {
-			// OldString: )
-			// NewString: )
-		}
-	}
+				2: {
+					// OldString: CalamityGlobalProjectile
+					// NewString: CalamityGlobalProjectile
+				}
 
-	SetCrit: {
-		1: {
-			// OldString: _critOverride
-			// NewString: _critOverride
-		}
-	}
-
-	DisableCrit: {
-		1: {
-			// OldString: _critOverride
-			// NewString: _critOverride
-		}
-	}
-
-	Load: {
-		1: {
-			// OldString: PirateHijack
-			// NewString: PirateHijack
+				3: {
+					// OldString: stealthStrike
+					// NewString: stealthStrike
+				}
+			}
 		}
 
-		2: {
-			// OldString: SetChatButtons
-			// NewString: SetChatButtons
-		}
-	}
-}
+		CritItem+<>c: {
+			<ModifyTooltips>b__59_4: {
+				1: {
+					// OldString: ItemName
+					// NewString: ItemName
+				}
+			}
 
-ServerConfig: {
-	OnChanged: {
-		1: {
-			// OldString: Ranged
-			// NewString: Ranged
+			<ModifyTooltips>b__59_0: {
+				1: {
+					// OldString: CritChance
+					// NewString: CritChance
+				}
+			}
+
+			<ModifyTooltips>b__59_6: {
+				1: {
+					// OldString: Social
+					// NewString: Social
+				}
+			}
+
+			<ModifyTooltips>b__59_1: {
+				1: {
+					// OldString: Defense
+					// NewString: Defense
+				}
+			}
+
+			<ModifyTooltips>b__59_2: {
+				1: {
+					// OldString: Defense
+					// NewString: Defense
+				}
+			}
+
+			<ModifyTooltips>b__59_3: {
+				1: {
+					// OldString: Defense
+					// NewString: Defense
+				}
+			}
+
+			<ModifyTooltips>b__59_7: {
+				1: {
+					// OldString: Damage
+					// NewString: Damage
+				}
+			}
+
+			<ModifyTooltips>b__59_8: {
+				1: {
+					// OldString: Damage
+					// NewString: Damage
+				}
+			}
+
+			<ModifyTooltips>b__59_9: {
+				1: {
+					// OldString: CritChance
+					// NewString: CritChance
+				}
+			}
+
+			<ModifyTooltips>b__59_10: {
+				1: {
+					// OldString: Tooltip
+					// NewString: Tooltip
+				}
+			}
+
+			<ModifyTooltips>b__59_11: {
+				1: {
+					// OldString: Consumable
+					// NewString: Consumable
+				}
+			}
+
+			<ModifyTooltips>b__59_12: {
+				1: {
+					// OldString: UseMana
+					// NewString: UseMana
+				}
+			}
+
+			<ModifyTooltips>b__59_13: {
+				1: {
+					// OldString: Knockback
+					// NewString: Knockback
+				}
+			}
+
+			<ModifyTooltips>b__59_14: {
+				1: {
+					// OldString: Damage
+					// NewString: Damage
+				}
+			}
+
+			<ModifyTooltips>b__59_15: {
+				1: {
+					// OldString: Damage
+					// NewString: Damage
+				}
+			}
+
+			<ModifyTooltips>b__59_16: {
+				1: {
+					// OldString: Tooltip
+					// NewString: Tooltip
+				}
+			}
+
+			<ModifyTooltips>b__59_17: {
+				1: {
+					// OldString: Consumable
+					// NewString: Consumable
+				}
+			}
+
+			<ModifyTooltips>b__59_18: {
+				1: {
+					// OldString: UseMana
+					// NewString: UseMana
+				}
+			}
+
+			<ModifyTooltips>b__59_19: {
+				1: {
+					// OldString: Knockback
+					// NewString: Knockback
+				}
+			}
+
+			<ModifyTooltips>b__59_20: {
+				1: {
+					// OldString: Damage
+					// NewString: Damage
+				}
+			}
+
+			<ModifyTooltips>b__59_21: {
+				1: {
+					// OldString: Damage
+					// NewString: Damage
+				}
+			}
+
+			<ModifyTooltips>b__59_22: {
+				1: {
+					// OldString: Damage
+					// NewString: Damage
+				}
+			}
+
+			<ModifyTooltips>b__59_23: {
+				1: {
+					// OldString: Tooltip
+					// NewString: Tooltip
+				}
+			}
+
+			<ModifyTooltips>b__59_24: {
+				1: {
+					// OldString: Consumable
+					// NewString: Consumable
+				}
+			}
+
+			<ModifyTooltips>b__59_25: {
+				1: {
+					// OldString: UseMana
+					// NewString: UseMana
+				}
+			}
+
+			<ModifyTooltips>b__59_26: {
+				1: {
+					// OldString: Knockback
+					// NewString: Knockback
+				}
+			}
+
+			<ModifyTooltips>b__59_27: {
+				1: {
+					// OldString: Tooltip
+					// NewString: Tooltip
+				}
+			}
+
+			<ModifyTooltips>b__59_28: {
+				1: {
+					// OldString: Consumable
+					// NewString: Consumable
+				}
+			}
+
+			<ModifyTooltips>b__59_29: {
+				1: {
+					// OldString: UseMana
+					// NewString: UseMana
+				}
+			}
+
+			<ModifyTooltips>b__59_30: {
+				1: {
+					// OldString: Knockback
+					// NewString: Knockback
+				}
+			}
+
+			<ModifyTooltips>b__59_32: {
+				1: {
+					// OldString: Prefix
+					// NewString: Prefix
+				}
+
+				2: {
+					// OldString: Terraria
+					// NewString: Terraria
+				}
+			}
+
+			<ModifyTooltips>b__59_31: {
+				1: {
+					// OldString: Prefix
+					// NewString: Prefix
+				}
+
+				2: {
+					// OldString: Terraria
+					// NewString: Terraria
+				}
+			}
 		}
 
-		2: {
-			// OldString: Throwing
-			// NewString: Throwing
+		CritItem+<>c__DisplayClass29_0: {
+			<LoadData>b__0: {
+				1: {
+					// OldString: _augmentation_
+					// NewString: _augmentation_
+				}
+			}
 		}
 
-		3: {
-			// OldString: Rogue (CALAMITY ONLY)
-			// NewString: Rogue (CALAMITY ONLY)
+		CritNPC+FirstKillDropRule: {
+			GetConditionDescription: {
+				1: {
+					// OldString: ""
+					// NewString: ""
+				}
+			}
 		}
 
-		4: {
-			// OldString: CalamityMod
-			// NewString: CalamityMod
-		}
-
-		5: {
-			// OldString: RogueDamageClass
-			// NewString: RogueDamageClass
+		CritNPC+FirstBossKillDropRule: {
+			GetConditionDescription: {
+				1: {
+					// OldString: Drops on first kill only
+					// NewString: Drops on first kill only
+				}
+			}
 		}
 	}
 }

@@ -247,7 +247,7 @@ Items: {
 	}
 
 	CrystalShield: {
-		DisplayName: 水晶盾
+		DisplayName: 魔晶盾
 		Tooltip:
 			'''
 			增加5%近战暴击率
@@ -379,7 +379,7 @@ Items: {
 
 	BoneToken: {
 		DisplayName: 骨头令牌
-		Tooltip: 
+		Tooltip:
 			'''
 			暴击时播放木琴音效
 			[C/959595:取自《Spooky Scary Skeletons》，其背景音乐为木琴]
@@ -444,7 +444,7 @@ Items: {
 	DivineShard: {
 		DisplayName: 神化锭
 		Tooltip:
-			'''	
+			'''
 			可被用于给武器附魔 [icon] [c/fffaac:暴击重锻] [icon]
 			暴击重锻根据武器暴击条件而改变，且每个都是唯一的
 			使用方法：光标持有你想要附魔的武器对着 [i:CritRework/DivineShard]神化锭 右键点击
@@ -723,7 +723,7 @@ Items: {
 	RainToken: {
 		DisplayName: 冒险 Token
 		Tooltip:
-			''' 
+			'''
 			暴击时产生熟悉的暴击音效
 			[C/959595:来自《雨中冒险》]
 			'''
@@ -732,7 +732,7 @@ Items: {
 	HomunculusToken: {
 		DisplayName: 人造人 Token
 		Tooltip:
-			''' 
+			'''
 			暴击时产生熟悉的暴击音效
 			[C/959595:来自《死亡细胞》]
 			'''
@@ -1292,7 +1292,7 @@ CritTypes: {
 	PlayerNohit: {
 		Description: 如果你超过15秒未受到伤害则造成暴击
 		SpecialPrefixName: 熟练
-		SpecialPrefixTooltip1:如果你超过45秒未受到伤害则暴击伤害翻倍
+		SpecialPrefixTooltip1: 如果你超过45秒未受到伤害则暴击伤害翻倍
 		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: 可以被任意武器使用
 		BasicWhetstonePrefix: 完美
@@ -1401,6 +1401,7 @@ CritTypes: {
 		Description: 尖球存在时间超过5秒后造成暴击
 		SpecialPrefixName: Mods.CritRework.CritTypes.SpikyBall.SpecialPrefixName
 		SpecialPrefixTooltip1: 无
+		SpecialPrefixTooltip2: ""
 		CanBeAppliedToDescription: 尖球专属暴击条件，无法提取
 		BasicWhetstonePrefix: 尖球专属暴击条件，无法提取
 	}
@@ -1487,7 +1488,7 @@ CritTypes: {
 	}
 
 	Soaring: {
-		Description:  当你坠落或滑翔持续至少4秒则造成暴击
+		Description: 当你坠落或滑翔持续至少4秒则造成暴击
 		SpecialPrefixName: 翱翔
 		SpecialPrefixTooltip1: 手持武器时获得羽落效果
 		SpecialPrefixTooltip2: ""
@@ -1662,7 +1663,7 @@ CritTypes: {
 		SpecialPrefixName: 解冻
 		SpecialPrefixTooltip1: 抛出悠悠球一瞬间造成暴击
 		SpecialPrefixTooltip2: ""
-		CanBeAppliedToDescription:  冰雪悠悠球专属暴击条件，无法提取
+		CanBeAppliedToDescription: 冰雪悠悠球专属暴击条件，无法提取
 		BasicWhetstonePrefix: 冰雪悠悠球专属暴击条件，无法提取
 	}
 
@@ -1983,6 +1984,76 @@ Buffs: {
 	ShadowFrenzy: {
 		DisplayName: 暗影狂乱
 		Description: 恐 慌
+	}
+
+	CrystalShieldCooldown: {
+		DisplayName: 魔晶盾碎裂
+		Description: 你的魔镜盾失效
+	}
+
+	Preparation: {
+		DisplayName: 预备
+		Description: Mods.CritRework.Buffs.Preparation.Description
+	}
+
+	ThawingClothCooldown: {
+		DisplayName: 解冻
+		Description: 解冻布料无法触发
+	}
+
+	BlueOrbBuff: {
+		DisplayName: 蓝色之美
+		Description: 大幅提升移动速度
+	}
+
+	GreenOrbBuff: {
+		DisplayName: 绿色之美
+		Description: 大幅提升生命再生速度
+	}
+
+	RedOrbBuff: {
+		DisplayName: 红色之美
+		Description: 增加25%连续暴击伤害
+	}
+
+	BucklerDefense: {
+		DisplayName: 圆盾防御
+		Description: 准备……
+	}
+
+	BucklerRetaliation: {
+		DisplayName: 圆盾反击
+		Description: 反击！
+	}
+
+	BucklerDepletion: {
+		DisplayName: 圆盾失效
+		Description: 你变得脆弱
+	}
+
+	HuntersMark: {
+		DisplayName: 猎人标记
+		Description: 标记……
+	}
+
+	Reclaw: {
+		DisplayName: 复爪
+		Description: 增加20%连续暴击伤害
+	}
+
+	WalkingWithTheWind: {
+		DisplayName: 随风而行
+		Description: 大幅提升移动速度
+	}
+
+	Overclocked: {
+		DisplayName: 超频
+		Description: 你的武器安装太多的强化部件了！
+	}
+
+	Doom: {
+		DisplayName: 毁灭
+		Description: 降低防御值
 	}
 }
 
