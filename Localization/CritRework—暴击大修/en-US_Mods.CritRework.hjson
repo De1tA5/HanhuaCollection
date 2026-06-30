@@ -857,6 +857,17 @@ Items: {
 			The frequency of restoration scales with critical strike power and potency
 			'''
 	}
+
+	TargetPractice: {
+		CanBeApplied: Can only be applied to yoyos
+		DisplayName: Target Practice
+		Tooltip:
+			'''
+			When applied to a yoyo, this disables normal critical strikes
+			Instead, critical strikes will spawn targets
+			Hitting a target with your yoyo will create a saw that rapidly orbits the yoyo, critically damaging nearby enemies
+			'''
+	}
 }
 
 Whetstone: {
@@ -958,6 +969,12 @@ Prefixes: {
 	Effective.DisplayName: Effective
 	Impotent.DisplayName: Impotent
 	Particular.DisplayName: Particular
+
+	Rapid: {
+		tooltip: Saws damage twice as rapidly, but last half as long
+		tooltip2: Mods.CritRework.Prefixes.Rapid.tooltip2
+		DisplayName: Rapid
+	}
 }
 
 NecromanticTooltip: +2 lifesteal when inflicting critical damage upon enemies
@@ -1081,6 +1098,16 @@ Configs: {
 		travellingMerchantWhetstones: {
 			Label: Travelling merchant whetstones
 			Tooltip: Whether the Travelling Merchant will gain the function to give you basic whetstones or not
+		}
+
+		nonCritDamage: {
+			Label: Non-crit damage
+			Tooltip:
+				'''
+				A multiplier to all non-critical damage.
+				Will not display in weapon tooltips.
+				1 by default (recommended).
+				'''
 		}
 	}
 }
@@ -1877,6 +1904,33 @@ CritTypes: {
 		CanBeAppliedToDescription: Can only be applied to opposing weapons
 		BasicWhetstonePrefix: Riposte
 	}
+
+	MagicMissile: {
+		Description: Critically strikes on enemies you don't have line of sight with
+		SpecialPrefixName: Ghastly
+		SpecialPrefixTooltip1: Travels through walls while within 20 tiles from yourself
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.MagicMissile.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.MagicMissile.BasicWhetstonePrefix
+	}
+
+	WaterBolt: {
+		Description: Critically strikes after bouncing off of at least one wall
+		SpecialPrefixName: Living
+		SpecialPrefixTooltip1: Bounces towards enemies and increases in speed after each wall bounce
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.WaterBolt.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.WaterBolt.BasicWhetstonePrefix
+	}
+
+	MagicHarp: {
+		Description: Critically strikes when playing notes of ascending pitch
+		SpecialPrefixName: Harmonic
+		SpecialPrefixTooltip1: Deal bonus critical strike damage the bigger the pitch difference
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: Mods.CritRework.CritTypes.MagicHarp.CanBeAppliedToDescription
+		BasicWhetstonePrefix: Mods.CritRework.CritTypes.MagicHarp.BasicWhetstonePrefix
+	}
 }
 
 UnknownTooltip: Unknown critical strike condition
@@ -2053,6 +2107,8 @@ Projectiles: {
 	Storm.DisplayName: Storm
 	IntercontinentalAutoMissileExplosion.DisplayName: Intercontinental Auto Missile Explosion
 	DoomTomb.DisplayName: Doom Tomb
+	TargetPracticeTarget.DisplayName: Target Practice Target
+	TargetSaw.DisplayName: Target Saw
 }
 
 BronzeHelm.SetBonus:
@@ -2090,8 +2146,8 @@ RemoveAugmentation: Right click to remove augmentations
 StartingMessage:
 	'''
 	Welcome to [c/77ffb9:Critical Strikes Overhaul]!
-	FYI, this mod increases boss HP by 30% by default for balancing purposes; you can undo this change via the configm
-	If you have any questions or feedback on how the mod functions, feel free to ask on the Discord server, linked on the workshop
+	FYI, this mod increases boss HP by 30% by default for balancing purposes; you can undo this change via the config.
+	If you have any questions or feedback on how the mod functions, feel free to ask on the Discord server, which is linked on the workshop.
 	Have fun!
 	'''
 sawDamageReduced: -Chainsaw damage greatly reduced by this critical strike condition
