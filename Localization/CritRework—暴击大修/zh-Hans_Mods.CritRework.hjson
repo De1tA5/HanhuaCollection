@@ -1,6 +1,5 @@
 Items: {
 	CritMonocle: {
-		Tooltip:
 			'''
 			当此物品被收藏时，能选择制作物品的暴击条件……
 			当然如果你幸运的话
@@ -883,6 +882,17 @@ Items: {
 			恢复频率与暴击伤害倍率和效力有关
 			'''
 	}
+
+	TargetPractice: {
+		CanBeApplied: 只能被安装在悠悠球上
+		DisplayName: 训练标靶
+		Tooltip:
+			'''
+			当被安装在悠悠球上时，会禁用普通暴击
+			相反，暴击会生成标靶
+			用悠悠球击中标靶会在悠悠球周围生成快速环绕的飞锯，对敌怪造成暴击伤害
+			'''
+	}
 }
 
 Whetstone: {
@@ -984,6 +994,12 @@ Prefixes: {
 	Effective.DisplayName: 有效
 	Impotent.DisplayName: 无力
 	Particular.DisplayName: 特化
+
+	Rapid: {
+		tooltip: 飞锯攻击次数翻倍，但是持续时间减半
+		tooltip2: Mods.CritRework.Prefixes.Rapid.tooltip2
+		DisplayName: 迅捷
+	}
 }
 
 NecromanticTooltip: 暴击时窃取 2 点生命值
@@ -1113,6 +1129,16 @@ Configs: {
 		travellingMerchantWhetstones: {
 			Label: 旅商售卖砥石
 			Tooltip: 启用后，旅行商人会贩卖给你随机效果的基础砥石
+		}
+
+		nonCritDamage: {
+			Label: 非暴击伤害倍率
+			Tooltip:
+				'''
+				所有非暴击伤害的乘算倍率
+				不会在武器文本中显示
+				默认为1 （推荐）
+				'''
 		}
 	}
 }
@@ -1909,6 +1935,33 @@ CritTypes: {
 		CanBeAppliedToDescription: 只能被抗争武器使用
 		BasicWhetstonePrefix: 反击
 	}
+
+	MagicMissile: {
+		Description: 对无法看见的敌人造成暴击
+		SpecialPrefixName: 惊悚
+		SpecialPrefixTooltip1: 距离玩家20格以内的弹幕具有穿墙能力
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: 魔法飞弹专属暴击条件，无法被提取
+		BasicWhetstonePrefix: 魔法飞弹专属暴击条件，无法被提取
+	}
+
+	WaterBolt: {
+		Description: 反弹墙壁至少一次造成暴击
+		SpecialPrefixName: 活体
+		SpecialPrefixTooltip1: 弹幕在每次反弹后加速并追踪敌人
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: 水矢专属暴击条件，无法被提取
+		BasicWhetstonePrefix: 水矢专属暴击条件，无法被提取
+	}
+
+	MagicHarp: {
+		Description: 在演奏音高逐渐升高的音符时造成暴击
+		SpecialPrefixName: 和声
+		SpecialPrefixTooltip1: 演奏音符之间的音高差越大，造成的暴击伤害越强
+		SpecialPrefixTooltip2: ""
+		CanBeAppliedToDescription: 魔法竖琴专属暴击条件，无法被提取
+		BasicWhetstonePrefix: 魔法竖琴专属暴击条件，无法被提取
+	}
 }
 
 UnknownTooltip: 未知暴击条件
@@ -2085,6 +2138,8 @@ Projectiles: {
 	Storm.DisplayName: 风暴
 	IntercontinentalAutoMissileExplosion.DisplayName: 洲际自动导弹爆炸
 	DoomTomb.DisplayName: 毁灭石碑
+	TargetPracticeTarget.DisplayName: 训练标靶
+	TargetSaw.DisplayName: 标靶飞锯
 }
 
 BronzeHelm.SetBonus:
